@@ -1,0 +1,32 @@
+@import './colors.css';
+@import './spacing.css';
+@import './typography.css';
+@import './radii.css';
+@import './shadows.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+a {
+  color: var(--color-accent);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}

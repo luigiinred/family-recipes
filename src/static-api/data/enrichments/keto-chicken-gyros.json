@@ -1,0 +1,178 @@
+{
+  "scraped": {
+    "title": "Keto Chicken Gyros",
+    "description": "Delicious chicken cooked on a DIY skewer. Greek style!",
+    "imageUrl": "https://headbangerskitchen.com/wp-content/uploads/2019/12/KETOGRYOS-Vertical.jpg",
+    "prepMinutes": 10,
+    "cookMinutes": 60,
+    "servings": 10,
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "Kg",
+        "name": "Boneless & Skinless Chicken Thighs"
+      },
+      {
+        "amount": "",
+        "unit": "grams",
+        "name": "Full Fat Greek Yogurt"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "olive oil"
+      },
+      {
+        "amount": "",
+        "unit": "the",
+        "name": "juice of half a lemon"
+      },
+      {
+        "amount": "",
+        "unit": "the",
+        "name": "zest of 1 lemon"
+      },
+      {
+        "amount": "",
+        "unit": "grams",
+        "name": "Minced Garlic"
+      },
+      {
+        "amount": "/2",
+        "unit": "Tbsp",
+        "name": "Salt"
+      },
+      {
+        "amount": "/2",
+        "unit": "Tbsp",
+        "name": "Pepper"
+      },
+      {
+        "amount": "/2",
+        "unit": "Tbsp",
+        "name": "Paprika"
+      },
+      {
+        "amount": "/2",
+        "unit": "Tbsp",
+        "name": "Cumin"
+      },
+      {
+        "amount": "/2",
+        "unit": "Tbsp",
+        "name": "Coriander Powder"
+      },
+      {
+        "amount": "/4",
+        "unit": "Tbsp",
+        "name": "Red Chilli Flakes"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "Fresh or Dried Thyme (You can also use oregano)"
+      }
+    ],
+    "steps": [
+      "Mix the yogurt with the olive oil, lemon zest, lemon juice, minced garlic, salt, pepper and spices in a big bowl. Set the marinade aside and move on to the chicken",
+      "Place some cling film over the chicken thigh and beat it with the flat end of the meat mallet to even it out. This will help it cook more evenly. Do this to all the thighs.",
+      "Then marinate the thighs in the marinade for about 24 hours. You can marinate it for a shorter duration as well. It's completely up to you.",
+      "Then cut a thick piece of onion and push a skewer through it to create a vertical spit. Then pierce and layer the chicken one above the other in opposite directions (watch the video) and then bake in a pre-heated oven at 200C for 1.5-2 hours.",
+      "Once done just slice that chicken and eat with some tzatziki or in a Keto naan or even in a salad bowl."
+    ],
+    "source": "json-ld"
+  },
+  "merged": {
+    "id": "29",
+    "slug": "keto-chicken-gyros",
+    "title": "Keto Chicken Gyros",
+    "description": "Delicious chicken cooked on a DIY skewer. Greek style!",
+    "imageUrl": "https://headbangerskitchen.com/wp-content/uploads/2019/12/KETOGRYOS-Vertical.jpg",
+    "prepMinutes": 10,
+    "cookMinutes": 60,
+    "servings": 10,
+    "tags": [
+      "keto",
+      "greek",
+      "chicken"
+    ],
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "Kg",
+        "name": "Boneless & Skinless Chicken Thighs"
+      },
+      {
+        "amount": "",
+        "unit": "grams",
+        "name": "Full Fat Greek Yogurt"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "olive oil"
+      },
+      {
+        "amount": "",
+        "unit": "the",
+        "name": "juice of half a lemon"
+      },
+      {
+        "amount": "",
+        "unit": "the",
+        "name": "zest of 1 lemon"
+      },
+      {
+        "amount": "",
+        "unit": "grams",
+        "name": "Minced Garlic"
+      },
+      {
+        "amount": "/2",
+        "unit": "Tbsp",
+        "name": "Salt"
+      },
+      {
+        "amount": "/2",
+        "unit": "Tbsp",
+        "name": "Pepper"
+      },
+      {
+        "amount": "/2",
+        "unit": "Tbsp",
+        "name": "Paprika"
+      },
+      {
+        "amount": "/2",
+        "unit": "Tbsp",
+        "name": "Cumin"
+      },
+      {
+        "amount": "/2",
+        "unit": "Tbsp",
+        "name": "Coriander Powder"
+      },
+      {
+        "amount": "/4",
+        "unit": "Tbsp",
+        "name": "Red Chilli Flakes"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "Fresh or Dried Thyme (You can also use oregano)"
+      }
+    ],
+    "steps": [
+      "Mix the yogurt with the olive oil, lemon zest, lemon juice, minced garlic, salt, pepper and spices in a big bowl. Set the marinade aside and move on to the chicken",
+      "Place some cling film over the chicken thigh and beat it with the flat end of the meat mallet to even it out. This will help it cook more evenly. Do this to all the thighs.",
+      "Then marinate the thighs in the marinade for about 24 hours. You can marinate it for a shorter duration as well. It's completely up to you.",
+      "Then cut a thick piece of onion and push a skewer through it to create a vertical spit. Then pierce and layer the chicken one above the other in opposite directions (watch the video) and then bake in a pre-heated oven at 200C for 1.5-2 hours.",
+      "Once done just slice that chicken and eat with some tzatziki or in a Keto naan or even in a salad bowl."
+    ],
+    "sourceUrl": "https://headbangerskitchen.com/keto-gyros-chicken-gyros/",
+    "mealLists": [
+      "saved"
+    ]
+  }
+}

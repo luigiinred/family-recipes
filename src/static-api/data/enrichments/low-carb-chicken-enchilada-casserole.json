@@ -1,0 +1,162 @@
+{
+  "scraped": {
+    "title": "Chicken Enchilada Casserole",
+    "description": "Chicken enchilada casserole is a family favorite meal that is so easy to make. Chicken, enchilada sauce and cheese are baked until it’s all golden brown and delicious.",
+    "imageUrl": "https://www.730sagestreet.com/wp-content/uploads/2022/02/Chicken-Enchilada-Casserole-featured.jpg",
+    "prepMinutes": 30,
+    "cookMinutes": 45,
+    "servings": 5,
+    "ingredients": [
+      {
+        "amount": "1/2",
+        "unit": "cups",
+        "name": "enchilada sauce (store bought or from scratch)"
+      },
+      {
+        "amount": "",
+        "unit": "cup",
+        "name": "finely crumbled queso fresco or feta cheese"
+      },
+      {
+        "amount": "",
+        "unit": "can",
+        "name": "(4 oz) green chiles (chopped)"
+      },
+      {
+        "amount": "/2",
+        "unit": "cup",
+        "name": "minced fresh cilantro"
+      },
+      {
+        "amount": "",
+        "unit": "olive",
+        "name": "oil spray (or you can use olive oil in a little bowl with a brush)"
+      },
+      {
+        "amount": "",
+        "unit": "cups",
+        "name": "shredded cheddar cheese"
+      },
+      {
+        "amount": "",
+        "unit": "salt",
+        "name": "&amp; pepper"
+      },
+      {
+        "amount": "",
+        "unit": "lime",
+        "name": "wedges (optional)"
+      },
+      {
+        "amount": "",
+        "unit": "sour",
+        "name": "cream (optional)"
+      },
+      {
+        "amount": "",
+        "unit": "pound",
+        "name": "boneless chicken breasts (skinless, trimmed, and pounded if necessary)"
+      },
+      {
+        "amount": "",
+        "unit": "pound",
+        "name": "ground beef (or leftover roast beef)"
+      }
+    ],
+    "steps": [
+      "Preheat oven to 450 degrees Fahrenheit.",
+      "Pat chicken dry and season with salt and pepper.",
+      "Combine the chicken and enchilada sauce in a medium saucepan &amp; simmer for 10-15 minutes over medium-low heat. Then flip the chicken over, cover and cook for an additional 10-15 minutes until chicken reaches 160-165 degrees with an instant-read thermometer.",
+      "Remove chicken from pan and shred into bite-sized pieces. Combine shredded chicken, the enchilada sauce, queso fresco, chiles and cilantro in a bowl. Add salt and pepper if desired.",
+      "Spray a square casserole dish with olive oil (or use a brush) and coat the entire bottom and sides.",
+      "Evenly spread 1 cup of shredded cheddar cheese on the bottom of the dish. Add the chicken mixture, then add the other cup of cheddar cheese on top. Cover with foil and bake for about 10 minutes. Remove foil and bake an additional 3 to 5 minutes to melt the cheese.",
+      "Serve with optional lime wedges and optional sour cream."
+    ],
+    "source": "json-ld"
+  },
+  "merged": {
+    "id": "28",
+    "slug": "low-carb-chicken-enchilada-casserole",
+    "title": "Low Carb Chicken Enchilada Casserole",
+    "description": "Chicken enchilada casserole is a family favorite meal that is so easy to make. Chicken, enchilada sauce and cheese are baked until it’s all golden brown and delicious.",
+    "imageUrl": "https://www.730sagestreet.com/wp-content/uploads/2022/02/Chicken-Enchilada-Casserole-featured.jpg",
+    "prepMinutes": 30,
+    "cookMinutes": 45,
+    "servings": 5,
+    "tags": [
+      "low-carb",
+      "chicken",
+      "mexican"
+    ],
+    "ingredients": [
+      {
+        "amount": "1/2",
+        "unit": "cups",
+        "name": "enchilada sauce (store bought or from scratch)"
+      },
+      {
+        "amount": "",
+        "unit": "cup",
+        "name": "finely crumbled queso fresco or feta cheese"
+      },
+      {
+        "amount": "",
+        "unit": "can",
+        "name": "(4 oz) green chiles (chopped)"
+      },
+      {
+        "amount": "/2",
+        "unit": "cup",
+        "name": "minced fresh cilantro"
+      },
+      {
+        "amount": "",
+        "unit": "olive",
+        "name": "oil spray (or you can use olive oil in a little bowl with a brush)"
+      },
+      {
+        "amount": "",
+        "unit": "cups",
+        "name": "shredded cheddar cheese"
+      },
+      {
+        "amount": "",
+        "unit": "salt",
+        "name": "&amp; pepper"
+      },
+      {
+        "amount": "",
+        "unit": "lime",
+        "name": "wedges (optional)"
+      },
+      {
+        "amount": "",
+        "unit": "sour",
+        "name": "cream (optional)"
+      },
+      {
+        "amount": "",
+        "unit": "pound",
+        "name": "boneless chicken breasts (skinless, trimmed, and pounded if necessary)"
+      },
+      {
+        "amount": "",
+        "unit": "pound",
+        "name": "ground beef (or leftover roast beef)"
+      }
+    ],
+    "steps": [
+      "Preheat oven to 450 degrees Fahrenheit.",
+      "Pat chicken dry and season with salt and pepper.",
+      "Combine the chicken and enchilada sauce in a medium saucepan &amp; simmer for 10-15 minutes over medium-low heat. Then flip the chicken over, cover and cook for an additional 10-15 minutes until chicken reaches 160-165 degrees with an instant-read thermometer.",
+      "Remove chicken from pan and shred into bite-sized pieces. Combine shredded chicken, the enchilada sauce, queso fresco, chiles and cilantro in a bowl. Add salt and pepper if desired.",
+      "Spray a square casserole dish with olive oil (or use a brush) and coat the entire bottom and sides.",
+      "Evenly spread 1 cup of shredded cheddar cheese on the bottom of the dish. Add the chicken mixture, then add the other cup of cheddar cheese on top. Cover with foil and bake for about 10 minutes. Remove foil and bake an additional 3 to 5 minutes to melt the cheese.",
+      "Serve with optional lime wedges and optional sour cream."
+    ],
+    "sourceUrl": "https://730sagestreet.com/low-carb-chicken-enchilada-casserole/",
+    "mealLists": [
+      "saved"
+    ]
+  }
+}

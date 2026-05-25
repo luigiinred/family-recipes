@@ -1,0 +1,123 @@
+{
+  "scraped": {
+    "title": "Baked Shrimp with Lemon Garlic Butter Sauce",
+    "description": "These baked shrimps are gorgeous and super quick to prepare! Just pop the shrimps in the oven and dinner is ready.",
+    "imageUrl": "https://www.eatwell101.com/wp-content/uploads/2020/05/Baked-Shrimp-with-Lemon-Garlic-Butter-Sauce-1.jpg",
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "servings": 4,
+    "ingredients": [
+      {
+        "amount": "1/4",
+        "unit": "lbs",
+        "name": "shrimp, peeled and deveined"
+      },
+      {
+        "amount": "/4",
+        "unit": "cup",
+        "name": "unsalted butter, diced"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoon",
+        "name": "minced garlic"
+      },
+      {
+        "amount": "/4",
+        "unit": "cup",
+        "name": "vegetable or chicken broth"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoon",
+        "name": "Sriracha sauce (or any hot sauce you like)"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "fresh lemon juice + slices of lemon for garnish"
+      },
+      {
+        "amount": "/8",
+        "unit": "teaspoon",
+        "name": "red pepper flakes, optional"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "minced fresh parsley"
+      }
+    ],
+    "steps": [
+      "To make the baked shrimp: Preheat your oven to 350ºF (180ºC). Arrange shrimp in a baking dish.",
+      "In a small bowl, combine broth, sriracha and lemon juice.",
+      "Pour the mixture over shrimp in the baking dish, season with salt, pepper, and red pepper flakes. Top shrimp with minced garlic and speck with the diced butter."
+    ],
+    "source": "json-ld"
+  },
+  "merged": {
+    "id": "20",
+    "slug": "baked-shrimp",
+    "title": "Baked Shrimp",
+    "description": "These baked shrimps are gorgeous and super quick to prepare! Just pop the shrimps in the oven and dinner is ready.",
+    "imageUrl": "https://www.eatwell101.com/wp-content/uploads/2020/05/Baked-Shrimp-with-Lemon-Garlic-Butter-Sauce-1.jpg",
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "servings": 4,
+    "tags": [
+      "seafood",
+      "low-carb"
+    ],
+    "ingredients": [
+      {
+        "amount": "1/4",
+        "unit": "lbs",
+        "name": "shrimp, peeled and deveined"
+      },
+      {
+        "amount": "/4",
+        "unit": "cup",
+        "name": "unsalted butter, diced"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoon",
+        "name": "minced garlic"
+      },
+      {
+        "amount": "/4",
+        "unit": "cup",
+        "name": "vegetable or chicken broth"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoon",
+        "name": "Sriracha sauce (or any hot sauce you like)"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "fresh lemon juice + slices of lemon for garnish"
+      },
+      {
+        "amount": "/8",
+        "unit": "teaspoon",
+        "name": "red pepper flakes, optional"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "minced fresh parsley"
+      }
+    ],
+    "steps": [
+      "To make the baked shrimp: Preheat your oven to 350ºF (180ºC). Arrange shrimp in a baking dish.",
+      "In a small bowl, combine broth, sriracha and lemon juice.",
+      "Pour the mixture over shrimp in the baking dish, season with salt, pepper, and red pepper flakes. Top shrimp with minced garlic and speck with the diced butter."
+    ],
+    "sourceUrl": "https://www.eatwell101.com/baked-shrimp-recipe",
+    "mealLists": [
+      "saved"
+    ]
+  }
+}

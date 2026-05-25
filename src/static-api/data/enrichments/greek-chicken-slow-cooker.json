@@ -1,0 +1,164 @@
+{
+  "scraped": {
+    "title": "Greek Chicken (Slow Cooker)",
+    "description": "This Greek Chicken is super easy to throw together for a busy weeknight. Simply add the ingredients and let your slow cooker do the rest - you&#x27;ll be coming home to a delicious ready meal!",
+    "imageUrl": "https://www.daringgourmet.com/wp-content/uploads/2015/05/Greek-Chicken-3-square-scaled.jpg",
+    "prepMinutes": 10,
+    "cookMinutes": 360,
+    "servings": 4,
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "pounds",
+        "name": "chicken breasts"
+      },
+      {
+        "amount": "",
+        "unit": "cup",
+        "name": "whole pitted Kalamata olives"
+      },
+      {
+        "amount": "/3",
+        "unit": "cup",
+        "name": "capers"
+      },
+      {
+        "amount": "",
+        "unit": "For",
+        "name": "the sauce:"
+      },
+      {
+        "amount": "/3",
+        "unit": "cup",
+        "name": "chicken broth"
+      },
+      {
+        "amount": "",
+        "unit": "entire",
+        "name": "batch Homemade Greek Seasoning Blend"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "extra virgin olive oil"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "lemon juice"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoon",
+        "name": "red wine vinegar"
+      },
+      {
+        "amount": "",
+        "unit": "clove",
+        "name": "garlic (minced)"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoon",
+        "name": "chopped Preserved Lemons"
+      },
+      {
+        "amount": "",
+        "unit": "Homemade",
+        "name": "Preserved Lemons ((click link for recipe) **Highly recommended for the best flavor and they&#x27;re super easy to make!)"
+      }
+    ],
+    "steps": [
+      "In a small bowl, whisk together the sauce ingredients and set aside until ready to use.",
+      "Place the chicken in the slow cooker and pour the sauce over the chicken. Cook on LOW for 6-8 hours or on HIGH for 4-5 hours. During the last hour of cooking add the olives and capers.",
+      "Served with crusty bread or rice and/or a simple Greek salad consisting of chopped tomatoes, cucumbers, red onions, crumbled Feta cheese and Italian dressing."
+    ],
+    "source": "json-ld"
+  },
+  "merged": {
+    "id": "31",
+    "slug": "greek-chicken-slow-cooker",
+    "title": "Greek Chicken (Slow Cooker)",
+    "description": "This Greek Chicken is super easy to throw together for a busy weeknight. Simply add the ingredients and let your slow cooker do the rest - you&#x27;ll be coming home to a delicious ready meal!",
+    "imageUrl": "https://www.daringgourmet.com/wp-content/uploads/2015/05/Greek-Chicken-3-square-scaled.jpg",
+    "prepMinutes": 10,
+    "cookMinutes": 360,
+    "servings": 4,
+    "tags": [
+      "greek",
+      "chicken",
+      "slow-cooker"
+    ],
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "pounds",
+        "name": "chicken breasts"
+      },
+      {
+        "amount": "",
+        "unit": "cup",
+        "name": "whole pitted Kalamata olives"
+      },
+      {
+        "amount": "/3",
+        "unit": "cup",
+        "name": "capers"
+      },
+      {
+        "amount": "",
+        "unit": "For",
+        "name": "the sauce:"
+      },
+      {
+        "amount": "/3",
+        "unit": "cup",
+        "name": "chicken broth"
+      },
+      {
+        "amount": "",
+        "unit": "entire",
+        "name": "batch Homemade Greek Seasoning Blend"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "extra virgin olive oil"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "lemon juice"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoon",
+        "name": "red wine vinegar"
+      },
+      {
+        "amount": "",
+        "unit": "clove",
+        "name": "garlic (minced)"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoon",
+        "name": "chopped Preserved Lemons"
+      },
+      {
+        "amount": "",
+        "unit": "Homemade",
+        "name": "Preserved Lemons ((click link for recipe) **Highly recommended for the best flavor and they&#x27;re super easy to make!)"
+      }
+    ],
+    "steps": [
+      "In a small bowl, whisk together the sauce ingredients and set aside until ready to use.",
+      "Place the chicken in the slow cooker and pour the sauce over the chicken. Cook on LOW for 6-8 hours or on HIGH for 4-5 hours. During the last hour of cooking add the olives and capers.",
+      "Served with crusty bread or rice and/or a simple Greek salad consisting of chopped tomatoes, cucumbers, red onions, crumbled Feta cheese and Italian dressing."
+    ],
+    "sourceUrl": "https://www.daringgourmet.com/slow-cooker-greek-chicken/",
+    "mealLists": [
+      "saved"
+    ]
+  }
+}

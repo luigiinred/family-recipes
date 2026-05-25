@@ -1,0 +1,14 @@
+---
+description: Recipes — design docs and static API before code; TDD; design system; component-first
+alwaysApply: true
+---
+
+# Recipes project rules
+
+- **Design & API first**: Before ambiguous UI or data behavior, follow **recipes-design-first**, **product-docs-specs**, **page-specs**, and **api-specs**. Add `planned` rows in `docs/product-specs/pages/` and `docs/api-specs/` first.
+- **TDD**: Failing test before production code (**recipes-tdd**). Vitest + React Testing Library.
+- **Design system**: Use `src/design-system` tokens and primitives (**recipes-design-system**). No ad-hoc colors/spacing in features.
+- **Component-first**: Primitives → `src/components` → pages (**recipes-components**). Pages stay thin.
+- **Static API only**: Recipe data in `src/static-api` + tested loaders (**recipes-static-api**). Document contracts in `docs/api-specs/`.
+- **Every feature**: Register in `docs/feature-catalog.md` (**feature-catalog**).
+- **Skills**: [AGENTS.md](../../AGENTS.md) and `.cursor/skills/recipes-*` + product/api doc skills.

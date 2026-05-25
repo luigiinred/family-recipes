@@ -1,0 +1,14 @@
+:root {
+  --font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-size-sm: 0.875rem;
+  --font-size-body: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.375rem;
+  --font-size-2xl: 1.75rem;
+  --font-size-3xl: 2.25rem;
+  --line-height-tight: 1.25;
+  --line-height-body: 1.5;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+}

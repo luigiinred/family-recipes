@@ -1,0 +1,155 @@
+{
+  "scraped": {
+    "title": "Bruschetta Chicken",
+    "description": "If you're looking for an easy grilled chicken recipe, this bruschetta chicken should be next on your summer weeknight dinner rotation.",
+    "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/bruschetta-grilled-chicken-1673365203.jpg?crop=0.739xw:1.00xh;0.138xw,0&resize=1200:*",
+    "prepMinutes": 20,
+    "cookMinutes": 0,
+    "servings": 4,
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "tbsp.",
+        "name": "extra-virgin olive oil"
+      },
+      {
+        "amount": "",
+        "unit": "Juice",
+        "name": "of 1 lemon, divided"
+      },
+      {
+        "amount": "",
+        "unit": "Kosher",
+        "name": "salt"
+      },
+      {
+        "amount": "",
+        "unit": "Freshly",
+        "name": "ground black pepper"
+      },
+      {
+        "amount": "",
+        "unit": "tsp.",
+        "name": "Italian seasoning or dried oregano"
+      },
+      {
+        "amount": "",
+        "unit": "boneless",
+        "name": "skinless antibiotic free chicken breasts, pounded to even thickness"
+      },
+      {
+        "amount": "",
+        "unit": "slicing",
+        "name": "tomatoes, chopped"
+      },
+      {
+        "amount": "",
+        "unit": "cloves",
+        "name": "garlic, minced"
+      },
+      {
+        "amount": "",
+        "unit": "tbsp.",
+        "name": "freshly chopped basil"
+      },
+      {
+        "amount": "",
+        "unit": "slices",
+        "name": "mozzarella"
+      },
+      {
+        "amount": "",
+        "unit": "Freshly",
+        "name": "grated Parmesan, for serving"
+      }
+    ],
+    "steps": [
+      "In a small bowl, combine oil, half the lemon juice, 1 teaspoon salt, 1/4 teaspoon pepper, and Italian seasoning (or oregano) and whisk to combine. Transfer to a large re-sealable bag along with chicken; seal and refrigerate for&nbsp;30 minutes.",
+      "Heat grill over medium-high then&nbsp;add chicken,&nbsp;discarding excess marinade. Grill until charred and&nbsp;cooked to&nbsp;an internal temperature of 155°-160°, about 5 to 7 minutes per side.",
+      "Meanwhile, combine tomatoes, garlic,&nbsp;basil,&nbsp;and remaining lemon juice, and season with salt and pepper. While chicken is still on grill, top each breast with 1 slice mozzarella and cover&nbsp;until cheese is melted, 2 to 3 minutes. Top chicken with tomato mixture.&nbsp;",
+      "Garnish with&nbsp;Parmesan&nbsp;and serve."
+    ],
+    "source": "json-ld"
+  },
+  "merged": {
+    "id": "18",
+    "slug": "bruschetta-grilled-chicken",
+    "title": "Bruschetta Grilled Chicken",
+    "description": "If you're looking for an easy grilled chicken recipe, this bruschetta chicken should be next on your summer weeknight dinner rotation.",
+    "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/bruschetta-grilled-chicken-1673365203.jpg?crop=0.739xw:1.00xh;0.138xw,0&resize=1200:*",
+    "prepMinutes": 20,
+    "cookMinutes": 0,
+    "servings": 4,
+    "tags": [
+      "chicken",
+      "grill"
+    ],
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "tbsp.",
+        "name": "extra-virgin olive oil"
+      },
+      {
+        "amount": "",
+        "unit": "Juice",
+        "name": "of 1 lemon, divided"
+      },
+      {
+        "amount": "",
+        "unit": "Kosher",
+        "name": "salt"
+      },
+      {
+        "amount": "",
+        "unit": "Freshly",
+        "name": "ground black pepper"
+      },
+      {
+        "amount": "",
+        "unit": "tsp.",
+        "name": "Italian seasoning or dried oregano"
+      },
+      {
+        "amount": "",
+        "unit": "boneless",
+        "name": "skinless antibiotic free chicken breasts, pounded to even thickness"
+      },
+      {
+        "amount": "",
+        "unit": "slicing",
+        "name": "tomatoes, chopped"
+      },
+      {
+        "amount": "",
+        "unit": "cloves",
+        "name": "garlic, minced"
+      },
+      {
+        "amount": "",
+        "unit": "tbsp.",
+        "name": "freshly chopped basil"
+      },
+      {
+        "amount": "",
+        "unit": "slices",
+        "name": "mozzarella"
+      },
+      {
+        "amount": "",
+        "unit": "Freshly",
+        "name": "grated Parmesan, for serving"
+      }
+    ],
+    "steps": [
+      "In a small bowl, combine oil, half the lemon juice, 1 teaspoon salt, 1/4 teaspoon pepper, and Italian seasoning (or oregano) and whisk to combine. Transfer to a large re-sealable bag along with chicken; seal and refrigerate for&nbsp;30 minutes.",
+      "Heat grill over medium-high then&nbsp;add chicken,&nbsp;discarding excess marinade. Grill until charred and&nbsp;cooked to&nbsp;an internal temperature of 155°-160°, about 5 to 7 minutes per side.",
+      "Meanwhile, combine tomatoes, garlic,&nbsp;basil,&nbsp;and remaining lemon juice, and season with salt and pepper. While chicken is still on grill, top each breast with 1 slice mozzarella and cover&nbsp;until cheese is melted, 2 to 3 minutes. Top chicken with tomato mixture.&nbsp;",
+      "Garnish with&nbsp;Parmesan&nbsp;and serve."
+    ],
+    "sourceUrl": "https://www.delish.com/cooking/recipe-ideas/a53594/grilled-bruschetta-chicken-recipe/",
+    "mealLists": [
+      "saved"
+    ]
+  }
+}

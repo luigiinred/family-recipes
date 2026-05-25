@@ -1,0 +1,153 @@
+{
+  "scraped": {
+    "title": "Briam: Traditional Greek Roasted Vegetables",
+    "description": "Briam is simple and absolutely delicious roasted vegetables, prepared Greek style. Potatoes, Zucchini, and Red onions tossed in a mixture of EVOO, garlic, parsley and spices, then roasted in saucy diced tomatoes. This is a healthy, vegan, text-book Mediterranean diet dish that can stand as a main course or served next to other entrees. See tips and suggestions in the notes.",
+    "imageUrl": "https://www.themediterraneandish.com/wp-content/uploads/2019/01/Briam-Traditional-Greek-Roasted-Vegetables-8-225x225.jpg",
+    "prepMinutes": 20,
+    "cookMinutes": 75,
+    "servings": 6,
+    "ingredients": [
+      {
+        "amount": "1/4",
+        "unit": "lb",
+        "name": "/ 570 g gold potatoes (about 3 medium-size potatoes), peeled and thinly sliced into rounds (about 1/8-inch thick)"
+      },
+      {
+        "amount": "1/4",
+        "unit": "lb",
+        "name": "/ 570 g zucchini squash (2 to 3 zucchini), thinly sliced into rounds (about 1/4-inch thick)"
+      },
+      {
+        "amount": "",
+        "unit": "Salt",
+        "name": "and pepper"
+      },
+      {
+        "amount": "",
+        "unit": "tsp",
+        "name": "/ 3.6 g dried oregano"
+      },
+      {
+        "amount": "",
+        "unit": "scant",
+        "name": "1 tsp/1.2 g dried rosemary"
+      },
+      {
+        "amount": "/2",
+        "unit": "cup",
+        "name": "/ 35 g chopped fresh parsley"
+      },
+      {
+        "amount": "",
+        "unit": "garlic",
+        "name": "cloves, minced"
+      },
+      {
+        "amount": "",
+        "unit": "Early",
+        "name": "Harvest Greek extra virgin olive oil"
+      },
+      {
+        "amount": "28-",
+        "unit": "oz",
+        "name": "/ 794 g canned diced tomatoes with juice (no-salt added organic tomatoes are recommended)"
+      },
+      {
+        "amount": "",
+        "unit": "large",
+        "name": "red onion or 2 smaller red onions, thinly sliced into rounds (if large, you&#8217;ll want to cut the onion in half first, and then slice)"
+      }
+    ],
+    "steps": [
+      "Preheat oven to 400 degrees F. Place a rack in the middle.",
+      "Place sliced potatoes and zucchini in a large mixing bowl. Season with kosher salt, pepper, oregano, and rosemary. Add fresh parsley, garlic, and a generous drizzle extra virgin olive oil. Toss to make sure the vegetables are well coated with the EVOO and spices.",
+      "Grab a large round pan on skillet (I used an 11-inch oven safe pan. See notes for more options.) Pour 1/2 of the canned diced tomatoes in and spread to cover the bottom of the pan.",
+      "Arrange the seasoned potatoes, zucchini, and sliced onions in the pan in rows (simply going around the shape of the pan and alternating.)",
+      "If you have any of the extra virgin olive oil and garlic mixture left in the mixing bowl, pour that all over the veggies, then top with the remaining diced tomatoes from your can.",
+      "Cover the pan with foil (tent foil a bit so it is not touching the veggies). Bake in 400 degrees F heated-oven for 45 minutes. Take pan out briefly to carefully remove foil, then place back in oven,  uncovered, and roast for another 30-40 minutes or until the veggies are soft and charred and most of the liquid has evaporated. (ovens do vary, so pay attention and check as needed.)",
+      "Remove from oven. Serve warm or at room temperature with an added generous drizzle of extra virgin olive oil. (see suggestions for to serve along.)"
+    ],
+    "source": "json-ld"
+  },
+  "merged": {
+    "id": "9",
+    "slug": "briam",
+    "title": "Briam (Greek Roasted Vegetables)",
+    "description": "Briam is simple and absolutely delicious roasted vegetables, prepared Greek style. Potatoes, Zucchini, and Red onions tossed in a mixture of EVOO, garlic, parsley and spices, then roasted in saucy diced tomatoes. This is a healthy, vegan, text-book Mediterranean diet dish that can stand as a main course or served next to other entrees. See tips and suggestions in the notes.",
+    "imageUrl": "https://www.themediterraneandish.com/wp-content/uploads/2019/01/Briam-Traditional-Greek-Roasted-Vegetables-8-225x225.jpg",
+    "prepMinutes": 20,
+    "cookMinutes": 75,
+    "servings": 6,
+    "tags": [
+      "greek",
+      "vegetarian",
+      "mediterranean"
+    ],
+    "ingredients": [
+      {
+        "amount": "1/4",
+        "unit": "lb",
+        "name": "/ 570 g gold potatoes (about 3 medium-size potatoes), peeled and thinly sliced into rounds (about 1/8-inch thick)"
+      },
+      {
+        "amount": "1/4",
+        "unit": "lb",
+        "name": "/ 570 g zucchini squash (2 to 3 zucchini), thinly sliced into rounds (about 1/4-inch thick)"
+      },
+      {
+        "amount": "",
+        "unit": "Salt",
+        "name": "and pepper"
+      },
+      {
+        "amount": "",
+        "unit": "tsp",
+        "name": "/ 3.6 g dried oregano"
+      },
+      {
+        "amount": "",
+        "unit": "scant",
+        "name": "1 tsp/1.2 g dried rosemary"
+      },
+      {
+        "amount": "/2",
+        "unit": "cup",
+        "name": "/ 35 g chopped fresh parsley"
+      },
+      {
+        "amount": "",
+        "unit": "garlic",
+        "name": "cloves, minced"
+      },
+      {
+        "amount": "",
+        "unit": "Early",
+        "name": "Harvest Greek extra virgin olive oil"
+      },
+      {
+        "amount": "28-",
+        "unit": "oz",
+        "name": "/ 794 g canned diced tomatoes with juice (no-salt added organic tomatoes are recommended)"
+      },
+      {
+        "amount": "",
+        "unit": "large",
+        "name": "red onion or 2 smaller red onions, thinly sliced into rounds (if large, you&#8217;ll want to cut the onion in half first, and then slice)"
+      }
+    ],
+    "steps": [
+      "Preheat oven to 400 degrees F. Place a rack in the middle.",
+      "Place sliced potatoes and zucchini in a large mixing bowl. Season with kosher salt, pepper, oregano, and rosemary. Add fresh parsley, garlic, and a generous drizzle extra virgin olive oil. Toss to make sure the vegetables are well coated with the EVOO and spices.",
+      "Grab a large round pan on skillet (I used an 11-inch oven safe pan. See notes for more options.) Pour 1/2 of the canned diced tomatoes in and spread to cover the bottom of the pan.",
+      "Arrange the seasoned potatoes, zucchini, and sliced onions in the pan in rows (simply going around the shape of the pan and alternating.)",
+      "If you have any of the extra virgin olive oil and garlic mixture left in the mixing bowl, pour that all over the veggies, then top with the remaining diced tomatoes from your can.",
+      "Cover the pan with foil (tent foil a bit so it is not touching the veggies). Bake in 400 degrees F heated-oven for 45 minutes. Take pan out briefly to carefully remove foil, then place back in oven,  uncovered, and roast for another 30-40 minutes or until the veggies are soft and charred and most of the liquid has evaporated. (ovens do vary, so pay attention and check as needed.)",
+      "Remove from oven. Serve warm or at room temperature with an added generous drizzle of extra virgin olive oil. (see suggestions for to serve along.)"
+    ],
+    "sourceUrl": "https://www.themediterraneandish.com/briam-greek-roasted-vegetables/",
+    "mealLists": [
+      "healthy-ideas",
+      "saved"
+    ]
+  }
+}

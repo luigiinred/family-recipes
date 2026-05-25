@@ -1,0 +1,196 @@
+{
+  "scraped": {
+    "title": "Garlic Butter Chicken with Cauliflower Rice",
+    "description": "Quick, Healthy dinner with Garlic Butter chicken and cauliflower rice — The ultimate gluten free/low carb dinner.",
+    "imageUrl": "https://www.eatwell101.com/wp-content/uploads/2018/03/Garlic-Butter-Chicken-with-Parmesan-Cauliflower-Rice.jpg",
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "large",
+        "name": "boneless and skinless chicken breasts, halved horizontally to make 4"
+      },
+      {
+        "amount": "/2",
+        "unit": "cup",
+        "name": "fresh Parmesan, finely grated"
+      },
+      {
+        "amount": "",
+        "unit": "Salt",
+        "name": "and fresh cracked black pepper"
+      },
+      {
+        "amount": "",
+        "unit": "large",
+        "name": "cloves garlic, grated"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoon",
+        "name": "paprika"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoon",
+        "name": "Italian seasoning"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "unsalted butter, divided"
+      },
+      {
+        "amount": "",
+        "unit": "head",
+        "name": "cauliflower, riced"
+      },
+      {
+        "amount": "/2",
+        "unit": "cup",
+        "name": "white onion, chopped"
+      },
+      {
+        "amount": "",
+        "unit": "large",
+        "name": "cloves garlic, minced"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "vegetable stock"
+      },
+      {
+        "amount": "",
+        "unit": "Juice",
+        "name": "of one lemon (+ zest, if you like)"
+      },
+      {
+        "amount": "",
+        "unit": "Red",
+        "name": "chili pepper flakes, optional"
+      },
+      {
+        "amount": "/4",
+        "unit": "cup",
+        "name": "fresh parsley, chopped"
+      }
+    ],
+    "steps": [
+      "The  Garlic  Butter Chicken",
+      "In a shallow plate, combine parmesan cheese, grated garlic, paprika, and Italian seasoning. Season the chicken breasts with salt and pepper; dredge in the parmesan mixture; shake off excess and set aside.",
+      "In a large non-stick skillet melt 2 tablespoons of butter over medium-high heat. Cook chicken cutlets until golden on each side and cooked through – about 3-4 minutes for each side, depending on the thickness of your chicken cutlets. Transfer to a plate.",
+      "The Parmesan Cauliflower Rice",
+      "In the same pan, melt 2 tablespoons of butter. Fry the garlic and onion for 1 minute until fragrant — be careful not to burn.",
+      "Add the riced cauliflower to the skillet and stir to mix everything together well and coat in melted butter. Cook, stirring regularly for 1 minute.",
+      "Stir in the 2 tablespoons vegetable stock, about half the parsley, and lemon zest (if using). Cook the cauliflower rice for one minute to reduce juices then add the lemon juice and a few sprinkles of leftover parmesan cheese, if you like.",
+      "Adjust seasoning as needed. Stir in the remaining parsley. Return chicken breasts over cauliflower rice and reheat quickly. Serve your parmesan chicken with fresh cracked black pepper, red chili pepper flakes, and more parmesan. Enjoy!",
+      "Note: Make sure to use a non-stick pan, otherwise the parmesan might stick."
+    ],
+    "source": "json-ld"
+  },
+  "merged": {
+    "id": "16",
+    "slug": "garlic-butter-chicken-parmesan-cauliflower-rice",
+    "title": "Garlic Butter Chicken with Parmesan Cauliflower Rice",
+    "description": "Quick, Healthy dinner with Garlic Butter chicken and cauliflower rice — The ultimate gluten free/low carb dinner.",
+    "imageUrl": "https://www.eatwell101.com/wp-content/uploads/2018/03/Garlic-Butter-Chicken-with-Parmesan-Cauliflower-Rice.jpg",
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "servings": 4,
+    "tags": [
+      "low-carb",
+      "keto",
+      "chicken"
+    ],
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "large",
+        "name": "boneless and skinless chicken breasts, halved horizontally to make 4"
+      },
+      {
+        "amount": "/2",
+        "unit": "cup",
+        "name": "fresh Parmesan, finely grated"
+      },
+      {
+        "amount": "",
+        "unit": "Salt",
+        "name": "and fresh cracked black pepper"
+      },
+      {
+        "amount": "",
+        "unit": "large",
+        "name": "cloves garlic, grated"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoon",
+        "name": "paprika"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoon",
+        "name": "Italian seasoning"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "unsalted butter, divided"
+      },
+      {
+        "amount": "",
+        "unit": "head",
+        "name": "cauliflower, riced"
+      },
+      {
+        "amount": "/2",
+        "unit": "cup",
+        "name": "white onion, chopped"
+      },
+      {
+        "amount": "",
+        "unit": "large",
+        "name": "cloves garlic, minced"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "vegetable stock"
+      },
+      {
+        "amount": "",
+        "unit": "Juice",
+        "name": "of one lemon (+ zest, if you like)"
+      },
+      {
+        "amount": "",
+        "unit": "Red",
+        "name": "chili pepper flakes, optional"
+      },
+      {
+        "amount": "/4",
+        "unit": "cup",
+        "name": "fresh parsley, chopped"
+      }
+    ],
+    "steps": [
+      "The  Garlic  Butter Chicken",
+      "In a shallow plate, combine parmesan cheese, grated garlic, paprika, and Italian seasoning. Season the chicken breasts with salt and pepper; dredge in the parmesan mixture; shake off excess and set aside.",
+      "In a large non-stick skillet melt 2 tablespoons of butter over medium-high heat. Cook chicken cutlets until golden on each side and cooked through – about 3-4 minutes for each side, depending on the thickness of your chicken cutlets. Transfer to a plate.",
+      "The Parmesan Cauliflower Rice",
+      "In the same pan, melt 2 tablespoons of butter. Fry the garlic and onion for 1 minute until fragrant — be careful not to burn.",
+      "Add the riced cauliflower to the skillet and stir to mix everything together well and coat in melted butter. Cook, stirring regularly for 1 minute.",
+      "Stir in the 2 tablespoons vegetable stock, about half the parsley, and lemon zest (if using). Cook the cauliflower rice for one minute to reduce juices then add the lemon juice and a few sprinkles of leftover parmesan cheese, if you like.",
+      "Adjust seasoning as needed. Stir in the remaining parsley. Return chicken breasts over cauliflower rice and reheat quickly. Serve your parmesan chicken with fresh cracked black pepper, red chili pepper flakes, and more parmesan. Enjoy!",
+      "Note: Make sure to use a non-stick pan, otherwise the parmesan might stick."
+    ],
+    "sourceUrl": "https://www.eatwell101.com/garlic-butter-chicken-with-parmesan-cauliflower-rice",
+    "mealLists": [
+      "saved"
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "scraped": {
+    "title": "Salsa Chicken Lettuce Wraps",
+    "description": "These chicken lettuce wraps are so delicious - Citrusy, sweet, spicy, and savory all in one, the salsa that goes with grilled chicken will steal the show. Perfect for a quick lunch, dinner, or meal prep!",
+    "imageUrl": "https://www.eatwell101.com/wp-content/uploads/2020/07/easy-lettece-chicken-wraps.jpg",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "servings": 5,
+    "ingredients": [
+      {
+        "amount": "1/2",
+        "unit": "pounds",
+        "name": "chicken thighs, skinless and boneless (650 g)"
+      },
+      {
+        "amount": "",
+        "unit": "head",
+        "name": "of Boston lettuce, rinsed and leaves trimmed"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "fresh-squeezed lime juice"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "olive oil"
+      },
+      {
+        "amount": "",
+        "unit": "large",
+        "name": "garlic clove, minced"
+      },
+      {
+        "amount": "1/2",
+        "unit": "teaspoons",
+        "name": "ground cumin"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoon",
+        "name": "salt (or crumbled bouillon cube)"
+      },
+      {
+        "amount": "/2",
+        "unit": "teaspoon",
+        "name": "ground chili, or to taste"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "chopped red onion"
+      },
+      {
+        "amount": "",
+        "unit": "Jalape",
+        "name": "ño pepper, chopped"
+      },
+      {
+        "amount": "",
+        "unit": "tomato",
+        "name": ", diced"
+      },
+      {
+        "amount": "/4",
+        "unit": "teaspoon",
+        "name": "salt, or to taste"
+      },
+      {
+        "amount": "",
+        "unit": "Juice",
+        "name": "from 1 lime⁣"
+      },
+      {
+        "amount": "",
+        "unit": "A",
+        "name": "handful chopped cilantro"
+      }
+    ],
+    "steps": [
+      "To make the salsa chicken lettuce wraps: Combine lime juice, oil, garlic, cumin, salt, and chili in a large shallow plate or bowl; mix together. Add the chicken thighs and let marinate for 30 minutes.",
+      "Heat a large skillet on medium heat. Add a drizzle of olive oil and sear the chicken thighs on both sides until golden, charred, and cooked through (count about 8 minutes per side, depending on the thickness of your chicken thighs). Flip them a couple of times while cooking so they get a nice even color.",
+      "Transfer cooked chicken thighs to a warm plate or a cutting board, loosely tent with foil, and let rest before slicing into strips.",
+      "While chicken is resting, combine all ingredients for the salsa. Mix well and arrange on top of stacked Boston lettuce leaves. Place the grilled chicken on top. Enjoy the salsa chicken lettuce wraps immediately!"
+    ],
+    "source": "json-ld"
+  },
+  "merged": {
+    "id": "19",
+    "slug": "salsa-chicken-lettuce-wraps",
+    "title": "Salsa Chicken Lettuce Wraps",
+    "description": "These chicken lettuce wraps are so delicious - Citrusy, sweet, spicy, and savory all in one, the salsa that goes with grilled chicken will steal the show. Perfect for a quick lunch, dinner, or meal prep!",
+    "imageUrl": "https://www.eatwell101.com/wp-content/uploads/2020/07/easy-lettece-chicken-wraps.jpg",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "servings": 5,
+    "tags": [
+      "chicken",
+      "low-carb"
+    ],
+    "ingredients": [
+      {
+        "amount": "1/2",
+        "unit": "pounds",
+        "name": "chicken thighs, skinless and boneless (650 g)"
+      },
+      {
+        "amount": "",
+        "unit": "head",
+        "name": "of Boston lettuce, rinsed and leaves trimmed"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "fresh-squeezed lime juice"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "olive oil"
+      },
+      {
+        "amount": "",
+        "unit": "large",
+        "name": "garlic clove, minced"
+      },
+      {
+        "amount": "1/2",
+        "unit": "teaspoons",
+        "name": "ground cumin"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoon",
+        "name": "salt (or crumbled bouillon cube)"
+      },
+      {
+        "amount": "/2",
+        "unit": "teaspoon",
+        "name": "ground chili, or to taste"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "chopped red onion"
+      },
+      {
+        "amount": "",
+        "unit": "Jalape",
+        "name": "ño pepper, chopped"
+      },
+      {
+        "amount": "",
+        "unit": "tomato",
+        "name": ", diced"
+      },
+      {
+        "amount": "/4",
+        "unit": "teaspoon",
+        "name": "salt, or to taste"
+      },
+      {
+        "amount": "",
+        "unit": "Juice",
+        "name": "from 1 lime⁣"
+      },
+      {
+        "amount": "",
+        "unit": "A",
+        "name": "handful chopped cilantro"
+      }
+    ],
+    "steps": [
+      "To make the salsa chicken lettuce wraps: Combine lime juice, oil, garlic, cumin, salt, and chili in a large shallow plate or bowl; mix together. Add the chicken thighs and let marinate for 30 minutes.",
+      "Heat a large skillet on medium heat. Add a drizzle of olive oil and sear the chicken thighs on both sides until golden, charred, and cooked through (count about 8 minutes per side, depending on the thickness of your chicken thighs). Flip them a couple of times while cooking so they get a nice even color.",
+      "Transfer cooked chicken thighs to a warm plate or a cutting board, loosely tent with foil, and let rest before slicing into strips.",
+      "While chicken is resting, combine all ingredients for the salsa. Mix well and arrange on top of stacked Boston lettuce leaves. Place the grilled chicken on top. Enjoy the salsa chicken lettuce wraps immediately!"
+    ],
+    "sourceUrl": "https://www.eatwell101.com/salsa-chicken-lettuce-wraps-recipe",
+    "mealLists": [
+      "saved"
+    ]
+  }
+}

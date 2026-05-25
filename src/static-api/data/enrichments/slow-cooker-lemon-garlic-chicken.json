@@ -1,0 +1,145 @@
+{
+  "scraped": {
+    "title": "Slow-Cooker Lemon-Garlic Chicken Breast",
+    "description": "With a handful of ingredients you are treated to tender chicken gilded with a velvety lemon sauce infused with a richness reminiscent of roasted garlic.",
+    "imageUrl": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_16:9/k%2Farchive%2F6608280487913ead7431fc898c02214e71b76220",
+    "prepMinutes": 0,
+    "cookMinutes": 0,
+    "servings": 4,
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "tablespoon",
+        "name": "olive oil"
+      },
+      {
+        "amount": "",
+        "unit": "boneless",
+        "name": ", skinless chicken breasts (about 2 pounds total)"
+      },
+      {
+        "amount": "/2",
+        "unit": "teaspoon",
+        "name": "kosher salt, plus more for the chicken"
+      },
+      {
+        "amount": "/4",
+        "unit": "teaspoon",
+        "name": "freshly ground black pepper, plus more for the chicken"
+      },
+      {
+        "amount": "",
+        "unit": "cup",
+        "name": "low-sodium chicken broth"
+      },
+      {
+        "amount": "/2",
+        "unit": "cup",
+        "name": "freshly squeezed lemon juice"
+      },
+      {
+        "amount": "",
+        "unit": "cloves",
+        "name": "garlic, smashed"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "unsalted butter, at room temperature"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "all-purpose flour"
+      },
+      {
+        "amount": "",
+        "unit": "Chopped",
+        "name": "fresh parsley leaves (optional)"
+      }
+    ],
+    "steps": [
+      "Heat the oil in a large skillet over medium heat until shimmering. Liberally season the chicken breasts on both sides with salt and pepper. Place the chicken in the pan and sear until browned on the bottom, about 5 minutes.",
+      "Transfer the chicken seared-side up to a 6-quart or larger slow cooker in a single layer. Add the broth, lemon juice, and garlic. Cover and cook on the LOW setting until the chicken is cooked through, tender, and registers 165°F on an instant-read thermometer, 3 to 4 hours. Meanwhile, place the butter and flour in a small bowl and use your fingers to rub the flour into the butter; set aside.",
+      "Transfer the chicken to plates or a serving platter. Pour the liquid and garlic from the slow cooker into a small saucepan and bring to a boil over medium-high heat. Add the butter mixture and whisk constantly until completely incorporated into the sauce. Cook, stirring frequently, until the sauce is thickened, 3 to 4 minutes. Pour over the chicken, sprinkle with parsley if desired, and serve.",
+      "Recipe Notes"
+    ],
+    "source": "json-ld"
+  },
+  "merged": {
+    "id": "24",
+    "slug": "slow-cooker-lemon-garlic-chicken",
+    "title": "Slow Cooker Lemon-Garlic Chicken Breast",
+    "description": "With a handful of ingredients you are treated to tender chicken gilded with a velvety lemon sauce infused with a richness reminiscent of roasted garlic.",
+    "imageUrl": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_16:9/k%2Farchive%2F6608280487913ead7431fc898c02214e71b76220",
+    "prepMinutes": 0,
+    "cookMinutes": 0,
+    "servings": 4,
+    "tags": [
+      "chicken",
+      "slow-cooker"
+    ],
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "tablespoon",
+        "name": "olive oil"
+      },
+      {
+        "amount": "",
+        "unit": "boneless",
+        "name": ", skinless chicken breasts (about 2 pounds total)"
+      },
+      {
+        "amount": "/2",
+        "unit": "teaspoon",
+        "name": "kosher salt, plus more for the chicken"
+      },
+      {
+        "amount": "/4",
+        "unit": "teaspoon",
+        "name": "freshly ground black pepper, plus more for the chicken"
+      },
+      {
+        "amount": "",
+        "unit": "cup",
+        "name": "low-sodium chicken broth"
+      },
+      {
+        "amount": "/2",
+        "unit": "cup",
+        "name": "freshly squeezed lemon juice"
+      },
+      {
+        "amount": "",
+        "unit": "cloves",
+        "name": "garlic, smashed"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "unsalted butter, at room temperature"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "all-purpose flour"
+      },
+      {
+        "amount": "",
+        "unit": "Chopped",
+        "name": "fresh parsley leaves (optional)"
+      }
+    ],
+    "steps": [
+      "Heat the oil in a large skillet over medium heat until shimmering. Liberally season the chicken breasts on both sides with salt and pepper. Place the chicken in the pan and sear until browned on the bottom, about 5 minutes.",
+      "Transfer the chicken seared-side up to a 6-quart or larger slow cooker in a single layer. Add the broth, lemon juice, and garlic. Cover and cook on the LOW setting until the chicken is cooked through, tender, and registers 165°F on an instant-read thermometer, 3 to 4 hours. Meanwhile, place the butter and flour in a small bowl and use your fingers to rub the flour into the butter; set aside.",
+      "Transfer the chicken to plates or a serving platter. Pour the liquid and garlic from the slow cooker into a small saucepan and bring to a boil over medium-high heat. Add the butter mixture and whisk constantly until completely incorporated into the sauce. Cook, stirring frequently, until the sauce is thickened, 3 to 4 minutes. Pour over the chicken, sprinkle with parsley if desired, and serve.",
+      "Recipe Notes"
+    ],
+    "sourceUrl": "https://www.thekitchn.com/recipe-slow-cooker-lemon-garlic-chicken-breast-249436",
+    "mealLists": [
+      "saved"
+    ]
+  }
+}

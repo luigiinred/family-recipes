@@ -1,0 +1,149 @@
+{
+  "scraped": {
+    "title": "Cajun Sausage Shrimp Foil Packs",
+    "description": "These tasty baked shrimp and sausage foil packets make a healthy and delicious dinner in less than 30 minutes.",
+    "imageUrl": "https://www.eatwell101.com/wp-content/uploads/2020/04/Cajun-Sausage-Shrimp-Foil-Packs-1.jpg",
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "pound",
+        "name": "(450g) large shrimp, peeled and deveined"
+      },
+      {
+        "amount": "",
+        "unit": "oz",
+        "name": "(400g) smoked pork sausage, sliced (or chicken)"
+      },
+      {
+        "amount": "",
+        "unit": "medium",
+        "name": "zucchini, sliced"
+      },
+      {
+        "amount": "/2",
+        "unit": "bunch",
+        "name": "asparagus, trimmed and cut in chunks"
+      },
+      {
+        "amount": "",
+        "unit": "red",
+        "name": "bell pepper, chopped"
+      },
+      {
+        "amount": "/2",
+        "unit": "teaspoon",
+        "name": "salt and pepper"
+      },
+      {
+        "amount": "",
+        "unit": "cloves",
+        "name": "garlic, minced"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "butter, diced or oil"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "Cajun seasoning"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "vegetable stock, divided"
+      }
+    ],
+    "steps": [
+      "To make these baked shrimp and sausage foil packs: Preheat your oven to 425ºF (220ºC). Cut 2 sheets of 14 by 12-inch (35 x 30 cm) heavy-duty aluminum foil then lay each piece separately on the countertop.",
+      "Divide shrimp and sausage onto the aluminum foil near the center then place zucchini, red bell pepper, and asparagus on the side. Sprinkle generously with the Cajun seasoning mix.",
+      "Add minced garlic over shrimp, sausage, and veggies. Divide butter pieces evenly among the shrimp foil packets, layering them over the shrimp and vegetables.",
+      "Add a tablespoon vegetable stock in each foil packet and wrap packets in and crimp edges together then wrap ends up. Don’t wrap too tight – keep a little extra space inside for heat to circulate.",
+      "Transfer to a baking sheet and bake shrimp and sausage foil packets in the oven, sealed side upward until shrimps and veggies have cooked through, about 15 minutes.",
+      "Carefully unwrap the baked sausage shrimp foil packets with vegetables then garnish with fresh parsley and a slice of lemon. Enjoy!"
+    ],
+    "source": "json-ld"
+  },
+  "merged": {
+    "id": "22",
+    "slug": "cajun-shrimp-sausage-foil-packs",
+    "title": "Cajun Shrimp and Sausage Foil Packs",
+    "description": "These tasty baked shrimp and sausage foil packets make a healthy and delicious dinner in less than 30 minutes.",
+    "imageUrl": "https://www.eatwell101.com/wp-content/uploads/2020/04/Cajun-Sausage-Shrimp-Foil-Packs-1.jpg",
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "servings": 2,
+    "tags": [
+      "seafood",
+      "cajun"
+    ],
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "pound",
+        "name": "(450g) large shrimp, peeled and deveined"
+      },
+      {
+        "amount": "",
+        "unit": "oz",
+        "name": "(400g) smoked pork sausage, sliced (or chicken)"
+      },
+      {
+        "amount": "",
+        "unit": "medium",
+        "name": "zucchini, sliced"
+      },
+      {
+        "amount": "/2",
+        "unit": "bunch",
+        "name": "asparagus, trimmed and cut in chunks"
+      },
+      {
+        "amount": "",
+        "unit": "red",
+        "name": "bell pepper, chopped"
+      },
+      {
+        "amount": "/2",
+        "unit": "teaspoon",
+        "name": "salt and pepper"
+      },
+      {
+        "amount": "",
+        "unit": "cloves",
+        "name": "garlic, minced"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "butter, diced or oil"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "Cajun seasoning"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "vegetable stock, divided"
+      }
+    ],
+    "steps": [
+      "To make these baked shrimp and sausage foil packs: Preheat your oven to 425ºF (220ºC). Cut 2 sheets of 14 by 12-inch (35 x 30 cm) heavy-duty aluminum foil then lay each piece separately on the countertop.",
+      "Divide shrimp and sausage onto the aluminum foil near the center then place zucchini, red bell pepper, and asparagus on the side. Sprinkle generously with the Cajun seasoning mix.",
+      "Add minced garlic over shrimp, sausage, and veggies. Divide butter pieces evenly among the shrimp foil packets, layering them over the shrimp and vegetables.",
+      "Add a tablespoon vegetable stock in each foil packet and wrap packets in and crimp edges together then wrap ends up. Don’t wrap too tight – keep a little extra space inside for heat to circulate.",
+      "Transfer to a baking sheet and bake shrimp and sausage foil packets in the oven, sealed side upward until shrimps and veggies have cooked through, about 15 minutes.",
+      "Carefully unwrap the baked sausage shrimp foil packets with vegetables then garnish with fresh parsley and a slice of lemon. Enjoy!"
+    ],
+    "sourceUrl": "https://www.eatwell101.com/cajun-shrimp-sausage-foil-packs-recipe",
+    "mealLists": [
+      "saved"
+    ]
+  }
+}

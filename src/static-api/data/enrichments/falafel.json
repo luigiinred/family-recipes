@@ -1,0 +1,263 @@
+{
+  "scraped": {
+    "title": "How to Make Falafel",
+    "description": "Ready to learn how to make authentic falafel from scratch? My family’s secret recipe for the Best Authentic Falafel, made with chickpeas, fresh herb, and spices is all you need! Be sure to check out the complete step-by-step tutorial, important tips for baking or frying falafel. And watch the video just above. What’s your favorite way to enjoy falafel? I love them in warm pita sandwiches with tahini sauce or hummus, along with my lazy Mediterranean tomato and cucumber salad. But you can enjoy it",
+    "imageUrl": "https://www.themediterraneandish.com/wp-content/uploads/2020/02/falafel-recipe-1-225x225.jpg",
+    "prepMinutes": 30,
+    "cookMinutes": 20,
+    "servings": 24,
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "cups",
+        "name": "dried chickpeas (Do NOT use canned or cooked chickpeas)"
+      },
+      {
+        "amount": "/2",
+        "unit": "tsp",
+        "name": "baking soda"
+      },
+      {
+        "amount": "",
+        "unit": "cup",
+        "name": "fresh parsley leaves, stems removed"
+      },
+      {
+        "amount": "/4",
+        "unit": "cup",
+        "name": "fresh cilantro leaves, stems removed"
+      },
+      {
+        "amount": "/2",
+        "unit": "cup",
+        "name": "fresh dill, stems removed"
+      },
+      {
+        "amount": "",
+        "unit": "small",
+        "name": "onion, quartered"
+      },
+      {
+        "amount": "",
+        "unit": "garlic",
+        "name": "cloves, peeled"
+      },
+      {
+        "amount": "",
+        "unit": "Salt",
+        "name": "to taste"
+      },
+      {
+        "amount": "",
+        "unit": "tbsp",
+        "name": "ground black pepper"
+      },
+      {
+        "amount": "",
+        "unit": "tbsp",
+        "name": "ground cumin"
+      },
+      {
+        "amount": "",
+        "unit": "tbsp",
+        "name": "ground coriander"
+      },
+      {
+        "amount": "",
+        "unit": "tsp",
+        "name": "cayenne pepper, optional"
+      },
+      {
+        "amount": "",
+        "unit": "tsp",
+        "name": "baking powder"
+      },
+      {
+        "amount": "",
+        "unit": "tbsp",
+        "name": "toasted sesame seeds"
+      },
+      {
+        "amount": "",
+        "unit": "Oil",
+        "name": "for frying"
+      },
+      {
+        "amount": "",
+        "unit": "Tahini",
+        "name": "Sauce"
+      },
+      {
+        "amount": "",
+        "unit": "Pita",
+        "name": "pockets"
+      },
+      {
+        "amount": "",
+        "unit": "English",
+        "name": "cucumbers, chopped or diced"
+      },
+      {
+        "amount": "",
+        "unit": "Tomatoes",
+        "name": ", chopped or diced"
+      },
+      {
+        "amount": "",
+        "unit": "Baby",
+        "name": "Arugula"
+      },
+      {
+        "amount": "",
+        "unit": "Pickle",
+        "name": "s"
+      }
+    ],
+    "steps": [
+      "(One day in advance) Place the dried chickpeas and baking soda in a large bowl filled with water to cover the chickpeas by at least 2 inches. Soak overnight for 18 hours (longer  if the chickpeas are still too hard). When ready, drain the chickpeas completely and pat them dry.",
+      "Add the chickpeas, herbs, onions, garlic and spices to the large bowl of a food processor fitted with a blade. Run the food processor 40 seconds at a time until all is well combined forming a the falafel mixture.",
+      "Transfer the falafel mixture to a container and cover tightly. Refrigerate for at least 1 hour or (up to one whole night) until ready to cook.",
+      "Just before frying, add the baking powder and sesame seeds to the falafel mixture and stir with a spoon.",
+      "Scoop tablespoonfuls of the falafel mixture and form into patties (1/2 inch in thickness each). It helps to have wet hands as you form the patties.",
+      "Fill a medium saucepan 3 inches up with oil. Heat the oil on medium-high until it bubbles softly. Carefully drop the falafel patties in the oil, let them fry for about 3 to 5 minutes or so until crispy and medium brown on the outside. Avoid crowding the falafel in the saucepan, fry them in batches if necessary.",
+      "Place the fried falafel patties in a colander or plate lined with paper towels to drain.",
+      "Serve falafel hot next to other small plates; or assemble the falafel patties in pita bread with tahini or hummus, arugula, tomato and cucumbers. Enjoy!"
+    ],
+    "source": "json-ld"
+  },
+  "merged": {
+    "id": "7",
+    "slug": "falafel",
+    "title": "Falafel",
+    "description": "Ready to learn how to make authentic falafel from scratch? My family’s secret recipe for the Best Authentic Falafel, made with chickpeas, fresh herb, and spices is all you need! Be sure to check out the complete step-by-step tutorial, important tips for baking or frying falafel. And watch the video just above. What’s your favorite way to enjoy falafel? I love them in warm pita sandwiches with tahini sauce or hummus, along with my lazy Mediterranean tomato and cucumber salad. But you can enjoy it",
+    "imageUrl": "https://www.themediterraneandish.com/wp-content/uploads/2020/02/falafel-recipe-1-225x225.jpg",
+    "prepMinutes": 30,
+    "cookMinutes": 20,
+    "servings": 24,
+    "tags": [
+      "vegetarian",
+      "mediterranean"
+    ],
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "cups",
+        "name": "dried chickpeas (Do NOT use canned or cooked chickpeas)"
+      },
+      {
+        "amount": "/2",
+        "unit": "tsp",
+        "name": "baking soda"
+      },
+      {
+        "amount": "",
+        "unit": "cup",
+        "name": "fresh parsley leaves, stems removed"
+      },
+      {
+        "amount": "/4",
+        "unit": "cup",
+        "name": "fresh cilantro leaves, stems removed"
+      },
+      {
+        "amount": "/2",
+        "unit": "cup",
+        "name": "fresh dill, stems removed"
+      },
+      {
+        "amount": "",
+        "unit": "small",
+        "name": "onion, quartered"
+      },
+      {
+        "amount": "",
+        "unit": "garlic",
+        "name": "cloves, peeled"
+      },
+      {
+        "amount": "",
+        "unit": "Salt",
+        "name": "to taste"
+      },
+      {
+        "amount": "",
+        "unit": "tbsp",
+        "name": "ground black pepper"
+      },
+      {
+        "amount": "",
+        "unit": "tbsp",
+        "name": "ground cumin"
+      },
+      {
+        "amount": "",
+        "unit": "tbsp",
+        "name": "ground coriander"
+      },
+      {
+        "amount": "",
+        "unit": "tsp",
+        "name": "cayenne pepper, optional"
+      },
+      {
+        "amount": "",
+        "unit": "tsp",
+        "name": "baking powder"
+      },
+      {
+        "amount": "",
+        "unit": "tbsp",
+        "name": "toasted sesame seeds"
+      },
+      {
+        "amount": "",
+        "unit": "Oil",
+        "name": "for frying"
+      },
+      {
+        "amount": "",
+        "unit": "Tahini",
+        "name": "Sauce"
+      },
+      {
+        "amount": "",
+        "unit": "Pita",
+        "name": "pockets"
+      },
+      {
+        "amount": "",
+        "unit": "English",
+        "name": "cucumbers, chopped or diced"
+      },
+      {
+        "amount": "",
+        "unit": "Tomatoes",
+        "name": ", chopped or diced"
+      },
+      {
+        "amount": "",
+        "unit": "Baby",
+        "name": "Arugula"
+      },
+      {
+        "amount": "",
+        "unit": "Pickle",
+        "name": "s"
+      }
+    ],
+    "steps": [
+      "(One day in advance) Place the dried chickpeas and baking soda in a large bowl filled with water to cover the chickpeas by at least 2 inches. Soak overnight for 18 hours (longer  if the chickpeas are still too hard). When ready, drain the chickpeas completely and pat them dry.",
+      "Add the chickpeas, herbs, onions, garlic and spices to the large bowl of a food processor fitted with a blade. Run the food processor 40 seconds at a time until all is well combined forming a the falafel mixture.",
+      "Transfer the falafel mixture to a container and cover tightly. Refrigerate for at least 1 hour or (up to one whole night) until ready to cook.",
+      "Just before frying, add the baking powder and sesame seeds to the falafel mixture and stir with a spoon.",
+      "Scoop tablespoonfuls of the falafel mixture and form into patties (1/2 inch in thickness each). It helps to have wet hands as you form the patties.",
+      "Fill a medium saucepan 3 inches up with oil. Heat the oil on medium-high until it bubbles softly. Carefully drop the falafel patties in the oil, let them fry for about 3 to 5 minutes or so until crispy and medium brown on the outside. Avoid crowding the falafel in the saucepan, fry them in batches if necessary.",
+      "Place the fried falafel patties in a colander or plate lined with paper towels to drain.",
+      "Serve falafel hot next to other small plates; or assemble the falafel patties in pita bread with tahini or hummus, arugula, tomato and cucumbers. Enjoy!"
+    ],
+    "mealLists": [
+      "to-make"
+    ],
+    "sourceUrl": "https://www.themediterraneandish.com/how-to-make-falafel/"
+  }
+}

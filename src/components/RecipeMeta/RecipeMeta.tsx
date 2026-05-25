@@ -16,6 +16,9 @@ export function RecipeMeta({ recipe, showTags = true }: RecipeMetaProps) {
     <Stack gap="sm" className={styles.meta}>
       {recipe.description ? <Text variant="muted">{recipe.description}</Text> : null}
       {timeLabel ? <Text variant="muted">{timeLabel}</Text> : null}
+      {recipe.effort === 'low' ? (
+        <Badge>Low effort</Badge>
+      ) : null}
       {showTags && recipe.tags.length > 0 ? (
         <Stack direction="row" gap="sm" className={styles.tags}>
           {recipe.tags.map((tag) => (

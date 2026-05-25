@@ -19,7 +19,9 @@
       "mealLists": [
         "to-make"
       ],
-      "notes": "Make x2"
+      "notes": "Make x2",
+      "sourceUrl": "https://www.simplyrecipes.com/recipes/122816-caesar-salad/",
+      "effort": "low"
     },
     {
       "id": "2",
@@ -40,7 +42,9 @@
       ],
       "mealLists": [
         "to-make"
-      ]
+      ],
+      "sourceUrl": "https://www.loveandlemons.com/mediterranean-salad-recipe/",
+      "effort": "low"
     },
     {
       "id": "3",
@@ -62,7 +66,9 @@
       ],
       "mealLists": [
         "to-make"
-      ]
+      ],
+      "sourceUrl": "https://www.eatwell101.com/air-fryer-lemon-garlic-tilapia-recipe",
+      "effort": "low"
     },
     {
       "id": "4",
@@ -83,7 +89,9 @@
       ],
       "mealLists": [
         "to-make"
-      ]
+      ],
+      "sourceUrl": "https://www.eatwell101.com/air-fryer-shrimp-recipe",
+      "effort": "low"
     },
     {
       "id": "5",
@@ -105,48 +113,224 @@
       ],
       "mealLists": [
         "to-make"
-      ]
+      ],
+      "sourceUrl": "https://www.eatwell101.com/shrimp-shirataki-noodle-stir-fry-recipe",
+      "effort": "low"
     },
     {
       "id": "6",
       "slug": "crema-salad",
       "title": "Crema Salad",
-      "description": "Crema-style salad (from your meal plan).",
-      "imageUrl": "",
+      "description": "This easy Mexican street corn salad is the ultimate summer side dish! Lightly creamy, spicy &amp; bright, it&#039;s a recipe you&#039;ll make again and again.",
+      "imageUrl": "https://cdn.loveandlemons.com/wp-content/uploads/2013/06/corn-salad-500x500.jpg",
       "prepMinutes": 0,
       "cookMinutes": 0,
       "servings": 4,
       "tags": [
         "salad"
       ],
-      "ingredients": [],
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "ears",
+          "name": "fresh corn (husked)"
+        },
+        {
+          "amount": "",
+          "unit": "Extra",
+          "name": "-virgin olive oil (for brushing)"
+        },
+        {
+          "amount": "½",
+          "unit": "tablespoons",
+          "name": "mayo (or vegan mayo)"
+        },
+        {
+          "amount": "",
+          "unit": "garlic",
+          "name": "clove (minced)"
+        },
+        {
+          "amount": "",
+          "unit": "Zest",
+          "name": "and juice of 1 lime"
+        },
+        {
+          "amount": "⅓",
+          "unit": "cup",
+          "name": "chopped scallions"
+        },
+        {
+          "amount": "¼",
+          "unit": "cup",
+          "name": "crumbled Cotija (or feta cheese)"
+        },
+        {
+          "amount": "¼",
+          "unit": "cup",
+          "name": "finely chopped fresh cilantro"
+        },
+        {
+          "amount": "¼",
+          "unit": "teaspoon",
+          "name": "smoked paprika"
+        },
+        {
+          "amount": "",
+          "unit": "jalape",
+          "name": "ño pepper (diced*)"
+        },
+        {
+          "amount": "¼",
+          "unit": "teaspoon",
+          "name": "sea salt"
+        }
+      ],
       "steps": [
-        "See source link or add steps when you cook this."
+        "Preheat a grill to medium-high heat. Brush the corn with olive oil and grill for 2 minutes per side, or until char marks form. Remove from grill and set aside.",
+        "In a large bowl, combine the mayo, garlic, and lime zest and juice. Slice the kernels off the corn and add to the bowl along with the scallions. Stir to coat, then add the cheese, cilantro, smoked paprika, jalapeño, and salt. Season to taste and serve immediately or chill until ready to serve."
       ],
       "mealLists": [
         "to-make"
-      ]
+      ],
+      "sourceUrl": "https://www.loveandlemons.com/mexican-street-corn-salad/",
+      "effort": "low"
     },
     {
       "id": "7",
       "slug": "falafel",
       "title": "Falafel",
-      "description": "Homemade or prepared falafel.",
-      "imageUrl": "",
-      "prepMinutes": 0,
-      "cookMinutes": 0,
-      "servings": 4,
+      "description": "Ready to learn how to make authentic falafel from scratch? My family’s secret recipe for the Best Authentic Falafel, made with chickpeas, fresh herb, and spices is all you need! Be sure to check out the complete step-by-step tutorial, important tips for baking or frying falafel. And watch the video just above. What’s your favorite way to enjoy falafel? I love them in warm pita sandwiches with tahini sauce or hummus, along with my lazy Mediterranean tomato and cucumber salad. But you can enjoy it",
+      "imageUrl": "https://www.themediterraneandish.com/wp-content/uploads/2020/02/falafel-recipe-1-225x225.jpg",
+      "prepMinutes": 30,
+      "cookMinutes": 20,
+      "servings": 24,
       "tags": [
         "vegetarian",
         "mediterranean"
       ],
-      "ingredients": [],
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "cups",
+          "name": "dried chickpeas (Do NOT use canned or cooked chickpeas)"
+        },
+        {
+          "amount": "/2",
+          "unit": "tsp",
+          "name": "baking soda"
+        },
+        {
+          "amount": "",
+          "unit": "cup",
+          "name": "fresh parsley leaves, stems removed"
+        },
+        {
+          "amount": "/4",
+          "unit": "cup",
+          "name": "fresh cilantro leaves, stems removed"
+        },
+        {
+          "amount": "/2",
+          "unit": "cup",
+          "name": "fresh dill, stems removed"
+        },
+        {
+          "amount": "",
+          "unit": "small",
+          "name": "onion, quartered"
+        },
+        {
+          "amount": "",
+          "unit": "garlic",
+          "name": "cloves, peeled"
+        },
+        {
+          "amount": "",
+          "unit": "Salt",
+          "name": "to taste"
+        },
+        {
+          "amount": "",
+          "unit": "tbsp",
+          "name": "ground black pepper"
+        },
+        {
+          "amount": "",
+          "unit": "tbsp",
+          "name": "ground cumin"
+        },
+        {
+          "amount": "",
+          "unit": "tbsp",
+          "name": "ground coriander"
+        },
+        {
+          "amount": "",
+          "unit": "tsp",
+          "name": "cayenne pepper, optional"
+        },
+        {
+          "amount": "",
+          "unit": "tsp",
+          "name": "baking powder"
+        },
+        {
+          "amount": "",
+          "unit": "tbsp",
+          "name": "toasted sesame seeds"
+        },
+        {
+          "amount": "",
+          "unit": "Oil",
+          "name": "for frying"
+        },
+        {
+          "amount": "",
+          "unit": "Tahini",
+          "name": "Sauce"
+        },
+        {
+          "amount": "",
+          "unit": "Pita",
+          "name": "pockets"
+        },
+        {
+          "amount": "",
+          "unit": "English",
+          "name": "cucumbers, chopped or diced"
+        },
+        {
+          "amount": "",
+          "unit": "Tomatoes",
+          "name": ", chopped or diced"
+        },
+        {
+          "amount": "",
+          "unit": "Baby",
+          "name": "Arugula"
+        },
+        {
+          "amount": "",
+          "unit": "Pickle",
+          "name": "s"
+        }
+      ],
       "steps": [
-        "See source link or add steps when you cook this."
+        "(One day in advance) Place the dried chickpeas and baking soda in a large bowl filled with water to cover the chickpeas by at least 2 inches. Soak overnight for 18 hours (longer  if the chickpeas are still too hard). When ready, drain the chickpeas completely and pat them dry.",
+        "Add the chickpeas, herbs, onions, garlic and spices to the large bowl of a food processor fitted with a blade. Run the food processor 40 seconds at a time until all is well combined forming a the falafel mixture.",
+        "Transfer the falafel mixture to a container and cover tightly. Refrigerate for at least 1 hour or (up to one whole night) until ready to cook.",
+        "Just before frying, add the baking powder and sesame seeds to the falafel mixture and stir with a spoon.",
+        "Scoop tablespoonfuls of the falafel mixture and form into patties (1/2 inch in thickness each). It helps to have wet hands as you form the patties.",
+        "Fill a medium saucepan 3 inches up with oil. Heat the oil on medium-high until it bubbles softly. Carefully drop the falafel patties in the oil, let them fry for about 3 to 5 minutes or so until crispy and medium brown on the outside. Avoid crowding the falafel in the saucepan, fry them in batches if necessary.",
+        "Place the fried falafel patties in a colander or plate lined with paper towels to drain.",
+        "Serve falafel hot next to other small plates; or assemble the falafel patties in pita bread with tahini or hummus, arugula, tomato and cucumbers. Enjoy!"
       ],
       "mealLists": [
         "to-make"
-      ]
+      ],
+      "sourceUrl": "https://www.themediterraneandish.com/how-to-make-falafel/",
+      "effort": "low"
     },
     {
       "id": "8",
@@ -168,7 +352,8 @@
       "mealLists": [
         "to-eat",
         "freezer-meals"
-      ]
+      ],
+      "sourceUrl": "https://www.allrecipes.com/recipe/13113/veggie-soup/"
     },
     {
       "id": "9",
@@ -271,29 +456,127 @@
       ],
       "mealLists": [
         "healthy-ideas"
-      ]
+      ],
+      "sourceUrl": "https://www.themediterraneandish.com/gigantes-plaki-recipe/"
     },
     {
       "id": "11",
       "slug": "bean-chili",
       "title": "Bean Chili",
-      "description": "Hearty bean chili.",
-      "imageUrl": "",
-      "prepMinutes": 0,
-      "cookMinutes": 0,
-      "servings": 4,
+      "description": "Adam Ragusea’s bean-and-tomato chili — video walkthrough with timestamped steps.",
+      "imageUrl": "https://i.ytimg.com/vi/mb3k0wApWas/hqdefault.jpg",
+      "prepMinutes": 15,
+      "cookMinutes": 40,
+      "servings": 6,
       "tags": [
         "vegetarian",
         "beans",
-        "chili"
+        "chili",
+        "video"
       ],
-      "ingredients": [],
+      "ingredients": [
+        {
+          "amount": "2",
+          "unit": "large",
+          "name": "onions, rough chop"
+        },
+        {
+          "amount": "2",
+          "unit": "medium",
+          "name": "bell peppers, diced"
+        },
+        {
+          "amount": "2",
+          "unit": "tablespoons",
+          "name": "oil"
+        },
+        {
+          "amount": "2",
+          "unit": "large cans",
+          "name": "crushed or puréed tomatoes (undrained)"
+        },
+        {
+          "amount": "3",
+          "unit": "cans",
+          "name": "beans, drained and rinsed (or soaked dried beans)"
+        },
+        {
+          "amount": "1",
+          "unit": "tablespoon",
+          "name": "cumin"
+        },
+        {
+          "amount": "1",
+          "unit": "teaspoon",
+          "name": "smoked paprika"
+        },
+        {
+          "amount": "1",
+          "unit": "teaspoon",
+          "name": "dried oregano"
+        },
+        {
+          "amount": "1",
+          "unit": "teaspoon",
+          "name": "garlic powder"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "salt, to taste"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "dark chocolate chips or Mexican chocolate (optional)"
+        }
+      ],
       "steps": [
-        "See source link or add steps when you cook this."
+        "Dice onions and bell peppers",
+        "Cook vegetables in oil over high heat until softened",
+        "Add canned tomatoes",
+        "Add drained canned beans",
+        "Bring to a simmer",
+        "Season with cumin, smoked paprika, oregano, and garlic powder",
+        "Optional: melt in a little dark chocolate"
+      ],
+      "recipeKind": "youtube",
+      "youtubeVideoId": "mb3k0wApWas",
+      "timedSteps": [
+        {
+          "text": "Dice onions and bell peppers",
+          "startSeconds": 18
+        },
+        {
+          "text": "Cook vegetables in oil over high heat until softened",
+          "startSeconds": 43
+        },
+        {
+          "text": "Add canned tomatoes",
+          "startSeconds": 63
+        },
+        {
+          "text": "Add drained canned beans",
+          "startSeconds": 121
+        },
+        {
+          "text": "Bring to a simmer",
+          "startSeconds": 149
+        },
+        {
+          "text": "Season with cumin, smoked paprika, oregano, and garlic powder",
+          "startSeconds": 161
+        },
+        {
+          "text": "Optional: melt in a little dark chocolate",
+          "startSeconds": 216
+        }
       ],
       "mealLists": [
         "healthy-ideas"
-      ]
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=mb3k0wApWas",
+      "notes": "From Adam Ragusea — The SHOCKING SECRET to great chili. Timestamps from auto captions."
     },
     {
       "id": "12",
@@ -314,7 +597,8 @@
       ],
       "mealLists": [
         "healthy-ideas"
-      ]
+      ],
+      "sourceUrl": "https://www.simplyrecipes.com/recipes/ratatouille/"
     },
     {
       "id": "13",
@@ -336,7 +620,8 @@
       ],
       "mealLists": [
         "healthy-ideas"
-      ]
+      ],
+      "sourceUrl": "https://www.allrecipes.com/recipe/228014/mediterranean-orzo-salad/"
     },
     {
       "id": "14",
@@ -357,7 +642,8 @@
       ],
       "mealLists": [
         "healthy-ideas"
-      ]
+      ],
+      "sourceUrl": "https://www.allrecipes.com/recipe/21719/pasta-primavera/"
     },
     {
       "id": "15",
@@ -378,7 +664,8 @@
       ],
       "mealLists": [
         "healthy-ideas"
-      ]
+      ],
+      "sourceUrl": "https://www.allrecipes.com/recipe/260289/potato-tacos/"
     },
     {
       "id": "16",
@@ -502,7 +789,8 @@
       ],
       "mealLists": [
         "saved"
-      ]
+      ],
+      "sourceUrl": "https://www.eatwell101.com/asian-chicken-lettuce-wraps-recipe"
     },
     {
       "id": "18",
@@ -765,7 +1053,8 @@
       ],
       "mealLists": [
         "saved"
-      ]
+      ],
+      "sourceUrl": "https://www.eatwell101.com/garlic-butter-sausage-broccoli-recipe"
     },
     {
       "id": "22",
@@ -864,7 +1153,8 @@
       ],
       "mealLists": [
         "saved"
-      ]
+      ],
+      "sourceUrl": "https://www.eatwell101.com/creamy-garlic-parmesan-chicken-with-mushrooms-recipe"
     },
     {
       "id": "24",
@@ -962,7 +1252,8 @@
       ],
       "mealLists": [
         "saved"
-      ]
+      ],
+      "sourceUrl": "https://www.gimmesomeoven.com/greek-chicken-marinade/"
     },
     {
       "id": "26",
@@ -983,7 +1274,8 @@
       ],
       "mealLists": [
         "saved"
-      ]
+      ],
+      "sourceUrl": "https://www.themediterraneandish.com/greek-salad-recipe/"
     },
     {
       "id": "27",
@@ -1005,7 +1297,8 @@
       ],
       "mealLists": [
         "saved"
-      ]
+      ],
+      "sourceUrl": "https://www.allrecipes.com/recipe/85889/quick-chicken-stir-fry/"
     },
     {
       "id": "28",
@@ -1354,22 +1647,165 @@
       "id": "32",
       "slug": "vegetarian-bibimbap-tofu",
       "title": "Vegetarian Bibimbap with Tofu",
-      "description": "Easy Korean bibimbap with tofu.",
-      "imageUrl": "",
-      "prepMinutes": 0,
-      "cookMinutes": 0,
+      "description": "Bibimbap is a Korean rice bowl topped with vegetable sides and meat and served with a gochujang sauce. Follow my easy step-by-step recipe to make the best bibimbap!",
+      "imageUrl": "https://www.koreanbapsang.com/wp-content/uploads/2018/09/DSC3899-4-e1644947571796.jpg",
+      "prepMinutes": 25,
+      "cookMinutes": 30,
       "servings": 4,
       "tags": [
         "korean",
         "vegetarian"
       ],
-      "ingredients": [],
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "cups",
+          "name": "short grain rice"
+        },
+        {
+          "amount": "",
+          "unit": "ounces",
+          "name": "thinly sliced tender beef (rib eye, sirloin, etc. or ground beef)"
+        },
+        {
+          "amount": "",
+          "unit": "tablespoons",
+          "name": "soy sauce"
+        },
+        {
+          "amount": "",
+          "unit": "teaspoons",
+          "name": "sugar"
+        },
+        {
+          "amount": "",
+          "unit": "teaspoons",
+          "name": "sesame oil"
+        },
+        {
+          "amount": "",
+          "unit": "teaspoons",
+          "name": "cooking rice wine (Mirin or Mirim)"
+        },
+        {
+          "amount": "",
+          "unit": "teaspoon",
+          "name": "minced garlic ((This recipes needs 2.5 teaspoons minced garlic in total. Mince it all at once for efficiency.))"
+        },
+        {
+          "amount": "",
+          "unit": "tablespoon",
+          "name": "chopped scallion"
+        },
+        {
+          "amount": "",
+          "unit": "pepper",
+          "name": "to taste"
+        },
+        {
+          "amount": "",
+          "unit": "ounces",
+          "name": "mung bean sprouts (sukju, 숙주) (or soybean sprouts (kongnamul, 콩나물) - see more vegetable options below.)"
+        },
+        {
+          "amount": "",
+          "unit": "bunch",
+          "name": "spinach, about 8 ounces"
+        },
+        {
+          "amount": "",
+          "unit": "small",
+          "name": "cucumbers, about 5 ounces"
+        },
+        {
+          "amount": "",
+          "unit": "ounces",
+          "name": "mushrooms (shiitake, white, cremini, etc.)"
+        },
+        {
+          "amount": "",
+          "unit": "medium",
+          "name": "carrots, about 5 ounces"
+        },
+        {
+          "amount": "",
+          "unit": "teaspoons",
+          "name": "minced garlic, (divided)"
+        },
+        {
+          "amount": "3",
+          "unit": "tablespoons",
+          "name": "chopped scallion, (divided)"
+        },
+        {
+          "amount": "",
+          "unit": "sesame",
+          "name": "oil"
+        },
+        {
+          "amount": "",
+          "unit": "sesame",
+          "name": "seeds"
+        },
+        {
+          "amount": "",
+          "unit": "sal",
+          "name": "t"
+        },
+        {
+          "amount": "",
+          "unit": "eggs",
+          "name": "- optional"
+        },
+        {
+          "amount": "",
+          "unit": "cooking",
+          "name": "oil"
+        },
+        {
+          "amount": "",
+          "unit": "ounces",
+          "name": "Kongnamul (soybean sprouts)"
+        },
+        {
+          "amount": "",
+          "unit": "ounces",
+          "name": "mu (Korean radish)"
+        },
+        {
+          "amount": "",
+          "unit": "tablespoons",
+          "name": "gochujang, 고추장"
+        },
+        {
+          "amount": "",
+          "unit": "teaspoons",
+          "name": "sugar - adjust to taste, 1-3 teaspoons"
+        },
+        {
+          "amount": "",
+          "unit": "tablespoon",
+          "name": "sesame oil"
+        },
+        {
+          "amount": "",
+          "unit": "tablespoon",
+          "name": "water"
+        }
+      ],
       "steps": [
-        "See source link or add steps when you cook this."
+        "Rice:",
+        "Meat:",
+        "Vegetables:",
+        "More vegetable options:",
+        "Optional Eggs:",
+        "Bibimbap sauce:",
+        "Assembling:"
       ],
       "mealLists": [
         "saved"
-      ]
+      ],
+      "sourceUrl": "https://www.koreanbapsang.com/bibimbap/"
     },
     {
       "id": "33",
@@ -1391,7 +1827,8 @@
       ],
       "mealLists": [
         "saved"
-      ]
+      ],
+      "sourceUrl": "https://hot-thai-kitchen.com/tom-kha-gai/"
     },
     {
       "id": "34",
@@ -1413,7 +1850,8 @@
       ],
       "mealLists": [
         "saved"
-      ]
+      ],
+      "sourceUrl": "https://www.themediterraneandish.com/greek-green-beans-recipe-fasolakia/"
     },
     {
       "id": "43",
@@ -1486,7 +1924,7 @@
       "steps": [
         "Recipe body empty on byonandlara.com — open source link to view or add steps manually."
       ],
-      "sourceUrl": "http://www.byonandlara.com/recipes/?recipe_id=49",
+      "sourceUrl": "https://www.allrecipes.com/recipe/238590/bacon-wrapped-water-chestnuts/",
       "mealLists": [
         "saved"
       ],
@@ -2500,7 +2938,7 @@
       "steps": [
         "Recipe body empty on byonandlara.com — open source link to view or add steps manually."
       ],
-      "sourceUrl": "http://www.byonandlara.com/recipes/?recipe_id=51",
+      "sourceUrl": "https://www.allrecipes.com/recipe/16167/chicken-pot-pie-ix/",
       "mealLists": [
         "saved"
       ],
@@ -4137,7 +4575,7 @@
       "steps": [
         "Recipe body empty on byonandlara.com — open source link to view or add steps manually."
       ],
-      "sourceUrl": "http://www.byonandlara.com/recipes/?recipe_id=50",
+      "sourceUrl": "https://www.allrecipes.com/recipe/10813/best-brownies/",
       "mealLists": [
         "saved"
       ],

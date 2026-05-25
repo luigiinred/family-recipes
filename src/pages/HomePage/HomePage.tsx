@@ -7,6 +7,7 @@ import { Stack, Text } from '@/design-system/primitives';
 import { filterRecipes } from '@/features/search/filterRecipes';
 import { useAllTags } from '@/hooks/useAllTags';
 import { useRecipeCatalog } from '@/hooks/useRecipeCatalog';
+import { QUICK_TAGS } from '@/static-api/tags';
 import { MEAL_LISTS, type MealList } from '@/static-api/types/recipe';
 import styles from './HomePage.module.css';
 
@@ -30,6 +31,7 @@ export function HomePage() {
   const [tagInput, setTagInput] = useState('');
   const [chipTag, setChipTag] = useState<string | undefined>();
   const [mealList, setMealList] = useState<MealList | undefined>();
+  const [lowEffortOnly, setLowEffortOnly] = useState(false);
 
   const activeTag = chipTag ?? normalizeTagInput(tagInput);
 
@@ -39,8 +41,9 @@ export function HomePage() {
         query,
         tag: activeTag,
         mealList,
+        effort: lowEffortOnly ? 'low' : undefined,
       }),
-    [recipes, query, activeTag, mealList],
+    [recipes, query, activeTag, mealList, lowEffortOnly],
   );
 
   if (loading) {
@@ -66,13 +69,26 @@ export function HomePage() {
       <Stack gap="sm">
         <Text variant="label">Quick tags</Text>
         <TagPicker
-          tags={allTags}
+          tags={[...QUICK_TAGS]}
           activeTag={activeTag}
           onSelect={(tag) => {
             setChipTag(chipTag === tag ? undefined : tag);
             setTagInput(chipTag === tag ? '' : tag);
           }}
         />
+      </Stack>
+
+      <Stack gap="sm">
+        <Text variant="label">Effort</Text>
+        <div className={styles.filters}>
+          <button
+            type="button"
+            className={[styles.filter, lowEffortOnly ? styles.filterActive : ''].join(' ')}
+            onClick={() => setLowEffortOnly((on) => !on)}
+          >
+            Low effort
+          </button>
+        </div>
       </Stack>
 
       <Stack gap="sm">
@@ -101,6 +117,7 @@ export function HomePage() {
       <Text variant="muted">
         {filtered.length} result{filtered.length === 1 ? '' : 's'}
         {activeTag ? ` · tag “${activeTag}”` : ''}
+        {lowEffortOnly ? ' · low effort' : ''}
       </Text>
 
       <ul className={styles.grid}>

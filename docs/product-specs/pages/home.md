@@ -43,4 +43,5 @@ Browse and search the full personal recipe catalog with meal-list and tag filter
 | HM-2 | Full-text search | complete | `HomePage.test.tsx`, `filterRecipes.test.ts` |
 | HM-3 | Tag filter with autocomplete | complete | `TagFilter.test.tsx` |
 | HM-4 | Meal list filters | complete | `filterRecipes.test.ts` |
-| HM-5 | Quick tag chips | complete | — |
+| HM-5 | Quick tag chips (incl. vegetarian) | complete | `HomePage.test.tsx`, `tags.test.ts` |
+| HM-6 | Low effort filter | Show only `effort: low` recipes | complete | `filterRecipes.test.ts`, `HomePage.test.tsx` |

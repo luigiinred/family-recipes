@@ -1,0 +1,42 @@
+.list {
+  margin: var(--space-4) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item + .item {
+  margin-top: var(--space-2);
+}
+
+.stepButton {
+  display: grid;
+  grid-template-columns: 3.5rem 1fr;
+  gap: var(--space-3);
+  align-items: start;
+  width: 100%;
+  padding: var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  text-align: left;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+}
+
+.stepButton:hover,
+.stepButton:focus-visible {
+  border-color: var(--color-accent, #2563eb);
+  outline: none;
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--color-accent, #2563eb) 25%, transparent);
+}
+
+.timestamp {
+  font-variant-numeric: tabular-nums;
+  font-weight: var(--font-weight-medium);
+  color: var(--color-accent, #2563eb);
+}
+
+.text {
+  line-height: var(--line-height-normal, 1.5);
+}

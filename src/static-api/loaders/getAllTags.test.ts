@@ -13,5 +13,6 @@ describe('getAllTags', () => {
     expect(tags).toEqual([...tags].sort());
     expect(new Set(tags).size).toBe(tags.length);
     expect(tags).toContain('slow-cooker');
+    expect(tags).toContain('vegetarian');
   });
 });

@@ -1,0 +1,321 @@
+{
+  "scraped": {
+    "title": "Bibimbap",
+    "description": "Bibimbap is a Korean rice bowl topped with vegetable sides and meat and served with a gochujang sauce. Follow my easy step-by-step recipe to make the best bibimbap!",
+    "imageUrl": "https://www.koreanbapsang.com/wp-content/uploads/2018/09/DSC3899-4-e1644947571796.jpg",
+    "prepMinutes": 25,
+    "cookMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "cups",
+        "name": "short grain rice"
+      },
+      {
+        "amount": "",
+        "unit": "ounces",
+        "name": "thinly sliced tender beef (rib eye, sirloin, etc. or ground beef)"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "soy sauce"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoons",
+        "name": "sugar"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoons",
+        "name": "sesame oil"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoons",
+        "name": "cooking rice wine (Mirin or Mirim)"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoon",
+        "name": "minced garlic ((This recipes needs 2.5 teaspoons minced garlic in total. Mince it all at once for efficiency.))"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoon",
+        "name": "chopped scallion"
+      },
+      {
+        "amount": "",
+        "unit": "pepper",
+        "name": "to taste"
+      },
+      {
+        "amount": "",
+        "unit": "ounces",
+        "name": "mung bean sprouts (sukju, 숙주) (or soybean sprouts (kongnamul, 콩나물) - see more vegetable options below.)"
+      },
+      {
+        "amount": "",
+        "unit": "bunch",
+        "name": "spinach, about 8 ounces"
+      },
+      {
+        "amount": "",
+        "unit": "small",
+        "name": "cucumbers, about 5 ounces"
+      },
+      {
+        "amount": "",
+        "unit": "ounces",
+        "name": "mushrooms (shiitake, white, cremini, etc.)"
+      },
+      {
+        "amount": "",
+        "unit": "medium",
+        "name": "carrots, about 5 ounces"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoons",
+        "name": "minced garlic, (divided)"
+      },
+      {
+        "amount": "3",
+        "unit": "tablespoons",
+        "name": "chopped scallion, (divided)"
+      },
+      {
+        "amount": "",
+        "unit": "sesame",
+        "name": "oil"
+      },
+      {
+        "amount": "",
+        "unit": "sesame",
+        "name": "seeds"
+      },
+      {
+        "amount": "",
+        "unit": "sal",
+        "name": "t"
+      },
+      {
+        "amount": "",
+        "unit": "eggs",
+        "name": "- optional"
+      },
+      {
+        "amount": "",
+        "unit": "cooking",
+        "name": "oil"
+      },
+      {
+        "amount": "",
+        "unit": "ounces",
+        "name": "Kongnamul (soybean sprouts)"
+      },
+      {
+        "amount": "",
+        "unit": "ounces",
+        "name": "mu (Korean radish)"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "gochujang, 고추장"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoons",
+        "name": "sugar - adjust to taste, 1-3 teaspoons"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoon",
+        "name": "sesame oil"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoon",
+        "name": "water"
+      }
+    ],
+    "steps": [
+      "Rice:",
+      "Meat:",
+      "Vegetables:",
+      "More vegetable options:",
+      "Optional Eggs:",
+      "Bibimbap sauce:",
+      "Assembling:"
+    ],
+    "source": "json-ld"
+  },
+  "merged": {
+    "id": "32",
+    "slug": "vegetarian-bibimbap-tofu",
+    "title": "Vegetarian Bibimbap with Tofu",
+    "description": "Bibimbap is a Korean rice bowl topped with vegetable sides and meat and served with a gochujang sauce. Follow my easy step-by-step recipe to make the best bibimbap!",
+    "imageUrl": "https://www.koreanbapsang.com/wp-content/uploads/2018/09/DSC3899-4-e1644947571796.jpg",
+    "prepMinutes": 25,
+    "cookMinutes": 30,
+    "servings": 4,
+    "tags": [
+      "korean",
+      "vegetarian"
+    ],
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "cups",
+        "name": "short grain rice"
+      },
+      {
+        "amount": "",
+        "unit": "ounces",
+        "name": "thinly sliced tender beef (rib eye, sirloin, etc. or ground beef)"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "soy sauce"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoons",
+        "name": "sugar"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoons",
+        "name": "sesame oil"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoons",
+        "name": "cooking rice wine (Mirin or Mirim)"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoon",
+        "name": "minced garlic ((This recipes needs 2.5 teaspoons minced garlic in total. Mince it all at once for efficiency.))"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoon",
+        "name": "chopped scallion"
+      },
+      {
+        "amount": "",
+        "unit": "pepper",
+        "name": "to taste"
+      },
+      {
+        "amount": "",
+        "unit": "ounces",
+        "name": "mung bean sprouts (sukju, 숙주) (or soybean sprouts (kongnamul, 콩나물) - see more vegetable options below.)"
+      },
+      {
+        "amount": "",
+        "unit": "bunch",
+        "name": "spinach, about 8 ounces"
+      },
+      {
+        "amount": "",
+        "unit": "small",
+        "name": "cucumbers, about 5 ounces"
+      },
+      {
+        "amount": "",
+        "unit": "ounces",
+        "name": "mushrooms (shiitake, white, cremini, etc.)"
+      },
+      {
+        "amount": "",
+        "unit": "medium",
+        "name": "carrots, about 5 ounces"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoons",
+        "name": "minced garlic, (divided)"
+      },
+      {
+        "amount": "3",
+        "unit": "tablespoons",
+        "name": "chopped scallion, (divided)"
+      },
+      {
+        "amount": "",
+        "unit": "sesame",
+        "name": "oil"
+      },
+      {
+        "amount": "",
+        "unit": "sesame",
+        "name": "seeds"
+      },
+      {
+        "amount": "",
+        "unit": "sal",
+        "name": "t"
+      },
+      {
+        "amount": "",
+        "unit": "eggs",
+        "name": "- optional"
+      },
+      {
+        "amount": "",
+        "unit": "cooking",
+        "name": "oil"
+      },
+      {
+        "amount": "",
+        "unit": "ounces",
+        "name": "Kongnamul (soybean sprouts)"
+      },
+      {
+        "amount": "",
+        "unit": "ounces",
+        "name": "mu (Korean radish)"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "gochujang, 고추장"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoons",
+        "name": "sugar - adjust to taste, 1-3 teaspoons"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoon",
+        "name": "sesame oil"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoon",
+        "name": "water"
+      }
+    ],
+    "steps": [
+      "Rice:",
+      "Meat:",
+      "Vegetables:",
+      "More vegetable options:",
+      "Optional Eggs:",
+      "Bibimbap sauce:",
+      "Assembling:"
+    ],
+    "mealLists": [
+      "saved"
+    ],
+    "sourceUrl": "https://www.koreanbapsang.com/bibimbap/"
+  }
+}

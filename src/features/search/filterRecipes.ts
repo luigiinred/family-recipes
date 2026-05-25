@@ -1,9 +1,10 @@
-import type { MealList, Recipe } from '@/static-api/types/recipe';
+import type { Effort, MealList, Recipe } from '@/static-api/types/recipe';
 
 export type RecipeFilters = {
   query?: string;
   tag?: string;
   mealList?: MealList;
+  effort?: Effort;
 };
 
 function recipeHaystack(recipe: Recipe): string {
@@ -30,6 +31,9 @@ export function filterRecipes(recipes: Recipe[], filters: RecipeFilters): Recipe
   }
   if (filters.mealList) {
     list = list.filter((r) => r.mealLists?.includes(filters.mealList!));
+  }
+  if (filters.effort) {
+    list = list.filter((r) => r.effort === filters.effort);
   }
   return list.sort((a, b) => a.title.localeCompare(b.title));
 }

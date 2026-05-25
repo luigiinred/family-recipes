@@ -1,8 +1,11 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { RecipeMeta } from '@/components/RecipeMeta/RecipeMeta';
+import { TimedRecipeSteps } from '@/components/TimedRecipeSteps/TimedRecipeSteps';
+import { YouTubeRecipePlayer } from '@/components/YouTubeRecipePlayer/YouTubeRecipePlayer';
 import { Button, Image, Stack, Text } from '@/design-system/primitives';
 import { scaleIngredient } from '@/features/servings/scaleIngredient';
+import { isYouTubeRecipe } from '@/lib/youtube/isYouTubeRecipe';
 import { recipeImageUrl } from '@/lib/recipeImageUrl';
 import { getRecipeBySlug } from '@/static-api';
 import type { Recipe } from '@/static-api/types/recipe';
@@ -13,6 +16,8 @@ export function RecipeDetailPage() {
   const [recipe, setRecipe] = useState<Recipe | undefined>();
   const [loading, setLoading] = useState(true);
   const [servings, setServings] = useState(4);
+  const [videoStartSeconds, setVideoStartSeconds] = useState(0);
+  const [videoAutoplay, setVideoAutoplay] = useState(false);
 
   useEffect(() => {
     if (!slug) return;
@@ -20,9 +25,13 @@ export function RecipeDetailPage() {
     getRecipeBySlug(slug).then((r) => {
       setRecipe(r);
       if (r) setServings(r.servings > 0 ? r.servings : 4);
+      setVideoStartSeconds(0);
+      setVideoAutoplay(false);
       setLoading(false);
     });
   }, [slug]);
+
+  const videoRecipe = recipe && isYouTubeRecipe(recipe) ? recipe : undefined;
 
   const scale = useMemo(() => {
     if (!recipe || recipe.servings <= 0) return 1;
@@ -47,30 +56,28 @@ export function RecipeDetailPage() {
     );
   }
 
-  return (
-    <article className={styles.article}>
-      <div className={styles.noPrint}>
-        <Link to="/" className={styles.back}>
-          ← All recipes
-        </Link>
-      </div>
+  const handleVideoSeek = (startSeconds: number) => {
+    setVideoStartSeconds(startSeconds);
+    setVideoAutoplay(true);
+  };
 
-      <header className={styles.header}>
-        <Image src={recipeImageUrl(recipe.imageUrl)} alt={recipe.title} className={styles.hero} />
-        <Stack gap="md" className={styles.headerText}>
-          <Text as="h1" variant="title">
-            {recipe.title}
-          </Text>
-          <RecipeMeta recipe={recipe} />
-          {recipe.notes ? <Text variant="muted">{recipe.notes}</Text> : null}
-          {recipe.sourceUrl ? (
-            <a href={recipe.sourceUrl} target="_blank" rel="noreferrer noopener">
-              Original recipe
-            </a>
-          ) : null}
-        </Stack>
-      </header>
+  const headerText = (
+    <Stack gap="md" className={styles.headerText}>
+      <Text as="h1" variant="title">
+        {recipe.title}
+      </Text>
+      <RecipeMeta recipe={recipe} />
+      {recipe.notes ? <Text variant="muted">{recipe.notes}</Text> : null}
+      {recipe.sourceUrl ? (
+        <a href={recipe.sourceUrl} target="_blank" rel="noreferrer noopener">
+          Original recipe
+        </a>
+      ) : null}
+    </Stack>
+  );
 
+  const detailBody = (
+    <>
       <div className={`${styles.toolbar} ${styles.noPrint}`}>
         <label className={styles.servingsLabel}>
           Servings
@@ -109,12 +116,53 @@ export function RecipeDetailPage() {
         <Text as="h2" variant="subtitle">
           Steps
         </Text>
-        <ol className={styles.steps}>
-          {recipe.steps.map((step, i) => (
-            <li key={i}>{step}</li>
-          ))}
-        </ol>
+        {videoRecipe ? (
+          <TimedRecipeSteps steps={videoRecipe.timedSteps} onSeek={handleVideoSeek} />
+        ) : (
+          <ol className={styles.steps}>
+            {recipe.steps.map((step, i) => (
+              <li key={i}>{step}</li>
+            ))}
+          </ol>
+        )}
       </section>
+    </>
+  );
+
+  return (
+    <article
+      className={videoRecipe ? `${styles.article} ${styles.videoLayout}` : styles.article}
+    >
+      <div className={styles.noPrint}>
+        <Link to="/" className={styles.back}>
+          ← All recipes
+        </Link>
+      </div>
+
+      {videoRecipe ? (
+        <div className={styles.videoMain}>
+          <div className={styles.stickyPlayer}>
+            <YouTubeRecipePlayer
+              videoId={videoRecipe.youtubeVideoId}
+              title={recipe.title}
+              startSeconds={videoStartSeconds}
+              autoplay={videoAutoplay}
+            />
+          </div>
+          <div className={styles.videoBody}>
+            <header className={styles.header}>{headerText}</header>
+            {detailBody}
+          </div>
+        </div>
+      ) : (
+        <>
+          <header className={styles.header}>
+            <Image src={recipeImageUrl(recipe.imageUrl)} alt={recipe.title} className={styles.hero} />
+            {headerText}
+          </header>
+          {detailBody}
+        </>
+      )}
     </article>
   );
 }

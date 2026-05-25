@@ -1,0 +1,150 @@
+{
+  "scraped": {
+    "title": "Mexican Street Corn Salad",
+    "description": "This easy Mexican street corn salad is the ultimate summer side dish! Lightly creamy, spicy &amp; bright, it&#039;s a recipe you&#039;ll make again and again.",
+    "imageUrl": "https://cdn.loveandlemons.com/wp-content/uploads/2013/06/corn-salad-500x500.jpg",
+    "prepMinutes": 0,
+    "cookMinutes": 0,
+    "servings": 4,
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "ears",
+        "name": "fresh corn (husked)"
+      },
+      {
+        "amount": "",
+        "unit": "Extra",
+        "name": "-virgin olive oil (for brushing)"
+      },
+      {
+        "amount": "½",
+        "unit": "tablespoons",
+        "name": "mayo (or vegan mayo)"
+      },
+      {
+        "amount": "",
+        "unit": "garlic",
+        "name": "clove (minced)"
+      },
+      {
+        "amount": "",
+        "unit": "Zest",
+        "name": "and juice of 1 lime"
+      },
+      {
+        "amount": "⅓",
+        "unit": "cup",
+        "name": "chopped scallions"
+      },
+      {
+        "amount": "¼",
+        "unit": "cup",
+        "name": "crumbled Cotija (or feta cheese)"
+      },
+      {
+        "amount": "¼",
+        "unit": "cup",
+        "name": "finely chopped fresh cilantro"
+      },
+      {
+        "amount": "¼",
+        "unit": "teaspoon",
+        "name": "smoked paprika"
+      },
+      {
+        "amount": "",
+        "unit": "jalape",
+        "name": "ño pepper (diced*)"
+      },
+      {
+        "amount": "¼",
+        "unit": "teaspoon",
+        "name": "sea salt"
+      }
+    ],
+    "steps": [
+      "Preheat a grill to medium-high heat. Brush the corn with olive oil and grill for 2 minutes per side, or until char marks form. Remove from grill and set aside.",
+      "In a large bowl, combine the mayo, garlic, and lime zest and juice. Slice the kernels off the corn and add to the bowl along with the scallions. Stir to coat, then add the cheese, cilantro, smoked paprika, jalapeño, and salt. Season to taste and serve immediately or chill until ready to serve."
+    ],
+    "source": "json-ld"
+  },
+  "merged": {
+    "id": "6",
+    "slug": "crema-salad",
+    "title": "Crema Salad",
+    "description": "This easy Mexican street corn salad is the ultimate summer side dish! Lightly creamy, spicy &amp; bright, it&#039;s a recipe you&#039;ll make again and again.",
+    "imageUrl": "https://cdn.loveandlemons.com/wp-content/uploads/2013/06/corn-salad-500x500.jpg",
+    "prepMinutes": 0,
+    "cookMinutes": 0,
+    "servings": 4,
+    "tags": [
+      "salad"
+    ],
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "ears",
+        "name": "fresh corn (husked)"
+      },
+      {
+        "amount": "",
+        "unit": "Extra",
+        "name": "-virgin olive oil (for brushing)"
+      },
+      {
+        "amount": "½",
+        "unit": "tablespoons",
+        "name": "mayo (or vegan mayo)"
+      },
+      {
+        "amount": "",
+        "unit": "garlic",
+        "name": "clove (minced)"
+      },
+      {
+        "amount": "",
+        "unit": "Zest",
+        "name": "and juice of 1 lime"
+      },
+      {
+        "amount": "⅓",
+        "unit": "cup",
+        "name": "chopped scallions"
+      },
+      {
+        "amount": "¼",
+        "unit": "cup",
+        "name": "crumbled Cotija (or feta cheese)"
+      },
+      {
+        "amount": "¼",
+        "unit": "cup",
+        "name": "finely chopped fresh cilantro"
+      },
+      {
+        "amount": "¼",
+        "unit": "teaspoon",
+        "name": "smoked paprika"
+      },
+      {
+        "amount": "",
+        "unit": "jalape",
+        "name": "ño pepper (diced*)"
+      },
+      {
+        "amount": "¼",
+        "unit": "teaspoon",
+        "name": "sea salt"
+      }
+    ],
+    "steps": [
+      "Preheat a grill to medium-high heat. Brush the corn with olive oil and grill for 2 minutes per side, or until char marks form. Remove from grill and set aside.",
+      "In a large bowl, combine the mayo, garlic, and lime zest and juice. Slice the kernels off the corn and add to the bowl along with the scallions. Stir to coat, then add the cheese, cilantro, smoked paprika, jalapeño, and salt. Season to taste and serve immediately or chill until ready to serve."
+    ],
+    "mealLists": [
+      "to-make"
+    ],
+    "sourceUrl": "https://www.loveandlemons.com/mexican-street-corn-salad/"
+  }
+}

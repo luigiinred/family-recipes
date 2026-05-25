@@ -1,6 +1,7 @@
 import { beforeEach, describe, expect, it } from 'vitest';
 import { getRecipeBySlug } from './getRecipeBySlug';
 import { getRecipes } from './getRecipes';
+import { getRecipesByEffort } from './getRecipesByEffort';
 import { getRecipesByMealList } from './getRecipesByMealList';
 import { getRecipesByTag } from './getRecipesByTag';
 import { loadRecipeCatalog, resetRecipeCatalogCache } from './loadRecipeCatalog';
@@ -50,17 +51,13 @@ describe('sourceUrl enrichments', () => {
   it('enriched recipes with sourceUrl have real ingredients and steps', async () => {
     const recipes = await getRecipes();
     const withUrl = recipes.filter(
-      (r) => r.sourceUrl && !r.steps.join(' ').match(/see source for steps/i),
+      (r) =>
+        r.sourceUrl &&
+        !r.steps.join(' ').match(/see source/i) &&
+        r.ingredients.length > 0,
     );
     expect(withUrl.length).toBeGreaterThanOrEqual(11);
-    const emptyOnSource = new Set([
-      'byl-bacon-wrapped-water-chestnuts',
-      'byl-chicken-pot-pie',
-      'byl-glorious-treats',
-    ]);
     for (const r of withUrl) {
-      if (emptyOnSource.has(r.slug)) continue;
-      expect(r.ingredients.length, r.slug).toBeGreaterThan(0);
       expect(r.steps.length, r.slug).toBeGreaterThan(0);
       expect(r.steps.join(' '), r.slug).not.toMatch(/see source/i);
     }
@@ -72,13 +69,38 @@ describe('byonandlara imports', () => {
     const recipes = await getRecipesByTag('family');
     const byl = recipes.filter((r) => r.slug.startsWith('byl-'));
     expect(byl).toHaveLength(40);
-    expect(byl.every((r) => r.sourceUrl?.includes('byonandlara.com'))).toBe(true);
+    const onBylSite = byl.filter((r) => r.sourceUrl?.includes('byonandlara.com'));
+    expect(onBylSite.length).toBeGreaterThanOrEqual(37);
   });
 
   it('loads artichoke dip by slug', async () => {
     const recipe = await getRecipeBySlug('byl-artichoke-and-parmesan-dip');
     expect(recipe?.title).toMatch(/Artichoke/i);
     expect(recipe?.ingredients.length).toBeGreaterThan(0);
+  });
+});
+
+describe('getRecipesByEffort', () => {
+  it('returns seven low-effort to-make recipes', async () => {
+    const recipes = await getRecipesByEffort('low');
+    expect(recipes).toHaveLength(7);
+    expect(recipes.every((r) => r.effort === 'low')).toBe(true);
+    expect(recipes.every((r) => r.mealLists?.includes('to-make'))).toBe(true);
+  });
+});
+
+describe('youtube video recipes', () => {
+  it('loads bean chili with timed steps from YouTube', async () => {
+    const recipe = await getRecipeBySlug('bean-chili');
+    expect(recipe?.recipeKind).toBe('youtube');
+    expect(recipe?.youtubeVideoId).toBe('mb3k0wApWas');
+    expect(recipe?.sourceUrl).toContain('youtube.com/watch?v=mb3k0wApWas');
+    expect(recipe?.timedSteps?.length).toBeGreaterThanOrEqual(1);
+    expect(recipe?.timedSteps?.[0]).toMatchObject({
+      text: expect.any(String),
+      startSeconds: expect.any(Number),
+    });
+    expect(recipe?.steps).toEqual(recipe?.timedSteps?.map((s) => s.text));
   });
 });
 

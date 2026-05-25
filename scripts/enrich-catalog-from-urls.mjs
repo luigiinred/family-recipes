@@ -15,7 +15,15 @@ const enrichDir = join(root, 'src/static-api/data/enrichments');
 
 const args = process.argv.slice(2);
 const dryRun = args.includes('--dry-run');
+const stubsOnly = args.includes('--stubs-only');
 const slugFilter = args.find((a) => a.startsWith('--slug='))?.split('=')[1];
+
+function isStub(recipe) {
+  return (
+    recipe.ingredients.length === 0 ||
+    /see source|recipe body empty/i.test(recipe.steps.join(' '))
+  );
+}
 
 const UA =
   'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36';
@@ -77,6 +85,7 @@ async function enrichOne(recipe) {
 async function main() {
   const catalog = JSON.parse(readFileSync(catalogPath, 'utf8'));
   let targets = catalog.recipes.filter((r) => r.sourceUrl);
+  if (stubsOnly) targets = targets.filter(isStub);
   if (slugFilter) targets = targets.filter((r) => r.slug === slugFilter);
 
   mkdirSync(enrichDir, { recursive: true });

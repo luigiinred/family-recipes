@@ -32,4 +32,11 @@ describe('filterRecipes', () => {
     expect(filterRecipes([base], { mealList: 'saved' })).toHaveLength(1);
     expect(filterRecipes([base], { mealList: 'to-make' })).toHaveLength(0);
   });
+
+  it('filters by low effort', () => {
+    const low: Recipe = { ...base, slug: 'low', effort: 'low' };
+    const other: Recipe = { ...base, id: '2', slug: 'other', effort: 'high' };
+    const unset: Recipe = { ...base, id: '3', slug: 'unset' };
+    expect(filterRecipes([low, other, unset], { effort: 'low' })).toEqual([low]);
+  });
 });

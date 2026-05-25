@@ -32,3 +32,6 @@ View one recipe while cooking: scaled ingredients, steps, source link, print.
 | RD-3 | Steps list | complete | — |
 | RD-4 | Source URL link | complete | `catalog.test.ts` |
 | RD-5 | Print layout | complete | — |
+| RD-6 | YouTube embed + timestamped steps | complete | [RecipeDetailPage.test.tsx](../../../src/pages/RecipeDetailPage/RecipeDetailPage.test.tsx), [TimedRecipeSteps.test.tsx](../../../src/components/TimedRecipeSteps/TimedRecipeSteps.test.tsx) |
+| RD-7 | Sticky video player while scrolling steps | complete | — |
+| RD-8 | Autoplay embed after timestamp seek | complete | [RecipeDetailPage.test.tsx](../../../src/pages/RecipeDetailPage/RecipeDetailPage.test.tsx), [YouTubeRecipePlayer.test.tsx](../../../src/components/YouTubeRecipePlayer/YouTubeRecipePlayer.test.tsx) |

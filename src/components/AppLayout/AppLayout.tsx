@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
 import { Stack, Text } from '@/design-system/primitives';
 import styles from './AppLayout.module.css';
@@ -9,9 +10,28 @@ const navItems = [
 ];
 
 export function AppLayout() {
+  const headerRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const header = headerRef.current;
+    if (!header) return;
+
+    const syncHeaderHeight = () => {
+      document.documentElement.style.setProperty(
+        '--app-header-height',
+        `${header.offsetHeight}px`,
+      );
+    };
+
+    syncHeaderHeight();
+    const observer = new ResizeObserver(syncHeaderHeight);
+    observer.observe(header);
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <div className={styles.shell}>
-      <header className={styles.header}>
+      <header ref={headerRef} className={styles.header}>
         <Stack direction="row" gap="md" className={styles.headerInner}>
           <Text as="p" variant="label" className={styles.brand}>
             Family Recipes

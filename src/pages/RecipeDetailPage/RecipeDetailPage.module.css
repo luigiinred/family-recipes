@@ -2,6 +2,10 @@
   max-width: 40rem;
 }
 
+.videoLayout {
+  max-width: 56rem;
+}
+
 .back {
   display: inline-block;
   margin-bottom: var(--space-4);
@@ -17,6 +21,22 @@
 
 .hero {
   border-radius: var(--radius-lg);
+}
+
+.videoMain {
+  display: grid;
+  gap: var(--space-6);
+}
+
+.stickyPlayer {
+  position: sticky;
+  top: calc(var(--app-header-height, 4.5rem) + var(--space-4));
+  z-index: 1;
+  align-self: start;
+}
+
+.videoBody .header {
+  margin-bottom: 0;
 }
 
 .headerText {
@@ -77,6 +97,11 @@
 @media (min-width: 640px) {
   .header {
     grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+
+  .videoMain {
+    grid-template-columns: minmax(240px, 1fr) minmax(0, 1.2fr);
     align-items: start;
   }
 }

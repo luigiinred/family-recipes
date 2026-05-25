@@ -1,0 +1,146 @@
+{
+  "scraped": {
+    "title": "Greek Chicken Marinade",
+    "description": "Feel free to use whatever cut of chicken you have on hand with this Greek chicken marinade. A couple of hours in your fridge will infuse the meat with the most vibrant flavor, but if you&#039;re short on time, even 30 minutes on your counter will make a big difference.",
+    "imageUrl": "https://www.themediterraneandish.com/wp-content/uploads/2024/01/TMD-Greek-Chicken-Marinade-WEB-13.jpg",
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "servings": 6,
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "large",
+        "name": "garlic cloves, (minced)"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoons",
+        "name": "dried oregano"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoon",
+        "name": "sweet paprika"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoon",
+        "name": "fresh thyme leaves"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "finely chopped flat leaf parsley leaves and tender stems"
+      },
+      {
+        "amount": "/3",
+        "unit": "cup",
+        "name": "extra virgin olive oil"
+      },
+      {
+        "amount": "",
+        "unit": "lemon",
+        "name": ", (zested and juiced)"
+      },
+      {
+        "amount": "",
+        "unit": "Kosher",
+        "name": "salt"
+      },
+      {
+        "amount": "",
+        "unit": "Black",
+        "name": "pepper"
+      },
+      {
+        "amount": "1/2",
+        "unit": "to",
+        "name": "2 pounds chicken ((thighs, legs, breast, or any cut you’d like))"
+      }
+    ],
+    "steps": [
+      "Make the marinade. In a large mixing bowl, combine the garlic, oregano, paprika, thyme, parsley, olive oil, lemon zest, juice, and a big pinch of salt and pepper (about 1/2 to 3/4 teaspoon each). Whisk until well combined. Taste and adjust the salt and pepper to your liking (Remember: if you don’t plan to add salt and pepper directly to the chicken, then you want to make sure the marinade has enough flavor.)",
+      "Add the chicken or chicken cutlets to the marinade. Use a pair of tongs to toss the chicken so it is well coated, then cover and refrigerate for 2 to 8 hours (or if you’re using chicken thighs, overnight is fine.) Cook the chicken as you’d like–see below for grilled or baked Greek chicken.",
+      "For Grilled Chicken:",
+      "For Baked Chicken:"
+    ],
+    "source": "json-ld"
+  },
+  "merged": {
+    "id": "25",
+    "slug": "greek-chicken-marinade",
+    "title": "The Best Greek Chicken Marinade",
+    "description": "Feel free to use whatever cut of chicken you have on hand with this Greek chicken marinade. A couple of hours in your fridge will infuse the meat with the most vibrant flavor, but if you&#039;re short on time, even 30 minutes on your counter will make a big difference.",
+    "imageUrl": "https://www.themediterraneandish.com/wp-content/uploads/2024/01/TMD-Greek-Chicken-Marinade-WEB-13.jpg",
+    "prepMinutes": 5,
+    "cookMinutes": 35,
+    "servings": 6,
+    "tags": [
+      "greek",
+      "chicken",
+      "marinade"
+    ],
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "large",
+        "name": "garlic cloves, (minced)"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoons",
+        "name": "dried oregano"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoon",
+        "name": "sweet paprika"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoon",
+        "name": "fresh thyme leaves"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "finely chopped flat leaf parsley leaves and tender stems"
+      },
+      {
+        "amount": "/3",
+        "unit": "cup",
+        "name": "extra virgin olive oil"
+      },
+      {
+        "amount": "",
+        "unit": "lemon",
+        "name": ", (zested and juiced)"
+      },
+      {
+        "amount": "",
+        "unit": "Kosher",
+        "name": "salt"
+      },
+      {
+        "amount": "",
+        "unit": "Black",
+        "name": "pepper"
+      },
+      {
+        "amount": "1/2",
+        "unit": "to",
+        "name": "2 pounds chicken ((thighs, legs, breast, or any cut you’d like))"
+      }
+    ],
+    "steps": [
+      "Make the marinade. In a large mixing bowl, combine the garlic, oregano, paprika, thyme, parsley, olive oil, lemon zest, juice, and a big pinch of salt and pepper (about 1/2 to 3/4 teaspoon each). Whisk until well combined. Taste and adjust the salt and pepper to your liking (Remember: if you don’t plan to add salt and pepper directly to the chicken, then you want to make sure the marinade has enough flavor.)",
+      "Add the chicken or chicken cutlets to the marinade. Use a pair of tongs to toss the chicken so it is well coated, then cover and refrigerate for 2 to 8 hours (or if you’re using chicken thighs, overnight is fine.) Cook the chicken as you’d like–see below for grilled or baked Greek chicken.",
+      "For Grilled Chicken:",
+      "For Baked Chicken:"
+    ],
+    "mealLists": [
+      "saved"
+    ],
+    "sourceUrl": "https://www.themediterraneandish.com/greek-chicken-marinade/"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "scraped": {
+    "title": "Greek Salad Skewers",
+    "description": "These fun party skewers turn classic Greek salad into flavorful finger food. Serve these Greek salad skewers as is or take things up a notch with a drizzle of a zesty garlic and olive oil vinaigrette. These Greek salad kabobs are perfect as part of a larger grazing spread when you&#039;re entertaining a crowd. Serve them with a meat and cheese board, baked zucchini chips with tzatziki, and Greek meatballs (loads more ideas in the post!).",
+    "imageUrl": "https://www.themediterraneandish.com/wp-content/uploads/2022/07/Greek-salad-skewers-5.jpg",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "servings": 6,
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "ounces",
+        "name": "creamy feta cheese, (cut into 10 to 12 cubes)"
+      },
+      {
+        "amount": "½",
+        "unit": "English",
+        "name": "cucumber, (halved lengthwise, then sliced into half moons)"
+      },
+      {
+        "amount": "",
+        "unit": "small",
+        "name": "green pepper, (cored, cut into 10 to 12 square pieces)"
+      },
+      {
+        "amount": "",
+        "unit": "to",
+        "name": "12  cherry or grape tomatoes"
+      },
+      {
+        "amount": "",
+        "unit": "to",
+        "name": "12  pitted Kalamata olives"
+      },
+      {
+        "amount": "",
+        "unit": "garlic",
+        "name": "clove, (minced)"
+      },
+      {
+        "amount": "½",
+        "unit": "lime",
+        "name": ", (juice of)"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoon",
+        "name": "red wine vinegar"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoon",
+        "name": "extra virgin olive oil"
+      },
+      {
+        "amount": "",
+        "unit": "Kosher",
+        "name": "salt and black pepper"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoon",
+        "name": "dried oregano"
+      }
+    ],
+    "steps": [
+      "Prepare 10 to 12 small bamboo skewers (I used 6-inch skewers). Take one skewer and thread through it one feta cube, a slice of cucumber, a piece of green pepper, one cherry tomato, and, lastly, one kalamata olives at the very top. Repeat till you have 10 to 12 small skewers of feta and veggies.",
+      "In a small bowl, add the garlic, lime juice, and red wine vinegar. Season with kosher salt, black pepper and the dried oregano. Whisk together, and as you do, drizzle the extra virgin olive oil and keep whisking.",
+      "Arrange the skewers on a serving platter and pour the dressing over. Serve or refrigerate for later."
+    ],
+    "source": "json-ld"
+  },
+  "merged": {
+    "id": "26",
+    "slug": "best-greek-salad",
+    "title": "Best Greek Salad",
+    "description": "These fun party skewers turn classic Greek salad into flavorful finger food. Serve these Greek salad skewers as is or take things up a notch with a drizzle of a zesty garlic and olive oil vinaigrette. These Greek salad kabobs are perfect as part of a larger grazing spread when you&#039;re entertaining a crowd. Serve them with a meat and cheese board, baked zucchini chips with tzatziki, and Greek meatballs (loads more ideas in the post!).",
+    "imageUrl": "https://www.themediterraneandish.com/wp-content/uploads/2022/07/Greek-salad-skewers-5.jpg",
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "servings": 6,
+    "tags": [
+      "greek",
+      "salad"
+    ],
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "ounces",
+        "name": "creamy feta cheese, (cut into 10 to 12 cubes)"
+      },
+      {
+        "amount": "½",
+        "unit": "English",
+        "name": "cucumber, (halved lengthwise, then sliced into half moons)"
+      },
+      {
+        "amount": "",
+        "unit": "small",
+        "name": "green pepper, (cored, cut into 10 to 12 square pieces)"
+      },
+      {
+        "amount": "",
+        "unit": "to",
+        "name": "12  cherry or grape tomatoes"
+      },
+      {
+        "amount": "",
+        "unit": "to",
+        "name": "12  pitted Kalamata olives"
+      },
+      {
+        "amount": "",
+        "unit": "garlic",
+        "name": "clove, (minced)"
+      },
+      {
+        "amount": "½",
+        "unit": "lime",
+        "name": ", (juice of)"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoon",
+        "name": "red wine vinegar"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoon",
+        "name": "extra virgin olive oil"
+      },
+      {
+        "amount": "",
+        "unit": "Kosher",
+        "name": "salt and black pepper"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoon",
+        "name": "dried oregano"
+      }
+    ],
+    "steps": [
+      "Prepare 10 to 12 small bamboo skewers (I used 6-inch skewers). Take one skewer and thread through it one feta cube, a slice of cucumber, a piece of green pepper, one cherry tomato, and, lastly, one kalamata olives at the very top. Repeat till you have 10 to 12 small skewers of feta and veggies.",
+      "In a small bowl, add the garlic, lime juice, and red wine vinegar. Season with kosher salt, black pepper and the dried oregano. Whisk together, and as you do, drizzle the extra virgin olive oil and keep whisking.",
+      "Arrange the skewers on a serving platter and pour the dressing over. Serve or refrigerate for later."
+    ],
+    "mealLists": [
+      "saved"
+    ],
+    "sourceUrl": "https://www.themediterraneandish.com/greek-salad/"
+  }
+}

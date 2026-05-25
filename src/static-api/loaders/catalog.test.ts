@@ -13,7 +13,7 @@ beforeEach(() => {
 describe('loadRecipeCatalog', () => {
   it('loads the full catalog without baby-food recipes', async () => {
     const recipes = await loadRecipeCatalog();
-    expect(recipes).toHaveLength(74);
+    expect(recipes).toHaveLength(75);
     expect(recipes.every((r) => r.id && r.slug && r.title)).toBe(true);
     expect(recipes.some((r) => r.slug.startsWith('baby-food'))).toBe(false);
   });
@@ -101,6 +101,15 @@ describe('youtube video recipes', () => {
       startSeconds: expect.any(Number),
     });
     expect(recipe?.steps).toEqual(recipe?.timedSteps?.map((s) => s.text));
+  });
+
+  it('loads imported Mediterranean Dish chicken salad video', async () => {
+    const recipe = await getRecipeBySlug('yt-a-healthy-no-mayo-chicken-salad-recipe');
+    expect(recipe?.recipeKind).toBe('youtube');
+    expect(recipe?.youtubeVideoId).toBe('4xQsTOxTQsQ');
+    expect(recipe?.timedSteps?.map((s) => s.text)).toContain('Salad prep');
+    expect(recipe?.ingredients.length).toBeGreaterThan(0);
+    expect(recipe?.mealLists).toContain('saved');
   });
 });
 

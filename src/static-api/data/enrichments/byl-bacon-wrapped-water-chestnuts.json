@@ -1,0 +1,83 @@
+{
+  "scraped": {
+    "title": "Bacon-Wrapped Water Chestnuts",
+    "description": "You need only four ingredients to make these delicious bacon-wrapped water chestnuts!",
+    "imageUrl": "https://www.tasteofhome.com/wp-content/uploads/2025/01/Bacon-Wrapped-Water-Chestnuts_EXPS_TOHD24_6840_SheriSilver_6.jpg",
+    "prepMinutes": 20,
+    "cookMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "pound",
+        "name": "sliced bacon"
+      },
+      {
+        "amount": "",
+        "unit": "cans",
+        "name": "(8 ounces each) whole water chestnuts, rinsed and drained"
+      },
+      {
+        "amount": "",
+        "unit": "cup",
+        "name": "ketchup"
+      },
+      {
+        "amount": "/4",
+        "unit": "cup",
+        "name": "packed brown sugar"
+      }
+    ],
+    "steps": [
+      "Preheat the oven to 375°F and lightly grease a 13x9-inch baking dish. Cut bacon strips into thirds and wind each piece around a water chestnut, securing it with a toothpick. Place them in a single layer on an ungreased 15x10x1-inch baking sheet. Bake till the bacon is crisp, for 25 minutes. Transfer them to a paper towel-lined plate to drain and do not turn off the oven.",
+      "While the water chestnuts are baking, combine the ketchup and brown sugar in a small saucepan and cook, stirring, over medium heat, until the sugar is dissolved. Dip into the sauce and place into your prepared baking dish, working with one water chestnut at a time. Spoon the remaining sauce over the chestnuts and return to the oven. Bake for 10 minutes and serve."
+    ],
+    "source": "json-ld"
+  },
+  "merged": {
+    "id": "44",
+    "slug": "byl-bacon-wrapped-water-chestnuts",
+    "title": "Bacon Wrapped Water Chestnuts",
+    "description": "You need only four ingredients to make these delicious bacon-wrapped water chestnuts!",
+    "imageUrl": "https://www.tasteofhome.com/wp-content/uploads/2025/01/Bacon-Wrapped-Water-Chestnuts_EXPS_TOHD24_6840_SheriSilver_6.jpg",
+    "prepMinutes": 20,
+    "cookMinutes": 35,
+    "servings": 4,
+    "tags": [
+      "appetizer",
+      "family"
+    ],
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "pound",
+        "name": "sliced bacon"
+      },
+      {
+        "amount": "",
+        "unit": "cans",
+        "name": "(8 ounces each) whole water chestnuts, rinsed and drained"
+      },
+      {
+        "amount": "",
+        "unit": "cup",
+        "name": "ketchup"
+      },
+      {
+        "amount": "/4",
+        "unit": "cup",
+        "name": "packed brown sugar"
+      }
+    ],
+    "steps": [
+      "Preheat the oven to 375°F and lightly grease a 13x9-inch baking dish. Cut bacon strips into thirds and wind each piece around a water chestnut, securing it with a toothpick. Place them in a single layer on an ungreased 15x10x1-inch baking sheet. Bake till the bacon is crisp, for 25 minutes. Transfer them to a paper towel-lined plate to drain and do not turn off the oven.",
+      "While the water chestnuts are baking, combine the ketchup and brown sugar in a small saucepan and cook, stirring, over medium heat, until the sugar is dissolved. Dip into the sauce and place into your prepared baking dish, working with one water chestnut at a time. Spoon the remaining sauce over the chestnuts and return to the oven. Bake for 10 minutes and serve."
+    ],
+    "sourceUrl": "https://www.tasteofhome.com/recipes/bacon-wrapped-water-chestnuts/",
+    "mealLists": [
+      "saved"
+    ],
+    "notes": "Imported from byonandlara.com (recipe_id=49, Appetizers)",
+    "externalId": "byl-49"
+  }
+}

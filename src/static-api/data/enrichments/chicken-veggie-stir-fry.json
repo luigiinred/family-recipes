@@ -1,0 +1,204 @@
+{
+  "scraped": {
+    "title": "Chicken Stir Fry Recipe",
+    "description": "This Chicken Stir Fry recipe is perfect for a quick &amp; easy dinner meal. It has lots of chicken and veggies and a super delicious stir fry sauce!",
+    "imageUrl": "https://www.budgetbytes.com/wp-content/uploads/2024/01/Chicken-Stir-Fry-Pan.jpg",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "servings": 6,
+    "ingredients": [
+      {
+        "amount": "⅓",
+        "unit": "cup",
+        "name": "soy sauce ($0.44)"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "brown sugar ($0.09)"
+      },
+      {
+        "amount": "",
+        "unit": "tsp",
+        "name": "toasted sesame oil ($0.20)"
+      },
+      {
+        "amount": "",
+        "unit": "garlic",
+        "name": "cloves (minced, $0.16)"
+      },
+      {
+        "amount": "",
+        "unit": "tsp",
+        "name": "fresh ginger (grated, $0.20)"
+      },
+      {
+        "amount": "½",
+        "unit": "Tbsp",
+        "name": "cornstarch ($0.08)"
+      },
+      {
+        "amount": "⅓",
+        "unit": "cup",
+        "name": "water ($0.00)"
+      },
+      {
+        "amount": "",
+        "unit": "tsp",
+        "name": "sriracha ($0.05)"
+      },
+      {
+        "amount": "¾",
+        "unit": "lb.",
+        "name": "broccoli ($1.62)"
+      },
+      {
+        "amount": "",
+        "unit": "carrots",
+        "name": "($0.50)"
+      },
+      {
+        "amount": "",
+        "unit": "red",
+        "name": "bell pepper ($1.27)"
+      },
+      {
+        "amount": "",
+        "unit": "small",
+        "name": "onion ($0.58)"
+      },
+      {
+        "amount": "",
+        "unit": "green",
+        "name": "onions ($0.22)"
+      },
+      {
+        "amount": "",
+        "unit": "chicken",
+        "name": "breasts (boneless, skinless (about 1.5 lb. total) $3.85*)"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "cooking oil (divided, $0.12**)"
+      }
+    ],
+    "steps": [
+      "Start by making the stir fry sauce. Combine the soy sauce, brown sugar, toasted sesame oil, garlic, ginger, sriracha, cornstarch and water in a small bowl. Set the sauce aside.",
+      "Chop the broccoli into small florets. Slice the red bell pepper, onion, and carrots into similar sized pieces. Slice the green onions. Set all the vegetables aside.",
+      "Next, cut the chicken breasts into small ½ inch sized pieces.",
+      "Heat a very large skillet or wok over medium-high heat. Once hot add 2 Tbsp of cooking oil and swirl to coat the surface of the skillet. Add the chicken and cook until browned on all sides. Be careful not to overcook the chicken. Once the chicken is browned, remove it from the skillet onto a separate plate and set aside.",
+      "In the same skillet, add the remaining 1 Tbsp of cooking oil along with the carrots and broccoli. Cook and stir for one minute, or just until the broccoli begins to turn bright green.",
+      "Next, add the red bell pepper and onion to the skillet. Continue to cook and stir for 1-2 more minutes.",
+      "Give the stir fry sauce another brief stir. Now add the cooked chicken back to the skillet, then pour the stir fry sauce over the chicken and vegetables. Give everything a stir and allow the sauce to come up to a simmer, at which point it will start to thicken and turn glossy. Continue to cook for 1-2 more minutes or until it has reached your desired doneness.",
+      "Remove it from the heat, top with green onions and sesame seeds (optional) and serve!"
+    ],
+    "source": "json-ld"
+  },
+  "merged": {
+    "id": "27",
+    "slug": "chicken-veggie-stir-fry",
+    "title": "Chicken and Veggie Stir Fry",
+    "description": "This Chicken Stir Fry recipe is perfect for a quick &amp; easy dinner meal. It has lots of chicken and veggies and a super delicious stir fry sauce!",
+    "imageUrl": "https://www.budgetbytes.com/wp-content/uploads/2024/01/Chicken-Stir-Fry-Pan.jpg",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "servings": 6,
+    "tags": [
+      "asian",
+      "chicken",
+      "stir-fry"
+    ],
+    "ingredients": [
+      {
+        "amount": "⅓",
+        "unit": "cup",
+        "name": "soy sauce ($0.44)"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "brown sugar ($0.09)"
+      },
+      {
+        "amount": "",
+        "unit": "tsp",
+        "name": "toasted sesame oil ($0.20)"
+      },
+      {
+        "amount": "",
+        "unit": "garlic",
+        "name": "cloves (minced, $0.16)"
+      },
+      {
+        "amount": "",
+        "unit": "tsp",
+        "name": "fresh ginger (grated, $0.20)"
+      },
+      {
+        "amount": "½",
+        "unit": "Tbsp",
+        "name": "cornstarch ($0.08)"
+      },
+      {
+        "amount": "⅓",
+        "unit": "cup",
+        "name": "water ($0.00)"
+      },
+      {
+        "amount": "",
+        "unit": "tsp",
+        "name": "sriracha ($0.05)"
+      },
+      {
+        "amount": "¾",
+        "unit": "lb.",
+        "name": "broccoli ($1.62)"
+      },
+      {
+        "amount": "",
+        "unit": "carrots",
+        "name": "($0.50)"
+      },
+      {
+        "amount": "",
+        "unit": "red",
+        "name": "bell pepper ($1.27)"
+      },
+      {
+        "amount": "",
+        "unit": "small",
+        "name": "onion ($0.58)"
+      },
+      {
+        "amount": "",
+        "unit": "green",
+        "name": "onions ($0.22)"
+      },
+      {
+        "amount": "",
+        "unit": "chicken",
+        "name": "breasts (boneless, skinless (about 1.5 lb. total) $3.85*)"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "cooking oil (divided, $0.12**)"
+      }
+    ],
+    "steps": [
+      "Start by making the stir fry sauce. Combine the soy sauce, brown sugar, toasted sesame oil, garlic, ginger, sriracha, cornstarch and water in a small bowl. Set the sauce aside.",
+      "Chop the broccoli into small florets. Slice the red bell pepper, onion, and carrots into similar sized pieces. Slice the green onions. Set all the vegetables aside.",
+      "Next, cut the chicken breasts into small ½ inch sized pieces.",
+      "Heat a very large skillet or wok over medium-high heat. Once hot add 2 Tbsp of cooking oil and swirl to coat the surface of the skillet. Add the chicken and cook until browned on all sides. Be careful not to overcook the chicken. Once the chicken is browned, remove it from the skillet onto a separate plate and set aside.",
+      "In the same skillet, add the remaining 1 Tbsp of cooking oil along with the carrots and broccoli. Cook and stir for one minute, or just until the broccoli begins to turn bright green.",
+      "Next, add the red bell pepper and onion to the skillet. Continue to cook and stir for 1-2 more minutes.",
+      "Give the stir fry sauce another brief stir. Now add the cooked chicken back to the skillet, then pour the stir fry sauce over the chicken and vegetables. Give everything a stir and allow the sauce to come up to a simmer, at which point it will start to thicken and turn glossy. Continue to cook for 1-2 more minutes or until it has reached your desired doneness.",
+      "Remove it from the heat, top with green onions and sesame seeds (optional) and serve!"
+    ],
+    "mealLists": [
+      "saved"
+    ],
+    "sourceUrl": "https://www.budgetbytes.com/chicken-stir-fry/"
+  }
+}

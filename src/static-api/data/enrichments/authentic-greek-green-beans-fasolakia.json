@@ -1,0 +1,188 @@
+{
+  "scraped": {
+    "title": "Greek Green Beans (Fasolakia)",
+    "description": "All-star recipe for Greek Green Beans. Velvety, tender green beans &amp; potatoes, braised in a tomato-olive oil sauce. Flavor-packed, satisfying, vegan, and gluten-free.",
+    "imageUrl": "https://www.themediterraneandish.com/wp-content/uploads/2025/08/TMD-Green-Beans-Fasolakia-Leads-01.jpg",
+    "prepMinutes": 10,
+    "cookMinutes": 50,
+    "servings": 6,
+    "ingredients": [
+      {
+        "amount": "/2",
+        "unit": "cup",
+        "name": "extra virgin olive oil ((divided))"
+      },
+      {
+        "amount": "",
+        "unit": "large",
+        "name": "yellow onion, (finely chopped)"
+      },
+      {
+        "amount": "",
+        "unit": "garlic",
+        "name": "cloves, (minced)"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoon",
+        "name": "ground cumin"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoon",
+        "name": "dried oregano"
+      },
+      {
+        "amount": "",
+        "unit": "",
+        "name": "(28 ounce) can peeled whole tomatoes"
+      },
+      {
+        "amount": "",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": "",
+        "unit": "bay",
+        "name": "leaf"
+      },
+      {
+        "amount": "1/2",
+        "unit": "pounds",
+        "name": "green beans, (trimmed and cut into 1 1/2-inch pieces (frozen green beans work wonderfully in this recipe))"
+      },
+      {
+        "amount": "",
+        "unit": "Yukon",
+        "name": "Gold potatoes ((about 1 pound), cut into small pieces (1/2 to 3/4-inch))"
+      },
+      {
+        "amount": "",
+        "unit": "Kosher",
+        "name": "salt"
+      },
+      {
+        "amount": "",
+        "unit": "Black",
+        "name": "pepper"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "fresh lemon juice"
+      },
+      {
+        "amount": "/2",
+        "unit": "cup",
+        "name": "chopped fresh parsley leaves"
+      }
+    ],
+    "steps": [
+      "Get ready. Preheat your oven to 300°F.",
+      "Soften the onions. In a large Dutch oven, heat half of the olive oil over medium. Add the onion and cook until tender, stirring occasionally, about 5 minutes. Then add the garlic, cumin, and oregano. Cook another 2 minutes, stirring regularly.",
+      "Simmer the beans. Add tomatoes, water, bay leaf, green beans beans, and potatoes. Season with salt and pepper. Raise the heat and bring to a high simmer for 15 minutes, stirring occasionally.",
+      "Cover and transfer to the heated oven. Cook until the sauce slightly thickens, and the beans and potatoes can easily be cut with side of your fork; about 35 minutes or so. (It’s a good idea to check once partway through cooking, add a little bit of water if needed.)",
+      "Season and serve. Remove from oven and stir in the lemon juice, parsley, and remaining olive oil. Enjoy!"
+    ],
+    "source": "json-ld"
+  },
+  "merged": {
+    "id": "34",
+    "slug": "authentic-greek-green-beans-fasolakia",
+    "title": "Authentic Greek Green Beans (Fasolakia Lathera)",
+    "description": "All-star recipe for Greek Green Beans. Velvety, tender green beans &amp; potatoes, braised in a tomato-olive oil sauce. Flavor-packed, satisfying, vegan, and gluten-free.",
+    "imageUrl": "https://www.themediterraneandish.com/wp-content/uploads/2025/08/TMD-Green-Beans-Fasolakia-Leads-01.jpg",
+    "prepMinutes": 10,
+    "cookMinutes": 50,
+    "servings": 6,
+    "tags": [
+      "greek",
+      "vegetarian",
+      "beans"
+    ],
+    "ingredients": [
+      {
+        "amount": "/2",
+        "unit": "cup",
+        "name": "extra virgin olive oil ((divided))"
+      },
+      {
+        "amount": "",
+        "unit": "large",
+        "name": "yellow onion, (finely chopped)"
+      },
+      {
+        "amount": "",
+        "unit": "garlic",
+        "name": "cloves, (minced)"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoon",
+        "name": "ground cumin"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoon",
+        "name": "dried oregano"
+      },
+      {
+        "amount": "",
+        "unit": "",
+        "name": "(28 ounce) can peeled whole tomatoes"
+      },
+      {
+        "amount": "",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": "",
+        "unit": "bay",
+        "name": "leaf"
+      },
+      {
+        "amount": "1/2",
+        "unit": "pounds",
+        "name": "green beans, (trimmed and cut into 1 1/2-inch pieces (frozen green beans work wonderfully in this recipe))"
+      },
+      {
+        "amount": "",
+        "unit": "Yukon",
+        "name": "Gold potatoes ((about 1 pound), cut into small pieces (1/2 to 3/4-inch))"
+      },
+      {
+        "amount": "",
+        "unit": "Kosher",
+        "name": "salt"
+      },
+      {
+        "amount": "",
+        "unit": "Black",
+        "name": "pepper"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "fresh lemon juice"
+      },
+      {
+        "amount": "/2",
+        "unit": "cup",
+        "name": "chopped fresh parsley leaves"
+      }
+    ],
+    "steps": [
+      "Get ready. Preheat your oven to 300°F.",
+      "Soften the onions. In a large Dutch oven, heat half of the olive oil over medium. Add the onion and cook until tender, stirring occasionally, about 5 minutes. Then add the garlic, cumin, and oregano. Cook another 2 minutes, stirring regularly.",
+      "Simmer the beans. Add tomatoes, water, bay leaf, green beans beans, and potatoes. Season with salt and pepper. Raise the heat and bring to a high simmer for 15 minutes, stirring occasionally.",
+      "Cover and transfer to the heated oven. Cook until the sauce slightly thickens, and the beans and potatoes can easily be cut with side of your fork; about 35 minutes or so. (It’s a good idea to check once partway through cooking, add a little bit of water if needed.)",
+      "Season and serve. Remove from oven and stir in the lemon juice, parsley, and remaining olive oil. Enjoy!"
+    ],
+    "mealLists": [
+      "saved"
+    ],
+    "sourceUrl": "https://www.themediterraneandish.com/greek-green-beans-fasolakia/"
+  }
+}

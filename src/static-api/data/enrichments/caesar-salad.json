@@ -1,0 +1,148 @@
+{
+  "scraped": {
+    "title": "Caesar Salad",
+    "description": "This easy Caesar Salad recipe is made with homemade croutons and a rich &amp; flavor salad dressing. It’s simple enough to make any day of the week!",
+    "imageUrl": "https://www.budgetbytes.com/wp-content/uploads/2024/03/Caesar-Salad-Plated.jpg",
+    "prepMinutes": 20,
+    "cookMinutes": 0,
+    "servings": 6,
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "fresh",
+        "name": "lemon ($0.79)"
+      },
+      {
+        "amount": "",
+        "unit": "cloves",
+        "name": "garlic ($0.24)"
+      },
+      {
+        "amount": "",
+        "unit": "anchovy",
+        "name": "filets (packed in oil, $0.86)"
+      },
+      {
+        "amount": "/4",
+        "unit": "tsp",
+        "name": "freshly cracked black pepper ($0.02)"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "Dijon mustard ($0.20)"
+      },
+      {
+        "amount": "/2",
+        "unit": "cup",
+        "name": "mayonnaise ($0.66)"
+      },
+      {
+        "amount": "/4",
+        "unit": "cup",
+        "name": "grated Parmesan ($0.40)"
+      },
+      {
+        "amount": "",
+        "unit": "cups",
+        "name": "romaine lettuce (chopped, $3.73)"
+      },
+      {
+        "amount": "",
+        "unit": "cups",
+        "name": "croutons ($0.71)"
+      },
+      {
+        "amount": "/2",
+        "unit": "cup",
+        "name": "shredded Parmesan ($0.89)"
+      }
+    ],
+    "steps": [
+      "Start by making the Caesar salad dressing. Zest and juice the lemon. You&#39;ll need about 3 Tbsp juice and 1 tsp lemon zest. Finely mince the garlic and anchovy filets. Reserve about ½ tsp of the oil from the anchovy container.",
+      "In a medium bowl add the lemon juice, zest, minced garlic, minced anchovies, anchovy oil, and pepper. Whisk to combine.",
+      "Add the Dijon mustard, mayonnaise, and grated Parmesan to the bowl and whisk to combine again. Taste the dressing and adjust the ingredients to your liking.",
+      "Next chop, wash, and dry the Romaine lettuce. Add the lettuce to a large bowl.",
+      "Top the lettuce with the croutons, shredded Parmesan, and half of the salad dressing (start with half the dressing and add more as needed). Toss the salad until everything is coated in the dressing. Serve with extra Parmesan cheese and freshly cracked black pepper on top (optional). Enjoy!"
+    ],
+    "source": "json-ld"
+  },
+  "merged": {
+    "id": "1",
+    "slug": "caesar-salad",
+    "title": "Caesar Salad",
+    "description": "This easy Caesar Salad recipe is made with homemade croutons and a rich &amp; flavor salad dressing. It’s simple enough to make any day of the week!",
+    "imageUrl": "https://www.budgetbytes.com/wp-content/uploads/2024/03/Caesar-Salad-Plated.jpg",
+    "prepMinutes": 20,
+    "cookMinutes": 0,
+    "servings": 6,
+    "tags": [
+      "salad"
+    ],
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "fresh",
+        "name": "lemon ($0.79)"
+      },
+      {
+        "amount": "",
+        "unit": "cloves",
+        "name": "garlic ($0.24)"
+      },
+      {
+        "amount": "",
+        "unit": "anchovy",
+        "name": "filets (packed in oil, $0.86)"
+      },
+      {
+        "amount": "/4",
+        "unit": "tsp",
+        "name": "freshly cracked black pepper ($0.02)"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "Dijon mustard ($0.20)"
+      },
+      {
+        "amount": "/2",
+        "unit": "cup",
+        "name": "mayonnaise ($0.66)"
+      },
+      {
+        "amount": "/4",
+        "unit": "cup",
+        "name": "grated Parmesan ($0.40)"
+      },
+      {
+        "amount": "",
+        "unit": "cups",
+        "name": "romaine lettuce (chopped, $3.73)"
+      },
+      {
+        "amount": "",
+        "unit": "cups",
+        "name": "croutons ($0.71)"
+      },
+      {
+        "amount": "/2",
+        "unit": "cup",
+        "name": "shredded Parmesan ($0.89)"
+      }
+    ],
+    "steps": [
+      "Start by making the Caesar salad dressing. Zest and juice the lemon. You&#39;ll need about 3 Tbsp juice and 1 tsp lemon zest. Finely mince the garlic and anchovy filets. Reserve about ½ tsp of the oil from the anchovy container.",
+      "In a medium bowl add the lemon juice, zest, minced garlic, minced anchovies, anchovy oil, and pepper. Whisk to combine.",
+      "Add the Dijon mustard, mayonnaise, and grated Parmesan to the bowl and whisk to combine again. Taste the dressing and adjust the ingredients to your liking.",
+      "Next chop, wash, and dry the Romaine lettuce. Add the lettuce to a large bowl.",
+      "Top the lettuce with the croutons, shredded Parmesan, and half of the salad dressing (start with half the dressing and add more as needed). Toss the salad until everything is coated in the dressing. Serve with extra Parmesan cheese and freshly cracked black pepper on top (optional). Enjoy!"
+    ],
+    "mealLists": [
+      "to-make"
+    ],
+    "notes": "Make x2",
+    "sourceUrl": "https://www.budgetbytes.com/caesar-salad/",
+    "effort": "low"
+  }
+}

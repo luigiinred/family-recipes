@@ -1,0 +1,252 @@
+{
+  "scraped": {
+    "title": "Chicken Lettuce Wraps",
+    "description": "These Chicken Lettuce Wraps are full of freshness and bold flavor, easy to prepare, and satisfying in every bite!",
+    "imageUrl": "https://www.budgetbytes.com/wp-content/uploads/2023/07/Chicken-Lettuce-Wraps-overhead.jpg",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "amount": "¼",
+        "unit": "cup",
+        "name": "hoisin sauce ($0.36)"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "soy sauce ($0.14)"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "rice vinegar ($0.12)"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "toasted sesame oil ($0.27)"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "fresh grated ginger ($0.60)"
+      },
+      {
+        "amount": "",
+        "unit": "cloves",
+        "name": "garlic (minced, $0.16)"
+      },
+      {
+        "amount": "",
+        "unit": "red",
+        "name": "bell pepper ($1.48*)"
+      },
+      {
+        "amount": "",
+        "unit": "oz.",
+        "name": "canned water chestnuts (drained, $1.24)"
+      },
+      {
+        "amount": "",
+        "unit": "green",
+        "name": "onions ($0.22)"
+      },
+      {
+        "amount": "¼",
+        "unit": "cup",
+        "name": "peanuts ($0.12)"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "cooking oil ($0.04)"
+      },
+      {
+        "amount": "",
+        "unit": "lb",
+        "name": "ground chicken ( ground turkey or pork also works, $3.72**)"
+      },
+      {
+        "amount": "",
+        "unit": "lettuce",
+        "name": "leaves ($3.12)"
+      },
+      {
+        "amount": "½",
+        "unit": "Tbsp",
+        "name": "peanut butter (natural style, $0.11)"
+      },
+      {
+        "amount": "½",
+        "unit": "Tbsp",
+        "name": "brown sugar ($0.02)"
+      },
+      {
+        "amount": "",
+        "unit": "clove",
+        "name": "garlic (minced, $0.08)"
+      },
+      {
+        "amount": "¼",
+        "unit": "tsp",
+        "name": "fresh grated ginger ($0.06)"
+      },
+      {
+        "amount": "",
+        "unit": "medium",
+        "name": "lime (juiced, 1 Tbsp juice, $0.21)"
+      },
+      {
+        "amount": "",
+        "unit": "tsp",
+        "name": "soy sauce ($0.04)"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "neutral oil ($0.08)"
+      }
+    ],
+    "steps": [
+      "First, make the sauce for the chicken lettuce wraps. In a small bowl combine the hoisin sauce, soy sauce, rice vinegar, toasted sesame oil, fresh grated ginger and minced garlic. Set the sauce aside.",
+      "Next chop the red bell pepper and water chestnuts into similar size pieces. Then slice the green onions and give the peanuts a rough chop. Set veggies and nuts aside.",
+      "Heat a large skillet over medium heat and add the cooking oil. Once oil is heated, add the ground chicken, crumble and cook until browned.",
+      "Add the red bell pepper and water chestnuts to the skillet. Saute for two minutes.",
+      "Pour the prepared sauce mixture into the skillet and mix well. Cook for two more minutes to allow the sauce to soak into the chicken and vegetables. Remove from the heat and top with green onions and chopped peanuts.",
+      "Next, make the peanut lime dressing. In a small bowl combine the natural style peanut butter, brown sugar, minced garlic clove, freshly grated ginger, 1 Tbsp of lime juice, soy sauce, and the neutral oil. Whisk or stir together well and set aside.",
+      "Serve ⅓ cup of the chicken and vegetable mixture inside each lettuce wrap and drizzle a little of the peanut lime dressing on top. Enjoy!"
+    ],
+    "source": "json-ld"
+  },
+  "merged": {
+    "id": "17",
+    "slug": "asian-chicken-lettuce-wraps",
+    "title": "Asian Chicken Lettuce Wraps",
+    "description": "These Chicken Lettuce Wraps are full of freshness and bold flavor, easy to prepare, and satisfying in every bite!",
+    "imageUrl": "https://www.budgetbytes.com/wp-content/uploads/2023/07/Chicken-Lettuce-Wraps-overhead.jpg",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "servings": 4,
+    "tags": [
+      "asian",
+      "chicken",
+      "low-carb"
+    ],
+    "ingredients": [
+      {
+        "amount": "¼",
+        "unit": "cup",
+        "name": "hoisin sauce ($0.36)"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "soy sauce ($0.14)"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "rice vinegar ($0.12)"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "toasted sesame oil ($0.27)"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "fresh grated ginger ($0.60)"
+      },
+      {
+        "amount": "",
+        "unit": "cloves",
+        "name": "garlic (minced, $0.16)"
+      },
+      {
+        "amount": "",
+        "unit": "red",
+        "name": "bell pepper ($1.48*)"
+      },
+      {
+        "amount": "",
+        "unit": "oz.",
+        "name": "canned water chestnuts (drained, $1.24)"
+      },
+      {
+        "amount": "",
+        "unit": "green",
+        "name": "onions ($0.22)"
+      },
+      {
+        "amount": "¼",
+        "unit": "cup",
+        "name": "peanuts ($0.12)"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "cooking oil ($0.04)"
+      },
+      {
+        "amount": "",
+        "unit": "lb",
+        "name": "ground chicken ( ground turkey or pork also works, $3.72**)"
+      },
+      {
+        "amount": "",
+        "unit": "lettuce",
+        "name": "leaves ($3.12)"
+      },
+      {
+        "amount": "½",
+        "unit": "Tbsp",
+        "name": "peanut butter (natural style, $0.11)"
+      },
+      {
+        "amount": "½",
+        "unit": "Tbsp",
+        "name": "brown sugar ($0.02)"
+      },
+      {
+        "amount": "",
+        "unit": "clove",
+        "name": "garlic (minced, $0.08)"
+      },
+      {
+        "amount": "¼",
+        "unit": "tsp",
+        "name": "fresh grated ginger ($0.06)"
+      },
+      {
+        "amount": "",
+        "unit": "medium",
+        "name": "lime (juiced, 1 Tbsp juice, $0.21)"
+      },
+      {
+        "amount": "",
+        "unit": "tsp",
+        "name": "soy sauce ($0.04)"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "neutral oil ($0.08)"
+      }
+    ],
+    "steps": [
+      "First, make the sauce for the chicken lettuce wraps. In a small bowl combine the hoisin sauce, soy sauce, rice vinegar, toasted sesame oil, fresh grated ginger and minced garlic. Set the sauce aside.",
+      "Next chop the red bell pepper and water chestnuts into similar size pieces. Then slice the green onions and give the peanuts a rough chop. Set veggies and nuts aside.",
+      "Heat a large skillet over medium heat and add the cooking oil. Once oil is heated, add the ground chicken, crumble and cook until browned.",
+      "Add the red bell pepper and water chestnuts to the skillet. Saute for two minutes.",
+      "Pour the prepared sauce mixture into the skillet and mix well. Cook for two more minutes to allow the sauce to soak into the chicken and vegetables. Remove from the heat and top with green onions and chopped peanuts.",
+      "Next, make the peanut lime dressing. In a small bowl combine the natural style peanut butter, brown sugar, minced garlic clove, freshly grated ginger, 1 Tbsp of lime juice, soy sauce, and the neutral oil. Whisk or stir together well and set aside.",
+      "Serve ⅓ cup of the chicken and vegetable mixture inside each lettuce wrap and drizzle a little of the peanut lime dressing on top. Enjoy!"
+    ],
+    "mealLists": [
+      "saved"
+    ],
+    "sourceUrl": "https://www.budgetbytes.com/chicken-lettuce-wraps/"
+  }
+}

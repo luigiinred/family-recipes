@@ -4,117 +4,404 @@
       "id": "1",
       "slug": "caesar-salad",
       "title": "Caesar Salad",
-      "description": "Classic Caesar salad — plan to make 2 batches.",
-      "imageUrl": "",
-      "prepMinutes": 0,
+      "description": "This easy Caesar Salad recipe is made with homemade croutons and a rich &amp; flavor salad dressing. It’s simple enough to make any day of the week!",
+      "imageUrl": "https://www.budgetbytes.com/wp-content/uploads/2024/03/Caesar-Salad-Plated.jpg",
+      "prepMinutes": 20,
       "cookMinutes": 0,
-      "servings": 4,
+      "servings": 6,
       "tags": [
         "salad"
       ],
-      "ingredients": [],
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "fresh",
+          "name": "lemon ($0.79)"
+        },
+        {
+          "amount": "",
+          "unit": "cloves",
+          "name": "garlic ($0.24)"
+        },
+        {
+          "amount": "",
+          "unit": "anchovy",
+          "name": "filets (packed in oil, $0.86)"
+        },
+        {
+          "amount": "/4",
+          "unit": "tsp",
+          "name": "freshly cracked black pepper ($0.02)"
+        },
+        {
+          "amount": "",
+          "unit": "Tbsp",
+          "name": "Dijon mustard ($0.20)"
+        },
+        {
+          "amount": "/2",
+          "unit": "cup",
+          "name": "mayonnaise ($0.66)"
+        },
+        {
+          "amount": "/4",
+          "unit": "cup",
+          "name": "grated Parmesan ($0.40)"
+        },
+        {
+          "amount": "",
+          "unit": "cups",
+          "name": "romaine lettuce (chopped, $3.73)"
+        },
+        {
+          "amount": "",
+          "unit": "cups",
+          "name": "croutons ($0.71)"
+        },
+        {
+          "amount": "/2",
+          "unit": "cup",
+          "name": "shredded Parmesan ($0.89)"
+        }
+      ],
       "steps": [
-        "See source link or add steps when you cook this."
+        "Start by making the Caesar salad dressing. Zest and juice the lemon. You&#39;ll need about 3 Tbsp juice and 1 tsp lemon zest. Finely mince the garlic and anchovy filets. Reserve about ½ tsp of the oil from the anchovy container.",
+        "In a medium bowl add the lemon juice, zest, minced garlic, minced anchovies, anchovy oil, and pepper. Whisk to combine.",
+        "Add the Dijon mustard, mayonnaise, and grated Parmesan to the bowl and whisk to combine again. Taste the dressing and adjust the ingredients to your liking.",
+        "Next chop, wash, and dry the Romaine lettuce. Add the lettuce to a large bowl.",
+        "Top the lettuce with the croutons, shredded Parmesan, and half of the salad dressing (start with half the dressing and add more as needed). Toss the salad until everything is coated in the dressing. Serve with extra Parmesan cheese and freshly cracked black pepper on top (optional). Enjoy!"
       ],
       "mealLists": [
         "to-make"
       ],
       "notes": "Make x2",
-      "sourceUrl": "https://www.simplyrecipes.com/recipes/122816-caesar-salad/",
+      "sourceUrl": "https://www.budgetbytes.com/caesar-salad/",
       "effort": "low"
     },
     {
       "id": "2",
       "slug": "mediterranean-salad",
       "title": "Mediterranean Salad",
-      "description": "Fresh Mediterranean-style salad.",
-      "imageUrl": "",
-      "prepMinutes": 0,
+      "description": "With crisp veggies, salty feta, hearty chickpeas and a bright lemon vinaigrette, this easy Mediterranean salad recipe is so full of flavor!",
+      "imageUrl": "https://www.wellplated.com/wp-content/uploads/2024/12/Best-Mediterranean-Salad-Recipe.jpg",
+      "prepMinutes": 15,
       "cookMinutes": 0,
       "servings": 4,
       "tags": [
         "salad",
         "mediterranean"
       ],
-      "ingredients": [],
+      "ingredients": [
+        {
+          "amount": "½",
+          "unit": "cup",
+          "name": "thinly sliced red onion"
+        },
+        {
+          "amount": "",
+          "unit": "ounces",
+          "name": "arugula (spinach, or mixed greens of choice)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "(15-ounce) can reduced sodium chickpeas (rinsed and drained)"
+        },
+        {
+          "amount": "½",
+          "unit": "English",
+          "name": "cucumber (halved lengthwise, seeded, and sliced 1/4-inch thick (heaping 1 cup))"
+        },
+        {
+          "amount": "",
+          "unit": "pint",
+          "name": "grape or cherry tomatoes (halved (scant 2 cups))"
+        },
+        {
+          "amount": "",
+          "unit": "small",
+          "name": "red bell pepper (cut into 1/2-inch dice (1 heaping cup))"
+        },
+        {
+          "amount": "⅔",
+          "unit": "cup",
+          "name": "crumbled feta cheese"
+        },
+        {
+          "amount": "",
+          "unit": "Lemon",
+          "name": "vinaigrette"
+        }
+      ],
       "steps": [
-        "See source link or add steps when you cook this."
+        "Place the red onion in a small bowl and cover with cold water. Let sit at least 5 minutes, then drain (this removes some of the harsh bite).",
+        "Place the arugula in a large bowl and drizzle lightly with the dressing. Toss to coat.",
+        "Add the cucumber, cherry tomatoes, bell pepper, chickpeas, and drained red onion. Drizzle with a little more dressing then toss gently to combine.",
+        "Last, add 3/4 of the feta, and toss very gently. Add salt and pepper to taste. Sprinkle the remaining feta over the top. Divide between serving bowls and serve with additional dressing as desired."
       ],
       "mealLists": [
         "to-make"
       ],
-      "sourceUrl": "https://www.loveandlemons.com/mediterranean-salad-recipe/",
+      "sourceUrl": "https://www.wellplated.com/mediterranean-salad/",
       "effort": "low"
     },
     {
       "id": "3",
       "slug": "air-fried-veggies-tilapia",
       "title": "Air Fried Veggies and Tilapia",
-      "description": "Air fryer tilapia with mixed vegetables.",
-      "imageUrl": "",
-      "prepMinutes": 0,
-      "cookMinutes": 0,
-      "servings": 4,
+      "description": "This sheet-pan tilapia recipe with vegetables is super easy, quick, and healthy for your busy weeknights!",
+      "imageUrl": "https://www.eatwell101.com/wp-content/uploads/2017/06/baked-white-fish-recipe.jpg",
+      "prepMinutes": 5,
+      "cookMinutes": 20,
+      "servings": 3,
       "tags": [
         "air-fryer",
         "fish",
         "low-carb"
       ],
-      "ingredients": [],
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "tilapia",
+          "name": "fillets (or any white fish, wild-caught if possible)"
+        },
+        {
+          "amount": "",
+          "unit": "large",
+          "name": "sweet potato, cut into fries (or 2 medium)"
+        },
+        {
+          "amount": "",
+          "unit": "broccoli",
+          "name": "head, cut into florets"
+        },
+        {
+          "amount": "/2",
+          "unit": "cup",
+          "name": "freshly squeezed lime juice (or juice of 2 limes)"
+        },
+        {
+          "amount": "/4",
+          "unit": "cup",
+          "name": "fresh chopped cilantro"
+        },
+        {
+          "amount": "",
+          "unit": "tablespoons",
+          "name": "olive oil + 2 for veggies"
+        },
+        {
+          "amount": "",
+          "unit": "tablespoons",
+          "name": "water"
+        },
+        {
+          "amount": "",
+          "unit": "tablespoon",
+          "name": "honey"
+        },
+        {
+          "amount": "",
+          "unit": "tablespoon",
+          "name": "minced garlic (or 4 crushed garlic cloves)"
+        },
+        {
+          "amount": "",
+          "unit": "teaspoon",
+          "name": "red chili flakes, or to taste"
+        },
+        {
+          "amount": "/2",
+          "unit": "teaspoon",
+          "name": "chili powder"
+        },
+        {
+          "amount": "/8",
+          "unit": "teaspoon",
+          "name": "ground cumin"
+        },
+        {
+          "amount": "",
+          "unit": "Salt",
+          "name": "and fresh cracked pepper"
+        },
+        {
+          "amount": "",
+          "unit": "tablespoons",
+          "name": "chopped cilantro leaves, for garnish"
+        },
+        {
+          "amount": "",
+          "unit": "small",
+          "name": "bird-eye pepper, sliced for garnish, optional"
+        }
+      ],
       "steps": [
-        "See source link or add steps when you cook this."
+        "Preheat your oven to 425°F (210°C). Lightly oil a baking sheet or coat with nonstick spray.",
+        "Whisk together 2 tablespoons olive oil, water, garlic, lime juice, honey, chili flakes, chili powder, cumin and cilantro in a small bowl.",
+        "Place sweet potato fries and broccoli in a single layer onto the prepared baking sheet. Stir in 2 tablespoons olive oil; season with salt and pepper, to taste, and mix well. Make some space for the white fish fillets and place tilapia in the reserved spaces. Brush fish with the chili-lime mixture.",
+        "Bake until fish flakes easily with a fork and the broccoli begin to crisp up on the edges and have softened, about 20 – 25 minutes. Serve the baked tilapia garnished with cilantro, sliced chili peppers and lime wedges, if desired. Enjoy!",
+        "Note: Tilapia is a versatile and mild fish, but sometimes is has an off-flavor that some cooks would call “muddy”. Don’t hesitate to go heavy on spices as it will greatly reduce this off-flavor and enhance the taste of the fish."
       ],
       "mealLists": [
         "to-make"
       ],
-      "sourceUrl": "https://www.eatwell101.com/air-fryer-lemon-garlic-tilapia-recipe",
+      "sourceUrl": "https://www.eatwell101.com/sheet-pan-tilapia-white-fish-recipe",
       "effort": "low"
     },
     {
       "id": "4",
       "slug": "air-fried-veggies-shrimp",
       "title": "Air Fried Veggies and Shrimp",
-      "description": "Air fryer shrimp with mixed vegetables.",
-      "imageUrl": "",
-      "prepMinutes": 0,
-      "cookMinutes": 0,
-      "servings": 4,
+      "description": "This easy garlic butter shrimp recipe is an amazing flavor combination of garlicky, buttery goodness.",
+      "imageUrl": "https://www.eatwell101.com/wp-content/uploads/2019/07/healthy-Shrimp-Recipe-1.jpg",
+      "prepMinutes": 5,
+      "cookMinutes": 10,
+      "servings": 2,
       "tags": [
         "air-fryer",
         "seafood"
       ],
-      "ingredients": [],
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "tablespoons",
+          "name": "(1 stick) unsalted butter, divided"
+        },
+        {
+          "amount": "1/2",
+          "unit": "pounds",
+          "name": "(700g)  extra-large shrimp, peeled and deveined"
+        },
+        {
+          "amount": "",
+          "unit": "Kosher",
+          "name": "salt and freshly ground black pepper, to taste"
+        },
+        {
+          "amount": "",
+          "unit": "cloves",
+          "name": "garlic, minced"
+        },
+        {
+          "amount": "/2",
+          "unit": "teaspoon",
+          "name": "onion powder"
+        },
+        {
+          "amount": "/4",
+          "unit": "cup",
+          "name": "(60ml) chicken stock"
+        },
+        {
+          "amount": "",
+          "unit": "teaspoon",
+          "name": "hot sauce of your choice (we used Sriracha)"
+        },
+        {
+          "amount": "/2",
+          "unit": "Juice",
+          "name": "of  lemon, or more, to taste"
+        },
+        {
+          "amount": "",
+          "unit": "tablespoons",
+          "name": "chopped fresh parsley, for garnish"
+        },
+        {
+          "amount": "",
+          "unit": "Crushed",
+          "name": "red chili pepper flakes, optional"
+        }
+      ],
       "steps": [
-        "See source link or add steps when you cook this."
+        "To make your garlic butter shrimp: Melt 2 tablespoons butter in a large skillet over medium-high heat. In a bowl, season shrimp with salt, pepper, and onion powder, to taste. Add shrimp to the skillet and cook, stirring occasionally, until shrimp is pink, about 2-3 minutes; then set aside on a shallow plate.",
+        "Add garlic to the same skillet and cook, stirring frequently, until fragrant, about 1 minute. Stir in chicken stock, hot sauce, and lemon juice to deglaze. Bring to a boil; reduce heat and simmer until reduced by half, about 1-2 minutes. Stir in the remaining 6 tablespoons butter, 1 tablespoon at a time, until melted and smooth.",
+        "Stir in shrimp and gently toss to combine with the garlic butter sauce. Reheat for 1 minute, then serve the garlic butter shrimp immediately, garnished with chili pepper flakes and fresh chopped parsley, if desired. Enjoy! 🍤"
       ],
       "mealLists": [
         "to-make"
       ],
-      "sourceUrl": "https://www.eatwell101.com/air-fryer-shrimp-recipe",
+      "sourceUrl": "https://www.eatwell101.com/garlic-butter-shrimp-recipe",
       "effort": "low"
     },
     {
       "id": "5",
       "slug": "zero-calorie-pasta-veggies-shrimp",
       "title": "Zero Calorie Pasta with Veggies and Shrimp",
-      "description": "Shirataki or zero-cal pasta with shrimp and vegetables.",
-      "imageUrl": "",
-      "prepMinutes": 0,
-      "cookMinutes": 0,
-      "servings": 4,
+      "description": "These spicy Lime Shrimp Dragon Noodles are a fast, easy, and inexpensive alternative to take out. This version features tender shrimp and fresh lime.",
+      "imageUrl": "https://www.budgetbytes.com/wp-content/uploads/2016/05/Lime-Shrimp-Dragon-Noodles-stix-1.jpg",
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "servings": 2,
       "tags": [
         "low-carb",
         "seafood",
         "pasta"
       ],
-      "ingredients": [],
+      "ingredients": [
+        {
+          "amount": "/2",
+          "unit": "lb",
+          "name": "frozen peeled &amp; deveined shrimp (51/70 size) ($3.00)"
+        },
+        {
+          "amount": "",
+          "unit": "packs",
+          "name": "(3 oz. each) ramen noodles ($0.50)"
+        },
+        {
+          "amount": "",
+          "unit": "Tbsp",
+          "name": "sriracha  ( $0.18)"
+        },
+        {
+          "amount": "",
+          "unit": "Tbsp",
+          "name": "soy sauce  ($0.10)"
+        },
+        {
+          "amount": "",
+          "unit": "Tbsp",
+          "name": "brown sugar  ($0.08)"
+        },
+        {
+          "amount": "",
+          "unit": "lime",
+          "name": "($0.50)"
+        },
+        {
+          "amount": "",
+          "unit": "Tbsp",
+          "name": "butter  ($0.18)"
+        },
+        {
+          "amount": "",
+          "unit": "cloves",
+          "name": "garlic  ($0.16)"
+        },
+        {
+          "amount": "",
+          "unit": "green",
+          "name": "onions ($0.17)"
+        },
+        {
+          "amount": "",
+          "unit": "Handful",
+          "name": "fresh cilantro  ($0.10)"
+        }
+      ],
       "steps": [
-        "See source link or add steps when you cook this."
+        "Place the shrimp in a colander and rinse with cool water until thawed. Let the shrimp drain until ready to use.",
+        "In a small bowl stir together the sriracha, soy sauce, brown sugar, and about 1 Tbsp juice from the lime. Set the sauce aside.",
+        "Fill a medium sauce pot with water, place a lid on top, and bring to a boil over high heat. Once boiling, add the ramen noodles (without the flavoring packet) and continue to boil until the noodles are tender. Drain the noodles in a colander (if using the same colander for the shrimp, make sure to wash it with soap and water first).",
+        "While waiting for the water to boil, mince two cloves of garlic. Add the butter and garlic to a large skillet and sauté over medium heat until the garlic is soft (about one minute). Add the shrimp and continue to sauté until the shrimp turn pink and opaque (about 3-5 minutes). Remove the skillet from the heat.",
+        "Once the noodles have drained, add them to the skillet with the shrimp, then pour the prepared sauce over top. Toss the noodles in the sauce until everything is coated in sauce. Top the dragon noodles with sliced green onion, fresh cilantro leaves, and a squeeze of lime."
       ],
       "mealLists": [
         "to-make"
       ],
-      "sourceUrl": "https://www.eatwell101.com/shrimp-shirataki-noodle-stir-fry-recipe",
+      "sourceUrl": "https://www.budgetbytes.com/lime-shrimp-dragon-noodles/",
       "effort": "low"
     },
     {
@@ -336,24 +623,118 @@
       "id": "8",
       "slug": "freezer-soup",
       "title": "Freezer Soup",
-      "description": "Soup from the freezer — ready to heat and eat.",
-      "imageUrl": "",
-      "prepMinutes": 0,
-      "cookMinutes": 0,
-      "servings": 4,
+      "description": "This vegetable soup recipe is a healthy, homemade meal that&#39;s great for cold days. It&#39;s flexible and easy to make with simple pantry ingredients and whatever vegetables you have on hand.",
+      "imageUrl": "https://cdn.loveandlemons.com/wp-content/uploads/2019/12/vegetable-soup-500x500.jpg",
+      "prepMinutes": 10,
+      "cookMinutes": 30,
+      "servings": 6,
       "tags": [
         "soup",
         "freezer"
       ],
-      "ingredients": [],
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "tablespoons",
+          "name": "extra-virgin olive oil"
+        },
+        {
+          "amount": "",
+          "unit": "medium",
+          "name": "yellow onion (diced)"
+        },
+        {
+          "amount": "",
+          "unit": "teaspoon",
+          "name": "sea salt (plus more to taste)"
+        },
+        {
+          "amount": "",
+          "unit": "Freshly",
+          "name": "ground black pepper"
+        },
+        {
+          "amount": "",
+          "unit": "medium",
+          "name": "carrot (diced)"
+        },
+        {
+          "amount": "",
+          "unit": "small",
+          "name": "sweet potato (diced)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "(14.5-ounce) can fire roasted diced tomatoes"
+        },
+        {
+          "amount": "",
+          "unit": "garlic",
+          "name": "cloves (chopped)"
+        },
+        {
+          "amount": "",
+          "unit": "teaspoons",
+          "name": "dried oregano (or 2 tablespoons chopped fresh thyme or rosemary)"
+        },
+        {
+          "amount": "¼",
+          "unit": "teaspoon",
+          "name": "red pepper flakes (plus more to taste)"
+        },
+        {
+          "amount": "",
+          "unit": "cups",
+          "name": "vegetable broth"
+        },
+        {
+          "amount": "",
+          "unit": "bay",
+          "name": "leaves"
+        },
+        {
+          "amount": "",
+          "unit": "cup",
+          "name": "halved cherry tomatoes"
+        },
+        {
+          "amount": "",
+          "unit": "cup",
+          "name": "chopped green beans"
+        },
+        {
+          "amount": "",
+          "unit": "zucchini",
+          "name": "(diced)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "(15-ounce) can chickpeas (drained and rinsed)"
+        },
+        {
+          "amount": "",
+          "unit": "tablespoons",
+          "name": "white wine vinegar"
+        },
+        {
+          "amount": "½",
+          "unit": "cups",
+          "name": "chopped kale"
+        }
+      ],
       "steps": [
-        "See source link or add steps when you cook this."
+        "Heat the olive oil in a large pot over medium heat. Add the onion, salt, and several grinds of pepper and cook, stirring occasionally, for 8 minutes, or until softened. Add the carrot and sweet potato, stir, and cook for 2 more minutes.",
+        "Add the canned tomatoes, garlic, oregano, and red pepper flakes. Stir in the broth and bay leaves. Bring to a boil, then reduce the heat to a simmer and cook, covered, for 20 minutes.",
+        "Stir in the cherry tomatoes, green beans, zucchini, and chickpeas. Cover and cook for 10 to 15 more minutes, or until the green beans are tender.",
+        "Stir in the vinegar and the kale and cook for 5 minutes, or until the kale is wilted. Season to taste with salt and pepper and serve."
       ],
       "mealLists": [
         "to-eat",
         "freezer-meals"
       ],
-      "sourceUrl": "https://www.allrecipes.com/recipe/13113/veggie-soup/"
+      "sourceUrl": "https://www.loveandlemons.com/vegetable-soup/"
     },
     {
       "id": "9",
@@ -440,24 +821,119 @@
       "id": "10",
       "slug": "gigantes-butter-beans",
       "title": "Gigantes (Butter Beans)",
-      "description": "Greek giant beans baked in tomato sauce.",
-      "imageUrl": "",
-      "prepMinutes": 0,
-      "cookMinutes": 0,
+      "description": "Comforting and buttery gigantes plaki, or Greek giant baked beans, with tomatoes and olive oil make a satisfying vegetarian dinner any night of the week. Or, you can serve them as a side or as an appetizer (at room temperature) over crusty bread.",
+      "imageUrl": "https://www.themediterraneandish.com/wp-content/uploads/2022/12/Gigantes-Plaki-recipe-FINAL-8.jpg",
+      "prepMinutes": 10,
+      "cookMinutes": 30,
       "servings": 4,
       "tags": [
         "greek",
         "vegetarian",
         "beans"
       ],
-      "ingredients": [],
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "Extra",
+          "name": "-virgin olive oil"
+        },
+        {
+          "amount": "/2",
+          "unit": "large",
+          "name": "onion, (roughly chopped)"
+        },
+        {
+          "amount": "",
+          "unit": "large",
+          "name": "carrot, (peeled and roughly chopped)"
+        },
+        {
+          "amount": "",
+          "unit": "celery",
+          "name": "stalk, (roughly chopped)"
+        },
+        {
+          "amount": "",
+          "unit": "large",
+          "name": "garlic cloves, (minced)"
+        },
+        {
+          "amount": "",
+          "unit": "Kosher",
+          "name": "salt"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "(15-ounce) can diced tomatoes, (with juices)"
+        },
+        {
+          "amount": "",
+          "unit": "Tablespoons",
+          "name": "(3 fluid ounces) water"
+        },
+        {
+          "amount": "/4",
+          "unit": "cup",
+          "name": "chopped flat-leaf parsley, (plus more for garnish)"
+        },
+        {
+          "amount": "/2",
+          "unit": "Tablespoon",
+          "name": "fresh thyme leaves"
+        },
+        {
+          "amount": "/4",
+          "unit": "teaspoon",
+          "name": "dried oregano"
+        },
+        {
+          "amount": "/4",
+          "unit": "to",
+          "name": "1/2 teaspoon red pepper flakes"
+        },
+        {
+          "amount": "/4",
+          "unit": "teaspoon",
+          "name": "ground black pepper"
+        },
+        {
+          "amount": "/8",
+          "unit": "to",
+          "name": "1/4 teaspoon ground cinnamon"
+        },
+        {
+          "amount": "",
+          "unit": "dried",
+          "name": "bay leaf"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "(15-ounce) can butter beans, (drained and rinsed (or the largest beans you can find))"
+        },
+        {
+          "amount": "",
+          "unit": "Creamy",
+          "name": "feta cheese, (crumbled)"
+        },
+        {
+          "amount": "",
+          "unit": "Rustic",
+          "name": "bread, (for serving)"
+        }
+      ],
       "steps": [
-        "See source link or add steps when you cook this."
+        "Preheat oven: Position a rack in the center of the oven and preheat the oven to 375°F.",
+        "Saute the vegetables: In a large oven-safe skillet set over medium-high heat, add 1/8 cup olive oil. Once the oil shimmers, add the onion, carrot, celery, and garlic. Season with a pinch of salt (about 1/4 teaspoon). Cook, stirring frequently, until the vegetables soften, 5-7 minutes.",
+        "Add the tomatoes and spices: Add the tomatoes with their juices and the water. Season with another pinch of salt (about 1/4 teaspoon). Add the parsley, thyme, oregano, red pepper flakes, black pepper, cinnamon, and bay leaf.",
+        "Add the beans: Stir in the beans and cook for 5 minutes over high heat. At this point, taste and adjust the seasoning to your liking, then transfer the mixture to the oven and bake until thickened and the top layer turns a light golden brown, 20 to 30 minutes.",
+        "Finish and serve: Remove and discard the bay leaf. Finish the dish with a drizzle of olive oil, a pinch of parsley, and a good sprinkle of feta. Serve with rustic bread."
       ],
       "mealLists": [
         "healthy-ideas"
       ],
-      "sourceUrl": "https://www.themediterraneandish.com/gigantes-plaki-recipe/"
+      "sourceUrl": "https://www.themediterraneandish.com/gigantes-plaki/"
     },
     {
       "id": "11",
@@ -582,90 +1058,371 @@
       "id": "12",
       "slug": "ratatouille",
       "title": "Ratatouille",
-      "description": "French Provençal stewed vegetables.",
-      "imageUrl": "",
-      "prepMinutes": 0,
+      "description": "Enjoy this super-healthy traditional ratatouille recipe for lunch or dinner, safe in the knowledge that it counts as four of your five-a-day",
+      "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2019/05/Ratatouille-ea27a5c.jpg?resize=440,400",
+      "prepMinutes": 15,
       "cookMinutes": 0,
       "servings": 4,
       "tags": [
         "vegetarian",
         "french"
       ],
-      "ingredients": [],
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "large",
+          "name": "aubergines"
+        },
+        {
+          "amount": "",
+          "unit": "small",
+          "name": "courgettes"
+        },
+        {
+          "amount": "",
+          "unit": "red",
+          "name": "or yellow peppers"
+        },
+        {
+          "amount": "",
+          "unit": "large",
+          "name": "ripe tomatoes"
+        },
+        {
+          "amount": "",
+          "unit": "tbsp",
+          "name": "olive oil"
+        },
+        {
+          "amount": "",
+          "unit": "supermarket",
+          "name": "pack or small bunch basil"
+        },
+        {
+          "amount": "",
+          "unit": "medium",
+          "name": "onion peeled and thinly sliced"
+        },
+        {
+          "amount": "",
+          "unit": "garlic",
+          "name": "cloves peeled and crushed"
+        },
+        {
+          "amount": "",
+          "unit": "tbsp",
+          "name": "red wine vinegar"
+        },
+        {
+          "amount": "",
+          "unit": "tsp",
+          "name": "sugar (any kind)"
+        }
+      ],
       "steps": [
-        "See source link or add steps when you cook this."
+        "Cut 2 large aubergines in half lengthways. Place them on the board, cut side down, slice in half lengthways again and then across into 1.5cm chunks. Cut the ends off 4 small courgettes, then across into 1.5cm slices.",
+        "Peel 2 red or yellow peppers from stalk to bottom. Hold upright, cut around the stalk, then cut into 3 pieces. Cut away any membrane, then chop into bite-size chunks.",
+        "Score a small cross on the base of each of 4 large ripe tomatoes, then put them into a heatproof bowl. Pour boiling water over, leave for 20 secs, then remove. Pour the water away, replace the tomatoes and cover with cold water. Leave to cool, then peel the skin away.",
+        "Quarter the tomatoes, scrape away the seeds with a spoon, then roughly chop the flesh.",
+        "Set a sauté pan over medium heat and when hot, pour in 2 tbsp olive oil. Brown the aubergines for 5 mins on each side until the pieces are soft. Set them aside.",
+        "Fry the courgettes in another tbsp oil for 5 mins, until golden on both sides. Repeat with the peppers. Don’t overcook the vegetables at this stage.",
+        "Tear up the leaves from the bunch of basil and set aside. Cook 1 thinly sliced medium onion in the pan for 5 minutes. Add 3 crushed garlic cloves and fry for a further minute. Stir in 1 tbsp red wine vinegar and 1 tsp sugar, then tip in the tomatoes and half the basil.",
+        "Return the vegetables to the pan with some salt and pepper and cook for 5 mins. Serve with basil."
       ],
       "mealLists": [
         "healthy-ideas"
       ],
-      "sourceUrl": "https://www.simplyrecipes.com/recipes/ratatouille/"
+      "sourceUrl": "https://www.bbcgoodfood.com/recipes/ratatouille"
     },
     {
       "id": "13",
       "slug": "orzo-salad",
       "title": "Orzo Salad",
-      "description": "Orzo pasta salad.",
-      "imageUrl": "",
-      "prepMinutes": 0,
-      "cookMinutes": 0,
-      "servings": 4,
+      "description": "This orzo salad recipe is a fresh, delicious side dish or vegetarian lunch! If you make it ahead of time, save the herbs to add at the last minute. I also recommend tossing the salad with a drizzle of olive oil before serving.",
+      "imageUrl": "https://cdn.loveandlemons.com/wp-content/uploads/2021/05/orzo-salad-500x500.jpg",
+      "prepMinutes": 30,
+      "cookMinutes": 8,
+      "servings": 6,
       "tags": [
         "salad",
         "pasta",
         "mediterranean"
       ],
-      "ingredients": [],
+      "ingredients": [
+        {
+          "amount": "½",
+          "unit": "cups",
+          "name": "dry orzo pasta"
+        },
+        {
+          "amount": "",
+          "unit": "recipe",
+          "name": "Greek Salad Dressing"
+        },
+        {
+          "amount": "",
+          "unit": "tablespoon",
+          "name": "red wine vinegar"
+        },
+        {
+          "amount": "",
+          "unit": "tablespoon",
+          "name": "fresh lemon juice"
+        },
+        {
+          "amount": "½",
+          "unit": "teaspoon",
+          "name": "oregano"
+        },
+        {
+          "amount": "¼",
+          "unit": "teaspoon",
+          "name": "sea salt"
+        },
+        {
+          "amount": "",
+          "unit": "Persian",
+          "name": "cucumbers (halved vertically, and sliced ¼-inch thick)"
+        },
+        {
+          "amount": "",
+          "unit": "cups",
+          "name": "halved cherry tomatoes"
+        },
+        {
+          "amount": "",
+          "unit": "cup",
+          "name": "cooked chickpeas (drained, and rinsed)"
+        },
+        {
+          "amount": "",
+          "unit": "ounces",
+          "name": "feta cheese (cut into ¼-inch cubes)"
+        },
+        {
+          "amount": "⅓",
+          "unit": "cup",
+          "name": "thinly sliced red onion"
+        },
+        {
+          "amount": "½",
+          "unit": "cup",
+          "name": "pitted Kalamata olives"
+        },
+        {
+          "amount": "",
+          "unit": "cup",
+          "name": "fresh basil and/or mint leaves"
+        },
+        {
+          "amount": "",
+          "unit": "Freshly",
+          "name": "ground black pepper"
+        }
+      ],
       "steps": [
-        "See source link or add steps when you cook this."
+        "Bring a large pot of salted water to a boil. Prepare the pasta according to the package directions, or until slightly past al dente. Drain the orzo and toss it with a little olive oil, so that it doesn’t stick together. Spread onto a baking sheet to cool.",
+        "Prepare the Greek Salad Dressing and add in the red wine vinegar, lemon juice, oregano, and sea salt.",
+        "In a large bowl, toss together the cooked orzo, cucumbers, tomatoes, chickpeas, feta, red onion, and olives. Drizzle the dressing over the salad, add half the herbs, season with freshly ground black pepper, and toss to coat. Garnish with the remaining herbs and serve."
       ],
       "mealLists": [
         "healthy-ideas"
       ],
-      "sourceUrl": "https://www.allrecipes.com/recipe/228014/mediterranean-orzo-salad/"
+      "sourceUrl": "https://www.loveandlemons.com/orzo-salad/"
     },
     {
       "id": "14",
       "slug": "pasta-primavera",
       "title": "Pasta Primavera",
-      "description": "Pasta with seasonal vegetables.",
-      "imageUrl": "",
-      "prepMinutes": 0,
-      "cookMinutes": 0,
+      "description": "Pasta Primavera is the perfect Spring dish packed with fresh seasonal vegetables tossed with pasta in a light lemon and butter sauce.",
+      "imageUrl": "https://www.budgetbytes.com/wp-content/uploads/2023/05/Pasta-Primavera-fork.jpg",
+      "prepMinutes": 15,
+      "cookMinutes": 15,
       "servings": 4,
       "tags": [
         "pasta",
         "vegetarian"
       ],
-      "ingredients": [],
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "oz.",
+          "name": "penne pasta (uncooked, $0.49)"
+        },
+        {
+          "amount": "",
+          "unit": "Tbsp",
+          "name": "olive oil ($0.44)"
+        },
+        {
+          "amount": "",
+          "unit": "zucchini",
+          "name": "($0.94)"
+        },
+        {
+          "amount": "",
+          "unit": "yellow",
+          "name": "squash ($1.01)"
+        },
+        {
+          "amount": "",
+          "unit": "carrot",
+          "name": "($0.14)"
+        },
+        {
+          "amount": "½",
+          "unit": "red",
+          "name": "onion ($0.43)"
+        },
+        {
+          "amount": "½",
+          "unit": "cup",
+          "name": "frozen peas ($0.21)"
+        },
+        {
+          "amount": "",
+          "unit": "cup",
+          "name": "grape tomatoes ($1.76)"
+        },
+        {
+          "amount": "",
+          "unit": "cloves",
+          "name": "garlic cloves (minced, $0.24)"
+        },
+        {
+          "amount": "½",
+          "unit": "cup",
+          "name": "Parmesan cheese (grated, $0.89*)"
+        },
+        {
+          "amount": "",
+          "unit": "tsp",
+          "name": "dried oregano ($0.10)"
+        },
+        {
+          "amount": "½",
+          "unit": "tsp",
+          "name": "salt ($0.02)"
+        },
+        {
+          "amount": "½",
+          "unit": "tsp",
+          "name": "black pepper (freshly cracked, $0.02)"
+        },
+        {
+          "amount": "",
+          "unit": "Tbsp",
+          "name": "lemon juice (fresh, $0.13)"
+        },
+        {
+          "amount": "",
+          "unit": "Tbsp",
+          "name": "butter ($0.28*)"
+        }
+      ],
       "steps": [
-        "See source link or add steps when you cook this."
+        "Start by prepping your vegetables. Wash the vegetables, then cut and slice each vegetable into equal size pieces. Cut the zucchini and yellow squash into half moons, slice the carrots into thin rounds, cut the grape tomatoes in half and slice the red onion into strips.",
+        "Next bring a large pot of salted water to a boil. Cook the pasta according to the package instructions, or until al dente. Reserve some of the starchy pasta water before draining the pasta in a colander.",
+        "While the pasta is boiling, saute the vegetables. In a large deep skillet add olive oil and saute carrots and onion over medium heat for 1-2 minutes. Next add zucchini and yellow squash and saute for an additional 1-2 minutes.",
+        "Next add the minced garlic, grape tomatoes and frozen peas. Season the vegetables with salt, pepper and dried oregano. Saute for an additional 1-2 minutes, then turn the heat off.",
+        "Add the butter to the skillet along with the fresh squeezed lemon juice and stir well to combine. Either add the cooked and drained pasta to the skillet, or transfer the pasta and vegetables to a large bowl. Add grated parmesan cheese and some of the reserved pasta water. Stir the vegetables with the pasta until well combined. Serve with fresh chopped parsley (optional garnish) and enjoy!"
       ],
       "mealLists": [
         "healthy-ideas"
       ],
-      "sourceUrl": "https://www.allrecipes.com/recipe/21719/pasta-primavera/"
+      "sourceUrl": "https://www.budgetbytes.com/pasta-primavera/"
     },
     {
       "id": "15",
       "slug": "potato-tacos",
       "title": "Potato Tacos",
-      "description": "Tacos filled with seasoned potatoes.",
-      "imageUrl": "",
-      "prepMinutes": 0,
-      "cookMinutes": 0,
+      "description": "These light and refreshing Sweet Potato Tacos are filled with a simple sweet potato and black bean hash, and topped with a tangy lime crema.&nbsp;",
+      "imageUrl": "https://www.budgetbytes.com/wp-content/uploads/2015/07/Sweet-Potato-Tacos-H1.jpg",
+      "prepMinutes": 20,
+      "cookMinutes": 20,
       "servings": 4,
       "tags": [
         "vegetarian",
         "mexican"
       ],
-      "ingredients": [],
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "oz.",
+          "name": "sour cream ($0.83)"
+        },
+        {
+          "amount": "",
+          "unit": "fresh",
+          "name": "lime  ($0.69)"
+        },
+        {
+          "amount": "/4",
+          "unit": "tsp",
+          "name": "salt  ($0.02)"
+        },
+        {
+          "amount": "",
+          "unit": "clove",
+          "name": "garlic  ($0.08)"
+        },
+        {
+          "amount": "",
+          "unit": "Tbsp",
+          "name": "olive oil  ($0.13)"
+        },
+        {
+          "amount": "",
+          "unit": "cloves",
+          "name": "garlic  ($0.32)"
+        },
+        {
+          "amount": "",
+          "unit": "lbs.",
+          "name": "sweet potato  ($1.22)"
+        },
+        {
+          "amount": "15",
+          "unit": "oz.",
+          "name": "can black beans  ($0.59)"
+        },
+        {
+          "amount": "",
+          "unit": "tsp",
+          "name": "ground cumin  ($0.10)"
+        },
+        {
+          "amount": "",
+          "unit": "Salt",
+          "name": "and Pepper to taste  ($0.05)"
+        },
+        {
+          "amount": "",
+          "unit": "green",
+          "name": "onions  ($0.19)"
+        },
+        {
+          "amount": "/4",
+          "unit": "bunch",
+          "name": "fresh cilantro (optional) ($0.17)"
+        },
+        {
+          "amount": "",
+          "unit": "small",
+          "name": "(taco sized) tortillas ($0.75)"
+        }
+      ],
       "steps": [
-        "See source link or add steps when you cook this."
+        "Prepare the crema first to allow the flavors time to blend. Mince one clove of garlic and use a zester or small holed cheese grater to scrape the thin layer of green zest from the lime. Add the minced garlic, 1 tsp of the zest, about 1 tsp of the lime juice, and 1/4 tsp salt to the sour cream. Stir the ingredients to combine then refrigerate until ready to use.",
+        "Peel the sweet potatoes, then cut them into small cubes (about 1/4 to 1/2 inch square). Heat a large skillet over medium flame, then add the olive oil and two cloves of minced garlic. Sauté the garlic for about a minute or just until it becomes fragrant. Add the diced sweet potato and a couple tablespoons of water. Sauté the sweet potato until they become soft and just begin to fall apart. Add another couple tablespoons of water during cooking if the skillet becomes dry before the sweet potatoes are soft.",
+        "Meanwhile, drain and rinse the can of black beans. Once the sweet potatoes are soft, add the black beans to the skillet. Season with the cumin, and salt and pepper to taste. Sauté just until the beans are heated through.",
+        "Slice the green onions and pull the cilantro leaves from the stems. Roughly chop the cilantro. Stir the sliced green onions into the skillet. Add the cilantro to the skillet if desired, or use it to top each taco.",
+        "Prior to filling each tortilla, heat them in a dry skillet until slightly browned and crisp on each side, or carefully toast them over an open flame. Smear a small amount of the lime crema down the center of the tortilla, then top with a scoop of the sweet potato and black bean hash. Add fresh cilantro if desired."
       ],
       "mealLists": [
         "healthy-ideas"
       ],
-      "sourceUrl": "https://www.allrecipes.com/recipe/260289/potato-tacos/"
+      "sourceUrl": "https://www.budgetbytes.com/sweet-potato-tacos/"
     },
     {
       "id": "16",
@@ -773,24 +1530,131 @@
       "id": "17",
       "slug": "asian-chicken-lettuce-wraps",
       "title": "Asian Chicken Lettuce Wraps",
-      "description": "Chicken lettuce wraps with Asian flavors.",
-      "imageUrl": "",
-      "prepMinutes": 0,
-      "cookMinutes": 0,
+      "description": "These Chicken Lettuce Wraps are full of freshness and bold flavor, easy to prepare, and satisfying in every bite!",
+      "imageUrl": "https://www.budgetbytes.com/wp-content/uploads/2023/07/Chicken-Lettuce-Wraps-overhead.jpg",
+      "prepMinutes": 15,
+      "cookMinutes": 15,
       "servings": 4,
       "tags": [
         "asian",
         "chicken",
         "low-carb"
       ],
-      "ingredients": [],
+      "ingredients": [
+        {
+          "amount": "¼",
+          "unit": "cup",
+          "name": "hoisin sauce ($0.36)"
+        },
+        {
+          "amount": "",
+          "unit": "Tbsp",
+          "name": "soy sauce ($0.14)"
+        },
+        {
+          "amount": "",
+          "unit": "Tbsp",
+          "name": "rice vinegar ($0.12)"
+        },
+        {
+          "amount": "",
+          "unit": "Tbsp",
+          "name": "toasted sesame oil ($0.27)"
+        },
+        {
+          "amount": "",
+          "unit": "Tbsp",
+          "name": "fresh grated ginger ($0.60)"
+        },
+        {
+          "amount": "",
+          "unit": "cloves",
+          "name": "garlic (minced, $0.16)"
+        },
+        {
+          "amount": "",
+          "unit": "red",
+          "name": "bell pepper ($1.48*)"
+        },
+        {
+          "amount": "",
+          "unit": "oz.",
+          "name": "canned water chestnuts (drained, $1.24)"
+        },
+        {
+          "amount": "",
+          "unit": "green",
+          "name": "onions ($0.22)"
+        },
+        {
+          "amount": "¼",
+          "unit": "cup",
+          "name": "peanuts ($0.12)"
+        },
+        {
+          "amount": "",
+          "unit": "Tbsp",
+          "name": "cooking oil ($0.04)"
+        },
+        {
+          "amount": "",
+          "unit": "lb",
+          "name": "ground chicken ( ground turkey or pork also works, $3.72**)"
+        },
+        {
+          "amount": "",
+          "unit": "lettuce",
+          "name": "leaves ($3.12)"
+        },
+        {
+          "amount": "½",
+          "unit": "Tbsp",
+          "name": "peanut butter (natural style, $0.11)"
+        },
+        {
+          "amount": "½",
+          "unit": "Tbsp",
+          "name": "brown sugar ($0.02)"
+        },
+        {
+          "amount": "",
+          "unit": "clove",
+          "name": "garlic (minced, $0.08)"
+        },
+        {
+          "amount": "¼",
+          "unit": "tsp",
+          "name": "fresh grated ginger ($0.06)"
+        },
+        {
+          "amount": "",
+          "unit": "medium",
+          "name": "lime (juiced, 1 Tbsp juice, $0.21)"
+        },
+        {
+          "amount": "",
+          "unit": "tsp",
+          "name": "soy sauce ($0.04)"
+        },
+        {
+          "amount": "",
+          "unit": "Tbsp",
+          "name": "neutral oil ($0.08)"
+        }
+      ],
       "steps": [
-        "See source link or add steps when you cook this."
+        "First, make the sauce for the chicken lettuce wraps. In a small bowl combine the hoisin sauce, soy sauce, rice vinegar, toasted sesame oil, fresh grated ginger and minced garlic. Set the sauce aside.",
+        "Next chop the red bell pepper and water chestnuts into similar size pieces. Then slice the green onions and give the peanuts a rough chop. Set veggies and nuts aside.",
+        "Heat a large skillet over medium heat and add the cooking oil. Once oil is heated, add the ground chicken, crumble and cook until browned.",
+        "Add the red bell pepper and water chestnuts to the skillet. Saute for two minutes.",
+        "Pour the prepared sauce mixture into the skillet and mix well. Cook for two more minutes to allow the sauce to soak into the chicken and vegetables. Remove from the heat and top with green onions and chopped peanuts.",
+        "Next, make the peanut lime dressing. In a small bowl combine the natural style peanut butter, brown sugar, minced garlic clove, freshly grated ginger, 1 Tbsp of lime juice, soy sauce, and the neutral oil. Whisk or stir together well and set aside.",
+        "Serve ⅓ cup of the chicken and vegetable mixture inside each lettuce wrap and drizzle a little of the peanut lime dressing on top. Enjoy!"
       ],
       "mealLists": [
         "saved"
       ],
-      "sourceUrl": "https://www.eatwell101.com/asian-chicken-lettuce-wraps-recipe"
+      "sourceUrl": "https://www.budgetbytes.com/chicken-lettuce-wraps/"
     },
     {
       "id": "18",
@@ -1038,23 +1902,65 @@
       "id": "21",
       "slug": "garlic-butter-sausages-broccoli-skillet",
       "title": "Garlic Butter Sausages and Broccoli Skillet",
-      "description": "One-pan sausages and broccoli in garlic butter.",
-      "imageUrl": "",
-      "prepMinutes": 0,
-      "cookMinutes": 0,
-      "servings": 4,
+      "description": "Liven up midweek pasta with a fiery sausage and chilli hit",
+      "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-430451_11-494173c.jpg?resize=440,400",
+      "prepMinutes": 5,
+      "cookMinutes": 20,
+      "servings": 2,
       "tags": [
         "skillet",
         "low-carb"
       ],
-      "ingredients": [],
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "g",
+          "name": "pasta shapes"
+        },
+        {
+          "amount": "",
+          "unit": "g",
+          "name": "pack purple sprouting broccoli cut into pieces"
+        },
+        {
+          "amount": "",
+          "unit": "tbsp",
+          "name": "extra-virgin olive oil"
+        },
+        {
+          "amount": "",
+          "unit": "garlic",
+          "name": "cloves sliced"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "&frac12; tsp fennel seeds (optional)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "&frac12; tsp crushed red chillies"
+        },
+        {
+          "amount": "",
+          "unit": "Italian",
+          "name": "-style pork sausages skins removed and meat broken into pieces"
+        },
+        {
+          "amount": "",
+          "unit": "parmesan",
+          "name": "shavings, to serve"
+        }
+      ],
       "steps": [
-        "See source link or add steps when you cook this."
+        "Bring a large pan of water to the boil and cook the pasta until nearly al dente. Throw in the broccoli and cook for 2 mins more. Drain, saving 1-2 tbsp of the water.",
+        "Heat the oil in a large frying pan and add the garlic, fennel seeds, if using, and chillies. When they start to colour a bit, add the sausage and cook until golden and cooked through. Tip in the pasta and broccoli with the reserved water and toss. Serve hot with the Parmesan shavings."
       ],
       "mealLists": [
         "saved"
       ],
-      "sourceUrl": "https://www.eatwell101.com/garlic-butter-sausage-broccoli-recipe"
+      "sourceUrl": "https://www.bbcgoodfood.com/recipes/sausage-broccoli-pasta"
     },
     {
       "id": "22",
@@ -1138,23 +2044,79 @@
       "id": "23",
       "slug": "creamy-garlic-parmesan-chicken-mushrooms",
       "title": "Creamy Garlic Parmesan Chicken with Mushrooms",
-      "description": "Creamy skillet chicken with mushrooms and parmesan.",
-      "imageUrl": "",
-      "prepMinutes": 0,
-      "cookMinutes": 0,
+      "description": "Creamy Mushroom Chicken topped with delicious crispy onions is an easy weeknight dinner with plenty of options for customization!",
+      "imageUrl": "https://www.budgetbytes.com/wp-content/uploads/2020/09/Creamy-Mushroom-Chicken-with-Crispy-Onions-plate-2.jpg",
+      "prepMinutes": 10,
+      "cookMinutes": 25,
       "servings": 4,
       "tags": [
         "chicken",
         "skillet"
       ],
-      "ingredients": [],
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "oz.",
+          "name": "baby bella mushrooms ($1.69)"
+        },
+        {
+          "amount": "",
+          "unit": "boneless",
+          "name": ", skinless chicken breast (about 1.3 lbs. total) ($5.63)"
+        },
+        {
+          "amount": "",
+          "unit": "pinch",
+          "name": "salt ($0.02)"
+        },
+        {
+          "amount": "",
+          "unit": "pinch",
+          "name": "pepper ($0.02)"
+        },
+        {
+          "amount": "",
+          "unit": "Tbsp",
+          "name": "butter, divided ($0.26)"
+        },
+        {
+          "amount": "",
+          "unit": "cloves",
+          "name": "garlic ($0.32)"
+        },
+        {
+          "amount": "/2",
+          "unit": "cup",
+          "name": "chicken broth ($0.07)"
+        },
+        {
+          "amount": "/2",
+          "unit": "cup",
+          "name": "heavy cream ($0.39)"
+        },
+        {
+          "amount": "/4",
+          "unit": "cup",
+          "name": "crispy fried onions ($0.37)"
+        },
+        {
+          "amount": "",
+          "unit": "Tbsp",
+          "name": "chopped fresh parsley (optional garnish) ($0.05)"
+        }
+      ],
       "steps": [
-        "See source link or add steps when you cook this."
+        "Rinse and slice the mushrooms. Set the sliced mushrooms aside.",
+        "Place the chicken breasts on a cutting board and cover with plastic wrap. Use a mallet or rolling pin to gently pound the chicken until it is an even thickness, about ¾-inch thick. Cut each chicken breast into two pieces, and season with a pinch of salt and pepper.",
+        "Add one tablespoon of the butter to a large skillet and heat over medium. Once the butter is melted and the skillet is hot, add the chicken and cook until golden brown on both sides (about 5 minutes per side). Remove the chicken to a clean plate and cover with foil or an upside down plate to keep it warm.",
+        "Add the second tablespoon of butter and the sliced mushrooms to the skillet. Sauté the mushrooms until they release all their water and the skillet begins to dry up again. Add the minced garlic and sauté for about a minute more.",
+        "Pour the chicken broth into the skillet and stir to dissolve any browned bits off the bottom of the skillet. Add the heavy cream and stir to combine.",
+        "Return the chicken to the skillet and spoon mushroom cream sauce over each piece. Allow the chicken to simmer in the sauce for about 5 minutes more, or until the sauce is slightly reduced. Top the chicken with the crispy fried onions and serve."
       ],
       "mealLists": [
         "saved"
       ],
-      "sourceUrl": "https://www.eatwell101.com/creamy-garlic-parmesan-chicken-with-mushrooms-recipe"
+      "sourceUrl": "https://www.budgetbytes.com/creamy-mushroom-chicken/"
     },
     {
       "id": "24",
@@ -1236,69 +2198,264 @@
       "id": "25",
       "slug": "greek-chicken-marinade",
       "title": "The Best Greek Chicken Marinade",
-      "description": "Greek-style marinated chicken (~50 min).",
-      "imageUrl": "",
-      "prepMinutes": 15,
+      "description": "Feel free to use whatever cut of chicken you have on hand with this Greek chicken marinade. A couple of hours in your fridge will infuse the meat with the most vibrant flavor, but if you&#039;re short on time, even 30 minutes on your counter will make a big difference.",
+      "imageUrl": "https://www.themediterraneandish.com/wp-content/uploads/2024/01/TMD-Greek-Chicken-Marinade-WEB-13.jpg",
+      "prepMinutes": 5,
       "cookMinutes": 35,
-      "servings": 4,
+      "servings": 6,
       "tags": [
         "greek",
         "chicken",
         "marinade"
       ],
-      "ingredients": [],
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "large",
+          "name": "garlic cloves, (minced)"
+        },
+        {
+          "amount": "",
+          "unit": "teaspoons",
+          "name": "dried oregano"
+        },
+        {
+          "amount": "",
+          "unit": "teaspoon",
+          "name": "sweet paprika"
+        },
+        {
+          "amount": "",
+          "unit": "teaspoon",
+          "name": "fresh thyme leaves"
+        },
+        {
+          "amount": "",
+          "unit": "tablespoons",
+          "name": "finely chopped flat leaf parsley leaves and tender stems"
+        },
+        {
+          "amount": "/3",
+          "unit": "cup",
+          "name": "extra virgin olive oil"
+        },
+        {
+          "amount": "",
+          "unit": "lemon",
+          "name": ", (zested and juiced)"
+        },
+        {
+          "amount": "",
+          "unit": "Kosher",
+          "name": "salt"
+        },
+        {
+          "amount": "",
+          "unit": "Black",
+          "name": "pepper"
+        },
+        {
+          "amount": "1/2",
+          "unit": "to",
+          "name": "2 pounds chicken ((thighs, legs, breast, or any cut you’d like))"
+        }
+      ],
       "steps": [
-        "See source link or add steps when you cook this."
+        "Make the marinade. In a large mixing bowl, combine the garlic, oregano, paprika, thyme, parsley, olive oil, lemon zest, juice, and a big pinch of salt and pepper (about 1/2 to 3/4 teaspoon each). Whisk until well combined. Taste and adjust the salt and pepper to your liking (Remember: if you don’t plan to add salt and pepper directly to the chicken, then you want to make sure the marinade has enough flavor.)",
+        "Add the chicken or chicken cutlets to the marinade. Use a pair of tongs to toss the chicken so it is well coated, then cover and refrigerate for 2 to 8 hours (or if you’re using chicken thighs, overnight is fine.) Cook the chicken as you’d like–see below for grilled or baked Greek chicken.",
+        "For Grilled Chicken:",
+        "For Baked Chicken:"
       ],
       "mealLists": [
         "saved"
       ],
-      "sourceUrl": "https://www.gimmesomeoven.com/greek-chicken-marinade/"
+      "sourceUrl": "https://www.themediterraneandish.com/greek-chicken-marinade/"
     },
     {
       "id": "26",
       "slug": "best-greek-salad",
       "title": "Best Greek Salad",
-      "description": "Classic Greek salad (~20 min).",
-      "imageUrl": "",
-      "prepMinutes": 20,
+      "description": "These fun party skewers turn classic Greek salad into flavorful finger food. Serve these Greek salad skewers as is or take things up a notch with a drizzle of a zesty garlic and olive oil vinaigrette. These Greek salad kabobs are perfect as part of a larger grazing spread when you&#039;re entertaining a crowd. Serve them with a meat and cheese board, baked zucchini chips with tzatziki, and Greek meatballs (loads more ideas in the post!).",
+      "imageUrl": "https://www.themediterraneandish.com/wp-content/uploads/2022/07/Greek-salad-skewers-5.jpg",
+      "prepMinutes": 10,
       "cookMinutes": 0,
-      "servings": 4,
+      "servings": 6,
       "tags": [
         "greek",
         "salad"
       ],
-      "ingredients": [],
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "ounces",
+          "name": "creamy feta cheese, (cut into 10 to 12 cubes)"
+        },
+        {
+          "amount": "½",
+          "unit": "English",
+          "name": "cucumber, (halved lengthwise, then sliced into half moons)"
+        },
+        {
+          "amount": "",
+          "unit": "small",
+          "name": "green pepper, (cored, cut into 10 to 12 square pieces)"
+        },
+        {
+          "amount": "",
+          "unit": "to",
+          "name": "12  cherry or grape tomatoes"
+        },
+        {
+          "amount": "",
+          "unit": "to",
+          "name": "12  pitted Kalamata olives"
+        },
+        {
+          "amount": "",
+          "unit": "garlic",
+          "name": "clove, (minced)"
+        },
+        {
+          "amount": "½",
+          "unit": "lime",
+          "name": ", (juice of)"
+        },
+        {
+          "amount": "",
+          "unit": "tablespoon",
+          "name": "red wine vinegar"
+        },
+        {
+          "amount": "",
+          "unit": "tablespoon",
+          "name": "extra virgin olive oil"
+        },
+        {
+          "amount": "",
+          "unit": "Kosher",
+          "name": "salt and black pepper"
+        },
+        {
+          "amount": "",
+          "unit": "teaspoon",
+          "name": "dried oregano"
+        }
+      ],
       "steps": [
-        "See source link or add steps when you cook this."
+        "Prepare 10 to 12 small bamboo skewers (I used 6-inch skewers). Take one skewer and thread through it one feta cube, a slice of cucumber, a piece of green pepper, one cherry tomato, and, lastly, one kalamata olives at the very top. Repeat till you have 10 to 12 small skewers of feta and veggies.",
+        "In a small bowl, add the garlic, lime juice, and red wine vinegar. Season with kosher salt, black pepper and the dried oregano. Whisk together, and as you do, drizzle the extra virgin olive oil and keep whisking.",
+        "Arrange the skewers on a serving platter and pour the dressing over. Serve or refrigerate for later."
       ],
       "mealLists": [
         "saved"
       ],
-      "sourceUrl": "https://www.themediterraneandish.com/greek-salad-recipe/"
+      "sourceUrl": "https://www.themediterraneandish.com/greek-salad/"
     },
     {
       "id": "27",
       "slug": "chicken-veggie-stir-fry",
       "title": "Chicken and Veggie Stir Fry",
-      "description": "Quick chicken stir fry with mixed vegetables.",
-      "imageUrl": "",
-      "prepMinutes": 0,
-      "cookMinutes": 0,
-      "servings": 4,
+      "description": "This Chicken Stir Fry recipe is perfect for a quick &amp; easy dinner meal. It has lots of chicken and veggies and a super delicious stir fry sauce!",
+      "imageUrl": "https://www.budgetbytes.com/wp-content/uploads/2024/01/Chicken-Stir-Fry-Pan.jpg",
+      "prepMinutes": 15,
+      "cookMinutes": 20,
+      "servings": 6,
       "tags": [
         "asian",
         "chicken",
         "stir-fry"
       ],
-      "ingredients": [],
+      "ingredients": [
+        {
+          "amount": "⅓",
+          "unit": "cup",
+          "name": "soy sauce ($0.44)"
+        },
+        {
+          "amount": "",
+          "unit": "Tbsp",
+          "name": "brown sugar ($0.09)"
+        },
+        {
+          "amount": "",
+          "unit": "tsp",
+          "name": "toasted sesame oil ($0.20)"
+        },
+        {
+          "amount": "",
+          "unit": "garlic",
+          "name": "cloves (minced, $0.16)"
+        },
+        {
+          "amount": "",
+          "unit": "tsp",
+          "name": "fresh ginger (grated, $0.20)"
+        },
+        {
+          "amount": "½",
+          "unit": "Tbsp",
+          "name": "cornstarch ($0.08)"
+        },
+        {
+          "amount": "⅓",
+          "unit": "cup",
+          "name": "water ($0.00)"
+        },
+        {
+          "amount": "",
+          "unit": "tsp",
+          "name": "sriracha ($0.05)"
+        },
+        {
+          "amount": "¾",
+          "unit": "lb.",
+          "name": "broccoli ($1.62)"
+        },
+        {
+          "amount": "",
+          "unit": "carrots",
+          "name": "($0.50)"
+        },
+        {
+          "amount": "",
+          "unit": "red",
+          "name": "bell pepper ($1.27)"
+        },
+        {
+          "amount": "",
+          "unit": "small",
+          "name": "onion ($0.58)"
+        },
+        {
+          "amount": "",
+          "unit": "green",
+          "name": "onions ($0.22)"
+        },
+        {
+          "amount": "",
+          "unit": "chicken",
+          "name": "breasts (boneless, skinless (about 1.5 lb. total) $3.85*)"
+        },
+        {
+          "amount": "",
+          "unit": "Tbsp",
+          "name": "cooking oil (divided, $0.12**)"
+        }
+      ],
       "steps": [
-        "See source link or add steps when you cook this."
+        "Start by making the stir fry sauce. Combine the soy sauce, brown sugar, toasted sesame oil, garlic, ginger, sriracha, cornstarch and water in a small bowl. Set the sauce aside.",
+        "Chop the broccoli into small florets. Slice the red bell pepper, onion, and carrots into similar sized pieces. Slice the green onions. Set all the vegetables aside.",
+        "Next, cut the chicken breasts into small ½ inch sized pieces.",
+        "Heat a very large skillet or wok over medium-high heat. Once hot add 2 Tbsp of cooking oil and swirl to coat the surface of the skillet. Add the chicken and cook until browned on all sides. Be careful not to overcook the chicken. Once the chicken is browned, remove it from the skillet onto a separate plate and set aside.",
+        "In the same skillet, add the remaining 1 Tbsp of cooking oil along with the carrots and broccoli. Cook and stir for one minute, or just until the broccoli begins to turn bright green.",
+        "Next, add the red bell pepper and onion to the skillet. Continue to cook and stir for 1-2 more minutes.",
+        "Give the stir fry sauce another brief stir. Now add the cooked chicken back to the skillet, then pour the stir fry sauce over the chicken and vegetables. Give everything a stir and allow the sauce to come up to a simmer, at which point it will start to thicken and turn glossy. Continue to cook for 1-2 more minutes or until it has reached your desired doneness.",
+        "Remove it from the heat, top with green onions and sesame seeds (optional) and serve!"
       ],
       "mealLists": [
         "saved"
       ],
-      "sourceUrl": "https://www.allrecipes.com/recipe/85889/quick-chicken-stir-fry/"
+      "sourceUrl": "https://www.budgetbytes.com/chicken-stir-fry/"
     },
     {
       "id": "28",
@@ -1811,47 +2968,196 @@
       "id": "33",
       "slug": "tom-kha-gai",
       "title": "Tom Kha Gai (Chicken Coconut Soup)",
-      "description": "Thai chicken coconut soup with galangal and lime.",
-      "imageUrl": "",
-      "prepMinutes": 0,
-      "cookMinutes": 0,
+      "description": "Comforting Thai chicken soup enriched with coconut milk and infused with lemongrass, galangal and makrut lime leaves.",
+      "imageUrl": "https://hot-thai-kitchen.com/wp-content/uploads/2014/06/Tom-kha-gai-new-sq.jpg",
+      "prepMinutes": 15,
+      "cookMinutes": 25,
       "servings": 4,
       "tags": [
         "thai",
         "soup",
         "chicken"
       ],
-      "ingredients": [],
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "cups",
+          "name": "chicken stock (unsalted, preferably homemade)"
+        },
+        {
+          "amount": "½",
+          "unit": "cups",
+          "name": "coconut milk ((see note 1))"
+        },
+        {
+          "amount": "½",
+          "unit": "tsp",
+          "name": "table salt"
+        },
+        {
+          "amount": "",
+          "unit": "lb",
+          "name": "chicken thigh (boneless skinless, cut 1-inch pieces (see note 2))"
+        },
+        {
+          "amount": "",
+          "unit": "stalk",
+          "name": "lemongrass (bottom half only, smashed and cut in 2-inch pieces)"
+        },
+        {
+          "amount": "",
+          "unit": "thin",
+          "name": "slices galangal ((see note 3))"
+        },
+        {
+          "amount": "",
+          "unit": "makrut",
+          "name": "lime leaves (twisted to bruise and torn into big chunks)"
+        },
+        {
+          "amount": "",
+          "unit": "Thai",
+          "name": "chilies (to taste, smashed until broken or cut into large pieces)"
+        },
+        {
+          "amount": "",
+          "unit": "Tbsp",
+          "name": "fish sauce"
+        },
+        {
+          "amount": "",
+          "unit": "tsp",
+          "name": "finely chopped palm sugar ( or granulated sugar)"
+        },
+        {
+          "amount": "",
+          "unit": "oz",
+          "name": "oyster mushrooms (torn into bite-size pieces)"
+        },
+        {
+          "amount": "½",
+          "unit": "Tbsp",
+          "name": "lime juice"
+        },
+        {
+          "amount": "",
+          "unit": "chopped",
+          "name": "green onion and/or cilantro (for garnish)"
+        },
+        {
+          "amount": "",
+          "unit": "Jasmine",
+          "name": "rice (for serving, optional)"
+        }
+      ],
       "steps": [
-        "See source link or add steps when you cook this."
+        "Bring chicken stock to a boil, then add the salt and chicken thigh. Simmer gently for 15 minutes or until chicken is fork tender.",
+        "Add the coconut milk, lemongrass, galangal, makrut lime leaves, chilies,  mushrooms, about half of the fish sauce, and sugar. Simmer for 5 minutes to infuse.",
+        "Taste and add more fish sauce as needed. Turn off the heat and add about 2 Tbsp of the lime juice, then taste and add more as needed. Top with green onions and/or cilantro.",
+        "Serve with jasmine rice as part of a larger Thai meal, or enjoy on its own. See this video about how to eat a Thai meal for how Thai people serve soup! (Note: the herbs are for infusion only and are not meant to be eaten. Either remove them before serving or inform your guests.)"
       ],
       "mealLists": [
         "saved"
       ],
-      "sourceUrl": "https://hot-thai-kitchen.com/tom-kha-gai/"
+      "sourceUrl": "https://hot-thai-kitchen.com/tom-ka-gai/"
     },
     {
       "id": "34",
       "slug": "authentic-greek-green-beans-fasolakia",
       "title": "Authentic Greek Green Beans (Fasolakia Lathera)",
-      "description": "Greek green beans braised in tomato and olive oil.",
-      "imageUrl": "",
-      "prepMinutes": 0,
-      "cookMinutes": 0,
-      "servings": 4,
+      "description": "All-star recipe for Greek Green Beans. Velvety, tender green beans &amp; potatoes, braised in a tomato-olive oil sauce. Flavor-packed, satisfying, vegan, and gluten-free.",
+      "imageUrl": "https://www.themediterraneandish.com/wp-content/uploads/2025/08/TMD-Green-Beans-Fasolakia-Leads-01.jpg",
+      "prepMinutes": 10,
+      "cookMinutes": 50,
+      "servings": 6,
       "tags": [
         "greek",
         "vegetarian",
         "beans"
       ],
-      "ingredients": [],
+      "ingredients": [
+        {
+          "amount": "/2",
+          "unit": "cup",
+          "name": "extra virgin olive oil ((divided))"
+        },
+        {
+          "amount": "",
+          "unit": "large",
+          "name": "yellow onion, (finely chopped)"
+        },
+        {
+          "amount": "",
+          "unit": "garlic",
+          "name": "cloves, (minced)"
+        },
+        {
+          "amount": "",
+          "unit": "teaspoon",
+          "name": "ground cumin"
+        },
+        {
+          "amount": "",
+          "unit": "teaspoon",
+          "name": "dried oregano"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "(28 ounce) can peeled whole tomatoes"
+        },
+        {
+          "amount": "",
+          "unit": "cup",
+          "name": "water"
+        },
+        {
+          "amount": "",
+          "unit": "bay",
+          "name": "leaf"
+        },
+        {
+          "amount": "1/2",
+          "unit": "pounds",
+          "name": "green beans, (trimmed and cut into 1 1/2-inch pieces (frozen green beans work wonderfully in this recipe))"
+        },
+        {
+          "amount": "",
+          "unit": "Yukon",
+          "name": "Gold potatoes ((about 1 pound), cut into small pieces (1/2 to 3/4-inch))"
+        },
+        {
+          "amount": "",
+          "unit": "Kosher",
+          "name": "salt"
+        },
+        {
+          "amount": "",
+          "unit": "Black",
+          "name": "pepper"
+        },
+        {
+          "amount": "",
+          "unit": "tablespoons",
+          "name": "fresh lemon juice"
+        },
+        {
+          "amount": "/2",
+          "unit": "cup",
+          "name": "chopped fresh parsley leaves"
+        }
+      ],
       "steps": [
-        "See source link or add steps when you cook this."
+        "Get ready. Preheat your oven to 300°F.",
+        "Soften the onions. In a large Dutch oven, heat half of the olive oil over medium. Add the onion and cook until tender, stirring occasionally, about 5 minutes. Then add the garlic, cumin, and oregano. Cook another 2 minutes, stirring regularly.",
+        "Simmer the beans. Add tomatoes, water, bay leaf, green beans beans, and potatoes. Season with salt and pepper. Raise the heat and bring to a high simmer for 15 minutes, stirring occasionally.",
+        "Cover and transfer to the heated oven. Cook until the sauce slightly thickens, and the beans and potatoes can easily be cut with side of your fork; about 35 minutes or so. (It’s a good idea to check once partway through cooking, add a little bit of water if needed.)",
+        "Season and serve. Remove from oven and stir in the lemon juice, parsley, and remaining olive oil. Enjoy!"
       ],
       "mealLists": [
         "saved"
       ],
-      "sourceUrl": "https://www.themediterraneandish.com/greek-green-beans-recipe-fasolakia/"
+      "sourceUrl": "https://www.themediterraneandish.com/greek-green-beans-fasolakia/"
     },
     {
       "id": "43",
@@ -1911,20 +3217,42 @@
       "id": "44",
       "slug": "byl-bacon-wrapped-water-chestnuts",
       "title": "Bacon Wrapped Water Chestnuts",
-      "description": "Bacon Wrapped Water Chestnuts — Garrabrant family recipe (Appetizers).",
-      "imageUrl": "https://bestappetizers.com/wp-content/uploads/2022/09/bacon-wrapped-water-chestnuts-sq-480x270.jpg",
-      "prepMinutes": 0,
-      "cookMinutes": 0,
+      "description": "You need only four ingredients to make these delicious bacon-wrapped water chestnuts!",
+      "imageUrl": "https://www.tasteofhome.com/wp-content/uploads/2025/01/Bacon-Wrapped-Water-Chestnuts_EXPS_TOHD24_6840_SheriSilver_6.jpg",
+      "prepMinutes": 20,
+      "cookMinutes": 35,
       "servings": 4,
       "tags": [
         "appetizer",
         "family"
       ],
-      "ingredients": [],
-      "steps": [
-        "Recipe body empty on byonandlara.com — open source link to view or add steps manually."
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "pound",
+          "name": "sliced bacon"
+        },
+        {
+          "amount": "",
+          "unit": "cans",
+          "name": "(8 ounces each) whole water chestnuts, rinsed and drained"
+        },
+        {
+          "amount": "",
+          "unit": "cup",
+          "name": "ketchup"
+        },
+        {
+          "amount": "/4",
+          "unit": "cup",
+          "name": "packed brown sugar"
+        }
       ],
-      "sourceUrl": "https://www.allrecipes.com/recipe/238590/bacon-wrapped-water-chestnuts/",
+      "steps": [
+        "Preheat the oven to 375°F and lightly grease a 13x9-inch baking dish. Cut bacon strips into thirds and wind each piece around a water chestnut, securing it with a toothpick. Place them in a single layer on an ungreased 15x10x1-inch baking sheet. Bake till the bacon is crisp, for 25 minutes. Transfer them to a paper towel-lined plate to drain and do not turn off the oven.",
+        "While the water chestnuts are baking, combine the ketchup and brown sugar in a small saucepan and cook, stirring, over medium heat, until the sugar is dissolved. Dip into the sauce and place into your prepared baking dish, working with one water chestnut at a time. Spoon the remaining sauce over the chestnuts and return to the oven. Bake for 10 minutes and serve."
+      ],
+      "sourceUrl": "https://www.tasteofhome.com/recipes/bacon-wrapped-water-chestnuts/",
       "mealLists": [
         "saved"
       ],
@@ -2925,20 +4253,100 @@
       "id": "57",
       "slug": "byl-chicken-pot-pie",
       "title": "Chicken Pot Pie",
-      "description": "Chicken Pot Pie — Garrabrant family recipe (Main Dishes).",
-      "imageUrl": "http://www.byonandlara.com/recipes/images/pot_pie.jpg",
-      "prepMinutes": 0,
-      "cookMinutes": 0,
-      "servings": 4,
+      "description": "Chicken pot pie is a comfort food classic, with a flakey crust, rich sauce, tender chicken, and vegetables. Perfect for cold winter nights!",
+      "imageUrl": "https://www.budgetbytes.com/wp-content/uploads/2022/08/Chicken-Pot-Pie-open.jpg",
+      "prepMinutes": 20,
+      "cookMinutes": 70,
+      "servings": 8,
       "tags": [
         "main",
         "family"
       ],
-      "ingredients": [],
-      "steps": [
-        "Recipe body empty on byonandlara.com — open source link to view or add steps manually."
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "boneless",
+          "name": ", skinless chicken breast (about ⅔ lb.) ($3.33)"
+        },
+        {
+          "amount": "",
+          "unit": "Tbsp",
+          "name": "cooking oil ($0.04)"
+        },
+        {
+          "amount": "",
+          "unit": "yellow",
+          "name": "onion ($0.70)"
+        },
+        {
+          "amount": "",
+          "unit": "Tbsp",
+          "name": "butter ($0.50)"
+        },
+        {
+          "amount": "",
+          "unit": "Tbsp",
+          "name": "flour ($0.04)"
+        },
+        {
+          "amount": "",
+          "unit": "cup",
+          "name": "chicken broth ($0.13)"
+        },
+        {
+          "amount": "/2",
+          "unit": "cup",
+          "name": "whole milk ($0.10)"
+        },
+        {
+          "amount": "/4",
+          "unit": "tsp",
+          "name": "dried thyme ($0.03)"
+        },
+        {
+          "amount": "/4",
+          "unit": "tsp",
+          "name": "rubbed sage ($0.03)"
+        },
+        {
+          "amount": "/4",
+          "unit": "tsp",
+          "name": "black pepper ($0.02)"
+        },
+        {
+          "amount": "/4",
+          "unit": "tsp",
+          "name": "salt ($0.05)"
+        },
+        {
+          "amount": "",
+          "unit": "oz.",
+          "name": "frozen mixed vegetables ($1.25)"
+        },
+        {
+          "amount": "",
+          "unit": "double",
+          "name": "pie crust* ($2.34)"
+        },
+        {
+          "amount": "",
+          "unit": "egg",
+          "name": "(optional)** ($0.70)"
+        }
       ],
-      "sourceUrl": "https://www.allrecipes.com/recipe/16167/chicken-pot-pie-ix/",
+      "steps": [
+        "Preheat the oven to 350ºF. Cut the chicken breast into ½-inch pieces.",
+        "Heat a deep skillet or Dutch oven over medium heat. Once hot, add the cooking oil and diced chicken. Cook just until the chicken is cooked through. Remove the chicken from the skillet.",
+        "While the chicken is cooking, dice the onion. After removing the chicken from the skillet, add the diced onion and butter. Sauté the onions in the butter until softened.",
+        "Sprinkle the flour over the onions in the skillet and continue to cook and stir for two minutes more. It&#39;s okay if the flour begins to coat the surface of the skillet, but don&#39;t let it burn.",
+        "Add the chicken broth and milk to the skillet. Whisk to combine and dissolve any flour off the bottom of the skillet. Let the liquid come up to a simmer, at which point it will thicken into a gravy.",
+        "Add the cooked chicken back to the skillet along with the thyme, sage, salt, and pepper. Stir to combine.",
+        "Finally, add the frozen mixed vegetables and allow them to heat through in the gravy, stirring occasionally, just until the gravy begins to simmer again. Remove the skillet from the heat.",
+        "Place your bottom crust in a 9-inch pie plate. Prick the bottom several times with a fork. Transfer the chicken, vegetable, and gravy mixture into the pie crust.",
+        "Add the top crust and crimp the edges closed. Brush a light layer of whisked egg over the surface of the pie crust (optional). Use a knife to cut large vents in the top of the crust.",
+        "Bake the chicken pot pie for 45-50 minutes, or until the crust is golden brown and flakey. The baking time may vary depending on the type of crust and pie plate used."
+      ],
+      "sourceUrl": "https://www.budgetbytes.com/chicken-pot-pie/",
       "mealLists": [
         "saved"
       ],
@@ -4562,20 +5970,108 @@
       "id": "78",
       "slug": "byl-glorious-treats",
       "title": "Glorious Treats",
-      "description": "Glorious Treats — Garrabrant family recipe (Sweets).",
-      "imageUrl": "http://www.glorioustreats.com/wp-content/uploads/2011/07/rolo-pretzel-bites-recipe.jpg",
-      "prepMinutes": 0,
-      "cookMinutes": 0,
-      "servings": 4,
+      "description": "These are chewy, fudgy, and ultra-rich brownies covered in a generous layer of creamy chocolate buttercream. The recipe starts with a combo of melted butter and quality chocolate, which provides a smooth and velvety base for these dense fudge-like treats. Bake these in a 9-inch square pan, then cool for about 1 to 2 hours before frosting.",
+      "imageUrl": "https://sallysbakingaddiction.com/wp-content/uploads/2014/04/brownie-frosting-2-225x225.jpg",
+      "prepMinutes": 35,
+      "cookMinutes": 32,
+      "servings": 16,
       "tags": [
         "dessert",
         "family"
       ],
-      "ingredients": [],
-      "steps": [
-        "Recipe body empty on byonandlara.com — open source link to view or add steps manually."
+      "ingredients": [
+        {
+          "amount": "/2",
+          "unit": "cup",
+          "name": "(8 Tbsp; 113g) unsalted butter"
+        },
+        {
+          "amount": "",
+          "unit": "two",
+          "name": "4-ounce (226g) semi-sweet chocolate bars, coarsely chopped*"
+        },
+        {
+          "amount": "/4",
+          "unit": "cup",
+          "name": "(150g) granulated sugar"
+        },
+        {
+          "amount": "/4",
+          "unit": "cup",
+          "name": "(50g) packed light or dark brown sugar"
+        },
+        {
+          "amount": "",
+          "unit": "large",
+          "name": "eggs"
+        },
+        {
+          "amount": "",
+          "unit": "teaspoon",
+          "name": "pure vanilla extract"
+        },
+        {
+          "amount": "/3",
+          "unit": "cup",
+          "name": "(84g) all-purpose flour (spooned &amp; leveled)"
+        },
+        {
+          "amount": "",
+          "unit": "Tablespoons",
+          "name": "(10g) unsweetened natural or dutch-process cocoa powder (I prefer dutch-process)"
+        },
+        {
+          "amount": "/4",
+          "unit": "teaspoon",
+          "name": "salt"
+        },
+        {
+          "amount": "",
+          "unit": "cup",
+          "name": "(180g) semi-sweet chocolate chips"
+        },
+        {
+          "amount": "/2",
+          "unit": "cup",
+          "name": "(8 Tbsp; 113g) unsalted butter, softened to room temperature"
+        },
+        {
+          "amount": "",
+          "unit": "and",
+          "name": "1/2 cups (180g) confectioners&#8217; sugar"
+        },
+        {
+          "amount": "/3",
+          "unit": "cup",
+          "name": "(27g) unsweetened natural or dutch-process cocoa powder (I prefer dutch-process)"
+        },
+        {
+          "amount": "",
+          "unit": "Tablespoons",
+          "name": "(45ml) heavy cream or milk, slightly warm (see Note)"
+        },
+        {
+          "amount": "/2",
+          "unit": "teaspoon",
+          "name": "pure vanilla extract"
+        },
+        {
+          "amount": "",
+          "unit": "pinch",
+          "name": "of salt, to taste"
+        }
       ],
-      "sourceUrl": "https://www.allrecipes.com/recipe/10813/best-brownies/",
+      "steps": [
+        "Cut the butter into smaller pieces so it melts down quicker. Place it in a heatproof bowl or in a medium saucepan. Add the chopped chocolate. Melt in the microwave in 20-second increments stirring after each until melted, or, if you&#8217;re using a saucepan, melt it over low heat on the stove. Cool for just 5 minutes.",
+        "Meanwhile, preheat the oven to 350°F (177°C). Line the bottom and sides of a 9-inch square baking pan with parchment paper. Set aside.",
+        "Whisk the granulated and brown sugars into the cooled chocolate/butter mixture. Whisk in the eggs, and then the vanilla. Whisk in the flour, cocoa powder, and salt until no pockets of dry ingredients remain. Once combined, fold in the chocolate chips. The batter is semi-thick.",
+        "Pour and spread batter evenly into the prepared baking pan. Bake for 32-35 minutes, or until the top appears set and a toothpick inserted in the center comes out with a few moist (not wet) crumbs. All ovens are different, so keep an eye on your brownies. Check them at 30 minutes. Mine usually take 32 minutes. Tip: Err on the side of underbaking, because brownies continue to set as they cool.",
+        "Place the pan on a wire rack and cool brownies for 1 to 2 hours. Once cooled, lift the brownies out of the pan using the parchment paper on the sides. Set aside as you make the frosting.",
+        "With a handheld or stand mixer fitted with a paddle or whisk attachment, beat the butter on medium speed until creamy, about 2 minutes. Add confectioners&#8217; sugar, cocoa powder, heavy cream/milk, vanilla extract, and salt. Beat on low speed for 30 seconds, then increase to high speed and beat for 1 full minute. Taste. Beat in another pinch of salt if desired.",
+        "Spread over mostly cooled brownies (it&#8217;s ok if the brownies are still a bit warm). I usually use an offset spatula to spread the frosting. Cut into squares. For neat squares, I use a very long and sharp knife and wipe it clean with a paper towel after each cut.",
+        "Unfrosted brownies stay fresh in an airtight container at room temperature for 1 week. Frosted brownies stay fresh in an airtight container at room temperature for 2 days or in the refrigerator for up to 1 week."
+      ],
+      "sourceUrl": "https://sallysbakingaddiction.com/chewy-fudgy-homemade-brownies/",
       "mealLists": [
         "saved"
       ],
@@ -4891,6 +6387,133 @@
       ],
       "notes": "Imported from byonandlara.com (recipe_id=5, Breakfast & Brunch)",
       "externalId": "byl-5"
+    },
+    {
+      "id": "83",
+      "slug": "yt-a-healthy-no-mayo-chicken-salad-recipe",
+      "title": "A Healthy No-Mayo Chicken Salad Recipe",
+      "description": "Looking for a quick no-cook dinner? This no-mayo healthy chicken salad recipe will do the trick! ",
+      "imageUrl": "https://i.ytimg.com/vi/4xQsTOxTQsQ/hqdefault.jpg",
+      "prepMinutes": 15,
+      "cookMinutes": 0,
+      "servings": 4,
+      "tags": [
+        "youtube",
+        "mediterranean"
+      ],
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "cups",
+          "name": "cooked chicken breast,  (shredded)"
+        },
+        {
+          "amount": "15",
+          "unit": "oz",
+          "name": "can chickpeas (drained and rinsed)"
+        },
+        {
+          "amount": "/2",
+          "unit": "cup",
+          "name": "plain Greek yogurt*"
+        },
+        {
+          "amount": "",
+          "unit": "large",
+          "name": "lemon,  (juiced)"
+        },
+        {
+          "amount": "",
+          "unit": "tsp",
+          "name": "dijon mustard"
+        },
+        {
+          "amount": "",
+          "unit": "clove",
+          "name": "garlic,  (minced)"
+        },
+        {
+          "amount": "/2",
+          "unit": "cup",
+          "name": "roasted red peppers,  (patted dry and finely chopped)"
+        },
+        {
+          "amount": "/2",
+          "unit": "cup",
+          "name": "pepperoncinis or banana pepper rings, (patted dry and finely chopped)"
+        },
+        {
+          "amount": "/2",
+          "unit": "cup",
+          "name": "artichoke hearts, (drained and finely chopped)"
+        },
+        {
+          "amount": "/2",
+          "unit": "cup",
+          "name": "cucumber (seeded and finely diced)"
+        },
+        {
+          "amount": "/2",
+          "unit": "cup",
+          "name": "crumbled feta cheese"
+        },
+        {
+          "amount": "",
+          "unit": "tbsp",
+          "name": "red onion, (finely diced)"
+        },
+        {
+          "amount": "",
+          "unit": "tbsp",
+          "name": "finely chopped mint"
+        },
+        {
+          "amount": "",
+          "unit": "tbsp",
+          "name": "finely chopped parsley"
+        }
+      ],
+      "steps": [
+        "Intro",
+        "Ingredients",
+        "Salad prep",
+        "Dressing prep",
+        "Salad mixture",
+        "Taste test"
+      ],
+      "recipeKind": "youtube",
+      "youtubeVideoId": "4xQsTOxTQsQ",
+      "timedSteps": [
+        {
+          "text": "Intro",
+          "startSeconds": 0
+        },
+        {
+          "text": "Ingredients",
+          "startSeconds": 16
+        },
+        {
+          "text": "Salad prep",
+          "startSeconds": 32
+        },
+        {
+          "text": "Dressing prep",
+          "startSeconds": 118
+        },
+        {
+          "text": "Salad mixture",
+          "startSeconds": 203
+        },
+        {
+          "text": "Taste test",
+          "startSeconds": 217
+        }
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=4xQsTOxTQsQ",
+      "mealLists": [
+        "saved"
+      ],
+      "notes": "Video: youtube.com/watch?v=4xQsTOxTQsQ. Ingredient list from companion no-mayo Mediterranean chicken salad (wholesomelicious.com)."
     }
   ]
 }

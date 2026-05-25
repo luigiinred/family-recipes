@@ -1,0 +1,121 @@
+{
+  "scraped": {
+    "title": "Sausage & broccoli pasta",
+    "description": "Liven up midweek pasta with a fiery sausage and chilli hit",
+    "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-430451_11-494173c.jpg?resize=440,400",
+    "prepMinutes": 5,
+    "cookMinutes": 20,
+    "servings": 2,
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "g",
+        "name": "pasta shapes"
+      },
+      {
+        "amount": "",
+        "unit": "g",
+        "name": "pack purple sprouting broccoli cut into pieces"
+      },
+      {
+        "amount": "",
+        "unit": "tbsp",
+        "name": "extra-virgin olive oil"
+      },
+      {
+        "amount": "",
+        "unit": "garlic",
+        "name": "cloves sliced"
+      },
+      {
+        "amount": "",
+        "unit": "",
+        "name": "&frac12; tsp fennel seeds (optional)"
+      },
+      {
+        "amount": "",
+        "unit": "",
+        "name": "&frac12; tsp crushed red chillies"
+      },
+      {
+        "amount": "",
+        "unit": "Italian",
+        "name": "-style pork sausages skins removed and meat broken into pieces"
+      },
+      {
+        "amount": "",
+        "unit": "parmesan",
+        "name": "shavings, to serve"
+      }
+    ],
+    "steps": [
+      "Bring a large pan of water to the boil and cook the pasta until nearly al dente. Throw in the broccoli and cook for 2 mins more. Drain, saving 1-2 tbsp of the water.",
+      "Heat the oil in a large frying pan and add the garlic, fennel seeds, if using, and chillies. When they start to colour a bit, add the sausage and cook until golden and cooked through. Tip in the pasta and broccoli with the reserved water and toss. Serve hot with the Parmesan shavings."
+    ],
+    "source": "json-ld"
+  },
+  "merged": {
+    "id": "21",
+    "slug": "garlic-butter-sausages-broccoli-skillet",
+    "title": "Garlic Butter Sausages and Broccoli Skillet",
+    "description": "Liven up midweek pasta with a fiery sausage and chilli hit",
+    "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-430451_11-494173c.jpg?resize=440,400",
+    "prepMinutes": 5,
+    "cookMinutes": 20,
+    "servings": 2,
+    "tags": [
+      "skillet",
+      "low-carb"
+    ],
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "g",
+        "name": "pasta shapes"
+      },
+      {
+        "amount": "",
+        "unit": "g",
+        "name": "pack purple sprouting broccoli cut into pieces"
+      },
+      {
+        "amount": "",
+        "unit": "tbsp",
+        "name": "extra-virgin olive oil"
+      },
+      {
+        "amount": "",
+        "unit": "garlic",
+        "name": "cloves sliced"
+      },
+      {
+        "amount": "",
+        "unit": "",
+        "name": "&frac12; tsp fennel seeds (optional)"
+      },
+      {
+        "amount": "",
+        "unit": "",
+        "name": "&frac12; tsp crushed red chillies"
+      },
+      {
+        "amount": "",
+        "unit": "Italian",
+        "name": "-style pork sausages skins removed and meat broken into pieces"
+      },
+      {
+        "amount": "",
+        "unit": "parmesan",
+        "name": "shavings, to serve"
+      }
+    ],
+    "steps": [
+      "Bring a large pan of water to the boil and cook the pasta until nearly al dente. Throw in the broccoli and cook for 2 mins more. Drain, saving 1-2 tbsp of the water.",
+      "Heat the oil in a large frying pan and add the garlic, fennel seeds, if using, and chillies. When they start to colour a bit, add the sausage and cook until golden and cooked through. Tip in the pasta and broccoli with the reserved water and toss. Serve hot with the Parmesan shavings."
+    ],
+    "mealLists": [
+      "saved"
+    ],
+    "sourceUrl": "https://www.bbcgoodfood.com/recipes/sausage-broccoli-pasta"
+  }
+}

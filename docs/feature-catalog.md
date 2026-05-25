@@ -11,11 +11,13 @@ Personal family recipe site — static JSON catalog + React UI.
 | HM-3 | Tag filter | Filter with autocomplete | complete | home | [TagFilter.test.tsx](../src/components/TagFilter/TagFilter.test.tsx) |
 | HM-4 | Meal lists | Filter to-make, saved, etc. | complete | home | filterRecipes |
 | HM-6 | Low effort | Filter quick recipes (`effort: low`) | complete | home | filterRecipes, catalog |
+| HM-7 | Star recipes | Mark favorites; persisted locally | complete | home | [RecipeCard.test.tsx](../src/components/RecipeCard/RecipeCard.test.tsx), [starredRecipes.test.ts](../src/features/starred-recipes/starredRecipes.test.ts) |
 | RD-1 | Recipe detail | Cook one recipe | complete | [recipe-detail](product-specs/pages/recipe-detail.md) | catalog + scaleIngredient |
 | RD-5 | Print recipe | Print-friendly view | complete | recipe-detail | — |
 | RD-6 | Video recipe | YouTube embed + seekable steps | complete | recipe-detail | RecipeDetailPage + TimedRecipeSteps tests |
 | RD-7 | Sticky video player | Video stays visible while scrolling steps | complete | recipe-detail | — |
 | RD-8 | Timestamp autoplay | Embed autoplays after step seek | complete | recipe-detail | RecipeDetailPage + YouTubeRecipePlayer tests |
+| RD-9 | Star recipe | Toggle favorite from detail page | complete | recipe-detail | RecipeDetailPage + starredRecipes tests |
 | TG-1 | Tags browse | Explore by tag | complete | [tags](product-specs/pages/tags.md) | — |
 | PL-1 | Weekly planner | Plan meals for the week | complete | [planner](product-specs/pages/planner.md) | [weeklyPlan.test.ts](../src/features/meal-planner/weeklyPlan.test.ts) |
 
@@ -37,7 +39,7 @@ Personal family recipe site — static JSON catalog + React UI.
 | to-make | 7 |
 | to-eat | 1 |
 | healthy-ideas | 7 |
-| saved | 19 |
+| saved | 20 |
 | freezer-meals | 1 |
 
 Regenerate data: `node scripts/build-recipes-catalog.mjs`

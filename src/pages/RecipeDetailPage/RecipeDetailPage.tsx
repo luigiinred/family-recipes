@@ -1,9 +1,11 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { RecipeMeta } from '@/components/RecipeMeta/RecipeMeta';
+import { RecipeStarButton } from '@/components/RecipeStarButton/RecipeStarButton';
 import { TimedRecipeSteps } from '@/components/TimedRecipeSteps/TimedRecipeSteps';
 import { YouTubeRecipePlayer } from '@/components/YouTubeRecipePlayer/YouTubeRecipePlayer';
 import { Button, Image, Stack, Text } from '@/design-system/primitives';
+import { useStarredRecipes } from '@/hooks/useStarredRecipes';
 import { scaleIngredient } from '@/features/servings/scaleIngredient';
 import { isYouTubeRecipe } from '@/lib/youtube/isYouTubeRecipe';
 import { recipeImageUrl } from '@/lib/recipeImageUrl';
@@ -18,6 +20,7 @@ export function RecipeDetailPage() {
   const [servings, setServings] = useState(4);
   const [videoStartSeconds, setVideoStartSeconds] = useState(0);
   const [videoAutoplay, setVideoAutoplay] = useState(false);
+  const { isStarred, toggleStar } = useStarredRecipes();
 
   useEffect(() => {
     if (!slug) return;
@@ -63,9 +66,16 @@ export function RecipeDetailPage() {
 
   const headerText = (
     <Stack gap="md" className={styles.headerText}>
-      <Text as="h1" variant="title">
-        {recipe.title}
-      </Text>
+      <div className={styles.titleRow}>
+        <Text as="h1" variant="title">
+          {recipe.title}
+        </Text>
+        <RecipeStarButton
+          title={recipe.title}
+          starred={isStarred(recipe.slug)}
+          onToggle={() => toggleStar(recipe.slug)}
+        />
+      </div>
       <RecipeMeta recipe={recipe} />
       {recipe.notes ? <Text variant="muted">{recipe.notes}</Text> : null}
       {recipe.sourceUrl ? (

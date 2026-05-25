@@ -1,0 +1,144 @@
+{
+  "scraped": {
+    "title": "Garlic Butter Shrimp in 10 Minutes",
+    "description": "This easy garlic butter shrimp recipe is an amazing flavor combination of garlicky, buttery goodness.",
+    "imageUrl": "https://www.eatwell101.com/wp-content/uploads/2019/07/healthy-Shrimp-Recipe-1.jpg",
+    "prepMinutes": 5,
+    "cookMinutes": 10,
+    "servings": 2,
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "(1 stick) unsalted butter, divided"
+      },
+      {
+        "amount": "1/2",
+        "unit": "pounds",
+        "name": "(700g)  extra-large shrimp, peeled and deveined"
+      },
+      {
+        "amount": "",
+        "unit": "Kosher",
+        "name": "salt and freshly ground black pepper, to taste"
+      },
+      {
+        "amount": "",
+        "unit": "cloves",
+        "name": "garlic, minced"
+      },
+      {
+        "amount": "/2",
+        "unit": "teaspoon",
+        "name": "onion powder"
+      },
+      {
+        "amount": "/4",
+        "unit": "cup",
+        "name": "(60ml) chicken stock"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoon",
+        "name": "hot sauce of your choice (we used Sriracha)"
+      },
+      {
+        "amount": "/2",
+        "unit": "Juice",
+        "name": "of  lemon, or more, to taste"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "chopped fresh parsley, for garnish"
+      },
+      {
+        "amount": "",
+        "unit": "Crushed",
+        "name": "red chili pepper flakes, optional"
+      }
+    ],
+    "steps": [
+      "To make your garlic butter shrimp: Melt 2 tablespoons butter in a large skillet over medium-high heat. In a bowl, season shrimp with salt, pepper, and onion powder, to taste. Add shrimp to the skillet and cook, stirring occasionally, until shrimp is pink, about 2-3 minutes; then set aside on a shallow plate.",
+      "Add garlic to the same skillet and cook, stirring frequently, until fragrant, about 1 minute. Stir in chicken stock, hot sauce, and lemon juice to deglaze. Bring to a boil; reduce heat and simmer until reduced by half, about 1-2 minutes. Stir in the remaining 6 tablespoons butter, 1 tablespoon at a time, until melted and smooth.",
+      "Stir in shrimp and gently toss to combine with the garlic butter sauce. Reheat for 1 minute, then serve the garlic butter shrimp immediately, garnished with chili pepper flakes and fresh chopped parsley, if desired. Enjoy! 🍤"
+    ],
+    "source": "json-ld"
+  },
+  "merged": {
+    "id": "4",
+    "slug": "air-fried-veggies-shrimp",
+    "title": "Air Fried Veggies and Shrimp",
+    "description": "This easy garlic butter shrimp recipe is an amazing flavor combination of garlicky, buttery goodness.",
+    "imageUrl": "https://www.eatwell101.com/wp-content/uploads/2019/07/healthy-Shrimp-Recipe-1.jpg",
+    "prepMinutes": 5,
+    "cookMinutes": 10,
+    "servings": 2,
+    "tags": [
+      "air-fryer",
+      "seafood"
+    ],
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "(1 stick) unsalted butter, divided"
+      },
+      {
+        "amount": "1/2",
+        "unit": "pounds",
+        "name": "(700g)  extra-large shrimp, peeled and deveined"
+      },
+      {
+        "amount": "",
+        "unit": "Kosher",
+        "name": "salt and freshly ground black pepper, to taste"
+      },
+      {
+        "amount": "",
+        "unit": "cloves",
+        "name": "garlic, minced"
+      },
+      {
+        "amount": "/2",
+        "unit": "teaspoon",
+        "name": "onion powder"
+      },
+      {
+        "amount": "/4",
+        "unit": "cup",
+        "name": "(60ml) chicken stock"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoon",
+        "name": "hot sauce of your choice (we used Sriracha)"
+      },
+      {
+        "amount": "/2",
+        "unit": "Juice",
+        "name": "of  lemon, or more, to taste"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "chopped fresh parsley, for garnish"
+      },
+      {
+        "amount": "",
+        "unit": "Crushed",
+        "name": "red chili pepper flakes, optional"
+      }
+    ],
+    "steps": [
+      "To make your garlic butter shrimp: Melt 2 tablespoons butter in a large skillet over medium-high heat. In a bowl, season shrimp with salt, pepper, and onion powder, to taste. Add shrimp to the skillet and cook, stirring occasionally, until shrimp is pink, about 2-3 minutes; then set aside on a shallow plate.",
+      "Add garlic to the same skillet and cook, stirring frequently, until fragrant, about 1 minute. Stir in chicken stock, hot sauce, and lemon juice to deglaze. Bring to a boil; reduce heat and simmer until reduced by half, about 1-2 minutes. Stir in the remaining 6 tablespoons butter, 1 tablespoon at a time, until melted and smooth.",
+      "Stir in shrimp and gently toss to combine with the garlic butter sauce. Reheat for 1 minute, then serve the garlic butter shrimp immediately, garnished with chili pepper flakes and fresh chopped parsley, if desired. Enjoy! 🍤"
+    ],
+    "mealLists": [
+      "to-make"
+    ],
+    "sourceUrl": "https://www.eatwell101.com/garlic-butter-shrimp-recipe",
+    "effort": "low"
+  }
+}

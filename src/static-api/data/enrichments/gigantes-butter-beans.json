@@ -1,0 +1,228 @@
+{
+  "scraped": {
+    "title": "Gigantes Plaki (Greek-Style Baked Giant Beans)",
+    "description": "Comforting and buttery gigantes plaki, or Greek giant baked beans, with tomatoes and olive oil make a satisfying vegetarian dinner any night of the week. Or, you can serve them as a side or as an appetizer (at room temperature) over crusty bread.",
+    "imageUrl": "https://www.themediterraneandish.com/wp-content/uploads/2022/12/Gigantes-Plaki-recipe-FINAL-8.jpg",
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "Extra",
+        "name": "-virgin olive oil"
+      },
+      {
+        "amount": "/2",
+        "unit": "large",
+        "name": "onion, (roughly chopped)"
+      },
+      {
+        "amount": "",
+        "unit": "large",
+        "name": "carrot, (peeled and roughly chopped)"
+      },
+      {
+        "amount": "",
+        "unit": "celery",
+        "name": "stalk, (roughly chopped)"
+      },
+      {
+        "amount": "",
+        "unit": "large",
+        "name": "garlic cloves, (minced)"
+      },
+      {
+        "amount": "",
+        "unit": "Kosher",
+        "name": "salt"
+      },
+      {
+        "amount": "",
+        "unit": "",
+        "name": "(15-ounce) can diced tomatoes, (with juices)"
+      },
+      {
+        "amount": "",
+        "unit": "Tablespoons",
+        "name": "(3 fluid ounces) water"
+      },
+      {
+        "amount": "/4",
+        "unit": "cup",
+        "name": "chopped flat-leaf parsley, (plus more for garnish)"
+      },
+      {
+        "amount": "/2",
+        "unit": "Tablespoon",
+        "name": "fresh thyme leaves"
+      },
+      {
+        "amount": "/4",
+        "unit": "teaspoon",
+        "name": "dried oregano"
+      },
+      {
+        "amount": "/4",
+        "unit": "to",
+        "name": "1/2 teaspoon red pepper flakes"
+      },
+      {
+        "amount": "/4",
+        "unit": "teaspoon",
+        "name": "ground black pepper"
+      },
+      {
+        "amount": "/8",
+        "unit": "to",
+        "name": "1/4 teaspoon ground cinnamon"
+      },
+      {
+        "amount": "",
+        "unit": "dried",
+        "name": "bay leaf"
+      },
+      {
+        "amount": "",
+        "unit": "",
+        "name": "(15-ounce) can butter beans, (drained and rinsed (or the largest beans you can find))"
+      },
+      {
+        "amount": "",
+        "unit": "Creamy",
+        "name": "feta cheese, (crumbled)"
+      },
+      {
+        "amount": "",
+        "unit": "Rustic",
+        "name": "bread, (for serving)"
+      }
+    ],
+    "steps": [
+      "Preheat oven: Position a rack in the center of the oven and preheat the oven to 375°F.",
+      "Saute the vegetables: In a large oven-safe skillet set over medium-high heat, add 1/8 cup olive oil. Once the oil shimmers, add the onion, carrot, celery, and garlic. Season with a pinch of salt (about 1/4 teaspoon). Cook, stirring frequently, until the vegetables soften, 5-7 minutes.",
+      "Add the tomatoes and spices: Add the tomatoes with their juices and the water. Season with another pinch of salt (about 1/4 teaspoon). Add the parsley, thyme, oregano, red pepper flakes, black pepper, cinnamon, and bay leaf.",
+      "Add the beans: Stir in the beans and cook for 5 minutes over high heat. At this point, taste and adjust the seasoning to your liking, then transfer the mixture to the oven and bake until thickened and the top layer turns a light golden brown, 20 to 30 minutes.",
+      "Finish and serve: Remove and discard the bay leaf. Finish the dish with a drizzle of olive oil, a pinch of parsley, and a good sprinkle of feta. Serve with rustic bread."
+    ],
+    "source": "json-ld"
+  },
+  "merged": {
+    "id": "10",
+    "slug": "gigantes-butter-beans",
+    "title": "Gigantes (Butter Beans)",
+    "description": "Comforting and buttery gigantes plaki, or Greek giant baked beans, with tomatoes and olive oil make a satisfying vegetarian dinner any night of the week. Or, you can serve them as a side or as an appetizer (at room temperature) over crusty bread.",
+    "imageUrl": "https://www.themediterraneandish.com/wp-content/uploads/2022/12/Gigantes-Plaki-recipe-FINAL-8.jpg",
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "servings": 4,
+    "tags": [
+      "greek",
+      "vegetarian",
+      "beans"
+    ],
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "Extra",
+        "name": "-virgin olive oil"
+      },
+      {
+        "amount": "/2",
+        "unit": "large",
+        "name": "onion, (roughly chopped)"
+      },
+      {
+        "amount": "",
+        "unit": "large",
+        "name": "carrot, (peeled and roughly chopped)"
+      },
+      {
+        "amount": "",
+        "unit": "celery",
+        "name": "stalk, (roughly chopped)"
+      },
+      {
+        "amount": "",
+        "unit": "large",
+        "name": "garlic cloves, (minced)"
+      },
+      {
+        "amount": "",
+        "unit": "Kosher",
+        "name": "salt"
+      },
+      {
+        "amount": "",
+        "unit": "",
+        "name": "(15-ounce) can diced tomatoes, (with juices)"
+      },
+      {
+        "amount": "",
+        "unit": "Tablespoons",
+        "name": "(3 fluid ounces) water"
+      },
+      {
+        "amount": "/4",
+        "unit": "cup",
+        "name": "chopped flat-leaf parsley, (plus more for garnish)"
+      },
+      {
+        "amount": "/2",
+        "unit": "Tablespoon",
+        "name": "fresh thyme leaves"
+      },
+      {
+        "amount": "/4",
+        "unit": "teaspoon",
+        "name": "dried oregano"
+      },
+      {
+        "amount": "/4",
+        "unit": "to",
+        "name": "1/2 teaspoon red pepper flakes"
+      },
+      {
+        "amount": "/4",
+        "unit": "teaspoon",
+        "name": "ground black pepper"
+      },
+      {
+        "amount": "/8",
+        "unit": "to",
+        "name": "1/4 teaspoon ground cinnamon"
+      },
+      {
+        "amount": "",
+        "unit": "dried",
+        "name": "bay leaf"
+      },
+      {
+        "amount": "",
+        "unit": "",
+        "name": "(15-ounce) can butter beans, (drained and rinsed (or the largest beans you can find))"
+      },
+      {
+        "amount": "",
+        "unit": "Creamy",
+        "name": "feta cheese, (crumbled)"
+      },
+      {
+        "amount": "",
+        "unit": "Rustic",
+        "name": "bread, (for serving)"
+      }
+    ],
+    "steps": [
+      "Preheat oven: Position a rack in the center of the oven and preheat the oven to 375°F.",
+      "Saute the vegetables: In a large oven-safe skillet set over medium-high heat, add 1/8 cup olive oil. Once the oil shimmers, add the onion, carrot, celery, and garlic. Season with a pinch of salt (about 1/4 teaspoon). Cook, stirring frequently, until the vegetables soften, 5-7 minutes.",
+      "Add the tomatoes and spices: Add the tomatoes with their juices and the water. Season with another pinch of salt (about 1/4 teaspoon). Add the parsley, thyme, oregano, red pepper flakes, black pepper, cinnamon, and bay leaf.",
+      "Add the beans: Stir in the beans and cook for 5 minutes over high heat. At this point, taste and adjust the seasoning to your liking, then transfer the mixture to the oven and bake until thickened and the top layer turns a light golden brown, 20 to 30 minutes.",
+      "Finish and serve: Remove and discard the bay leaf. Finish the dish with a drizzle of olive oil, a pinch of parsley, and a good sprinkle of feta. Serve with rustic bread."
+    ],
+    "mealLists": [
+      "healthy-ideas"
+    ],
+    "sourceUrl": "https://www.themediterraneandish.com/gigantes-plaki/"
+  }
+}

@@ -9,7 +9,7 @@ beforeEach(() => {
 describe('searchRecipes', () => {
   it('returns all recipes when query is empty', async () => {
     const all = await searchRecipes('');
-    expect(all).toHaveLength(74);
+    expect(all).toHaveLength(75);
   });
 
   it('matches title case-insensitively', async () => {

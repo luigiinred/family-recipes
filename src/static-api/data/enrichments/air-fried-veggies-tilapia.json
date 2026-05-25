@@ -1,0 +1,199 @@
+{
+  "scraped": {
+    "title": "Sheet-Pan Chili-Lime Tilapia with Veggies",
+    "description": "This sheet-pan tilapia recipe with vegetables is super easy, quick, and healthy for your busy weeknights!",
+    "imageUrl": "https://www.eatwell101.com/wp-content/uploads/2017/06/baked-white-fish-recipe.jpg",
+    "prepMinutes": 5,
+    "cookMinutes": 20,
+    "servings": 3,
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "tilapia",
+        "name": "fillets (or any white fish, wild-caught if possible)"
+      },
+      {
+        "amount": "",
+        "unit": "large",
+        "name": "sweet potato, cut into fries (or 2 medium)"
+      },
+      {
+        "amount": "",
+        "unit": "broccoli",
+        "name": "head, cut into florets"
+      },
+      {
+        "amount": "/2",
+        "unit": "cup",
+        "name": "freshly squeezed lime juice (or juice of 2 limes)"
+      },
+      {
+        "amount": "/4",
+        "unit": "cup",
+        "name": "fresh chopped cilantro"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "olive oil + 2 for veggies"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "water"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoon",
+        "name": "honey"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoon",
+        "name": "minced garlic (or 4 crushed garlic cloves)"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoon",
+        "name": "red chili flakes, or to taste"
+      },
+      {
+        "amount": "/2",
+        "unit": "teaspoon",
+        "name": "chili powder"
+      },
+      {
+        "amount": "/8",
+        "unit": "teaspoon",
+        "name": "ground cumin"
+      },
+      {
+        "amount": "",
+        "unit": "Salt",
+        "name": "and fresh cracked pepper"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "chopped cilantro leaves, for garnish"
+      },
+      {
+        "amount": "",
+        "unit": "small",
+        "name": "bird-eye pepper, sliced for garnish, optional"
+      }
+    ],
+    "steps": [
+      "Preheat your oven to 425°F (210°C). Lightly oil a baking sheet or coat with nonstick spray.",
+      "Whisk together 2 tablespoons olive oil, water, garlic, lime juice, honey, chili flakes, chili powder, cumin and cilantro in a small bowl.",
+      "Place sweet potato fries and broccoli in a single layer onto the prepared baking sheet. Stir in 2 tablespoons olive oil; season with salt and pepper, to taste, and mix well. Make some space for the white fish fillets and place tilapia in the reserved spaces. Brush fish with the chili-lime mixture.",
+      "Bake until fish flakes easily with a fork and the broccoli begin to crisp up on the edges and have softened, about 20 – 25 minutes. Serve the baked tilapia garnished with cilantro, sliced chili peppers and lime wedges, if desired. Enjoy!",
+      "Note: Tilapia is a versatile and mild fish, but sometimes is has an off-flavor that some cooks would call “muddy”. Don’t hesitate to go heavy on spices as it will greatly reduce this off-flavor and enhance the taste of the fish."
+    ],
+    "source": "json-ld"
+  },
+  "merged": {
+    "id": "3",
+    "slug": "air-fried-veggies-tilapia",
+    "title": "Air Fried Veggies and Tilapia",
+    "description": "This sheet-pan tilapia recipe with vegetables is super easy, quick, and healthy for your busy weeknights!",
+    "imageUrl": "https://www.eatwell101.com/wp-content/uploads/2017/06/baked-white-fish-recipe.jpg",
+    "prepMinutes": 5,
+    "cookMinutes": 20,
+    "servings": 3,
+    "tags": [
+      "air-fryer",
+      "fish",
+      "low-carb"
+    ],
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "tilapia",
+        "name": "fillets (or any white fish, wild-caught if possible)"
+      },
+      {
+        "amount": "",
+        "unit": "large",
+        "name": "sweet potato, cut into fries (or 2 medium)"
+      },
+      {
+        "amount": "",
+        "unit": "broccoli",
+        "name": "head, cut into florets"
+      },
+      {
+        "amount": "/2",
+        "unit": "cup",
+        "name": "freshly squeezed lime juice (or juice of 2 limes)"
+      },
+      {
+        "amount": "/4",
+        "unit": "cup",
+        "name": "fresh chopped cilantro"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "olive oil + 2 for veggies"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "water"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoon",
+        "name": "honey"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoon",
+        "name": "minced garlic (or 4 crushed garlic cloves)"
+      },
+      {
+        "amount": "",
+        "unit": "teaspoon",
+        "name": "red chili flakes, or to taste"
+      },
+      {
+        "amount": "/2",
+        "unit": "teaspoon",
+        "name": "chili powder"
+      },
+      {
+        "amount": "/8",
+        "unit": "teaspoon",
+        "name": "ground cumin"
+      },
+      {
+        "amount": "",
+        "unit": "Salt",
+        "name": "and fresh cracked pepper"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoons",
+        "name": "chopped cilantro leaves, for garnish"
+      },
+      {
+        "amount": "",
+        "unit": "small",
+        "name": "bird-eye pepper, sliced for garnish, optional"
+      }
+    ],
+    "steps": [
+      "Preheat your oven to 425°F (210°C). Lightly oil a baking sheet or coat with nonstick spray.",
+      "Whisk together 2 tablespoons olive oil, water, garlic, lime juice, honey, chili flakes, chili powder, cumin and cilantro in a small bowl.",
+      "Place sweet potato fries and broccoli in a single layer onto the prepared baking sheet. Stir in 2 tablespoons olive oil; season with salt and pepper, to taste, and mix well. Make some space for the white fish fillets and place tilapia in the reserved spaces. Brush fish with the chili-lime mixture.",
+      "Bake until fish flakes easily with a fork and the broccoli begin to crisp up on the edges and have softened, about 20 – 25 minutes. Serve the baked tilapia garnished with cilantro, sliced chili peppers and lime wedges, if desired. Enjoy!",
+      "Note: Tilapia is a versatile and mild fish, but sometimes is has an off-flavor that some cooks would call “muddy”. Don’t hesitate to go heavy on spices as it will greatly reduce this off-flavor and enhance the taste of the fish."
+    ],
+    "mealLists": [
+      "to-make"
+    ],
+    "sourceUrl": "https://www.eatwell101.com/sheet-pan-tilapia-white-fish-recipe",
+    "effort": "low"
+  }
+}

@@ -1,4 +1,5 @@
 .card {
+  position: relative;
   list-style: none;
 }
 
@@ -16,4 +17,19 @@
 
 .body {
   padding: var(--space-4);
+}
+
+.star {
+  position: absolute;
+  top: var(--space-2);
+  right: var(--space-2);
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 150ms ease;
+}
+
+.card:hover .star,
+.card:focus-within .star,
+.starVisible {
+  opacity: 1;
 }

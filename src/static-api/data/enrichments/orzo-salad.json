@@ -1,0 +1,184 @@
+{
+  "scraped": {
+    "title": "Orzo Salad",
+    "description": "This orzo salad recipe is a fresh, delicious side dish or vegetarian lunch! If you make it ahead of time, save the herbs to add at the last minute. I also recommend tossing the salad with a drizzle of olive oil before serving.",
+    "imageUrl": "https://cdn.loveandlemons.com/wp-content/uploads/2021/05/orzo-salad-500x500.jpg",
+    "prepMinutes": 30,
+    "cookMinutes": 8,
+    "servings": 6,
+    "ingredients": [
+      {
+        "amount": "½",
+        "unit": "cups",
+        "name": "dry orzo pasta"
+      },
+      {
+        "amount": "",
+        "unit": "recipe",
+        "name": "Greek Salad Dressing"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoon",
+        "name": "red wine vinegar"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoon",
+        "name": "fresh lemon juice"
+      },
+      {
+        "amount": "½",
+        "unit": "teaspoon",
+        "name": "oregano"
+      },
+      {
+        "amount": "¼",
+        "unit": "teaspoon",
+        "name": "sea salt"
+      },
+      {
+        "amount": "",
+        "unit": "Persian",
+        "name": "cucumbers (halved vertically, and sliced ¼-inch thick)"
+      },
+      {
+        "amount": "",
+        "unit": "cups",
+        "name": "halved cherry tomatoes"
+      },
+      {
+        "amount": "",
+        "unit": "cup",
+        "name": "cooked chickpeas (drained, and rinsed)"
+      },
+      {
+        "amount": "",
+        "unit": "ounces",
+        "name": "feta cheese (cut into ¼-inch cubes)"
+      },
+      {
+        "amount": "⅓",
+        "unit": "cup",
+        "name": "thinly sliced red onion"
+      },
+      {
+        "amount": "½",
+        "unit": "cup",
+        "name": "pitted Kalamata olives"
+      },
+      {
+        "amount": "",
+        "unit": "cup",
+        "name": "fresh basil and/or mint leaves"
+      },
+      {
+        "amount": "",
+        "unit": "Freshly",
+        "name": "ground black pepper"
+      }
+    ],
+    "steps": [
+      "Bring a large pot of salted water to a boil. Prepare the pasta according to the package directions, or until slightly past al dente. Drain the orzo and toss it with a little olive oil, so that it doesn’t stick together. Spread onto a baking sheet to cool.",
+      "Prepare the Greek Salad Dressing and add in the red wine vinegar, lemon juice, oregano, and sea salt.",
+      "In a large bowl, toss together the cooked orzo, cucumbers, tomatoes, chickpeas, feta, red onion, and olives. Drizzle the dressing over the salad, add half the herbs, season with freshly ground black pepper, and toss to coat. Garnish with the remaining herbs and serve."
+    ],
+    "source": "json-ld"
+  },
+  "merged": {
+    "id": "13",
+    "slug": "orzo-salad",
+    "title": "Orzo Salad",
+    "description": "This orzo salad recipe is a fresh, delicious side dish or vegetarian lunch! If you make it ahead of time, save the herbs to add at the last minute. I also recommend tossing the salad with a drizzle of olive oil before serving.",
+    "imageUrl": "https://cdn.loveandlemons.com/wp-content/uploads/2021/05/orzo-salad-500x500.jpg",
+    "prepMinutes": 30,
+    "cookMinutes": 8,
+    "servings": 6,
+    "tags": [
+      "salad",
+      "pasta",
+      "mediterranean"
+    ],
+    "ingredients": [
+      {
+        "amount": "½",
+        "unit": "cups",
+        "name": "dry orzo pasta"
+      },
+      {
+        "amount": "",
+        "unit": "recipe",
+        "name": "Greek Salad Dressing"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoon",
+        "name": "red wine vinegar"
+      },
+      {
+        "amount": "",
+        "unit": "tablespoon",
+        "name": "fresh lemon juice"
+      },
+      {
+        "amount": "½",
+        "unit": "teaspoon",
+        "name": "oregano"
+      },
+      {
+        "amount": "¼",
+        "unit": "teaspoon",
+        "name": "sea salt"
+      },
+      {
+        "amount": "",
+        "unit": "Persian",
+        "name": "cucumbers (halved vertically, and sliced ¼-inch thick)"
+      },
+      {
+        "amount": "",
+        "unit": "cups",
+        "name": "halved cherry tomatoes"
+      },
+      {
+        "amount": "",
+        "unit": "cup",
+        "name": "cooked chickpeas (drained, and rinsed)"
+      },
+      {
+        "amount": "",
+        "unit": "ounces",
+        "name": "feta cheese (cut into ¼-inch cubes)"
+      },
+      {
+        "amount": "⅓",
+        "unit": "cup",
+        "name": "thinly sliced red onion"
+      },
+      {
+        "amount": "½",
+        "unit": "cup",
+        "name": "pitted Kalamata olives"
+      },
+      {
+        "amount": "",
+        "unit": "cup",
+        "name": "fresh basil and/or mint leaves"
+      },
+      {
+        "amount": "",
+        "unit": "Freshly",
+        "name": "ground black pepper"
+      }
+    ],
+    "steps": [
+      "Bring a large pot of salted water to a boil. Prepare the pasta according to the package directions, or until slightly past al dente. Drain the orzo and toss it with a little olive oil, so that it doesn’t stick together. Spread onto a baking sheet to cool.",
+      "Prepare the Greek Salad Dressing and add in the red wine vinegar, lemon juice, oregano, and sea salt.",
+      "In a large bowl, toss together the cooked orzo, cucumbers, tomatoes, chickpeas, feta, red onion, and olives. Drizzle the dressing over the salad, add half the herbs, season with freshly ground black pepper, and toss to coat. Garnish with the remaining herbs and serve."
+    ],
+    "mealLists": [
+      "healthy-ideas"
+    ],
+    "sourceUrl": "https://www.loveandlemons.com/orzo-salad/"
+  }
+}

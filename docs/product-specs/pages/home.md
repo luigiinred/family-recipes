@@ -45,3 +45,4 @@ Browse and search the full personal recipe catalog with meal-list and tag filter
 | HM-4 | Meal list filters | complete | `filterRecipes.test.ts` |
 | HM-5 | Quick tag chips (incl. vegetarian) | complete | `HomePage.test.tsx`, `tags.test.ts` |
 | HM-6 | Low effort filter | Show only `effort: low` recipes | complete | `filterRecipes.test.ts`, `HomePage.test.tsx` |
+| HM-7 | Star recipes | Toggle starred state on card hover; persisted in localStorage | complete | `RecipeCard.test.tsx`, `starredRecipes.test.ts` |

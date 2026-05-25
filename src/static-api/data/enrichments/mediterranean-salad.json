@@ -1,0 +1,126 @@
+{
+  "scraped": {
+    "title": "Mediterranean Salad",
+    "description": "With crisp veggies, salty feta, hearty chickpeas and a bright lemon vinaigrette, this easy Mediterranean salad recipe is so full of flavor!",
+    "imageUrl": "https://www.wellplated.com/wp-content/uploads/2024/12/Best-Mediterranean-Salad-Recipe.jpg",
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "servings": 4,
+    "ingredients": [
+      {
+        "amount": "½",
+        "unit": "cup",
+        "name": "thinly sliced red onion"
+      },
+      {
+        "amount": "",
+        "unit": "ounces",
+        "name": "arugula (spinach, or mixed greens of choice)"
+      },
+      {
+        "amount": "",
+        "unit": "",
+        "name": "(15-ounce) can reduced sodium chickpeas (rinsed and drained)"
+      },
+      {
+        "amount": "½",
+        "unit": "English",
+        "name": "cucumber (halved lengthwise, seeded, and sliced 1/4-inch thick (heaping 1 cup))"
+      },
+      {
+        "amount": "",
+        "unit": "pint",
+        "name": "grape or cherry tomatoes (halved (scant 2 cups))"
+      },
+      {
+        "amount": "",
+        "unit": "small",
+        "name": "red bell pepper (cut into 1/2-inch dice (1 heaping cup))"
+      },
+      {
+        "amount": "⅔",
+        "unit": "cup",
+        "name": "crumbled feta cheese"
+      },
+      {
+        "amount": "",
+        "unit": "Lemon",
+        "name": "vinaigrette"
+      }
+    ],
+    "steps": [
+      "Place the red onion in a small bowl and cover with cold water. Let sit at least 5 minutes, then drain (this removes some of the harsh bite).",
+      "Place the arugula in a large bowl and drizzle lightly with the dressing. Toss to coat.",
+      "Add the cucumber, cherry tomatoes, bell pepper, chickpeas, and drained red onion. Drizzle with a little more dressing then toss gently to combine.",
+      "Last, add 3/4 of the feta, and toss very gently. Add salt and pepper to taste. Sprinkle the remaining feta over the top. Divide between serving bowls and serve with additional dressing as desired."
+    ],
+    "source": "json-ld"
+  },
+  "merged": {
+    "id": "2",
+    "slug": "mediterranean-salad",
+    "title": "Mediterranean Salad",
+    "description": "With crisp veggies, salty feta, hearty chickpeas and a bright lemon vinaigrette, this easy Mediterranean salad recipe is so full of flavor!",
+    "imageUrl": "https://www.wellplated.com/wp-content/uploads/2024/12/Best-Mediterranean-Salad-Recipe.jpg",
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "servings": 4,
+    "tags": [
+      "salad",
+      "mediterranean"
+    ],
+    "ingredients": [
+      {
+        "amount": "½",
+        "unit": "cup",
+        "name": "thinly sliced red onion"
+      },
+      {
+        "amount": "",
+        "unit": "ounces",
+        "name": "arugula (spinach, or mixed greens of choice)"
+      },
+      {
+        "amount": "",
+        "unit": "",
+        "name": "(15-ounce) can reduced sodium chickpeas (rinsed and drained)"
+      },
+      {
+        "amount": "½",
+        "unit": "English",
+        "name": "cucumber (halved lengthwise, seeded, and sliced 1/4-inch thick (heaping 1 cup))"
+      },
+      {
+        "amount": "",
+        "unit": "pint",
+        "name": "grape or cherry tomatoes (halved (scant 2 cups))"
+      },
+      {
+        "amount": "",
+        "unit": "small",
+        "name": "red bell pepper (cut into 1/2-inch dice (1 heaping cup))"
+      },
+      {
+        "amount": "⅔",
+        "unit": "cup",
+        "name": "crumbled feta cheese"
+      },
+      {
+        "amount": "",
+        "unit": "Lemon",
+        "name": "vinaigrette"
+      }
+    ],
+    "steps": [
+      "Place the red onion in a small bowl and cover with cold water. Let sit at least 5 minutes, then drain (this removes some of the harsh bite).",
+      "Place the arugula in a large bowl and drizzle lightly with the dressing. Toss to coat.",
+      "Add the cucumber, cherry tomatoes, bell pepper, chickpeas, and drained red onion. Drizzle with a little more dressing then toss gently to combine.",
+      "Last, add 3/4 of the feta, and toss very gently. Add salt and pepper to taste. Sprinkle the remaining feta over the top. Divide between serving bowls and serve with additional dressing as desired."
+    ],
+    "mealLists": [
+      "to-make"
+    ],
+    "sourceUrl": "https://www.wellplated.com/mediterranean-salad/",
+    "effort": "low"
+  }
+}

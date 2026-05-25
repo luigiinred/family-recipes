@@ -1,0 +1,197 @@
+{
+  "scraped": {
+    "title": "Pasta Primavera",
+    "description": "Pasta Primavera is the perfect Spring dish packed with fresh seasonal vegetables tossed with pasta in a light lemon and butter sauce.",
+    "imageUrl": "https://www.budgetbytes.com/wp-content/uploads/2023/05/Pasta-Primavera-fork.jpg",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "oz.",
+        "name": "penne pasta (uncooked, $0.49)"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "olive oil ($0.44)"
+      },
+      {
+        "amount": "",
+        "unit": "zucchini",
+        "name": "($0.94)"
+      },
+      {
+        "amount": "",
+        "unit": "yellow",
+        "name": "squash ($1.01)"
+      },
+      {
+        "amount": "",
+        "unit": "carrot",
+        "name": "($0.14)"
+      },
+      {
+        "amount": "½",
+        "unit": "red",
+        "name": "onion ($0.43)"
+      },
+      {
+        "amount": "½",
+        "unit": "cup",
+        "name": "frozen peas ($0.21)"
+      },
+      {
+        "amount": "",
+        "unit": "cup",
+        "name": "grape tomatoes ($1.76)"
+      },
+      {
+        "amount": "",
+        "unit": "cloves",
+        "name": "garlic cloves (minced, $0.24)"
+      },
+      {
+        "amount": "½",
+        "unit": "cup",
+        "name": "Parmesan cheese (grated, $0.89*)"
+      },
+      {
+        "amount": "",
+        "unit": "tsp",
+        "name": "dried oregano ($0.10)"
+      },
+      {
+        "amount": "½",
+        "unit": "tsp",
+        "name": "salt ($0.02)"
+      },
+      {
+        "amount": "½",
+        "unit": "tsp",
+        "name": "black pepper (freshly cracked, $0.02)"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "lemon juice (fresh, $0.13)"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "butter ($0.28*)"
+      }
+    ],
+    "steps": [
+      "Start by prepping your vegetables. Wash the vegetables, then cut and slice each vegetable into equal size pieces. Cut the zucchini and yellow squash into half moons, slice the carrots into thin rounds, cut the grape tomatoes in half and slice the red onion into strips.",
+      "Next bring a large pot of salted water to a boil. Cook the pasta according to the package instructions, or until al dente. Reserve some of the starchy pasta water before draining the pasta in a colander.",
+      "While the pasta is boiling, saute the vegetables. In a large deep skillet add olive oil and saute carrots and onion over medium heat for 1-2 minutes. Next add zucchini and yellow squash and saute for an additional 1-2 minutes.",
+      "Next add the minced garlic, grape tomatoes and frozen peas. Season the vegetables with salt, pepper and dried oregano. Saute for an additional 1-2 minutes, then turn the heat off.",
+      "Add the butter to the skillet along with the fresh squeezed lemon juice and stir well to combine. Either add the cooked and drained pasta to the skillet, or transfer the pasta and vegetables to a large bowl. Add grated parmesan cheese and some of the reserved pasta water. Stir the vegetables with the pasta until well combined. Serve with fresh chopped parsley (optional garnish) and enjoy!"
+    ],
+    "source": "json-ld"
+  },
+  "merged": {
+    "id": "14",
+    "slug": "pasta-primavera",
+    "title": "Pasta Primavera",
+    "description": "Pasta Primavera is the perfect Spring dish packed with fresh seasonal vegetables tossed with pasta in a light lemon and butter sauce.",
+    "imageUrl": "https://www.budgetbytes.com/wp-content/uploads/2023/05/Pasta-Primavera-fork.jpg",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "servings": 4,
+    "tags": [
+      "pasta",
+      "vegetarian"
+    ],
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "oz.",
+        "name": "penne pasta (uncooked, $0.49)"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "olive oil ($0.44)"
+      },
+      {
+        "amount": "",
+        "unit": "zucchini",
+        "name": "($0.94)"
+      },
+      {
+        "amount": "",
+        "unit": "yellow",
+        "name": "squash ($1.01)"
+      },
+      {
+        "amount": "",
+        "unit": "carrot",
+        "name": "($0.14)"
+      },
+      {
+        "amount": "½",
+        "unit": "red",
+        "name": "onion ($0.43)"
+      },
+      {
+        "amount": "½",
+        "unit": "cup",
+        "name": "frozen peas ($0.21)"
+      },
+      {
+        "amount": "",
+        "unit": "cup",
+        "name": "grape tomatoes ($1.76)"
+      },
+      {
+        "amount": "",
+        "unit": "cloves",
+        "name": "garlic cloves (minced, $0.24)"
+      },
+      {
+        "amount": "½",
+        "unit": "cup",
+        "name": "Parmesan cheese (grated, $0.89*)"
+      },
+      {
+        "amount": "",
+        "unit": "tsp",
+        "name": "dried oregano ($0.10)"
+      },
+      {
+        "amount": "½",
+        "unit": "tsp",
+        "name": "salt ($0.02)"
+      },
+      {
+        "amount": "½",
+        "unit": "tsp",
+        "name": "black pepper (freshly cracked, $0.02)"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "lemon juice (fresh, $0.13)"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "butter ($0.28*)"
+      }
+    ],
+    "steps": [
+      "Start by prepping your vegetables. Wash the vegetables, then cut and slice each vegetable into equal size pieces. Cut the zucchini and yellow squash into half moons, slice the carrots into thin rounds, cut the grape tomatoes in half and slice the red onion into strips.",
+      "Next bring a large pot of salted water to a boil. Cook the pasta according to the package instructions, or until al dente. Reserve some of the starchy pasta water before draining the pasta in a colander.",
+      "While the pasta is boiling, saute the vegetables. In a large deep skillet add olive oil and saute carrots and onion over medium heat for 1-2 minutes. Next add zucchini and yellow squash and saute for an additional 1-2 minutes.",
+      "Next add the minced garlic, grape tomatoes and frozen peas. Season the vegetables with salt, pepper and dried oregano. Saute for an additional 1-2 minutes, then turn the heat off.",
+      "Add the butter to the skillet along with the fresh squeezed lemon juice and stir well to combine. Either add the cooked and drained pasta to the skillet, or transfer the pasta and vegetables to a large bowl. Add grated parmesan cheese and some of the reserved pasta water. Stir the vegetables with the pasta until well combined. Serve with fresh chopped parsley (optional garnish) and enjoy!"
+    ],
+    "mealLists": [
+      "healthy-ideas"
+    ],
+    "sourceUrl": "https://www.budgetbytes.com/pasta-primavera/"
+  }
+}

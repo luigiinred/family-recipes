@@ -76,7 +76,23 @@ Use **cursor-ide-browser** — required to **watch / scan** the video for import
 
 Combine script output + browser notes. Drop duplicate timestamps; keep the clearest step label.
 
-### 3. Write catalog entry
+### 3. Batch import (playlist or video list)
+
+```bash
+npm run import:youtube-playlist -- --playlist='https://www.youtube.com/playlist?list=PLAYLIST_ID'
+npm run import:youtube-playlist -- --url='https://www.youtube.com/watch?v=VIDEO_ID'
+npm run import:youtube-playlist -- --videos-file=scripts/data/my-playlist.json
+```
+
+Private playlists: use `--cookies-from-browser=chrome`, make the playlist **public/unlisted**, or export IDs:
+
+```bash
+yt-dlp --cookies-from-browser chrome --flat-playlist --print "%(id)s" 'PLAYLIST_URL' > scripts/data/playlist-ids.txt
+```
+
+Then build `scripts/data/my-playlist.json` as `[{ "id": "…", "title": "…" }, …]`.
+
+### 4. Write catalog entry
 
 1. Add or update row in `src/static-api/data/recipes.json`
 2. Set `recipeKind`, `youtubeVideoId`, `timedSteps`, and `steps` (text only)
@@ -85,7 +101,7 @@ Combine script output + browser notes. Drop duplicate timestamps; keep the clear
 5. Sync: `npm run sync:recipes-data`
 6. `npm run test:run` — `catalog.test.ts`, `parseYouTubeVideoId.test.ts`, `TimedRecipeSteps.test.tsx`
 
-### 4. Verify in the app
+### 5. Verify in the app
 
 ```bash
 npm run dev

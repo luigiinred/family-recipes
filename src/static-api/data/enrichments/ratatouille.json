@@ -1,0 +1,153 @@
+{
+  "scraped": {
+    "title": "Ratatouille",
+    "description": "Enjoy this super-healthy traditional ratatouille recipe for lunch or dinner, safe in the knowledge that it counts as four of your five-a-day",
+    "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2019/05/Ratatouille-ea27a5c.jpg?resize=440,400",
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "servings": 4,
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "large",
+        "name": "aubergines"
+      },
+      {
+        "amount": "",
+        "unit": "small",
+        "name": "courgettes"
+      },
+      {
+        "amount": "",
+        "unit": "red",
+        "name": "or yellow peppers"
+      },
+      {
+        "amount": "",
+        "unit": "large",
+        "name": "ripe tomatoes"
+      },
+      {
+        "amount": "",
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "amount": "",
+        "unit": "supermarket",
+        "name": "pack or small bunch basil"
+      },
+      {
+        "amount": "",
+        "unit": "medium",
+        "name": "onion peeled and thinly sliced"
+      },
+      {
+        "amount": "",
+        "unit": "garlic",
+        "name": "cloves peeled and crushed"
+      },
+      {
+        "amount": "",
+        "unit": "tbsp",
+        "name": "red wine vinegar"
+      },
+      {
+        "amount": "",
+        "unit": "tsp",
+        "name": "sugar (any kind)"
+      }
+    ],
+    "steps": [
+      "Cut 2 large aubergines in half lengthways. Place them on the board, cut side down, slice in half lengthways again and then across into 1.5cm chunks. Cut the ends off 4 small courgettes, then across into 1.5cm slices.",
+      "Peel 2 red or yellow peppers from stalk to bottom. Hold upright, cut around the stalk, then cut into 3 pieces. Cut away any membrane, then chop into bite-size chunks.",
+      "Score a small cross on the base of each of 4 large ripe tomatoes, then put them into a heatproof bowl. Pour boiling water over, leave for 20 secs, then remove. Pour the water away, replace the tomatoes and cover with cold water. Leave to cool, then peel the skin away.",
+      "Quarter the tomatoes, scrape away the seeds with a spoon, then roughly chop the flesh.",
+      "Set a sauté pan over medium heat and when hot, pour in 2 tbsp olive oil. Brown the aubergines for 5 mins on each side until the pieces are soft. Set them aside.",
+      "Fry the courgettes in another tbsp oil for 5 mins, until golden on both sides. Repeat with the peppers. Don’t overcook the vegetables at this stage.",
+      "Tear up the leaves from the bunch of basil and set aside. Cook 1 thinly sliced medium onion in the pan for 5 minutes. Add 3 crushed garlic cloves and fry for a further minute. Stir in 1 tbsp red wine vinegar and 1 tsp sugar, then tip in the tomatoes and half the basil.",
+      "Return the vegetables to the pan with some salt and pepper and cook for 5 mins. Serve with basil."
+    ],
+    "source": "json-ld"
+  },
+  "merged": {
+    "id": "12",
+    "slug": "ratatouille",
+    "title": "Ratatouille",
+    "description": "Enjoy this super-healthy traditional ratatouille recipe for lunch or dinner, safe in the knowledge that it counts as four of your five-a-day",
+    "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2019/05/Ratatouille-ea27a5c.jpg?resize=440,400",
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "servings": 4,
+    "tags": [
+      "vegetarian",
+      "french"
+    ],
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "large",
+        "name": "aubergines"
+      },
+      {
+        "amount": "",
+        "unit": "small",
+        "name": "courgettes"
+      },
+      {
+        "amount": "",
+        "unit": "red",
+        "name": "or yellow peppers"
+      },
+      {
+        "amount": "",
+        "unit": "large",
+        "name": "ripe tomatoes"
+      },
+      {
+        "amount": "",
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "amount": "",
+        "unit": "supermarket",
+        "name": "pack or small bunch basil"
+      },
+      {
+        "amount": "",
+        "unit": "medium",
+        "name": "onion peeled and thinly sliced"
+      },
+      {
+        "amount": "",
+        "unit": "garlic",
+        "name": "cloves peeled and crushed"
+      },
+      {
+        "amount": "",
+        "unit": "tbsp",
+        "name": "red wine vinegar"
+      },
+      {
+        "amount": "",
+        "unit": "tsp",
+        "name": "sugar (any kind)"
+      }
+    ],
+    "steps": [
+      "Cut 2 large aubergines in half lengthways. Place them on the board, cut side down, slice in half lengthways again and then across into 1.5cm chunks. Cut the ends off 4 small courgettes, then across into 1.5cm slices.",
+      "Peel 2 red or yellow peppers from stalk to bottom. Hold upright, cut around the stalk, then cut into 3 pieces. Cut away any membrane, then chop into bite-size chunks.",
+      "Score a small cross on the base of each of 4 large ripe tomatoes, then put them into a heatproof bowl. Pour boiling water over, leave for 20 secs, then remove. Pour the water away, replace the tomatoes and cover with cold water. Leave to cool, then peel the skin away.",
+      "Quarter the tomatoes, scrape away the seeds with a spoon, then roughly chop the flesh.",
+      "Set a sauté pan over medium heat and when hot, pour in 2 tbsp olive oil. Brown the aubergines for 5 mins on each side until the pieces are soft. Set them aside.",
+      "Fry the courgettes in another tbsp oil for 5 mins, until golden on both sides. Repeat with the peppers. Don’t overcook the vegetables at this stage.",
+      "Tear up the leaves from the bunch of basil and set aside. Cook 1 thinly sliced medium onion in the pan for 5 minutes. Add 3 crushed garlic cloves and fry for a further minute. Stir in 1 tbsp red wine vinegar and 1 tsp sugar, then tip in the tomatoes and half the basil.",
+      "Return the vegetables to the pan with some salt and pepper and cook for 5 mins. Serve with basil."
+    ],
+    "mealLists": [
+      "healthy-ideas"
+    ],
+    "sourceUrl": "https://www.bbcgoodfood.com/recipes/ratatouille"
+  }
+}

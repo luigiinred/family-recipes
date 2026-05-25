@@ -1,0 +1,177 @@
+{
+  "scraped": {
+    "title": "Vegetarian Sweet Potato Tacos with Lime Crema",
+    "description": "These light and refreshing Sweet Potato Tacos are filled with a simple sweet potato and black bean hash, and topped with a tangy lime crema.&nbsp;",
+    "imageUrl": "https://www.budgetbytes.com/wp-content/uploads/2015/07/Sweet-Potato-Tacos-H1.jpg",
+    "prepMinutes": 20,
+    "cookMinutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "oz.",
+        "name": "sour cream ($0.83)"
+      },
+      {
+        "amount": "",
+        "unit": "fresh",
+        "name": "lime  ($0.69)"
+      },
+      {
+        "amount": "/4",
+        "unit": "tsp",
+        "name": "salt  ($0.02)"
+      },
+      {
+        "amount": "",
+        "unit": "clove",
+        "name": "garlic  ($0.08)"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "olive oil  ($0.13)"
+      },
+      {
+        "amount": "",
+        "unit": "cloves",
+        "name": "garlic  ($0.32)"
+      },
+      {
+        "amount": "",
+        "unit": "lbs.",
+        "name": "sweet potato  ($1.22)"
+      },
+      {
+        "amount": "15",
+        "unit": "oz.",
+        "name": "can black beans  ($0.59)"
+      },
+      {
+        "amount": "",
+        "unit": "tsp",
+        "name": "ground cumin  ($0.10)"
+      },
+      {
+        "amount": "",
+        "unit": "Salt",
+        "name": "and Pepper to taste  ($0.05)"
+      },
+      {
+        "amount": "",
+        "unit": "green",
+        "name": "onions  ($0.19)"
+      },
+      {
+        "amount": "/4",
+        "unit": "bunch",
+        "name": "fresh cilantro (optional) ($0.17)"
+      },
+      {
+        "amount": "",
+        "unit": "small",
+        "name": "(taco sized) tortillas ($0.75)"
+      }
+    ],
+    "steps": [
+      "Prepare the crema first to allow the flavors time to blend. Mince one clove of garlic and use a zester or small holed cheese grater to scrape the thin layer of green zest from the lime. Add the minced garlic, 1 tsp of the zest, about 1 tsp of the lime juice, and 1/4 tsp salt to the sour cream. Stir the ingredients to combine then refrigerate until ready to use.",
+      "Peel the sweet potatoes, then cut them into small cubes (about 1/4 to 1/2 inch square). Heat a large skillet over medium flame, then add the olive oil and two cloves of minced garlic. Sauté the garlic for about a minute or just until it becomes fragrant. Add the diced sweet potato and a couple tablespoons of water. Sauté the sweet potato until they become soft and just begin to fall apart. Add another couple tablespoons of water during cooking if the skillet becomes dry before the sweet potatoes are soft.",
+      "Meanwhile, drain and rinse the can of black beans. Once the sweet potatoes are soft, add the black beans to the skillet. Season with the cumin, and salt and pepper to taste. Sauté just until the beans are heated through.",
+      "Slice the green onions and pull the cilantro leaves from the stems. Roughly chop the cilantro. Stir the sliced green onions into the skillet. Add the cilantro to the skillet if desired, or use it to top each taco.",
+      "Prior to filling each tortilla, heat them in a dry skillet until slightly browned and crisp on each side, or carefully toast them over an open flame. Smear a small amount of the lime crema down the center of the tortilla, then top with a scoop of the sweet potato and black bean hash. Add fresh cilantro if desired."
+    ],
+    "source": "json-ld"
+  },
+  "merged": {
+    "id": "15",
+    "slug": "potato-tacos",
+    "title": "Potato Tacos",
+    "description": "These light and refreshing Sweet Potato Tacos are filled with a simple sweet potato and black bean hash, and topped with a tangy lime crema.&nbsp;",
+    "imageUrl": "https://www.budgetbytes.com/wp-content/uploads/2015/07/Sweet-Potato-Tacos-H1.jpg",
+    "prepMinutes": 20,
+    "cookMinutes": 20,
+    "servings": 4,
+    "tags": [
+      "vegetarian",
+      "mexican"
+    ],
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "oz.",
+        "name": "sour cream ($0.83)"
+      },
+      {
+        "amount": "",
+        "unit": "fresh",
+        "name": "lime  ($0.69)"
+      },
+      {
+        "amount": "/4",
+        "unit": "tsp",
+        "name": "salt  ($0.02)"
+      },
+      {
+        "amount": "",
+        "unit": "clove",
+        "name": "garlic  ($0.08)"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "olive oil  ($0.13)"
+      },
+      {
+        "amount": "",
+        "unit": "cloves",
+        "name": "garlic  ($0.32)"
+      },
+      {
+        "amount": "",
+        "unit": "lbs.",
+        "name": "sweet potato  ($1.22)"
+      },
+      {
+        "amount": "15",
+        "unit": "oz.",
+        "name": "can black beans  ($0.59)"
+      },
+      {
+        "amount": "",
+        "unit": "tsp",
+        "name": "ground cumin  ($0.10)"
+      },
+      {
+        "amount": "",
+        "unit": "Salt",
+        "name": "and Pepper to taste  ($0.05)"
+      },
+      {
+        "amount": "",
+        "unit": "green",
+        "name": "onions  ($0.19)"
+      },
+      {
+        "amount": "/4",
+        "unit": "bunch",
+        "name": "fresh cilantro (optional) ($0.17)"
+      },
+      {
+        "amount": "",
+        "unit": "small",
+        "name": "(taco sized) tortillas ($0.75)"
+      }
+    ],
+    "steps": [
+      "Prepare the crema first to allow the flavors time to blend. Mince one clove of garlic and use a zester or small holed cheese grater to scrape the thin layer of green zest from the lime. Add the minced garlic, 1 tsp of the zest, about 1 tsp of the lime juice, and 1/4 tsp salt to the sour cream. Stir the ingredients to combine then refrigerate until ready to use.",
+      "Peel the sweet potatoes, then cut them into small cubes (about 1/4 to 1/2 inch square). Heat a large skillet over medium flame, then add the olive oil and two cloves of minced garlic. Sauté the garlic for about a minute or just until it becomes fragrant. Add the diced sweet potato and a couple tablespoons of water. Sauté the sweet potato until they become soft and just begin to fall apart. Add another couple tablespoons of water during cooking if the skillet becomes dry before the sweet potatoes are soft.",
+      "Meanwhile, drain and rinse the can of black beans. Once the sweet potatoes are soft, add the black beans to the skillet. Season with the cumin, and salt and pepper to taste. Sauté just until the beans are heated through.",
+      "Slice the green onions and pull the cilantro leaves from the stems. Roughly chop the cilantro. Stir the sliced green onions into the skillet. Add the cilantro to the skillet if desired, or use it to top each taco.",
+      "Prior to filling each tortilla, heat them in a dry skillet until slightly browned and crisp on each side, or carefully toast them over an open flame. Smear a small amount of the lime crema down the center of the tortilla, then top with a scoop of the sweet potato and black bean hash. Add fresh cilantro if desired."
+    ],
+    "mealLists": [
+      "healthy-ideas"
+    ],
+    "sourceUrl": "https://www.budgetbytes.com/sweet-potato-tacos/"
+  }
+}

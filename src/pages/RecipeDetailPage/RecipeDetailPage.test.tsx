@@ -2,9 +2,24 @@ import { render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { MemoryRouter, Route, Routes } from 'react-router-dom';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { resetStarredRecipesCache } from '@/hooks/useStarredRecipes';
 import * as staticApi from '@/static-api';
 import type { Recipe } from '@/static-api/types/recipe';
 import { RecipeDetailPage } from './RecipeDetailPage';
+
+const standardRecipe: Recipe = {
+  id: '1',
+  slug: 'test-soup',
+  title: 'Test Soup',
+  description: 'A cozy soup',
+  imageUrl: '',
+  prepMinutes: 10,
+  cookMinutes: 20,
+  servings: 4,
+  tags: ['soup'],
+  ingredients: [{ amount: '1', unit: 'cup', name: 'broth' }],
+  steps: ['Simmer soup'],
+};
 
 const youtubeRecipe: Recipe = {
   id: 'yt-1',
@@ -36,6 +51,27 @@ function renderAt(slug: string) {
     </MemoryRouter>,
   );
 }
+
+describe('RecipeDetailPage starring', () => {
+  beforeEach(() => {
+    localStorage.clear();
+    resetStarredRecipesCache();
+    vi.spyOn(staticApi, 'getRecipeBySlug').mockResolvedValue(standardRecipe);
+  });
+
+  it('toggles starred state from the recipe header', async () => {
+    const user = userEvent.setup();
+    renderAt('test-soup');
+    await waitFor(() => {
+      expect(screen.getByRole('heading', { name: 'Test Soup' })).toBeInTheDocument();
+    });
+
+    await user.click(screen.getByRole('button', { name: 'Star Test Soup' }));
+    expect(
+      screen.getByRole('button', { name: 'Remove Test Soup from starred' }),
+    ).toHaveAttribute('aria-pressed', 'true');
+  });
+});
 
 describe('RecipeDetailPage video recipes', () => {
   beforeEach(() => {

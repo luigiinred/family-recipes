@@ -12,6 +12,7 @@
     "build:catalog": "node scripts/build-recipes-catalog.mjs",
     "enrich:catalog": "node scripts/enrich-catalog-from-urls.mjs",
     "import:byonandlara": "node scripts/import-byonandlara.mjs",
+    "import:youtube-playlist": "node scripts/import-youtube-playlist.mjs",
     "refresh:byonandlara": "node scripts/refresh-byonandlara.mjs",
     "sync:recipes-data": "cp src/static-api/data/recipes.json public/data/recipes.json"
   },

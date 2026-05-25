@@ -1,0 +1,149 @@
+{
+  "scraped": {
+    "title": "Creamy Mushroom Chicken with Crispy Onions",
+    "description": "Creamy Mushroom Chicken topped with delicious crispy onions is an easy weeknight dinner with plenty of options for customization!",
+    "imageUrl": "https://www.budgetbytes.com/wp-content/uploads/2020/09/Creamy-Mushroom-Chicken-with-Crispy-Onions-plate-2.jpg",
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "oz.",
+        "name": "baby bella mushrooms ($1.69)"
+      },
+      {
+        "amount": "",
+        "unit": "boneless",
+        "name": ", skinless chicken breast (about 1.3 lbs. total) ($5.63)"
+      },
+      {
+        "amount": "",
+        "unit": "pinch",
+        "name": "salt ($0.02)"
+      },
+      {
+        "amount": "",
+        "unit": "pinch",
+        "name": "pepper ($0.02)"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "butter, divided ($0.26)"
+      },
+      {
+        "amount": "",
+        "unit": "cloves",
+        "name": "garlic ($0.32)"
+      },
+      {
+        "amount": "/2",
+        "unit": "cup",
+        "name": "chicken broth ($0.07)"
+      },
+      {
+        "amount": "/2",
+        "unit": "cup",
+        "name": "heavy cream ($0.39)"
+      },
+      {
+        "amount": "/4",
+        "unit": "cup",
+        "name": "crispy fried onions ($0.37)"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "chopped fresh parsley (optional garnish) ($0.05)"
+      }
+    ],
+    "steps": [
+      "Rinse and slice the mushrooms. Set the sliced mushrooms aside.",
+      "Place the chicken breasts on a cutting board and cover with plastic wrap. Use a mallet or rolling pin to gently pound the chicken until it is an even thickness, about ¾-inch thick. Cut each chicken breast into two pieces, and season with a pinch of salt and pepper.",
+      "Add one tablespoon of the butter to a large skillet and heat over medium. Once the butter is melted and the skillet is hot, add the chicken and cook until golden brown on both sides (about 5 minutes per side). Remove the chicken to a clean plate and cover with foil or an upside down plate to keep it warm.",
+      "Add the second tablespoon of butter and the sliced mushrooms to the skillet. Sauté the mushrooms until they release all their water and the skillet begins to dry up again. Add the minced garlic and sauté for about a minute more.",
+      "Pour the chicken broth into the skillet and stir to dissolve any browned bits off the bottom of the skillet. Add the heavy cream and stir to combine.",
+      "Return the chicken to the skillet and spoon mushroom cream sauce over each piece. Allow the chicken to simmer in the sauce for about 5 minutes more, or until the sauce is slightly reduced. Top the chicken with the crispy fried onions and serve."
+    ],
+    "source": "json-ld"
+  },
+  "merged": {
+    "id": "23",
+    "slug": "creamy-garlic-parmesan-chicken-mushrooms",
+    "title": "Creamy Garlic Parmesan Chicken with Mushrooms",
+    "description": "Creamy Mushroom Chicken topped with delicious crispy onions is an easy weeknight dinner with plenty of options for customization!",
+    "imageUrl": "https://www.budgetbytes.com/wp-content/uploads/2020/09/Creamy-Mushroom-Chicken-with-Crispy-Onions-plate-2.jpg",
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "servings": 4,
+    "tags": [
+      "chicken",
+      "skillet"
+    ],
+    "ingredients": [
+      {
+        "amount": "",
+        "unit": "oz.",
+        "name": "baby bella mushrooms ($1.69)"
+      },
+      {
+        "amount": "",
+        "unit": "boneless",
+        "name": ", skinless chicken breast (about 1.3 lbs. total) ($5.63)"
+      },
+      {
+        "amount": "",
+        "unit": "pinch",
+        "name": "salt ($0.02)"
+      },
+      {
+        "amount": "",
+        "unit": "pinch",
+        "name": "pepper ($0.02)"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "butter, divided ($0.26)"
+      },
+      {
+        "amount": "",
+        "unit": "cloves",
+        "name": "garlic ($0.32)"
+      },
+      {
+        "amount": "/2",
+        "unit": "cup",
+        "name": "chicken broth ($0.07)"
+      },
+      {
+        "amount": "/2",
+        "unit": "cup",
+        "name": "heavy cream ($0.39)"
+      },
+      {
+        "amount": "/4",
+        "unit": "cup",
+        "name": "crispy fried onions ($0.37)"
+      },
+      {
+        "amount": "",
+        "unit": "Tbsp",
+        "name": "chopped fresh parsley (optional garnish) ($0.05)"
+      }
+    ],
+    "steps": [
+      "Rinse and slice the mushrooms. Set the sliced mushrooms aside.",
+      "Place the chicken breasts on a cutting board and cover with plastic wrap. Use a mallet or rolling pin to gently pound the chicken until it is an even thickness, about ¾-inch thick. Cut each chicken breast into two pieces, and season with a pinch of salt and pepper.",
+      "Add one tablespoon of the butter to a large skillet and heat over medium. Once the butter is melted and the skillet is hot, add the chicken and cook until golden brown on both sides (about 5 minutes per side). Remove the chicken to a clean plate and cover with foil or an upside down plate to keep it warm.",
+      "Add the second tablespoon of butter and the sliced mushrooms to the skillet. Sauté the mushrooms until they release all their water and the skillet begins to dry up again. Add the minced garlic and sauté for about a minute more.",
+      "Pour the chicken broth into the skillet and stir to dissolve any browned bits off the bottom of the skillet. Add the heavy cream and stir to combine.",
+      "Return the chicken to the skillet and spoon mushroom cream sauce over each piece. Allow the chicken to simmer in the sauce for about 5 minutes more, or until the sauce is slightly reduced. Top the chicken with the crispy fried onions and serve."
+    ],
+    "mealLists": [
+      "saved"
+    ],
+    "sourceUrl": "https://www.budgetbytes.com/creamy-mushroom-chicken/"
+  }
+}

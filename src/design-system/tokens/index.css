@@ -3,6 +3,8 @@
 @import './typography.css';
 @import './radii.css';
 @import './shadows.css';
+@import './themes/dark.css';
+@import './themes/classic.css';
 
 *,
 *::before,
@@ -21,6 +23,10 @@ body {
 
 a {
   color: var(--color-accent);
+}
+
+a:hover {
+  color: var(--color-accent-hover);
 }
 
 a:focus-visible,

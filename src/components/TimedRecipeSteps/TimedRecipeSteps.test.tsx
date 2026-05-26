@@ -23,11 +23,16 @@ describe('TimedRecipeSteps', () => {
     expect(screen.getByText(/mix the salad: combine chicken/i)).toBeInTheDocument();
   });
 
-  it('offers optional watch-at links that seek the video', async () => {
+  it('seeks the video when the step or watch-at control is clicked', async () => {
     const user = userEvent.setup();
     const onSeek = vi.fn();
     render(<TimedRecipeSteps steps={steps} onSeek={onSeek} />);
     await user.click(screen.getByRole('button', { name: /play video at 1:58/i }));
     expect(onSeek).toHaveBeenCalledWith(118);
+
+    await user.click(
+      screen.getByRole('button', { name: /play video at 0:32: mix the salad/i }),
+    );
+    expect(onSeek).toHaveBeenCalledWith(32);
   });
 });

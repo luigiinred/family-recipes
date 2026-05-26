@@ -84,10 +84,71 @@ Use `scripts/lib/patch-recipe.mjs` → `patchRecipe(slug, { ingredients, steps, 
 | `greek-chicken-slow-cooker` | 404 on `/greek-chicken-slow-cooker/` | `https://www.daringgourmet.com/slow-cooker-greek-chicken/` |
 | `keto-fried-tilapia-lemon-garlic-butter` | ketofy.me redirects | `https://ketopots.com/keto-tilapia/` (note on recipe) |
 
+## Ingredient sections & cleanup (required)
+
+After parse (or before marking a row done), run through **`normalizeCatalogIngredients()`** in `scripts/lib/ingredient-lines.mjs` (or `npm run normalize:ingredients`).
+
+| Rule | Detail |
+| ---- | ------ |
+| **Broken fractions** | `/2` → `1/2`, `/4` → `1/4` (Eatwell101 JSON-LD often drops the `1`) |
+| **Units in the right field** | Never `unit: "tablespoon", name: "honey"` — use `amount` + canonical `unit` (`Tbsp`, `tsp`, `cup`) + lowercase `name` |
+| **Section `group`** | Consecutive ingredients with the same `group` render as labeled blocks on recipe detail |
+| **Sauce / whisk step** | Ingredients in a “whisk together …” step → `group: "Chili-lime sauce"` (or Marinade / Dressing / Sauce from context) |
+| **Garnishes** | Lines with “for garnish” or under a Garnishes heading → `group: "Garnishes"` |
+| **Vegetables** | Second oil for sheet-pan veg → `group: "Vegetables"`; split duplicate olive oil when sauce + veg each need their own `Tbsp` line |
+| **Page headings** | Parser maps `For the sauce`, `Recommended garnishes`, etc. to `group` when HTML provides sections |
+
+See **`docs/api-specs/data/ingredient-units.md`** for canonical units and display rules.
+
+## Notes vs steps (required)
+
+Cookbook **notes** are not cooking steps. After scraping, run **`npm run normalize:notes`** or use `applyRecipeNotes()` in `scripts/lib/recipe-notes.mjs`.
+
+### Scan the source for notes
+
+| Source | Where to look |
+| ------ | ------------- |
+| **Blog HTML** | `.recipe-notes`, tip boxes, paragraphs starting with `Note:` after the instructions list |
+| **JSON-LD** | Sometimes the last `recipeInstructions` item is a note, not a step |
+| **YouTube description** | `NOTE:`, `TIPS:`, `Pro tip` blocks below the ingredient list (before chapters/affiliate links) |
+| **Video** | Spoken asides (“make sure you use non-stick”) — capture in `notes` when rewriting steps |
+
+### Move to `notes` (remove from `steps`)
+
+- Lines starting with **`Note:`**, **`Notes:`**, **`Tip:`**, **`Chef's note`**
+- **`Recipe Notes`** header-only rows (merge body from the page into `notes`)
+- Meta lines: storage, leftovers, make-ahead, substitutions, affiliate disclaimers
+- Commentary that is not an imperative cooking action (e.g. “tilapia can taste muddy — season boldly”)
+
+### Keep in `steps`
+
+- Imperative instructions: *Preheat*, *Whisk*, *Bake until*
+- **Serve** as a **separate** step only when it adds finishing detail (named garnishes, sauces on top, how to plate) — not *Serve hot* / *Enjoy!* glued onto the bake line
+- YouTube **timed** steps — notes must not appear in `timedSteps`
+
+Helpers:
+
+| Helper | Module |
+| ------ | ------ |
+| Notes vs steps | `isRecipeNoteStep()`, `splitStepsAndNotes()`, `applyRecipeNotes()` — `recipe-notes.mjs` |
+| Split bake + serve | `splitBakeAndServeStep()`, `polishRecipeSteps()` — `recipe-steps.mjs` |
+
+Example (Eatwell101 tilapia):
+
+| Bad (one step) | Good (two steps) |
+| -------------- | ---------------- |
+| Bake until done… **Serve** garnished with cilantro… **Enjoy!** | 1. Bake until fish flakes… 2. Serve garnished with cilantro, chili peppers, and lime wedges. |
+
 ## Catalog checklist (per slug)
 
 - [ ] `ingredients.length > 0`
-- [ ] `steps.length > 0`, no "see source" text
+- [ ] No broken amounts (`/2`), no measure words stuck in `unit` with empty `amount`
+- [ ] No dual measures in `name` (e.g. `(60ml)` next to `cup`, or `(700g)` next to `lb`) — pick US-friendly amount in `amount`/`unit` only
+- [ ] No salt, kosher salt, or table black/white pepper lines — season in `steps` instead
+- [ ] Sauce/marinade and garnish ingredients use `group` where the recipe has those sections
+- [ ] `steps.length > 0`, no "see source" text; no `Note:` / tip lines left in `steps` (use `notes`)
+- [ ] Cook steps do not include trailing **Serve… Enjoy!** — split or drop per `recipe-steps.mjs`
+- [ ] `notes` holds sidebar tips from page or video description when present
 - [ ] `imageUrl` set when the page provides one
 - [ ] `sourceUrl` resolves to the actual recipe page
 - [ ] Enrichment audit file exists

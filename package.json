@@ -15,7 +15,10 @@
     "import:youtube-playlist": "node scripts/import-youtube-playlist.mjs",
     "refresh:youtube-recipes": "node scripts/refresh-youtube-recipes.mjs",
     "refresh:byonandlara": "node scripts/refresh-byonandlara.mjs",
-    "sync:recipes-data": "cp src/static-api/data/recipes.json public/data/recipes.json"
+    "sync:recipes-data": "cp src/static-api/data/recipes.json public/data/recipes.json && cp src/static-api/data/food-ideas.json public/data/food-ideas.json",
+    "tag:meal-types": "node scripts/tag-meal-types.mjs",
+    "normalize:ingredients": "node scripts/normalize-catalog-ingredients.mjs",
+    "normalize:notes": "node scripts/normalize-catalog-notes.mjs"
   },
   "dependencies": {
     "react": "^19.1.0",

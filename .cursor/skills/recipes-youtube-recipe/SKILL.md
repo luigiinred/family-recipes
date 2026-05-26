@@ -103,9 +103,12 @@ Then build `scripts/data/my-playlist.json` as `[{ "id": "…", "title": "…" },
 
 ```bash
 npm run refresh:youtube-recipes   # fixes weak steps + fills blog ingredients
+npm run normalize:notes         # moves Note:/TIPS from steps → notes
 ```
 
 Reject catalog rows where `timedSteps` is empty, a single “watch” placeholder, `steps` ≠ `timedSteps` text, or any step looks like TOC (`isTableOfContentsSteps` in `scripts/lib/youtube-toc-steps.mjs`).
+
+**Notes:** Read the full video **description** for `NOTE:`, `TIPS:`, or prose after the `RECIPE` block — merge into catalog `notes` via `extractNotesFromDescription()` / `applyRecipeNotes()`. Do not leave tips as fake steps or timed steps.
 
 Default `mealLists` for imports: **`to-make`** (user queue).
 
@@ -126,24 +129,76 @@ npm run dev
 
 Open `/recipes/<slug>` — embedded player loads; clicking a step updates playback start time.
 
+## How to write ingredients (required)
+
+Ingredients must be **real food only** — never hashtags, music credits, affiliate blurbs, or `bensound.com`.
+
+| Rule | Detail |
+| ---- | ------ |
+| Main protein first | For “Chicken Tortilla Soup”, `cooked whole chicken` is line 1 |
+| No salt or table pepper | Never list `salt`, `kosher salt`, or `black`/`white` pepper as ingredients — season in directions only |
+| Split amount / unit / name | `2` + `Tbsp` + `olive oil`, not one blob in `name` |
+| One measure per line | When the source says `35g or 2 Tbsp` or `1/4 cup (60ml)`, store **one** US-friendly `amount`/`unit` — never duplicate units in `name` |
+| Garnishes | Put under `group: "Garnishes"` after soup ingredients (from `RECOMMENDED GARNISHES` in description) |
+| Sauce / marinade block | Ingredients for a whisked sauce or seasoning blend → shared `group` (e.g. `"Chili-lime sauce"`, `"Marinade"`) — infer from the whisk step via `normalizeCatalogIngredients()` |
+| Broken fractions | `/2` → `1/2` — never leave a lone slash amount from description parsers |
+| Filter on import | `scripts/lib/ingredient-lines.mjs` — used by `parseDescriptionRecipe()` and `npm run normalize:ingredients` |
+
+### Capitalization (strict)
+
+| Field | Rule | Example |
+| ----- | ---- | ------- |
+| `name` | **Lowercase** food nouns; prep after a comma stays lowercase | `olive oil`, `poblano pepper, medium diced`, `paprika` |
+| `unit` | **Canonical** casing only | `Tbsp`, `tsp`, `cup`, `L`, `can` — never `TBSP`, `Tsp`, `tbsp` mixed in one recipe |
+| Display | `src/static-api/units.ts` — see [ingredient-units.md](../../../docs/api-specs/data/ingredient-units.md) | `MEASURE_UNITS`, `UNIT_ALIASES`, `getIngredientDisplayParts()` |
+| Render | `IngredientLine` component or `formatIngredientLine()` | Never `[amount, unit, name].join(' ')` by hand |
+
+Wrong: `Olive Oil` + `paprika` with units `Tbsp` vs `TSP`. Right: `olive oil` + `paprika` with `Tbsp` + `tsp` from `MEASURE_UNITS`.
+
 ## How to write a step (required)
 
-Steps must be **cookbook instructions**, not a video table of contents.
+Steps must be **cookbook instructions**, not a video table of contents. Each step string has two parts: a **Uses** line (what you need right now) and the **instruction** (what to do).
+
+### Uses line format (required)
+
+First line of every step:
+
+```text
+Uses: olive oil · red onion · poblano pepper · garlic
+
+Preheat a large Dutch oven over medium heat. Add the olive oil, red onion, and poblano…
+```
+
+| Rule | Detail |
+| ---- | ------ |
+| Prefix | Exactly `Uses: ` (capital U, colon, space) |
+| Separators | Middle dot ` · ` between items (spaces around the dot) |
+| Blank line | One empty line between the Uses line and the instruction |
+| Names | Match ingredient `name` values (lowercase); short labels OK (`cumin` for `ground cumin`) |
+| `timedSteps[].text` | Same format as `steps[]` — UI renders chips from the Uses line |
+
+Helper: `formatRecipeStep(uses, instruction)` in `src/features/recipe-display/parseRecipeStep.ts`.
 
 | Bad (TOC / chapter title) | Good (followable instruction) |
 | ------------------------- | ------------------------------ |
-| `Salad prep` | `Mix the salad: In a large bowl, combine shredded chicken, shallots, celery, artichokes, sun-dried tomatoes, parsley, and walnuts.` |
-| `Dressing prep` | `Make the dressing: Whisk olive oil, lemon zest and juice, garlic, Dijon, sumac, and paprika in a small bowl.` |
+| `Salad prep` | Uses line + `Mix the salad: In a large bowl, combine…` |
+| `Dressing prep` | Uses: `olive oil · lemon · garlic · Dijon` then whisk instruction |
 | `Intro` / `Ingredients` | Omit — not cooking steps |
 
 ### Step text rules
 
-1. **Standalone** — A cook can follow without opening the video. Include bowl sizes, key ingredients named, and what “done” looks like when it matters.
-2. **Imperative** — Start with a verb: *Make*, *Mix*, *Pour*, *Simmer*, *Serve*.
-3. **One action per step** — Split prep/dress/combine/serve; don’t merge unrelated beats.
-4. **Length** — Aim for one to three sentences (roughly 40–220 characters). Shorter than a blog paragraph is fine; longer than a chapter label.
-5. **`startSeconds`** — Optional seek hint from chapters or description timestamps. Attach to the step that **starts** that action in the video.
-6. **Never ship chapter-only labels** — If YouTube chapters are short names (`Salad prep`, `Taste test`), fetch the linked blog (`bit.ly` / themediterraneandish.com) and use `mergeBlogStepsWithChapters()` (`scripts/lib/youtube-instruction-steps.mjs`).
+1. **Standalone** — A cook can follow without opening the video. The Uses line lists everything for that step; the instruction describes technique and doneness.
+2. **Imperative** — Instruction starts with a verb: *Preheat*, *Stir*, *Simmer*, *Serve*.
+3. **One action per step** — Split prep/bloom/simmer/blend/**serve**; don’t merge unrelated beats.
+4. **Serve is its own step (when it adds information)** — Do **not** end a cook step with “Serve … Enjoy!”. Split:
+   - **Cook step** ends at doneness: *Bake until the fish flakes easily… about 20–25 minutes.*
+   - **Serve step** only if it names **how** to finish the plate (garnishes, sides, assembly): *Serve garnished with cilantro, sliced chili peppers, and lime wedges.*
+   - **Omit** a serve step when the source only says *Serve hot*, *Enjoy!*, or repeats what the cook step already implied.
+   - Drop **`Enjoy!`** / *Bon appetit* — not a step.
+   - Automate: `polishRecipeSteps()` / `splitBakeAndServeStep()` in `scripts/lib/recipe-steps.mjs` (runs on enrich + `npm run normalize:notes`).
+5. **Length** — Instruction: one to three sentences. Uses line: only what you touch in that step.
+6. **`startSeconds`** — Optional seek hint from chapters or description timestamps. Attach to the step that **starts** that action in the video.
+7. **Never ship chapter-only labels** — If YouTube chapters are short names (`Salad prep`, `Taste test`), fetch the linked blog (`bit.ly` / themediterraneandish.com) and use `mergeBlogStepsWithChapters()` (`scripts/lib/youtube-instruction-steps.mjs`).
 
 ### Where step text comes from (priority)
 

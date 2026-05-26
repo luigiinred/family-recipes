@@ -9,4 +9,18 @@
   --color-accent-hover: #a84e24;
   --color-accent-soft: #fdeee6;
   --color-focus: #2d6a4f;
+
+  /* Home category index cards (meal-type tabs) */
+  --color-category-dinner: #7a3b45;
+  --color-category-lunch: #b8860b;
+  --color-category-dessert: #c96b5c;
+  --color-category-snack: #5a7d63;
+  --color-category-all: #5c5650;
+  --color-category-default: #6b6258;
+
+  --home-grid-min-col: 16rem;
+  --recipe-card-image-border: none;
+  --recipe-card-image-width: 100%;
+  --recipe-card-text-align: left;
+  --app-header-backdrop: var(--color-surface);
 }

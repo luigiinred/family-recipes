@@ -1,7 +1,7 @@
 {
   "method": "youtube-refresh",
-  "scrapedAt": "2026-05-26T12:46:59.882Z",
+  "scrapedAt": "2026-05-26T13:29:15.582Z",
   "videoId": "3BZR_rUHPuk",
-  "stepSource": "chapters",
+  "stepSource": "description-recipe",
   "blogUrl": "https://bit.ly/BabyArtichokesCD"
 }

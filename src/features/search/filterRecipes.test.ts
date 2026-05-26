@@ -33,10 +33,42 @@ describe('filterRecipes', () => {
     expect(filterRecipes([base], { mealList: 'to-make' })).toHaveLength(0);
   });
 
+  it('filters by multiple tags (all must match)', () => {
+    const other: Recipe = {
+      ...base,
+      id: '2',
+      slug: 'b',
+      title: 'Pasta',
+      tags: ['soup'],
+    };
+    expect(filterRecipes([base, other], { tags: ['soup', 'vegetarian'] })).toEqual([base]);
+    expect(filterRecipes([base, other], { tags: ['soup'] })).toHaveLength(2);
+  });
+
   it('filters by low effort', () => {
     const low: Recipe = { ...base, slug: 'low', effort: 'low' };
     const other: Recipe = { ...base, id: '2', slug: 'other', effort: 'high' };
     const unset: Recipe = { ...base, id: '3', slug: 'unset' };
     expect(filterRecipes([low, other, unset], { effort: 'low' })).toEqual([low]);
+  });
+
+  it('filters by meal type using resolved meal types', () => {
+    const dinner: Recipe = {
+      ...base,
+      id: '2',
+      slug: 'steak',
+      title: 'Steak Dinner',
+      tags: [],
+      mealTypes: ['dinner'],
+    };
+    const dessert: Recipe = {
+      ...base,
+      id: '3',
+      slug: 'cake',
+      title: 'Chocolate Cake',
+      tags: ['dessert'],
+    };
+    expect(filterRecipes([dinner, dessert], { mealType: 'dinner' })).toEqual([dinner]);
+    expect(filterRecipes([dinner, dessert], { mealType: 'dessert' })).toEqual([dessert]);
   });
 });

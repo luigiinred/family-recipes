@@ -1,3 +1,4 @@
+import { TagFilterButton } from '@/components/TagFilterButton/TagFilterButton';
 import { Badge, Stack, Text } from '@/design-system/primitives';
 import type { Recipe } from '@/static-api/types/recipe';
 import styles from './RecipeMeta.module.css';
@@ -25,7 +26,7 @@ export function RecipeMeta({ recipe, showTags = true, showDescription = true }: 
       {showTags && recipe.tags.length > 0 ? (
         <Stack direction="row" gap="sm" className={styles.tags}>
           {recipe.tags.map((tag) => (
-            <Badge key={tag}>{tag}</Badge>
+            <TagFilterButton key={tag} tag={tag} />
           ))}
         </Stack>
       ) : null}

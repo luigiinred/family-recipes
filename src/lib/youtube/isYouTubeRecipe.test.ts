@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import type { Recipe } from '@/static-api/types/recipe';
-import { isYouTubeRecipe, youTubeEmbedUrl } from './isYouTubeRecipe';
+import { isYouTubeRecipe, resolveYouTubeRecipe, youTubeEmbedUrl } from './isYouTubeRecipe';
 
 const base: Recipe = {
   id: '1',
@@ -29,6 +29,21 @@ describe('isYouTubeRecipe', () => {
 
   it('is false for standard recipes', () => {
     expect(isYouTubeRecipe(base)).toBe(false);
+  });
+});
+
+describe('resolveYouTubeRecipe', () => {
+  const youtubeCatalog: Recipe = {
+    ...base,
+    recipeKind: 'youtube',
+    youtubeVideoId: 'dQw4w9WgXcQ',
+    timedSteps: [{ text: 'Step one', startSeconds: 30 }],
+  };
+
+  it('keeps catalog timed steps when edits removed them', () => {
+    const edited: Recipe = { ...youtubeCatalog, timedSteps: [] };
+    const resolved = resolveYouTubeRecipe(youtubeCatalog, edited);
+    expect(resolved?.timedSteps).toEqual(youtubeCatalog.timedSteps);
   });
 });
 

@@ -5,6 +5,13 @@ import { execFileSync } from 'node:child_process';
 import { mkdtempSync, readFileSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
+import {
+  isGarnishSectionHeader,
+  isImplicitSalt,
+  isJunkIngredientName,
+  normalizeCatalogIngredients,
+  parseIngredientLineRich,
+} from './ingredient-lines.mjs';
 import { parseTimestampLines } from './parse-youtube-timestamps.mjs';
 import { isTableOfContentsSteps } from './youtube-toc-steps.mjs';
 
@@ -201,11 +208,18 @@ export function isLowQualityTimedSteps(timedSteps) {
   return false;
 }
 
+/** Steps formatted per recipes-youtube-recipe (Uses: line + instruction). */
+export function hasUsesFormattedSteps(timedSteps) {
+  return timedSteps?.some((s) => /^Uses:\s+/m.test(s.text));
+}
+
 /** Higher is better — prefer curated short steps over noisy captions. */
 export function scoreTimedSteps(timedSteps) {
   if (isLowQualityTimedSteps(timedSteps)) return 0;
   let score = timedSteps.length * 12;
+  if (hasUsesFormattedSteps(timedSteps)) score += 200;
   for (const { text } of timedSteps) {
+    if (/^Uses:\s+/m.test(text)) score += 40;
     if (PLACEHOLDER.test(text)) score -= 50;
     if (text.length > 110 || text.endsWith('…')) score -= 8;
     if (/^(place and|drained because|chopped half)/i.test(text)) score -= 6;
@@ -224,10 +238,17 @@ export function parseDescriptionRecipe(description) {
 
   let inIngredients = false;
   let pastIngredientsHeader = false;
+  let garnishGroup = false;
 
   for (const line of lines) {
     if (!line || /^[-–—]{2,}$/.test(line)) continue;
     if (/^https?:\/\//i.test(line)) continue;
+
+    if (isGarnishSectionHeader(line)) {
+      inIngredients = true;
+      garnishGroup = true;
+      continue;
+    }
 
     if (
       /ingredients\s*:/i.test(line) ||
@@ -237,6 +258,7 @@ export function parseDescriptionRecipe(description) {
     ) {
       inIngredients = true;
       pastIngredientsHeader = true;
+      garnishGroup = false;
       continue;
     }
     if (
@@ -244,9 +266,15 @@ export function parseDescriptionRecipe(description) {
       line === '***RECIPE***'
     ) {
       inIngredients = true;
+      garnishGroup = false;
       continue;
     }
-    if (/^⏱️?\s*chapters/i.test(line) || /^📌connect/i.test(line)) {
+    if (
+      /^⏱️?\s*chapters/i.test(line) ||
+      /^📌connect/i.test(line) ||
+      /^CHAPTERS:/i.test(line) ||
+      /^\d+:\d{2}\s+\w/i.test(line)
+    ) {
       inIngredients = false;
       continue;
     }
@@ -264,15 +292,16 @@ export function parseDescriptionRecipe(description) {
 
     if (looksLikeIngredient && ingredients.length < 30) {
       const raw = line.replace(/^[▪•·🔹🍅📌\-]\s*/, '').trim();
+      const parsed = parseIngredientLineRich(raw);
       if (
-        raw.length > 2 &&
-        !/^https?:\/\//i.test(raw) &&
-        !/youtube\.com|playlist\?list=/i.test(raw) &&
-        !/^(full recipe|more |popular products|my cookbook|shop:|website:|subscribe)/i.test(
-          raw,
-        )
+        parsed.name.length > 2 &&
+        !isJunkIngredientName(parsed.name) &&
+        !isImplicitSalt(parsed.name)
       ) {
-        ingredients.push({ amount: '', unit: '', name: raw });
+        ingredients.push({
+          ...parsed,
+          ...(garnishGroup ? { group: 'Garnishes' } : {}),
+        });
         inIngredients = true;
       }
       continue;
@@ -281,7 +310,7 @@ export function parseDescriptionRecipe(description) {
     if (
       line.length > 50 &&
       /[.!?]$/.test(line) &&
-      /^(first |when |while |put |heat |add |stir |pour |cook |bake |serve |prepare |combine |preheat|peel |slice |dice |chop |drain|season|reduce|remove|transfer|let |you can)/i.test(
+      /^(first |when |while |put |heat |add |stir |pour |cook |bake |serve |prepare |combine |preheat|peel |slice |dice |chop |drain|season|reduce|remove|transfer|let |you can|pick |scoop |taste )/i.test(
         line,
       )
     ) {
@@ -291,7 +320,10 @@ export function parseDescriptionRecipe(description) {
   }
 
   if (ingredients.length < 2 && steps.length < 1) return null;
-  return { ingredients, steps };
+  return {
+    ingredients: normalizeCatalogIngredients(ingredients),
+    steps,
+  };
 }
 
 export function proseStepsToTimedSteps(steps, intervalSeconds = 45) {

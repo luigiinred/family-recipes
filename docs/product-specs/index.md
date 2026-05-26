@@ -23,8 +23,8 @@ Use Cursor skills **product-docs-specs**, **page-specs**, **api-specs**, and **t
 | -------- | ------- |
 | [home.md](pages/home.md) | Catalog, search, tags, meal lists |
 | [recipe-detail.md](pages/recipe-detail.md) | Detail, scale, print, source |
-| [tags.md](pages/tags.md) | Tag index and filtered grid |
-| [planner.md](pages/planner.md) | Weekly board (localStorage) |
+| [planner.md](pages/planner.md) | Starred cook queue (localStorage) |
+| [settings.md](pages/settings.md) | Export recipe edits for Cursor |
 
 ## Services
 

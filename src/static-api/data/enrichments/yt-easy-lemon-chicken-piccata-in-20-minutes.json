@@ -1,7 +1,7 @@
 {
   "method": "youtube-refresh",
-  "scrapedAt": "2026-05-26T12:46:23.992Z",
+  "scrapedAt": "2026-05-26T13:28:25.689Z",
   "videoId": "Ue6P8znS9Pk",
-  "stepSource": "chapters",
+  "stepSource": "captions",
   "blogUrl": "https://bit.ly/TMD-chicken-piccata"
 }

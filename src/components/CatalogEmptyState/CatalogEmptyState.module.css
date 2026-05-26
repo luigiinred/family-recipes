@@ -1,0 +1,53 @@
+.root {
+  margin: var(--space-6) 0;
+}
+
+.card {
+  max-width: 28rem;
+  margin-inline: auto;
+  padding: var(--space-8) var(--space-6);
+}
+
+.content {
+  align-items: center;
+  text-align: center;
+}
+
+.copy {
+  align-items: center;
+}
+
+.heading {
+  margin: 0;
+}
+
+.hint {
+  margin: 0;
+  max-width: 22rem;
+}
+
+.icon {
+  position: relative;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.iconLens {
+  position: absolute;
+  inset: 0;
+  border: 3px solid var(--color-border-strong, var(--color-border));
+  border-radius: 50%;
+  background: var(--color-accent-soft);
+}
+
+.iconHandle {
+  position: absolute;
+  right: 0.15rem;
+  bottom: 0.1rem;
+  width: 1.1rem;
+  height: 3px;
+  border-radius: var(--radius-full);
+  background: var(--color-border-strong, var(--color-border));
+  transform: rotate(45deg);
+  transform-origin: right center;
+}

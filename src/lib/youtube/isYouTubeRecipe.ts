@@ -16,6 +16,27 @@ export function isYouTubeRecipe(recipe: Recipe): recipe is YouTubeRecipe {
   );
 }
 
+/** Prefer catalog timed steps when local edits cleared or replaced them. */
+export function resolveYouTubeRecipe(catalog: Recipe, edited: Recipe): YouTubeRecipe | undefined {
+  if (catalog.recipeKind !== 'youtube') return undefined;
+
+  const videoId = edited.youtubeVideoId ?? catalog.youtubeVideoId;
+  if (!videoId) return undefined;
+
+  const timedSteps =
+    edited.timedSteps && edited.timedSteps.length > 0
+      ? edited.timedSteps
+      : catalog.timedSteps;
+  if (!timedSteps || timedSteps.length === 0) return undefined;
+
+  return {
+    ...edited,
+    recipeKind: 'youtube',
+    youtubeVideoId: videoId,
+    timedSteps,
+  };
+}
+
 export function youTubeThumbnailUrl(videoId: string): string {
   return `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
 }

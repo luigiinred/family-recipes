@@ -1,7 +1,7 @@
 {
   "method": "youtube-refresh",
-  "scrapedAt": "2026-05-26T12:45:51.803Z",
+  "scrapedAt": "2026-05-26T13:27:52.984Z",
   "videoId": "cFcP5zLE2Ik",
-  "stepSource": "chapters",
+  "stepSource": "description",
   "blogUrl": "https://www.themediterraneandish.com/skillet-onion-chicken/"
 }

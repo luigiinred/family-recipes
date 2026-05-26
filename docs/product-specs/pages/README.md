@@ -4,8 +4,8 @@
 | --------- | ------ | ----- |
 | [home.md](home.md) | complete | Search, tags, meal lists |
 | [recipe-detail.md](recipe-detail.md) | complete | Scale, print, source |
-| [tags.md](tags.md) | complete | Tag index + filter |
-| [planner.md](planner.md) | complete | Weekly board, localStorage |
+| [planner.md](planner.md) | complete | Starred cook queue (reorderable list) |
+| [settings.md](settings.md) | complete | Export local recipe edits for Cursor |
 
 Status values: `planned`, `complete`, `broken`.
 

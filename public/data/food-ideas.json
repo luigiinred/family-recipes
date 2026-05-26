@@ -1,0 +1,104 @@
+{
+  "ideas": [
+    {
+      "id": "1",
+      "slug": "takeout-pizza",
+      "title": "Takeout pizza",
+      "description": "Order from our usual spot or try somewhere new.",
+      "imageUrl": "/images/ideas/takeout-pizza.png",
+      "tags": ["takeout", "kid-friendly"],
+      "mealTypes": ["dinner"],
+      "ideaKind": "takeout"
+    },
+    {
+      "id": "2",
+      "slug": "takeout-chinese",
+      "title": "Takeout Chinese",
+      "description": "Family combo or individual plates.",
+      "imageUrl": "/images/ideas/takeout-chinese.png",
+      "tags": ["takeout"],
+      "mealTypes": ["lunch", "dinner"],
+      "ideaKind": "takeout"
+    },
+    {
+      "id": "3",
+      "slug": "chips-and-dip",
+      "title": "Chips and dip",
+      "description": "Bag from pantry plus whatever dip is in the fridge.",
+      "imageUrl": "/images/ideas/chips-and-dip.png",
+      "tags": ["pantry", "no-cook", "snack"],
+      "mealTypes": ["snack", "side"],
+      "ideaKind": "pantry"
+    },
+    {
+      "id": "4",
+      "slug": "cheese-and-crackers",
+      "title": "Cheese and crackers",
+      "description": "Sliced cheese, crackers, maybe fruit on the side.",
+      "imageUrl": "/images/ideas/cheese-and-crackers.png",
+      "tags": ["pantry", "no-cook", "kid-friendly"],
+      "mealTypes": ["snack", "lunch"],
+      "ideaKind": "pantry"
+    },
+    {
+      "id": "5",
+      "slug": "yogurt-and-fruit",
+      "title": "Yogurt and fruit",
+      "description": "Greek yogurt with berries or banana.",
+      "imageUrl": "/images/ideas/yogurt-and-fruit.png",
+      "tags": ["kid-friendly", "no-cook", "healthy"],
+      "mealTypes": ["breakfast", "snack"],
+      "ideaKind": "kid"
+    },
+    {
+      "id": "6",
+      "slug": "pbj-sandwich",
+      "title": "PB&J sandwich",
+      "description": "Quick lunch for kids (or adults).",
+      "imageUrl": "/images/ideas/pbj-sandwich.png",
+      "tags": ["kid-friendly", "no-cook"],
+      "mealTypes": ["lunch", "snack"],
+      "ideaKind": "kid"
+    },
+    {
+      "id": "7",
+      "slug": "chicken-nuggets",
+      "title": "Frozen chicken nuggets",
+      "description": "Bake from freezer; serve with ketchup or fruit.",
+      "imageUrl": "/images/ideas/chicken-nuggets.png",
+      "tags": ["kid-friendly", "freezer"],
+      "mealTypes": ["lunch", "dinner"],
+      "ideaKind": "kid"
+    },
+    {
+      "id": "8",
+      "slug": "leftovers-night",
+      "title": "Leftovers night",
+      "description": "Finish whatever is in the fridge — no cooking.",
+      "imageUrl": "/images/ideas/leftovers-night.png",
+      "tags": ["leftovers", "no-cook"],
+      "mealTypes": ["lunch", "dinner"],
+      "ideaKind": "leftovers"
+    },
+    {
+      "id": "9",
+      "slug": "cereal",
+      "title": "Cereal",
+      "description": "Bowl of cereal and milk.",
+      "imageUrl": "/images/ideas/cereal.png",
+      "tags": ["pantry", "kid-friendly", "no-cook"],
+      "mealTypes": ["breakfast", "snack"],
+      "ideaKind": "pantry"
+    },
+    {
+      "id": "10",
+      "slug": "grab-sushi",
+      "title": "Grocery store sushi",
+      "description": "Pre-made rolls from the deli case.",
+      "imageUrl": "/images/ideas/grab-sushi.png",
+      "tags": ["takeout", "no-cook"],
+      "mealTypes": ["lunch", "dinner"],
+      "ideaKind": "takeout"
+    }
+  ]
+}

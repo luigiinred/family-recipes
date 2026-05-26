@@ -30,6 +30,7 @@ Loads the personal recipe catalog from `src/static-api/data/recipes.json` (synce
 | CAT-API-3 | `getRecipesByTag(tag)` | `Promise<Recipe[]>` |
 | CAT-API-4 | `getRecipesByMealList(list)` | `Promise<Recipe[]>` |
 | CAT-API-7 | `getRecipesByEffort(effort)` | `Promise<Recipe[]>` |
+| CAT-API-8 | `getPairedRecipes(slug)` | `Promise<Recipe[]>` — resolves `pairedWith` slugs; skips unknown |
 
 ---
 
@@ -44,6 +45,7 @@ Loads the personal recipe catalog from `src/static-api/data/recipes.json` (synce
 | CAT-API-3 | Tag filter | e.g. `slow-cooker` | complete | same |
 | CAT-API-4 | Meal list filter | `to-make` (7), `saved` (19) | complete | same |
 | CAT-API-7 | Effort filter | `getRecipesByEffort('low')` — 7 `to-make` recipes flagged | complete | `catalog.test.ts` |
+| CAT-API-8 | Paired recipes | `pairedWith` slugs → full `Recipe` rows (e.g. cheese bread ↔ KFA chili) | complete | `catalog.test.ts` |
 
 ---
 

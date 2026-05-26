@@ -1,7 +1,7 @@
 {
   "method": "youtube-refresh",
-  "scrapedAt": "2026-05-26T12:46:42.427Z",
+  "scrapedAt": "2026-05-26T13:28:54.102Z",
   "videoId": "1pefXljkxAA",
-  "stepSource": "captions",
+  "stepSource": "description-recipe",
   "blogUrl": null
 }

@@ -22,33 +22,36 @@
   padding-top: 0.125rem;
 }
 
-.stepBody {
+.stepSeek {
   display: flex;
   flex-direction: column;
   gap: var(--space-2);
-}
-
-.text {
-  margin: 0;
-  line-height: var(--line-height-normal, 1.5);
-}
-
-.watchButton {
-  align-self: flex-start;
+  width: 100%;
   padding: 0;
   border: none;
   background: none;
   font: inherit;
-  font-size: var(--font-size-sm, 0.875rem);
-  font-variant-numeric: tabular-nums;
-  color: var(--color-accent, #2563eb);
-  text-decoration: underline;
-  text-underline-offset: 2px;
+  text-align: left;
+  color: inherit;
   cursor: pointer;
+  border-radius: var(--radius-sm);
 }
 
-.watchButton:hover,
-.watchButton:focus-visible {
-  color: color-mix(in srgb, var(--color-accent, #2563eb) 80%, #000);
-  outline: none;
+.stepSeek:hover .watchAt,
+.stepSeek:focus-visible .watchAt {
+  color: var(--color-accent-hover);
+}
+
+.stepSeek:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+.watchAt {
+  align-self: flex-start;
+  font-size: var(--font-size-sm);
+  font-variant-numeric: tabular-nums;
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }

@@ -1,7 +1,12 @@
+import type { IngredientUnit } from '../units';
+
 export type Ingredient = {
   amount: string;
-  unit: string;
+  /** Canonical measure from `MEASURE_UNITS`, sized `(N oz) can`, or `""` for count-only. See docs/api-specs/data/ingredient-units.md */
+  unit: IngredientUnit | (string & {});
   name: string;
+  /** Optional section label, e.g. "Garnishes" — consecutive matching groups render together */
+  group?: string;
 };
 
 /** Seconds from the start of the linked YouTube video */
@@ -21,6 +26,8 @@ export type MealList =
 
 export type Effort = 'low' | 'medium' | 'high';
 
+import type { MealType } from '../mealTypes';
+
 export type { MealType } from '../mealTypes';
 export { MEAL_TYPES } from '../mealTypes';
 
@@ -35,7 +42,7 @@ export type Recipe = {
   servings: number;
   tags: string[];
   /** Planner slots this recipe fits (breakfast, lunch, dinner, side, snack, dessert). */
-  mealTypes?: import('../mealTypes').MealType[];
+  mealTypes?: MealType[];
   ingredients: Ingredient[];
   steps: string[];
   /** `youtube` enables embedded player + timestamped steps */
@@ -50,6 +57,8 @@ export type Recipe = {
   effort?: Effort;
   /** External site id, e.g. byonandlara recipe_id */
   externalId?: string;
+  /** Slugs of other catalog recipes often served with this one */
+  pairedWith?: string[];
 };
 
 export type RecipeCatalog = {

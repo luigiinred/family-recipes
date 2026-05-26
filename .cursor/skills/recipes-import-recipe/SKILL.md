@@ -45,12 +45,16 @@ Import scripts apply this automatically (`displayTitleFromYouTube` for YouTube).
 ## Completion checklist (every import)
 
 - [ ] `title` is short cookbook-style (see above)
+- [ ] `mealTypes` set for the weekly planner (`breakfast` | `lunch` | `dinner` | `side` | `snack` | `dessert`) — see **recipes-meal-planner**
 - [ ] `ingredients.length > 0` (from page JSON-LD, blog link, or YouTube `RECIPE` block in description)
+- [ ] Ingredients normalized: `npm run normalize:ingredients` — fixed fractions (`1/2` not `/2`), canonical units in `unit`, lowercase `name`, `group` for sauces and garnishes; **one measure per line** (no `(60ml)` beside `1/4 cup`); **no salt or table pepper** in the list (see **recipes-enrich-from-url**)
 - [ ] `steps` are **full instructions** you can cook from without the video (see **recipes-youtube-recipe** — not chapter titles like `Salad prep`)
 - [ ] `steps.length > 0` with no "see source" / "watch full recipe" placeholders
+- [ ] **Notes vs steps** — sidebar tips (`Note:`, `Tip:`, storage, substitutions) live in `notes`, not as numbered steps (`npm run normalize:notes`; see **recipes-enrich-from-url**)
 - [ ] `imageUrl` set when the source provides one
 - [ ] `sourceUrl` is the canonical recipe or watch URL
 - [ ] Audit file: `src/static-api/data/enrichments/<slug>.json`
+- [ ] `npm run normalize:notes` — tips in `notes`; split bake/cook from **Serve** when garnish/plating detail exists (`recipe-steps.mjs`)
 - [ ] `npm run sync:recipes-data` then `npm run test:run`
 
 ## YouTube (subskill)
@@ -82,12 +86,13 @@ If fetch/parse fails, use cursor-ide-browser per that skill — still copy real 
 ## Add a new catalog row (manual outline)
 
 1. Choose `slug` (`yt-` prefix for YouTube imports from scripts)
-2. Set `sourceUrl`, `mealLists` (default `to-make` for imports), minimal tags
+2. Set `sourceUrl`, `mealLists` (default `to-make` for imports), minimal tags, `mealTypes`
 3. Run the correct command above — **do not** leave `ingredients: []`
 4. Sync + tests
 
 ## Related
 
+- **recipes-meal-planner** — `mealTypes` tags and planner UX
 - **recipes-youtube-recipe** — video id, `timedSteps`, embed UI
 - **recipes-enrich-from-url** — scrape non-YouTube `sourceUrl`
 - **recipes-static-api** — schema and loaders

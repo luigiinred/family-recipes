@@ -13,6 +13,7 @@
 - [index.md](index.md)
 - [loaders/](loaders/) — one file per loader module or contract group
 - [data/recipes-schema.md](data/recipes-schema.md) — optional canonical JSON reference
+- [data/ingredient-units.md](data/ingredient-units.md) — canonical `Ingredient.unit` values and display helpers
 
 ## Cursor skills
 

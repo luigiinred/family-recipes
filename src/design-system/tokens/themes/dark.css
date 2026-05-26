@@ -1,0 +1,22 @@
+[data-theme='dark'] {
+  --color-bg: #14110e;
+  --color-surface: #1f1b16;
+  --color-surface-muted: #2a241e;
+  --color-border: #3d352c;
+  --color-text: #f5f0e8;
+  --color-text-muted: #b8aea3;
+  --color-accent: #e07a4f;
+  --color-accent-hover: #f0946a;
+  --color-accent-soft: #3d2a22;
+  --color-focus: #6bbf8a;
+
+  --color-category-dinner: #d4848f;
+  --color-category-lunch: #e0b84d;
+  --color-category-dessert: #e89a8f;
+  --color-category-snack: #8fbf9a;
+  --color-category-all: #c4bbb0;
+  --color-category-default: #b8aea3;
+
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.35);
+  --shadow-md: 0 4px 12px rgb(0 0 0 / 0.45);
+}

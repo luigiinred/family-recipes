@@ -1,3 +1,4 @@
+import { RecipeStepContent } from '@/components/RecipeStepContent/RecipeStepContent';
 import { formatVideoTimestamp } from '@/lib/youtube/formatVideoTimestamp';
 import type { TimedStep } from '@/static-api/types/recipe';
 import styles from './TimedRecipeSteps.module.css';
@@ -17,17 +18,15 @@ export function TimedRecipeSteps({ steps, onSeek }: TimedRecipeStepsProps) {
             <span className={styles.stepNumber} aria-hidden="true">
               {index + 1}
             </span>
-            <div className={styles.stepBody}>
-              <p className={styles.text}>{step.text}</p>
-              <button
-                type="button"
-                className={styles.watchButton}
-                aria-label={`Play video at ${timestamp}`}
-                onClick={() => onSeek(step.startSeconds)}
-              >
-                Watch at {timestamp}
-              </button>
-            </div>
+            <button
+              type="button"
+              className={styles.stepSeek}
+              aria-label={`Play video at ${timestamp}: ${step.text}`}
+              onClick={() => onSeek(step.startSeconds)}
+            >
+              <RecipeStepContent text={step.text} />
+              <span className={styles.watchAt}>Watch at {timestamp}</span>
+            </button>
           </li>
         );
       })}

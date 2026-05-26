@@ -1,6 +1,10 @@
 import { Link } from 'react-router-dom';
 import { Card, Image, Stack, Text } from '@/design-system/primitives';
+import { RecipeDeleteButton } from '@/components/RecipeDeleteButton/RecipeDeleteButton';
 import { RecipeStarButton } from '@/components/RecipeStarButton/RecipeStarButton';
+import { confirmHideRecipe } from '@/features/recipe-edits/confirmHideRecipe';
+import { useEditorMode } from '@/hooks/useEditorMode';
+import { useRecipeEdits } from '@/hooks/useRecipeEdits';
 import { useStarredRecipes } from '@/hooks/useStarredRecipes';
 import { isYouTubeRecipe } from '@/lib/youtube/isYouTubeRecipe';
 import { recipeImageUrl } from '@/lib/recipeImageUrl';
@@ -14,6 +18,8 @@ type RecipeCardProps = {
 
 export function RecipeCard({ recipe }: RecipeCardProps) {
   const { isStarred, toggleStar } = useStarredRecipes();
+  const { editorMode } = useEditorMode();
+  const { markDeleted } = useRecipeEdits();
   const starred = isStarred(recipe.slug);
 
   return (
@@ -24,6 +30,16 @@ export function RecipeCard({ recipe }: RecipeCardProps) {
         onToggle={() => toggleStar(recipe.slug)}
         className={[styles.star, starred ? styles.starVisible : ''].filter(Boolean).join(' ')}
       />
+      {editorMode ? (
+        <RecipeDeleteButton
+          title={recipe.title}
+          onDelete={() => {
+            if (!confirmHideRecipe(recipe.title)) return;
+            markDeleted(recipe.slug, recipe);
+          }}
+          className={styles.delete}
+        />
+      ) : null}
       <Link to={`/recipes/${recipe.slug}`} className={styles.link}>
         <div className={styles.media}>
           <Image src={recipeImageUrl(recipe.imageUrl)} alt={recipe.title} />

@@ -39,6 +39,7 @@ React recipe site: **design-driven** product specs, **API-driven** static JSON +
 | Add/import recipe from URL | [recipes-import-recipe](.cursor/skills/recipes-import-recipe/SKILL.md) |
 | Scrape non-YouTube `sourceUrl` | [recipes-enrich-from-url](.cursor/skills/recipes-enrich-from-url/SKILL.md) |
 | YouTube video + timestamps | [recipes-youtube-recipe](.cursor/skills/recipes-youtube-recipe/SKILL.md) |
+| Weekly planner + meal types | [recipes-meal-planner](.cursor/skills/recipes-meal-planner/SKILL.md) |
 | Product doc hygiene | [product-docs-specs](.cursor/skills/product-docs-specs/SKILL.md) |
 
 ## Non-negotiables

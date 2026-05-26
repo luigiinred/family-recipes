@@ -1,17 +1,19 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { getRecipes } from '@/static-api';
 import type { Recipe } from '@/static-api/types/recipe';
+import { useRecipeEdits } from '@/hooks/useRecipeEdits';
 
 export function useRecipeCatalog() {
-  const [recipes, setRecipes] = useState<Recipe[]>([]);
+  const [catalogRecipes, setCatalogRecipes] = useState<Recipe[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const { mergeCatalog } = useRecipeEdits();
 
   useEffect(() => {
     let cancelled = false;
     getRecipes()
       .then((data) => {
-        if (!cancelled) setRecipes(data);
+        if (!cancelled) setCatalogRecipes(data);
       })
       .catch((err: unknown) => {
         if (!cancelled) {
@@ -26,5 +28,10 @@ export function useRecipeCatalog() {
     };
   }, []);
 
-  return { recipes, loading, error };
+  const recipes = useMemo(
+    () => mergeCatalog(catalogRecipes),
+    [catalogRecipes, mergeCatalog],
+  );
+
+  return { recipes, catalogRecipes, loading, error };
 }

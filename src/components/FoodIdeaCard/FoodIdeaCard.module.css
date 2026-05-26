@@ -1,0 +1,20 @@
+.card {
+  position: relative;
+  list-style: none;
+}
+
+.surface {
+  display: flex;
+  flex-direction: column;
+  color: inherit;
+  height: 100%;
+}
+
+.media > img,
+.media > [role='img']:first-child {
+  aspect-ratio: 16 / 9;
+}
+
+.body {
+  padding: var(--space-4);
+}

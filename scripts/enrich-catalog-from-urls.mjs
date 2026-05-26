@@ -7,6 +7,7 @@ import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseRecipeHtml } from './lib/parse-recipe-html.mjs';
+import { applyRecipeNotes } from './lib/recipe-notes.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
@@ -37,12 +38,12 @@ async function fetchHtml(url) {
   return res.text();
 }
 
-function mergeRecipe(existing, scraped) {
+function mergeRecipe(existing, scraped, html = '') {
   const placeholder =
     existing.steps?.length === 1 &&
     /see source/i.test(existing.steps[0] || '');
 
-  return {
+  const merged = {
     ...existing,
     description:
       scraped.description && scraped.description.length > 20
@@ -63,6 +64,18 @@ function mergeRecipe(existing, scraped) {
           ? existing.steps
           : existing.steps,
   };
+
+  const notesApplied = applyRecipeNotes(merged, html);
+  return {
+    ...merged,
+    steps: notesApplied.steps,
+    ...(notesApplied.notes ? { notes: notesApplied.notes } : {}),
+    ...(notesApplied.timedSteps
+      ? { timedSteps: notesApplied.timedSteps }
+      : merged.timedSteps
+        ? { timedSteps: notesApplied.timedSteps }
+        : {}),
+  };
 }
 
 async function enrichOne(recipe) {
@@ -74,7 +87,7 @@ async function enrichOne(recipe) {
     console.warn(`  ⚠ No recipe data parsed for ${recipe.slug}`);
     return { recipe, scraped: null, ok: false };
   }
-  const merged = mergeRecipe(recipe, scraped);
+  const merged = mergeRecipe(recipe, scraped, html);
   console.log(
     `  ✓ ${scraped.source}: ${merged.ingredients.length} ingredients, ${merged.steps.length} steps` +
       (merged.imageUrl ? ', image' : ''),

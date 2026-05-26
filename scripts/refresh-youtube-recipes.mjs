@@ -19,6 +19,8 @@ import {
   ingredientsFromYouTubeDescription,
   primaryRecipeUrlFromDescription,
 } from './lib/youtube-recipe-fields.mjs';
+import { pickBetterIngredients } from './lib/ingredient-lines.mjs';
+import { applyRecipeNotes } from './lib/recipe-notes.mjs';
 import { resolveYouTubeTimedSteps } from './lib/youtube-instruction-steps.mjs';
 import { isTableOfContentsSteps } from './lib/youtube-toc-steps.mjs';
 
@@ -100,19 +102,17 @@ async function main() {
         continue;
       }
 
-      if (resolved.source === 'blog-chapters') {
-        syncSteps(recipe, resolved.timedSteps);
-        console.log(`  ✓ ${resolved.timedSteps.length} steps (${stepSource})`);
+      const bestSteps = pickBetterTimedSteps(
+        recipe.timedSteps,
+        resolved.timedSteps,
+      );
+      if (bestSteps !== recipe.timedSteps) {
+        syncSteps(recipe, bestSteps);
+        console.log(`  ✓ ${bestSteps.length} steps (${stepSource})`);
+      } else if (isTableOfContentsSteps(recipe.timedSteps)) {
+        console.log('  ⚠ still table-of-contents steps — add blog link or write steps manually');
       } else {
-        const best = pickBetterTimedSteps(recipe.timedSteps, resolved.timedSteps);
-        if (best !== recipe.timedSteps) {
-          syncSteps(recipe, best);
-          console.log(`  ✓ ${best.length} steps (${stepSource})`);
-        } else if (isTableOfContentsSteps(recipe.timedSteps)) {
-          console.log('  ⚠ still table-of-contents steps — add blog link or write steps manually');
-        } else {
-          console.log('  ⚠ kept existing steps (new extract not better)');
-        }
+        console.log('  ⚠ kept existing steps (new extract not better)');
       }
 
       const simplified = displayTitleFromYouTube(meta.title);
@@ -124,27 +124,39 @@ async function main() {
         recipe.title = simplified;
         console.log(`  ✓ title → ${simplified}`);
       }
-      if (blog?.ingredients?.length) {
-        recipe.ingredients = blog.ingredients;
-        if (blog.description?.length > 40) {
+      const descIngredients = ingredientsFromYouTubeDescription(meta.description);
+      const candidateIngredients =
+        blog?.ingredients?.length ? blog.ingredients
+        : descIngredients.length ? descIngredients
+        : inlineRecipe?.ingredients?.length ? inlineRecipe.ingredients
+        : null;
+
+      if (candidateIngredients) {
+        const prev = recipe.ingredients;
+        recipe.ingredients = pickBetterIngredients(
+          prev,
+          candidateIngredients,
+          recipe.title,
+        );
+        const source = blog?.ingredients?.length
+          ? 'blog'
+          : descIngredients.length
+            ? 'description'
+            : 'inline';
+        if (recipe.ingredients !== prev) {
+          console.log(`  ✓ ${recipe.ingredients.length} ingredients (${source})`);
+        } else {
+          console.log(`  ⚠ kept existing ingredients (${source} not better)`);
+        }
+        if (blog?.description?.length > 40) {
           recipe.description = blog.description.slice(0, 500);
         }
-        recipe.prepMinutes = blog.prepMinutes || recipe.prepMinutes;
-        recipe.cookMinutes = blog.cookMinutes || recipe.cookMinutes;
-        recipe.servings = blog.servings || recipe.servings;
-        if (blog.imageUrl) recipe.imageUrl = blog.imageUrl;
-        console.log(`  ✓ ${blog.ingredients.length} ingredients from blog`);
+        recipe.prepMinutes = blog?.prepMinutes || recipe.prepMinutes;
+        recipe.cookMinutes = blog?.cookMinutes || recipe.cookMinutes;
+        recipe.servings = blog?.servings || recipe.servings;
+        if (blog?.imageUrl) recipe.imageUrl = blog.imageUrl;
       } else {
-        const descIngredients = ingredientsFromYouTubeDescription(meta.description);
-        if (descIngredients.length) {
-          recipe.ingredients = descIngredients;
-          console.log(`  ✓ ${descIngredients.length} ingredients from description`);
-        } else if (inlineRecipe?.ingredients?.length) {
-          recipe.ingredients = inlineRecipe.ingredients;
-          console.log(`  ✓ ${inlineRecipe.ingredients.length} ingredients from description`);
-        } else {
-          console.log('  ⚠ no ingredients (no blog link found)');
-        }
+        console.log('  ⚠ no ingredients (no blog link found)');
       }
 
       if (moveToMake) {
@@ -152,6 +164,18 @@ async function main() {
         lists.delete('saved');
         lists.add('to-make');
         recipe.mealLists = [...lists];
+      }
+
+      const notesApplied = applyRecipeNotes({
+        steps: recipe.steps,
+        timedSteps: recipe.timedSteps,
+        notes: recipe.notes,
+        description: meta.description || recipe.description || '',
+      });
+      recipe.steps = notesApplied.steps;
+      if (notesApplied.notes) recipe.notes = notesApplied.notes;
+      if (notesApplied.timedSteps?.length) {
+        recipe.timedSteps = notesApplied.timedSteps;
       }
 
       if (!dryRun) {

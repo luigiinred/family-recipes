@@ -1,0 +1,17 @@
+.line {
+  display: inline;
+}
+
+.amount {
+  font-variant-numeric: tabular-nums;
+}
+
+.unit {
+  font-variant-numeric: tabular-nums;
+  /* Keep Tbsp / tsp / L visually distinct and aligned */
+  letter-spacing: 0.01em;
+}
+
+.name {
+  font-weight: var(--font-weight-semibold);
+}

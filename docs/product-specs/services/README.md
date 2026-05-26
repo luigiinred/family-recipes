@@ -4,6 +4,6 @@ Cross-cutting behavior that spans multiple pages (auth, sync, imports, search in
 
 | Service spec | Status | Notes |
 | -------------- | ------ | ----- |
-| *(create `services/<name>.md` when needed)* | | |
+| [recipe-edits.md](recipe-edits.md) | complete | Local recipe edit drafts (`localStorage`) |
 
 Status: `planned`, `complete`, `broken`.

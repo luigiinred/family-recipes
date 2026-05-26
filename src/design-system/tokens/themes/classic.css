@@ -1,0 +1,73 @@
+[data-theme='classic'] {
+  --font-family: arial, helvetica, sans-serif;
+  --font-family-display: arial, helvetica, sans-serif;
+  --font-family-serif: arial, helvetica, sans-serif;
+  --font-size-body: 1.6rem;
+  --font-size-sm: 1.25rem;
+  --font-size-lg: 1.75rem;
+  --font-size-xl: 2rem;
+  --font-size-2xl: 2.25rem;
+
+  --color-bg: transparent;
+  --color-surface: rgb(255 255 255 / 0.92);
+  --color-surface-muted: rgb(255 255 255 / 0.85);
+  --color-border: #000;
+  --color-text: #000;
+  --color-text-muted: #333;
+  --color-accent: #b00000;
+  --color-accent-hover: #600000;
+  --color-accent-soft: rgb(176 0 0 / 0.08);
+  --color-focus: #b00000;
+
+  --color-category-dinner: #b00000;
+  --color-category-lunch: #b00000;
+  --color-category-dessert: #b00000;
+  --color-category-snack: #b00000;
+  --color-category-all: #b00000;
+  --color-category-default: #333;
+
+  --radius-sm: 0;
+  --radius-md: 0;
+  --radius-lg: 0;
+  --radius-xl: 0;
+
+  --shadow-sm: none;
+  --shadow-md: none;
+
+  --home-grid-min-col: min(49%, 500px);
+  --recipe-card-image-border: 3px solid #000;
+  --recipe-card-image-width: 80%;
+  --recipe-card-text-align: center;
+  --app-header-backdrop: rgb(255 255 255 / 0.9);
+  --card-border: none;
+}
+
+[data-theme='classic'] [role='tablist'] {
+  border-bottom: none;
+  gap: var(--space-2);
+}
+
+[data-theme='classic'] [role='tab'] {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding: var(--space-1) var(--space-2);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text);
+}
+
+[data-theme='classic'] [role='tab'][aria-selected='true'] {
+  text-decoration: underline;
+  color: var(--color-accent);
+}
+
+[data-theme='classic'] body {
+  background-color: #c8b8a0;
+  background-image: url('/themes/classic-background.jpg');
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+[data-theme='classic'] a:visited {
+  color: #600000;
+}

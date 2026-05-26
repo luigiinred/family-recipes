@@ -1,7 +1,7 @@
 {
   "method": "youtube-refresh",
-  "scrapedAt": "2026-05-26T12:46:08.355Z",
+  "scrapedAt": "2026-05-26T13:28:08.157Z",
   "videoId": "CcmmofBJHxI",
-  "stepSource": "chapters",
+  "stepSource": "captions",
   "blogUrl": "https://www.sipandfeast.com/ratatouille/"
 }

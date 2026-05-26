@@ -1,7 +1,7 @@
 {
   "method": "youtube-refresh",
-  "scrapedAt": "2026-05-26T12:46:49.456Z",
+  "scrapedAt": "2026-05-26T13:29:04.707Z",
   "videoId": "5X70AzrvTKk",
-  "stepSource": "chapters",
+  "stepSource": "captions",
   "blogUrl": "http://bit.ly/TMD-Chicken-Gyro"
 }

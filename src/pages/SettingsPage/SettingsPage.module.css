@@ -1,0 +1,48 @@
+.back {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: var(--font-weight-medium);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-weight: var(--font-weight-medium);
+}
+
+.code {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.9em;
+}
+
+.exportLabel {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  font-weight: var(--font-weight-medium);
+}
+
+.exportArea {
+  width: 100%;
+  padding: var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  font-family: var(--font-family-mono, ui-monospace, monospace);
+  font-size: var(--font-size-sm);
+  line-height: 1.5;
+  resize: vertical;
+  min-height: 20rem;
+  background: var(--color-surface);
+  color: var(--color-text);
+}
+
+.actions {
+  flex-wrap: wrap;
+}

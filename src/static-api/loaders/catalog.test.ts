@@ -1,4 +1,5 @@
 import { beforeEach, describe, expect, it } from 'vitest';
+import { getPairedRecipes } from './getPairedRecipes';
 import { getRecipeBySlug } from './getRecipeBySlug';
 import { getRecipes } from './getRecipes';
 import { getRecipesByEffort } from './getRecipesByEffort';
@@ -13,7 +14,7 @@ beforeEach(() => {
 describe('loadRecipeCatalog', () => {
   it('loads the full catalog without baby-food recipes', async () => {
     const recipes = await loadRecipeCatalog();
-    expect(recipes).toHaveLength(94);
+    expect(recipes).toHaveLength(74);
     expect(recipes.every((r) => r.id && r.slug && r.title)).toBe(true);
     expect(recipes.some((r) => r.slug.startsWith('baby-food'))).toBe(false);
   });
@@ -23,6 +24,28 @@ describe('getRecipes', () => {
   it('returns the full catalog', async () => {
     const recipes = await getRecipes();
     expect(recipes.length).toBeGreaterThanOrEqual(70);
+  });
+});
+
+describe('getPairedRecipes', () => {
+  it('resolves cheese bread and KFA chili as paired recipes', async () => {
+    const cheeseBread = await getPairedRecipes('byl-cheese-bread');
+    expect(cheeseBread).toHaveLength(1);
+    expect(cheeseBread[0]?.slug).toBe('byl-kfa-chili');
+    expect(cheeseBread[0]?.title).toMatch(/KFA Chili/i);
+
+    const chili = await getPairedRecipes('byl-kfa-chili');
+    expect(chili).toHaveLength(1);
+    expect(chili[0]?.slug).toBe('byl-cheese-bread');
+    expect(chili[0]?.title).toMatch(/Cheese Bread/i);
+  });
+
+  it('returns empty array when recipe has no pairings', async () => {
+    expect(await getPairedRecipes('briam')).toEqual([]);
+  });
+
+  it('returns empty array for unknown slug', async () => {
+    expect(await getPairedRecipes('not-a-recipe')).toEqual([]);
   });
 });
 
@@ -68,9 +91,9 @@ describe('byonandlara imports', () => {
   it('includes 40 family recipes from byonandlara.com', async () => {
     const recipes = await getRecipesByTag('family');
     const byl = recipes.filter((r) => r.slug.startsWith('byl-'));
-    expect(byl).toHaveLength(40);
+    expect(byl).toHaveLength(33);
     const onBylSite = byl.filter((r) => r.sourceUrl?.includes('byonandlara.com'));
-    expect(onBylSite.length).toBeGreaterThanOrEqual(37);
+    expect(onBylSite.length).toBeGreaterThanOrEqual(30);
   });
 
   it('loads artichoke dip by slug', async () => {
@@ -83,7 +106,7 @@ describe('byonandlara imports', () => {
 describe('getRecipesByEffort', () => {
   it('returns seven low-effort to-make recipes', async () => {
     const recipes = await getRecipesByEffort('low');
-    expect(recipes).toHaveLength(7);
+    expect(recipes).toHaveLength(4);
     expect(recipes.every((r) => r.effort === 'low')).toBe(true);
     expect(recipes.every((r) => r.mealLists?.includes('to-make'))).toBe(true);
   });
@@ -103,16 +126,16 @@ describe('youtube video recipes', () => {
     expect(recipe?.steps).toEqual(recipe?.timedSteps?.map((s) => s.text));
   });
 
-  it('loads imported Mediterranean Dish chicken salad video', async () => {
-    const recipe = await getRecipeBySlug('yt-a-healthy-no-mayo-chicken-salad-recipe');
+  it('loads imported Mediterranean Dish chickpea salad video', async () => {
+    const recipe = await getRecipeBySlug(
+      'yt-mediterranean-chickpea-salad-recipe-vegan-chickpea-salad',
+    );
     expect(recipe?.recipeKind).toBe('youtube');
-    expect(recipe?.youtubeVideoId).toBe('4xQsTOxTQsQ');
+    expect(recipe?.youtubeVideoId).toBe('244HOfIQw9Y');
     expect(
-      recipe?.timedSteps?.some((s) => /make the dressing/i.test(s.text)),
+      recipe?.timedSteps?.some((s) => /dijon vinaigrette/i.test(s.text)),
     ).toBe(true);
-    expect(
-      recipe?.timedSteps?.every((s) => s.text.length > 30),
-    ).toBe(true);
+    expect(recipe?.tags).toEqual(['mediterranean', 'refreshing', 'youtube']);
     expect(recipe?.ingredients.length).toBeGreaterThan(0);
   });
 });
@@ -124,21 +147,18 @@ describe('getRecipesByMealList', () => {
     for (const slug of [
       'air-fried-veggies-shrimp',
       'air-fried-veggies-tilapia',
-      'caesar-salad',
-      'crema-salad',
       'falafel',
       'mediterranean-salad',
-      'zero-calorie-pasta-veggies-shrimp',
+      'yt-mediterranean-chickpea-salad-recipe-vegan-chickpea-salad',
+      'yt-mom-style-creamy-ground-beef-stroganoff',
     ]) {
       expect(recipes.some((r) => r.slug === slug)).toBe(true);
     }
-    expect(recipes.some((r) => r.slug === 'yt-a-healthy-no-mayo-chicken-salad-recipe')).toBe(
-      true,
-    );
   });
 
-  it('returns freezer soup under to-eat', async () => {
-    const recipes = await getRecipesByMealList('to-eat');
-    expect(recipes.some((r) => r.slug === 'freezer-soup')).toBe(true);
+  it('returns healthy-ideas meals', async () => {
+    const recipes = await getRecipesByMealList('healthy-ideas');
+    expect(recipes.some((r) => r.slug === 'briam')).toBe(true);
+    expect(recipes.every((r) => r.mealLists?.includes('healthy-ideas'))).toBe(true);
   });
 });

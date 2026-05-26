@@ -1,7 +1,7 @@
 {
   "method": "youtube-refresh",
-  "scrapedAt": "2026-05-26T12:46:16.828Z",
+  "scrapedAt": "2026-05-26T13:28:15.081Z",
   "videoId": "244HOfIQw9Y",
-  "stepSource": "chapters",
+  "stepSource": "description",
   "blogUrl": "https://www.themediterraneandish.com/chickpea-salad/"
 }

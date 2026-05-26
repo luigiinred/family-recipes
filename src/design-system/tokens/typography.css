@@ -1,5 +1,7 @@
 :root {
   --font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-family-display: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-family-serif: Lora, Georgia, 'Times New Roman', serif;
   --font-size-sm: 0.875rem;
   --font-size-body: 1rem;
   --font-size-lg: 1.125rem;

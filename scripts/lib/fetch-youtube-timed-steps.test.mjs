@@ -48,6 +48,25 @@ Preheat oven. Add gnocchi to the pan. Bake until golden.`);
     expect(parsed?.ingredients.length).toBe(2);
     expect(parsed?.steps.length).toBeGreaterThanOrEqual(1);
   });
+
+  it('drops hashtags, salt, and music credits from RECIPE blocks', () => {
+    const parsed = parseDescriptionRecipe(`------
+RECIPE
+------
+▪Salt
+▪1 red onion, medium diced
+▪Cooked whole chicken
+RECOMMENDED GARNISHES
+▪Ripe avocado, diced
+#chickentortillasoup
+|| MUSIC ||
+bensound.com`);
+    const names = parsed?.ingredients.map((i) => i.name) ?? [];
+    expect(names).not.toContain('Salt');
+    expect(names.some((n) => /hashtag|music|bensound/i.test(n))).toBe(false);
+    expect(names[0]).toMatch(/chicken/i);
+    expect(parsed?.ingredients.some((i) => i.group === 'Garnishes')).toBe(true);
+  });
 });
 
 describe('pickBetterTimedSteps', () => {

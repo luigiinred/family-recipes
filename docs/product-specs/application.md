@@ -50,6 +50,7 @@
 | API | Static JSON + typed loaders | Documented like HTTP in `docs/api-specs/`; no runtime backend |
 | Data | `src/static-api/data/*.json` | Recipes catalog; tags derived or indexed for autocomplete |
 | Meal plan | `localStorage` | Per-browser weekly board; document key schema in a service spec |
+| Recipe edits | `localStorage` | Per-browser drafts until exported to Cursor; see [recipe-edits](services/recipe-edits.md) |
 | Auth | None | Public URL; unlisted/obscure link acceptable |
 | Images | Required per recipe | `imageUrl` pointing at repo `public/` assets; Cursor agent downloads from source when possible |
 | Hosting | TBD | Static deploy of built app + assets |
@@ -81,12 +82,12 @@
 
 | Route / page | Purpose |
 | ------------ | ------- |
-| Home | Recipe grid, **full-text search bar**, entry to catalog |
+| Home | Recipe grid; **search + filters in header** |
 | Recipe detail | Ingredients, steps, servings scaler, source link, print |
 | Tags browse | Filter/list by tag; tag discovery with autocomplete patterns |
-| Weekly planner | Assign recipes to day/slot; localStorage persistence |
+| Starred queue | Reorderable list of starred recipes; localStorage persistence |
 
-Search is **on home**, not a separate route in v1.
+Search and filters are in the **header** (shared across routes); the home page shows only the grid.
 
 ## AI-assisted import workflow (v1)
 
@@ -100,7 +101,7 @@ Search is **on home**, not a separate route in v1.
 
 | Topic | Decision |
 | ----- | -------- |
-| Planner | Monday-first week; empty slot = “—”; localStorage per browser |
+| Starred queue | Ordered slug list in `recipes-starred-v1`; drag to reorder; localStorage per browser |
 | Images | `/images/recipe-placeholder.svg` when `imageUrl` empty; external URLs kept when set |
 | Search | Runtime filter over bundled JSON via `filterRecipes` / `searchRecipes` |
 | Print | Hide nav/toolbar; show hero + content |

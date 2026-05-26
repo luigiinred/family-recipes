@@ -2,6 +2,14 @@
  * Extract Recipe fields from HTML (JSON-LD first, then heuristics).
  */
 
+import {
+  isGarnishSectionHeader,
+  normalizeCatalogIngredients,
+  parseIngredientLineRich,
+} from './ingredient-lines.mjs';
+import { applyRecipeNotes } from './recipe-notes.mjs';
+import { polishRecipeSteps } from './recipe-steps.mjs';
+
 function normalizeType(type) {
   if (!type) return '';
   if (Array.isArray(type)) return type.join(' ');
@@ -110,15 +118,8 @@ function parseIsoDuration(iso) {
 function parseIngredientLine(line) {
   const text = line.replace(/^[-•*\d.]+\s*/, '').trim();
   if (!text) return { amount: '', unit: '', name: text };
-  const m = text.match(
-    /^([\d¼½¾⅓⅔./\s-]+)?\s*([a-zA-Z]+(?:\.|))?\s*(.+)$/,
-  );
-  if (!m) return { amount: '', unit: '', name: text };
-  return {
-    amount: (m[1] || '').trim(),
-    unit: (m[2] || '').trim(),
-    name: (m[3] || text).trim(),
-  };
+  if (isGarnishSectionHeader(text)) return null;
+  return parseIngredientLineRich(text);
 }
 
 function normalizeIngredients(recipe) {
@@ -129,20 +130,29 @@ function normalizeIngredients(recipe) {
     : typeof raw === 'object'
       ? Object.values(raw)
       : [raw];
+  let garnishGroup = false;
   return lines
     .map((line) => {
-      if (typeof line === 'string') return parseIngredientLine(line);
-      if (line && typeof line === 'object') {
+      const raw = typeof line === 'string' ? line : null;
+      if (raw && isGarnishSectionHeader(raw)) {
+        garnishGroup = true;
+        return null;
+      }
+      let parsed;
+      if (typeof line === 'string') parsed = parseIngredientLine(line);
+      else if (line && typeof line === 'object') {
         const text =
           line.text ||
           line.name ||
           line.description ||
           (line['@type'] === 'HowToSupply' ? line.name : null);
-        if (text) return parseIngredientLine(String(text));
-      }
-      return { amount: '', unit: '', name: String(line) };
+        if (text) parsed = parseIngredientLine(String(text));
+      } else parsed = { amount: '', unit: '', name: String(line) };
+      if (!parsed?.name || parsed.name === '[object Object]') return null;
+      if (garnishGroup) parsed.group = 'Garnishes';
+      return parsed;
     })
-    .filter((i) => i.name && i.name !== '[object Object]');
+    .filter(Boolean);
 }
 
 function normalizeSteps(recipe) {
@@ -184,8 +194,11 @@ export function recipeFromJsonLd(node) {
   if (!prepMinutes && !cookMinutes && total) {
     cookMinutes = total;
   }
-  const ingredients = normalizeIngredients(node);
   const steps = normalizeSteps(node);
+  const ingredients = normalizeCatalogIngredients(normalizeIngredients(node), {
+    title: node.name || '',
+    steps,
+  });
   const servings = Number.parseInt(String(node.recipeYield || '4'), 10) || 4;
 
   return {
@@ -197,6 +210,20 @@ export function recipeFromJsonLd(node) {
     servings: Number.isFinite(servings) ? servings : 4,
     ingredients,
     steps,
+  };
+}
+
+function finalizeParsedRecipe(recipe, html = '') {
+  const polished = {
+    ...recipe,
+    steps: polishRecipeSteps(recipe.steps),
+  };
+  const { steps, notes, timedSteps } = applyRecipeNotes(polished, html);
+  return {
+    ...recipe,
+    steps: polishRecipeSteps(steps),
+    ...(notes ? { notes } : {}),
+    ...(timedSteps ? { timedSteps } : {}),
   };
 }
 
@@ -219,15 +246,34 @@ function extractListSection(html, headingPattern) {
 }
 
 export function recipeFromPageSections(html) {
-  const ingLines = [
-    ...extractListSection(html, 'Ingredients'),
-    ...extractListSection(html, 'For the fish'),
-    ...extractListSection(html, 'For the sauce'),
+  const ingLines = [];
+  const sectionGroups = [
+    ['Ingredients', ''],
+    ['For the fish', ''],
+    ['For the sauce', 'Sauce'],
+    ['For the vegetables', 'Vegetables'],
+    ['Recommended garnishes', 'Garnishes'],
+    ['Garnish', 'Garnishes'],
   ];
+  for (const [heading, group] of sectionGroups) {
+    for (const line of extractListSection(html, heading)) {
+      ingLines.push({ line, group });
+    }
+  }
   const stepLines = extractListSection(html, 'Instructions');
   if (!ingLines.length && !stepLines.length) return null;
+  const rawIngredients = ingLines
+    .map(({ line, group }) => {
+      const parsed = parseIngredientLine(line);
+      if (!parsed) return null;
+      if (group) parsed.group = group;
+      return parsed;
+    })
+    .filter(Boolean);
   return {
-    ingredients: ingLines.map((l) => parseIngredientLine(l)),
+    ingredients: normalizeCatalogIngredients(rawIngredients, {
+      steps: stepLines,
+    }),
     steps: stepLines,
     imageUrl: extractOgImage(html),
     prepMinutes: 0,
@@ -269,7 +315,14 @@ export function recipeFromMarkdownSections(text) {
   }
 
   if (!ingredients.length && !steps.length) return null;
-  return { ingredients, steps, imageUrl: '', prepMinutes: 0, cookMinutes: 0, servings: 4 };
+  return {
+    ingredients: normalizeCatalogIngredients(ingredients, { steps }),
+    steps,
+    imageUrl: '',
+    prepMinutes: 0,
+    cookMinutes: 0,
+    servings: 4,
+  };
 }
 
 export function parseRecipeHtml(html, fallbackText = '') {
@@ -278,7 +331,10 @@ export function parseRecipeHtml(html, fallbackText = '') {
     const parsed = recipeFromJsonLd(node);
     if (parsed && (parsed.ingredients.length || parsed.steps.length)) {
       const imageUrl = parsed.imageUrl || extractOgImage(html);
-      return { ...parsed, imageUrl, source: 'json-ld' };
+      return finalizeParsedRecipe(
+        { ...parsed, imageUrl, source: 'json-ld' },
+        html,
+      );
     }
   }
   const sections = recipeFromPageSections(html);
@@ -289,7 +345,10 @@ export function parseRecipeHtml(html, fallbackText = '') {
   const md = recipeFromMarkdownSections(fallbackText || html);
   if (md) {
     const imageUrl = md.imageUrl || extractOgImage(html);
-    return { ...md, imageUrl, source: 'markdown' };
+    return finalizeParsedRecipe(
+      { ...md, imageUrl, source: 'markdown' },
+      html,
+    );
   }
   return null;
 }

@@ -2,8 +2,10 @@ import { useCallback, useSyncExternalStore } from 'react';
 import {
   isStarred as checkStarred,
   loadStarredRecipes,
+  moveStarred,
   saveStarredRecipes,
   toggleStarred,
+  type StarredSlugs,
 } from '@/features/starred-recipes/starredRecipes';
 
 let cache = loadStarredRecipes();
@@ -18,7 +20,7 @@ function getSnapshot() {
   return cache;
 }
 
-function setStarred(next: Set<string>) {
+function setStarred(next: StarredSlugs) {
   cache = next;
   saveStarredRecipes(next);
   for (const listener of listeners) {
@@ -27,18 +29,25 @@ function setStarred(next: Set<string>) {
 }
 
 export function useStarredRecipes() {
-  const starred = useSyncExternalStore(subscribe, getSnapshot, getSnapshot);
+  const starredSlugs = useSyncExternalStore(subscribe, getSnapshot, getSnapshot);
 
-  const isStarred = useCallback((slug: string) => checkStarred(starred, slug), [starred]);
+  const isStarred = useCallback((slug: string) => checkStarred(starredSlugs, slug), [starredSlugs]);
 
   const toggleStar = useCallback(
     (slug: string) => {
-      setStarred(toggleStarred(starred, slug));
+      setStarred(toggleStarred(starredSlugs, slug));
     },
-    [starred],
+    [starredSlugs],
   );
 
-  return { isStarred, toggleStar };
+  const moveStar = useCallback(
+    (fromIndex: number, toIndex: number) => {
+      setStarred(moveStarred(starredSlugs, fromIndex, toIndex));
+    },
+    [starredSlugs],
+  );
+
+  return { starredSlugs, isStarred, toggleStar, moveStar };
 }
 
 /** Reset in-memory cache for tests */

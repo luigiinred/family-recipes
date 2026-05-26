@@ -7,6 +7,8 @@ export type {
   TimedStep,
 } from './types/recipe';
 export type { FoodIdea, FoodIdeaCatalog, IdeaKind } from './types/foodIdea';
+export type { BentoIdea, BentoIdeaCatalog, BentoSection } from './types/bentoIdea';
+export { BENTO_SECTION_LABELS, BENTO_SECTION_ORDER } from './types/bentoIdea';
 export { IDEA_KIND_LABELS } from './types/foodIdea';
 export type { PlanRef } from './planRef';
 export { decodePlanRef, encodePlanRef, isFoodIdeaPlanRef } from './planRef';
@@ -45,3 +47,10 @@ export {
   loadFoodIdeasCatalog,
   resetFoodIdeasCatalogCache,
 } from './loaders/loadFoodIdeasCatalog';
+export { getBentoIdeas } from './loaders/getBentoIdeas';
+export { getBentoIdeaBySlug } from './loaders/getBentoIdeaBySlug';
+export { groupBentoIdeasBySection } from './loaders/groupBentoIdeasBySection';
+export {
+  loadBentoIdeasCatalog,
+  resetBentoIdeasCatalogCache,
+} from './loaders/loadBentoIdeasCatalog';

@@ -30,11 +30,17 @@ function renderLayout(initialPath: string) {
 describe('AppLayout navigation', () => {
   it('shows back link on recipe detail routes', () => {
     renderLayout('/recipes/test-soup');
-    expect(screen.getByRole('link', { name: /all recipes/i })).toHaveAttribute('href', '/');
+    expect(screen.getByRole('link', { name: /← recipes/i })).toHaveAttribute('href', '/');
   });
 
   it('hides back link on the home route', () => {
     renderLayout('/');
-    expect(screen.queryByRole('link', { name: /← all recipes/i })).not.toBeInTheDocument();
+    expect(screen.queryByRole('link', { name: /← recipes/i })).not.toBeInTheDocument();
+  });
+
+  it('uses a compact back label on recipe detail', () => {
+    renderLayout('/recipes/test-soup');
+    expect(screen.getByRole('link', { name: /← recipes/i })).toBeInTheDocument();
+    expect(screen.queryByText(/family recipes/i)).not.toBeInTheDocument();
   });
 });

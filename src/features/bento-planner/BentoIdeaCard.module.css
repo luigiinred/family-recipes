@@ -1,0 +1,30 @@
+.card {
+  list-style: none;
+}
+
+.body {
+  padding: var(--space-4);
+}
+
+.description {
+  line-height: 1.4;
+}
+
+.tips {
+  font-size: var(--font-size-sm);
+  font-style: italic;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3);
+  margin-block-start: var(--space-2);
+}
+
+.recipeLink {
+  color: var(--color-accent);
+  font-size: var(--font-size-sm);
+  text-decoration: underline;
+}

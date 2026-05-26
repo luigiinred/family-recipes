@@ -6,6 +6,7 @@
 | [recipe-detail.md](recipe-detail.md) | complete | Scale, print, source |
 | [planner.md](planner.md) | complete | Starred cook queue (reorderable list) |
 | [settings.md](settings.md) | complete | Export local recipe edits for Cursor |
+| [bento-planner.md](bento-planner.md) | complete | Toddler bento ideas browse + box builder |
 
 Status values: `planned`, `complete`, `broken`.
 

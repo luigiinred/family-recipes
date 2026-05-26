@@ -1,0 +1,475 @@
+{
+  "ideas": [
+    {
+      "id": "1",
+      "slug": "cheese-zips",
+      "title": "Cheese Zips",
+      "description": "Small cheese crackers — easy grab-and-go crunch.",
+      "section": "snack",
+      "tags": ["no-cook", "kid-friendly"]
+    },
+    {
+      "id": "2",
+      "slug": "goldfish-crackers",
+      "title": "Goldfish crackers",
+      "description": "Classic fish-shaped cheddar crackers.",
+      "section": "snack",
+      "tags": ["no-cook", "kid-friendly"]
+    },
+    {
+      "id": "3",
+      "slug": "cheese-cubes",
+      "title": "Cheese cubes",
+      "description": "Mild cheddar or mozzarella cut into small cubes.",
+      "section": "snack",
+      "tags": ["no-cook", "dairy", "kid-friendly"]
+    },
+    {
+      "id": "4",
+      "slug": "string-cheese-pieces",
+      "title": "String cheese pieces",
+      "description": "Pull into thin strips or bite-sized chunks.",
+      "section": "snack",
+      "tags": ["no-cook", "dairy"]
+    },
+    {
+      "id": "5",
+      "slug": "pretzel-sticks",
+      "title": "Pretzel sticks",
+      "description": "Thin rods — good for dipping in hummus or yogurt.",
+      "section": "snack",
+      "tags": ["no-cook"]
+    },
+    {
+      "id": "6",
+      "slug": "animal-crackers",
+      "title": "Animal crackers",
+      "description": "Plain or lightly sweet — fun shapes.",
+      "section": "snack",
+      "tags": ["no-cook", "kid-friendly"]
+    },
+    {
+      "id": "7",
+      "slug": "whole-grain-crackers",
+      "title": "Whole grain crackers",
+      "description": "Square or round crackers; pair with cheese.",
+      "section": "snack",
+      "tags": ["no-cook"]
+    },
+    {
+      "id": "8",
+      "slug": "mini-rice-cakes",
+      "title": "Mini rice cakes",
+      "description": "Plain or lightly salted — top with thin nut butter if allowed.",
+      "section": "snack",
+      "tags": ["no-cook"],
+      "tips": "Check daycare nut policy before nut butters."
+    },
+    {
+      "id": "9",
+      "slug": "veggie-straws",
+      "title": "Veggie straws",
+      "description": "Crunchy sticks — keep portion small.",
+      "section": "snack",
+      "tags": ["no-cook"]
+    },
+    {
+      "id": "10",
+      "slug": "puffs",
+      "title": "Puffs (rice or corn)",
+      "description": "Dissolve quickly — good for younger toddlers.",
+      "section": "snack",
+      "tags": ["no-cook", "kid-friendly"]
+    },
+    {
+      "id": "11",
+      "slug": "deli-turkey-roll-ups",
+      "title": "Deli turkey roll-ups",
+      "description": "Rolled slices of turkey — no heating needed.",
+      "section": "snack",
+      "tags": ["no-cook", "protein"]
+    },
+    {
+      "id": "12",
+      "slug": "mozzarella-pearls",
+      "title": "Mozzarella pearls",
+      "description": "Small cheese balls — drain if packed in liquid.",
+      "section": "snack",
+      "tags": ["no-cook", "dairy"]
+    },
+    {
+      "id": "13",
+      "slug": "hummus-dippers",
+      "title": "Hummus with pita strips",
+      "description": "Pack hummus in a small cup; soft pita triangles for dipping.",
+      "section": "snack",
+      "tags": ["no-cook"]
+    },
+    {
+      "id": "14",
+      "slug": "mini-banana-muffin",
+      "title": "Mini banana muffin",
+      "description": "Baked ahead; room-temperature mini muffin.",
+      "section": "snack",
+      "tags": ["kid-friendly"]
+    },
+    {
+      "id": "15",
+      "slug": "teddy-grahams",
+      "title": "Teddy grahams",
+      "description": "Honey or chocolate — small handful.",
+      "section": "snack",
+      "tags": ["no-cook"]
+    },
+    {
+      "id": "16",
+      "slug": "blueberries",
+      "title": "Blueberries",
+      "description": "Fresh berries — smash lightly if your toddler is still learning to chew.",
+      "section": "fruit",
+      "tags": ["no-cook", "kid-friendly"]
+    },
+    {
+      "id": "17",
+      "slug": "grapes-halved",
+      "title": "Grapes (quartered)",
+      "description": "Seedless grapes cut lengthwise into quarters.",
+      "section": "fruit",
+      "tags": ["no-cook"],
+      "tips": "Always quarter round grapes lengthwise for toddlers."
+    },
+    {
+      "id": "18",
+      "slug": "mandarin-segments",
+      "title": "Mandarin segments",
+      "description": "Peeled clementine or mandarin pieces.",
+      "section": "fruit",
+      "tags": ["no-cook", "kid-friendly"]
+    },
+    {
+      "id": "19",
+      "slug": "banana-slices",
+      "title": "Banana slices",
+      "description": "Coins or half-moons — pack with a little lemon if browning bothers you.",
+      "section": "fruit",
+      "tags": ["no-cook", "kid-friendly"]
+    },
+    {
+      "id": "20",
+      "slug": "strawberry-halves",
+      "title": "Strawberry halves",
+      "description": "Hull and halve (or quarter large berries).",
+      "section": "fruit",
+      "tags": ["no-cook"]
+    },
+    {
+      "id": "21",
+      "slug": "raspberries",
+      "title": "Raspberries",
+      "description": "Soft whole berries — smash if needed.",
+      "section": "fruit",
+      "tags": ["no-cook", "kid-friendly"]
+    },
+    {
+      "id": "22",
+      "slug": "melon-cubes",
+      "title": "Melon cubes",
+      "description": "Cantaloupe or honeydew — bite-sized cubes.",
+      "section": "fruit",
+      "tags": ["no-cook"]
+    },
+    {
+      "id": "23",
+      "slug": "apple-slices",
+      "title": "Apple slices",
+      "description": "Thin slices; optional thin lemon water dip.",
+      "section": "fruit",
+      "tags": ["no-cook"]
+    },
+    {
+      "id": "24",
+      "slug": "peach-slices",
+      "title": "Peach slices",
+      "description": "Ripe peach wedges — soft and easy to gum.",
+      "section": "fruit",
+      "tags": ["no-cook"]
+    },
+    {
+      "id": "25",
+      "slug": "soft-dried-apricots",
+      "title": "Soft dried apricots",
+      "description": "Cut strips if pieces are large.",
+      "section": "fruit",
+      "tags": ["no-cook"]
+    },
+    {
+      "id": "26",
+      "slug": "freeze-dried-fruit",
+      "title": "Freeze-dried fruit",
+      "description": "Strawberry or mango chips — light and crunchy.",
+      "section": "fruit",
+      "tags": ["no-cook", "kid-friendly"]
+    },
+    {
+      "id": "27",
+      "slug": "cucumber-coins",
+      "title": "Cucumber coins",
+      "description": "Thin rounds — cool and mild.",
+      "section": "veggie",
+      "tags": ["no-cook", "kid-friendly"]
+    },
+    {
+      "id": "28",
+      "slug": "carrot-coins",
+      "title": "Carrot coins",
+      "description": "Thin rounds; steam until soft if your toddler prefers softer veg.",
+      "section": "veggie",
+      "tags": ["no-cook"]
+    },
+    {
+      "id": "29",
+      "slug": "cherry-tomatoes-quartered",
+      "title": "Cherry tomatoes (quartered)",
+      "description": "Sweet tomatoes cut into quarters.",
+      "section": "veggie",
+      "tags": ["no-cook"],
+      "tips": "Quarter lengthwise — never serve whole cherry tomatoes to toddlers."
+    },
+    {
+      "id": "30",
+      "slug": "sugar-snap-peas",
+      "title": "Sugar snap peas",
+      "description": "String removed; whole or halved pods.",
+      "section": "veggie",
+      "tags": ["no-cook"]
+    },
+    {
+      "id": "31",
+      "slug": "steamed-broccoli-florets",
+      "title": "Steamed broccoli florets",
+      "description": "Steam until tender, cool completely before packing.",
+      "section": "veggie",
+      "tags": ["kid-friendly"]
+    },
+    {
+      "id": "32",
+      "slug": "bell-pepper-strips",
+      "title": "Bell pepper strips",
+      "description": "Red or orange strips — sweet and crunchy.",
+      "section": "veggie",
+      "tags": ["no-cook"]
+    },
+    {
+      "id": "33",
+      "slug": "edamame",
+      "title": "Shelled edamame",
+      "description": "Steamed, cooled — soft protein-rich beans.",
+      "section": "veggie",
+      "tags": ["kid-friendly", "protein"]
+    },
+    {
+      "id": "34",
+      "slug": "avocado-cubes",
+      "title": "Avocado cubes",
+      "description": "Ripe avocado — toss with a little lemon to slow browning.",
+      "section": "veggie",
+      "tags": ["no-cook", "kid-friendly"]
+    },
+    {
+      "id": "35",
+      "slug": "roasted-sweet-potato-cubes",
+      "title": "Roasted sweet potato cubes",
+      "description": "Roast until soft; serve at room temperature.",
+      "section": "veggie",
+      "tags": ["kid-friendly"]
+    },
+    {
+      "id": "36",
+      "slug": "steamed-green-beans",
+      "title": "Steamed green beans",
+      "description": "Trim ends; steam until bendable, then cool.",
+      "section": "veggie",
+      "tags": ["kid-friendly"]
+    },
+    {
+      "id": "37",
+      "slug": "pbj-triangles",
+      "title": "PB&J triangles",
+      "description": "Small sandwich triangles — crusts optional.",
+      "section": "main",
+      "tags": ["no-cook", "kid-friendly"],
+      "tips": "Use sunflower seed butter if your daycare is nut-free."
+    },
+    {
+      "id": "38",
+      "slug": "rice-balls",
+      "title": "Rice balls (onigiri)",
+      "description": "Plain sushi rice pressed into balls; optional furikake on top.",
+      "section": "main",
+      "tags": ["kid-friendly"]
+    },
+    {
+      "id": "39",
+      "slug": "mini-quesadilla-triangles",
+      "title": "Mini quesadilla triangles",
+      "description": "Cheese (and finely chopped veg) quesadilla cut into small wedges.",
+      "section": "main",
+      "tags": ["kid-friendly"]
+    },
+    {
+      "id": "40",
+      "slug": "tortilla-pinwheels",
+      "title": "Tortilla pinwheels",
+      "description": "Cream cheese or hummus spread, roll tight, slice into spirals.",
+      "section": "main",
+      "tags": ["no-cook", "kid-friendly"]
+    },
+    {
+      "id": "41",
+      "slug": "hard-boiled-egg-halves",
+      "title": "Hard-boiled egg halves",
+      "description": "Cool completely; pack with an ice pack.",
+      "section": "main",
+      "tags": ["protein"],
+      "tips": "Keep cold — use an insulated bag and ice pack."
+    },
+    {
+      "id": "42",
+      "slug": "turkey-cheese-pinwheels",
+      "title": "Turkey & cheese pinwheels",
+      "description": "Soft tortilla with deli turkey and cheese, rolled and sliced.",
+      "section": "main",
+      "tags": ["no-cook", "protein"]
+    },
+    {
+      "id": "43",
+      "slug": "cold-pasta-salad-bites",
+      "title": "Cold pasta salad",
+      "description": "Small shapes with pesto, peas, and mozzarella — eats well cold.",
+      "section": "main",
+      "recipeSlug": "orzo-salad",
+      "tags": ["kid-friendly"]
+    },
+    {
+      "id": "44",
+      "slug": "mini-chicken-nuggets",
+      "title": "Mini chicken nuggets",
+      "description": "Baked nuggets — fine at room temp for a short window.",
+      "section": "main",
+      "tags": ["protein", "kid-friendly"],
+      "tips": "Pack with ice pack; eat within a few hours."
+    },
+    {
+      "id": "45",
+      "slug": "sunflower-butter-banana-bites",
+      "title": "Sunflower butter banana bites",
+      "description": "Bread rounds with sunflower butter and thin banana — nut-free friendly.",
+      "section": "main",
+      "tags": ["no-cook", "nut-free", "kid-friendly"]
+    },
+    {
+      "id": "46",
+      "slug": "bean-cheese-rollups",
+      "title": "Bean & cheese roll-ups",
+      "description": "Mashed white beans and cheese in a soft tortilla, sliced.",
+      "section": "main",
+      "tags": ["kid-friendly", "protein"]
+    },
+    {
+      "id": "47",
+      "slug": "mini-bagel-cream-cheese",
+      "title": "Mini bagel with cream cheese",
+      "description": "Halved mini bagel — spread cream cheese thinly.",
+      "section": "main",
+      "tags": ["no-cook", "dairy"]
+    },
+    {
+      "id": "48",
+      "slug": "naan-hummus-dippers",
+      "title": "Naan dippers with hummus",
+      "description": "Soft naan strips for scooping hummus.",
+      "section": "main",
+      "tags": ["no-cook"]
+    },
+    {
+      "id": "49",
+      "slug": "finger-sandwich-squares",
+      "title": "Finger sandwich squares",
+      "description": "Ham, turkey, or cheese on soft bread — cut into tiny squares.",
+      "section": "main",
+      "tags": ["no-cook", "kid-friendly"]
+    },
+    {
+      "id": "50",
+      "slug": "broccoli-cheese-quesadilla",
+      "title": "Broccoli & cheese quesadilla bites",
+      "description": "Finely chopped broccoli in cheese quesadilla — small triangles.",
+      "section": "main",
+      "tags": ["kid-friendly"]
+    },
+    {
+      "id": "51",
+      "slug": "animal-gummies",
+      "title": "Animal gummies",
+      "description": "A few fruit gummies — keep portion tiny.",
+      "section": "treat",
+      "tags": ["no-cook", "kid-friendly"]
+    },
+    {
+      "id": "52",
+      "slug": "mini-chocolate-chip-cookie",
+      "title": "Mini chocolate chip cookie",
+      "description": "One small homemade or store cookie.",
+      "section": "treat",
+      "tags": ["kid-friendly"]
+    },
+    {
+      "id": "53",
+      "slug": "yogurt-covered-raisins",
+      "title": "Yogurt-covered raisins",
+      "description": "Small scoop — chewy and sweet.",
+      "section": "treat",
+      "tags": ["no-cook"]
+    },
+    {
+      "id": "54",
+      "slug": "fruit-leather-strip",
+      "title": "Fruit leather strip",
+      "description": "Rolled or folded strip — no utensils.",
+      "section": "treat",
+      "tags": ["no-cook", "kid-friendly"]
+    },
+    {
+      "id": "55",
+      "slug": "graham-cracker-bears",
+      "title": "Graham cracker bears",
+      "description": "Honey or cinnamon — pair with fruit for balance.",
+      "section": "treat",
+      "tags": ["no-cook"]
+    },
+    {
+      "id": "56",
+      "slug": "mini-oatmeal-cookie",
+      "title": "Mini oatmeal cookie",
+      "description": "Soft cookie — room temperature.",
+      "section": "treat",
+      "tags": ["kid-friendly"]
+    },
+    {
+      "id": "57",
+      "slug": "chocolate-chips-few",
+      "title": "A few chocolate chips",
+      "description": "Tiny portion mixed with crackers or fruit.",
+      "section": "treat",
+      "tags": ["no-cook"]
+    },
+    {
+      "id": "58",
+      "slug": "smoothie-melts",
+      "title": "Smoothie melts",
+      "description": "Freeze-dried yogurt bites — melt in the mouth.",
+      "section": "treat",
+      "tags": ["no-cook", "kid-friendly"]
+    }
+  ]
+}

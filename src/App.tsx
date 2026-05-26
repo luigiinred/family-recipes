@@ -5,6 +5,7 @@ import { HomePage } from '@/pages/HomePage/HomePage';
 import { StarredPage } from '@/pages/StarredPage/StarredPage';
 import { RecipeDetailPage } from '@/pages/RecipeDetailPage/RecipeDetailPage';
 import { SettingsPage } from '@/pages/SettingsPage/SettingsPage';
+import { BentoPlannerPage } from '@/pages/BentoPlannerPage/BentoPlannerPage';
 
 export function App() {
   return (
@@ -16,6 +17,7 @@ export function App() {
           <Route path="tags" element={<Navigate to="/" replace />} />
           <Route path="tags/:tag" element={<TagFilterRedirect />} />
           <Route path="starred" element={<StarredPage />} />
+          <Route path="bento" element={<BentoPlannerPage />} />
           <Route path="planner" element={<Navigate to="/starred" replace />} />
           <Route path="settings" element={<SettingsPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />

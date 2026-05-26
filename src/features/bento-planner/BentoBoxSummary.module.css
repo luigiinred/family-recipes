@@ -1,0 +1,79 @@
+.root {
+  margin-block-end: var(--space-8);
+  padding: var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface-muted);
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+  margin-block-end: var(--space-4);
+}
+
+.slots {
+  display: grid;
+  gap: var(--space-2);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.slot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: var(--space-3);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface);
+}
+
+.slotActions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.randomizeBoxButton {
+  position: relative;
+}
+
+.randomizeItemButton {
+  width: 2.5rem;
+  height: 2.2rem;
+  padding: 0;
+}
+
+.spinner,
+.spinnerSmall {
+  display: inline-block;
+  border-radius: 999px;
+  border: 2px solid var(--color-border);
+  border-top-color: var(--color-accent);
+  animation: spin 0.6s linear infinite;
+}
+
+.spinner {
+  width: 1rem;
+  height: 1rem;
+  margin-right: var(--space-2);
+}
+
+.spinnerSmall {
+  width: 0.95rem;
+  height: 0.95rem;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

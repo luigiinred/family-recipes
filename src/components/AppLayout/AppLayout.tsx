@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 import { Link, NavLink, Outlet, useMatch } from 'react-router-dom';
 import { NavRecipeSearch } from '@/components/NavRecipeSearch/NavRecipeSearch';
 import { RecipeFilterProvider } from '@/features/search/RecipeFilterContext';
-import { Stack, Text } from '@/design-system/primitives';
+import { Text } from '@/design-system/primitives';
 import { useTheme } from '@/hooks/useTheme';
 import styles from './AppLayout.module.css';
 
@@ -16,6 +16,7 @@ type NavItem = {
 const navItems: NavItem[] = [
   { to: '/', label: 'Recipes' },
   { to: '/starred', label: 'Starred' },
+  { to: '/bento', label: 'Bento' },
   { to: '/settings', label: 'Settings', ariaLabel: 'Settings', iconOnly: true },
 ];
 
@@ -46,15 +47,21 @@ export function AppLayout() {
     <RecipeFilterProvider>
       <div className={styles.shell}>
         <header ref={headerRef} className={styles.header}>
-          <Stack direction="row" gap="md" className={styles.headerInner}>
-            {onRecipeDetail ? (
-              <Link to="/" className={styles.backNav}>
-                ← All recipes
-              </Link>
-            ) : null}
-            <Text as="p" variant="label" className={styles.brand}>
-              {brandTitle}
-            </Text>
+          <div className={styles.headerInner}>
+            <div className={styles.headerLead}>
+              {onRecipeDetail ? (
+                <Link to="/" className={styles.backNav}>
+                  ← Recipes
+                </Link>
+              ) : (
+                <Text as="p" variant="label" className={styles.brand}>
+                  <span className={styles.brandFull}>{brandTitle}</span>
+                  <span className={styles.brandShort}>
+                    {theme === 'classic' ? 'Family' : 'Recipes'}
+                  </span>
+                </Text>
+              )}
+            </div>
             <nav className={styles.nav} aria-label="Main">
               {navItems.map((item) => (
                 <NavLink
@@ -79,7 +86,7 @@ export function AppLayout() {
             <div className={styles.search}>
               <NavRecipeSearch />
             </div>
-          </Stack>
+          </div>
         </header>
         <main className={styles.main}>
           <Outlet />

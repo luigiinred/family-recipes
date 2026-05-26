@@ -39,6 +39,11 @@ Personal family recipe site — static JSON catalog + React UI.
 | PL-9 | Starred shopping list | Merged ingredients from queue with recipe usage | complete | planner | shoppingList.test.ts, StarredShoppingList.test.tsx |
 | PL-10 | Copy shopping list | Copy merged list to clipboard | complete | planner | StarredShoppingList.test.tsx |
 | PL-7 | Recipe meal types | Tag recipes by meal (catalog metadata) | complete | [recipes-schema](api-specs/data/recipes-schema.md) | [mealTypes.test.ts](../src/static-api/mealTypes.test.ts) |
+| BT-1 | Bento planner page | Browse toddler bento ideas by section | complete | [bento-planner](product-specs/pages/bento-planner.md) | [BentoPlannerPage.test.tsx](../src/pages/BentoPlannerPage/BentoPlannerPage.test.tsx) |
+| BT-2 | Bento item count | Choose 3–6 compartments for the box | complete | bento-planner | bentoPlannerStorage.test.ts |
+| BT-3 | Build a bento | Add/remove ideas into a saved box list | complete | bento-planner | BentoPlannerPage.test.tsx |
+| BT-4 | Bento recipe link | Jump to catalog recipe when an idea has one | complete | bento-planner | BentoPlannerPage.test.tsx |
+| BT-6 | Randomize bento box | Spinner randomize whole box + randomize individual filled slots | complete | [bento-planner](product-specs/pages/bento-planner.md) | BentoPlannerPage.test.tsx, randomizeBentoPicks.test.ts |
 
 ## Static API
 
@@ -46,6 +51,7 @@ Personal family recipe site — static JSON catalog + React UI.
 | -- | ---- | ------------ | ------ | -------- | ----- |
 | CAT-API-1 | Recipe catalog | Load all recipes | complete | [recipes-catalog](api-specs/loaders/recipes-catalog.md) | [catalog.test.ts](../src/static-api/loaders/catalog.test.ts) |
 | IDEAS-API-1 | Food ideas catalog | Load quick meal ideas | complete | [food-ideas-catalog](api-specs/loaders/food-ideas-catalog.md) | [foodIdeasCatalog.test.ts](../src/static-api/loaders/foodIdeasCatalog.test.ts) |
+| BT-API-1 | Bento ideas catalog | Load bento filler ideas by section | complete | [bento-ideas-catalog](api-specs/loaders/bento-ideas-catalog.md) | [bentoIdeasCatalog.test.ts](../src/static-api/loaders/bentoIdeasCatalog.test.ts) |
 | CAT-API-4 | Meal lists | Filter by list membership | complete | recipes-catalog | catalog |
 | CAT-API-5 | Search | Query catalog | complete | — | [searchRecipes.test.ts](../src/static-api/loaders/searchRecipes.test.ts) |
 | CAT-API-6 | All tags | Tag index | complete | — | [getAllTags.test.ts](../src/static-api/loaders/getAllTags.test.ts) |

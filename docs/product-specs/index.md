@@ -25,6 +25,7 @@ Use Cursor skills **product-docs-specs**, **page-specs**, **api-specs**, and **t
 | [recipe-detail.md](pages/recipe-detail.md) | Detail, scale, print, source |
 | [planner.md](pages/planner.md) | Starred cook queue (localStorage) |
 | [settings.md](pages/settings.md) | Export recipe edits for Cursor |
+| [bento-planner.md](pages/bento-planner.md) | Toddler bento planner — cold finger-food ideas |
 
 ## Services
 

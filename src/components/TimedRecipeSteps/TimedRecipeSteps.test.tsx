@@ -4,23 +4,30 @@ import { describe, expect, it, vi } from 'vitest';
 import { TimedRecipeSteps } from './TimedRecipeSteps';
 
 const steps = [
-  { text: 'Prep vegetables', startSeconds: 45 },
-  { text: 'Roast in oven', startSeconds: 312 },
+  {
+    text: 'Make the dressing: whisk olive oil, lemon, garlic, and mustard in a small bowl.',
+    startSeconds: 118,
+  },
+  {
+    text: 'Mix the salad: combine chicken, shallots, celery, and artichokes in a large bowl.',
+    startSeconds: 32,
+  },
 ];
 
 describe('TimedRecipeSteps', () => {
-  it('lists steps with timestamps', () => {
+  it('shows full instruction text readable without clicking', () => {
     render(<TimedRecipeSteps steps={steps} onSeek={vi.fn()} />);
-    expect(screen.getByRole('button', { name: /prep vegetables/i })).toBeInTheDocument();
-    expect(screen.getByText('0:45')).toBeInTheDocument();
-    expect(screen.getByText('5:12')).toBeInTheDocument();
+    expect(
+      screen.getByText(/make the dressing: whisk olive oil/i),
+    ).toBeInTheDocument();
+    expect(screen.getByText(/mix the salad: combine chicken/i)).toBeInTheDocument();
   });
 
-  it('calls onSeek with start seconds when a step is clicked', async () => {
+  it('offers optional watch-at links that seek the video', async () => {
     const user = userEvent.setup();
     const onSeek = vi.fn();
     render(<TimedRecipeSteps steps={steps} onSeek={onSeek} />);
-    await user.click(screen.getByRole('button', { name: /roast in oven/i }));
-    expect(onSeek).toHaveBeenCalledWith(312);
+    await user.click(screen.getByRole('button', { name: /play video at 1:58/i }));
+    expect(onSeek).toHaveBeenCalledWith(118);
   });
 });

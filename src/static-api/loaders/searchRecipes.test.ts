@@ -9,13 +9,13 @@ beforeEach(() => {
 describe('searchRecipes', () => {
   it('returns all recipes when query is empty', async () => {
     const all = await searchRecipes('');
-    expect(all).toHaveLength(75);
+    expect(all).toHaveLength(94);
   });
 
   it('matches title case-insensitively', async () => {
     const results = await searchRecipes('briam');
-    expect(results).toHaveLength(1);
-    expect(results[0]?.slug).toBe('briam');
+    expect(results.length).toBeGreaterThanOrEqual(1);
+    expect(results.some((r) => r.slug === 'briam')).toBe(true);
   });
 
   it('matches tags and description', async () => {

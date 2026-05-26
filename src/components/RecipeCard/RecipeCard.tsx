@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { Card, Image, Stack, Text } from '@/design-system/primitives';
 import { RecipeStarButton } from '@/components/RecipeStarButton/RecipeStarButton';
 import { useStarredRecipes } from '@/hooks/useStarredRecipes';
+import { isYouTubeRecipe } from '@/lib/youtube/isYouTubeRecipe';
 import { recipeImageUrl } from '@/lib/recipeImageUrl';
 import type { Recipe } from '@/static-api/types/recipe';
 import { RecipeMeta } from '../RecipeMeta/RecipeMeta';
@@ -24,12 +25,21 @@ export function RecipeCard({ recipe }: RecipeCardProps) {
         className={[styles.star, starred ? styles.starVisible : ''].filter(Boolean).join(' ')}
       />
       <Link to={`/recipes/${recipe.slug}`} className={styles.link}>
-        <Image src={recipeImageUrl(recipe.imageUrl)} alt={recipe.title} />
+        <div className={styles.media}>
+          <Image src={recipeImageUrl(recipe.imageUrl)} alt={recipe.title} />
+          {isYouTubeRecipe(recipe) ? (
+            <span className={styles.videoBadge} role="img" aria-label="Video recipe">
+              <svg className={styles.videoIcon} viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M8 5v14l11-7z" fill="currentColor" />
+              </svg>
+            </span>
+          ) : null}
+        </div>
         <Stack gap="sm" className={styles.body}>
           <Text as="h2" variant="subtitle">
             {recipe.title}
           </Text>
-          <RecipeMeta recipe={recipe} />
+          <RecipeMeta recipe={recipe} showDescription={false} />
         </Stack>
       </Link>
     </Card>

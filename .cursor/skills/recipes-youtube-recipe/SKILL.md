@@ -1,22 +1,27 @@
 ---
 name: recipes-youtube-recipe
 description: >-
-  Import and enrich YouTube cooking videos as timestamped video recipes in the
-  catalog. Extracts chapter markers and description timestamps, writes
-  recipeKind youtube with timedSteps, and verifies embed playback. Use when
-  sourceUrl is youtube.com or youtu.be, the user asks for a video recipe, or
-  steps need jump-to timestamps in the embedded player.
+  Subskill of recipes-import-recipe for YouTube URLs. Timestamped video recipes,
+  simplified titles, ingredients from description RECIPE blocks or linked blogs.
+  Use when sourceUrl is youtube.com or youtu.be — not as the top-level import entry.
 ---
 
 # YouTube video recipes
+
+**Subskill of recipes-import-recipe.** The parent skill routes here for YouTube `sourceUrl`; do not import YouTube rows without following both skills.
 
 Add recipes sourced from **YouTube videos** with **clickable steps** that seek the embedded player.
 
 ## When to use
 
-- User bookmarks a YouTube cooking video
+- **recipes-import-recipe** routed a YouTube URL here
 - `sourceUrl` matches `youtube.com/watch`, `youtu.be/`, or `/shorts/`
 - Steps should jump to moments in the video on the recipe detail page
+
+## Title + ingredients (required)
+
+- **Title:** `displayTitleFromYouTube()` / `simplifyRecipeTitle()` — short name only (e.g. `Chicken Tortilla Soup`), never the full video headline
+- **Ingredients:** always fill before done — `ingredientsFromYouTubeDescription()` for `RECIPE` blocks in the description, then `primaryRecipeUrlFromDescription()` + `parseRecipeHtml` for linked blogs
 
 ## Catalog shape
 
@@ -48,33 +53,35 @@ node -e "import { parseYouTubeVideoId } from './src/lib/youtube/parseYouTubeVide
 
 Or extract manually from `v=` / `youtu.be/` / `shorts/`.
 
-### 2. Fetch timestamp candidates (try in order)
+### 2. Extract timed steps (automated — preferred)
 
-#### A. Description timestamps (script)
+Library: `scripts/lib/fetch-youtube-timed-steps.mjs` — used by import and refresh scripts.
+
+**Order:** YouTube chapters → description timestamps → **auto-captions** (yt-dlp `json3`).
+
+```bash
+npm run refresh:youtube-recipes
+npm run refresh:youtube-recipes -- --slug=yt-25-min-chicken-tortilla-soup-...
+```
+
+- Never ship placeholder steps like `Watch full recipe` — re-run refresh or use browser fallback.
+- `steps` must mirror `timedSteps[].text` (search + print).
+- Ingredients: resolve `bit.ly` / themediterraneandish.com links from the description when present.
+
+#### Manual / browser fallback (when automated extract is thin)
+
+Use **cursor-ide-browser** only when refresh reports &lt;2 real steps:
+
+1. `browser_navigate` → `sourceUrl`
+2. Read **chapters** and **description** timestamps
+3. Build `timedSteps` — one row per cooking action, ascending `startSeconds`
+4. Do **not** invent steps without a moment in the video
+
+#### One-off inspect
 
 ```bash
 node scripts/lib/parse-youtube-timestamps.mjs --url='https://www.youtube.com/watch?v=VIDEO_ID'
 ```
-
-- Fetches the public watch page HTML (no API key).
-- Parses lines like `0:45 Chop onions`, `1:02:30 Simmer`, `(2:15) Rest dough`.
-- Outputs JSON: `{ videoId, timedSteps: [{ text, startSeconds }] }`.
-
-#### B. Cursor browser (when script finds few/no markers)
-
-Use **cursor-ide-browser** — required to **watch / scan** the video for important moments.
-
-1. `browser_navigate` → `sourceUrl` (or embed URL)
-2. `browser_snapshot` — read **description** and **chapter list** (if present)
-3. Play through key moments (or read auto-generated chapters):
-   - Note **start time** for each cooking step (prep, cook, rest, serve)
-   - Prefer chapter titles from the creator; otherwise infer from narration
-4. Build `timedSteps` — one object per meaningful step, ascending `startSeconds`
-5. Do **not** invent steps without a corresponding moment in the video
-
-#### C. Manual merge
-
-Combine script output + browser notes. Drop duplicate timestamps; keep the clearest step label.
 
 ### 3. Batch import (playlist or video list)
 
@@ -92,7 +99,17 @@ yt-dlp --cookies-from-browser chrome --flat-playlist --print "%(id)s" 'PLAYLIST_
 
 Then build `scripts/data/my-playlist.json` as `[{ "id": "…", "title": "…" }, …]`.
 
-### 4. Write catalog entry
+### 4. Audit quality
+
+```bash
+npm run refresh:youtube-recipes   # fixes weak steps + fills blog ingredients
+```
+
+Reject catalog rows where `timedSteps` is empty, a single “watch” placeholder, `steps` ≠ `timedSteps` text, or any step looks like TOC (`isTableOfContentsSteps` in `scripts/lib/youtube-toc-steps.mjs`).
+
+Default `mealLists` for imports: **`to-make`** (user queue).
+
+### 5. Write catalog entry
 
 1. Add or update row in `src/static-api/data/recipes.json`
 2. Set `recipeKind`, `youtubeVideoId`, `timedSteps`, and `steps` (text only)
@@ -101,7 +118,7 @@ Then build `scripts/data/my-playlist.json` as `[{ "id": "…", "title": "…" },
 5. Sync: `npm run sync:recipes-data`
 6. `npm run test:run` — `catalog.test.ts`, `parseYouTubeVideoId.test.ts`, `TimedRecipeSteps.test.tsx`
 
-### 5. Verify in the app
+### 6. Verify in the app
 
 ```bash
 npm run dev
@@ -109,25 +126,55 @@ npm run dev
 
 Open `/recipes/<slug>` — embedded player loads; clicking a step updates playback start time.
 
+## How to write a step (required)
+
+Steps must be **cookbook instructions**, not a video table of contents.
+
+| Bad (TOC / chapter title) | Good (followable instruction) |
+| ------------------------- | ------------------------------ |
+| `Salad prep` | `Mix the salad: In a large bowl, combine shredded chicken, shallots, celery, artichokes, sun-dried tomatoes, parsley, and walnuts.` |
+| `Dressing prep` | `Make the dressing: Whisk olive oil, lemon zest and juice, garlic, Dijon, sumac, and paprika in a small bowl.` |
+| `Intro` / `Ingredients` | Omit — not cooking steps |
+
+### Step text rules
+
+1. **Standalone** — A cook can follow without opening the video. Include bowl sizes, key ingredients named, and what “done” looks like when it matters.
+2. **Imperative** — Start with a verb: *Make*, *Mix*, *Pour*, *Simmer*, *Serve*.
+3. **One action per step** — Split prep/dress/combine/serve; don’t merge unrelated beats.
+4. **Length** — Aim for one to three sentences (roughly 40–220 characters). Shorter than a blog paragraph is fine; longer than a chapter label.
+5. **`startSeconds`** — Optional seek hint from chapters or description timestamps. Attach to the step that **starts** that action in the video.
+6. **Never ship chapter-only labels** — If YouTube chapters are short names (`Salad prep`, `Taste test`), fetch the linked blog (`bit.ly` / themediterraneandish.com) and use `mergeBlogStepsWithChapters()` (`scripts/lib/youtube-instruction-steps.mjs`).
+
+### Where step text comes from (priority)
+
+1. Linked recipe page (`parseRecipeHtml` on `FULL RECIPE` URL in description)
+2. `RECIPE` prose block in the YouTube description
+3. Auto-captions (last resort — trim to imperative sentences)
+4. Manual/browser — watch the segment and write steps per rules above
+
+Run `npm run refresh:youtube-recipes` after changing extraction logic.
+
 ## Timestamp rules
 
 | Rule | Detail |
 | ---- | ------ |
 | Order | `startSeconds` non-decreasing |
 | Granularity | One timed step per distinct cooking action (not every sentence) |
-| Text | Short imperative labels; full detail can stay in `notes` |
-| Zero | `0` only for true intro/prep at video start |
-| Print | `steps` string array still populated for print layout |
+| Text | Full instruction (see above); not chapter titles |
+| Zero | `0` only when step 1 truly starts at video open |
+| Print | `steps` string array mirrors `timedSteps[].text` |
 
 ## UI contract
 
 - Detail page uses `YouTubeRecipePlayer` + `TimedRecipeSteps` when `recipeKind === 'youtube'`.
 - Player column is `position: sticky` so the embed stays visible while scrolling steps.
-- Seeking: iframe reload with `?start={seconds}&autoplay=1` after a step click (no API key).
+- Steps render as **readable text**; **Watch at M:SS** is a separate optional control (not the whole step).
+- Seeking: iframe reload with `?start={seconds}&autoplay=1` when the watch link is used (no API key).
 - Embed URL: `https://www.youtube.com/embed/{id}` with `origin`, `playsinline=1` (not `youtube-nocookie` — some embedded browsers show “Video unavailable” with nocookie).
 
 ## Related
 
+- **recipes-import-recipe** — parent workflow (start here)
 - **recipes-enrich-from-url** — non-YouTube sites
 - **recipes-static-api** — loaders and types
 - **api-specs** — [recipes-schema.md](../../../docs/api-specs/data/recipes-schema.md)

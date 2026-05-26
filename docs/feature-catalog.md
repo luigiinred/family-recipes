@@ -36,10 +36,10 @@ Personal family recipe site — static JSON catalog + React UI.
 
 | List | Recipes |
 | ---- | ------- |
-| to-make | 7 |
+| to-make | 28 |
 | to-eat | 1 |
 | healthy-ideas | 7 |
-| saved | 20 |
+| saved | 80 |
 | freezer-meals | 1 |
 
 Regenerate data: `node scripts/build-recipes-catalog.mjs`

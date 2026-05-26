@@ -14,7 +14,8 @@ description: Entry point for Recipes — design docs, static API contracts, desi
 | **This workflow** | `recipes-design-first` (you are here) |
 | **Product docs** | `product-docs-specs`, `page-specs`, `feature-catalog` |
 | **Data contracts** | `api-specs` (loaders + JSON), `recipes-static-api` |
-| **Import from URLs** | `recipes-enrich-from-url` |
+| **Import recipe from URL** | `recipes-import-recipe` |
+| **Scrape non-YouTube URLs** | `recipes-enrich-from-url` |
 | **YouTube video recipes** | `recipes-youtube-recipe` |
 | **Implementation** | `recipes-project`, `recipes-components`, `recipes-design-system` |
 | **Tests** | `recipes-tdd` |

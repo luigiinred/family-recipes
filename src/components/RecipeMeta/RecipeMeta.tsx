@@ -5,16 +5,19 @@ import styles from './RecipeMeta.module.css';
 type RecipeMetaProps = {
   recipe: Recipe;
   showTags?: boolean;
+  showDescription?: boolean;
 };
 
-export function RecipeMeta({ recipe, showTags = true }: RecipeMetaProps) {
+export function RecipeMeta({ recipe, showTags = true, showDescription = true }: RecipeMetaProps) {
   const minutes = recipe.prepMinutes + recipe.cookMinutes;
   const timeLabel =
     minutes > 0 ? `${minutes} min` : recipe.servings > 0 ? `${recipe.servings} servings` : null;
 
   return (
     <Stack gap="sm" className={styles.meta}>
-      {recipe.description ? <Text variant="muted">{recipe.description}</Text> : null}
+      {showDescription && recipe.description ? (
+        <Text variant="muted">{recipe.description}</Text>
+      ) : null}
       {timeLabel ? <Text variant="muted">{timeLabel}</Text> : null}
       {recipe.effort === 'low' ? (
         <Badge>Low effort</Badge>

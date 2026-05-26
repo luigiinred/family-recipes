@@ -11,6 +11,36 @@
   height: 100%;
 }
 
+.media {
+  position: relative;
+}
+
+.link .media > img,
+.link .media > [role='img']:first-child {
+  aspect-ratio: 16 / 9;
+}
+
+.videoBadge {
+  position: absolute;
+  bottom: var(--space-2);
+  left: var(--space-2);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: var(--radius-md);
+  background: color-mix(in srgb, var(--color-surface) 92%, transparent);
+  color: var(--color-text);
+  box-shadow: var(--shadow-sm);
+  pointer-events: none;
+}
+
+.videoIcon {
+  width: 1.125rem;
+  height: 1.125rem;
+}
+
 .link:hover .body {
   color: var(--color-accent);
 }

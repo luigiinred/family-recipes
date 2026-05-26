@@ -13,7 +13,7 @@ beforeEach(() => {
 describe('loadRecipeCatalog', () => {
   it('loads the full catalog without baby-food recipes', async () => {
     const recipes = await loadRecipeCatalog();
-    expect(recipes).toHaveLength(75);
+    expect(recipes).toHaveLength(94);
     expect(recipes.every((r) => r.id && r.slug && r.title)).toBe(true);
     expect(recipes.some((r) => r.slug.startsWith('baby-food'))).toBe(false);
   });
@@ -107,26 +107,33 @@ describe('youtube video recipes', () => {
     const recipe = await getRecipeBySlug('yt-a-healthy-no-mayo-chicken-salad-recipe');
     expect(recipe?.recipeKind).toBe('youtube');
     expect(recipe?.youtubeVideoId).toBe('4xQsTOxTQsQ');
-    expect(recipe?.timedSteps?.map((s) => s.text)).toContain('Salad prep');
+    expect(
+      recipe?.timedSteps?.some((s) => /make the dressing/i.test(s.text)),
+    ).toBe(true);
+    expect(
+      recipe?.timedSteps?.every((s) => s.text.length > 30),
+    ).toBe(true);
     expect(recipe?.ingredients.length).toBeGreaterThan(0);
-    expect(recipe?.mealLists).toContain('saved');
   });
 });
 
 describe('getRecipesByMealList', () => {
-  it('returns to-make meals from upcoming list', async () => {
+  it('returns to-make meals including the original queue and imported videos', async () => {
     const recipes = await getRecipesByMealList('to-make');
-    expect(recipes).toHaveLength(7);
-    expect(recipes.map((r) => r.slug).sort()).toEqual(
-      [
-        'air-fried-veggies-shrimp',
-        'air-fried-veggies-tilapia',
-        'caesar-salad',
-        'crema-salad',
-        'falafel',
-        'mediterranean-salad',
-        'zero-calorie-pasta-veggies-shrimp',
-      ].sort(),
+    expect(recipes.length).toBeGreaterThanOrEqual(7);
+    for (const slug of [
+      'air-fried-veggies-shrimp',
+      'air-fried-veggies-tilapia',
+      'caesar-salad',
+      'crema-salad',
+      'falafel',
+      'mediterranean-salad',
+      'zero-calorie-pasta-veggies-shrimp',
+    ]) {
+      expect(recipes.some((r) => r.slug === slug)).toBe(true);
+    }
+    expect(recipes.some((r) => r.slug === 'yt-a-healthy-no-mayo-chicken-salad-recipe')).toBe(
+      true,
     );
   });
 

@@ -12,20 +12,22 @@ export function TimedRecipeSteps({ steps, onSeek }: TimedRecipeStepsProps) {
     <ol className={styles.list}>
       {steps.map((step, index) => {
         const timestamp = formatVideoTimestamp(step.startSeconds);
-        const label = `Step ${index + 1}: ${step.text} at ${timestamp}`;
         return (
           <li key={`${step.startSeconds}-${index}`} className={styles.item}>
-            <button
-              type="button"
-              className={styles.stepButton}
-              aria-label={label}
-              onClick={() => onSeek(step.startSeconds)}
-            >
-              <span className={styles.timestamp} aria-hidden="true">
-                {timestamp}
-              </span>
-              <span className={styles.text}>{step.text}</span>
-            </button>
+            <span className={styles.stepNumber} aria-hidden="true">
+              {index + 1}
+            </span>
+            <div className={styles.stepBody}>
+              <p className={styles.text}>{step.text}</p>
+              <button
+                type="button"
+                className={styles.watchButton}
+                aria-label={`Play video at ${timestamp}`}
+                onClick={() => onSeek(step.startSeconds)}
+              >
+                Watch at {timestamp}
+              </button>
+            </div>
           </li>
         );
       })}

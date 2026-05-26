@@ -21,6 +21,9 @@ export type MealList =
 
 export type Effort = 'low' | 'medium' | 'high';
 
+export type { MealType } from '../mealTypes';
+export { MEAL_TYPES } from '../mealTypes';
+
 export type Recipe = {
   id: string;
   slug: string;
@@ -31,6 +34,8 @@ export type Recipe = {
   cookMinutes: number;
   servings: number;
   tags: string[];
+  /** Planner slots this recipe fits (breakfast, lunch, dinner, side, snack, dessert). */
+  mealTypes?: import('../mealTypes').MealType[];
   ingredients: Ingredient[];
   steps: string[];
   /** `youtube` enables embedded player + timestamped steps */

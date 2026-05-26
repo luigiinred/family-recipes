@@ -1,7 +1,7 @@
 {
-  "method": "youtube",
-  "scrapedAt": "2026-05-25T22:22:41.553Z",
+  "method": "youtube-refresh",
+  "scrapedAt": "2026-05-26T12:47:53.318Z",
   "videoId": "4xQsTOxTQsQ",
-  "blogUrl": null,
-  "timedStepsCount": 6
+  "stepSource": "blog-chapters",
+  "blogUrl": "http://bit.ly/TMD-healthy-chicken-salad"
 }

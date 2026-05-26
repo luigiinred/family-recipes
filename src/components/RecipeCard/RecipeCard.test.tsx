@@ -21,10 +21,46 @@ const sample: Recipe = {
   steps: [],
 };
 
+const youtubeSample: Recipe = {
+  ...sample,
+  slug: 'youtube-demo',
+  title: 'Video Demo',
+  recipeKind: 'youtube',
+  youtubeVideoId: 'abc12345678',
+  timedSteps: [{ text: 'Start', startSeconds: 0 }],
+};
+
 describe('RecipeCard', () => {
   beforeEach(() => {
     localStorage.clear();
     resetStarredRecipesCache();
+  });
+
+  it('shows a video indicator for YouTube recipes', () => {
+    render(
+      <MemoryRouter>
+        <RecipeCard recipe={youtubeSample} />
+      </MemoryRouter>,
+    );
+    expect(screen.getByRole('img', { name: 'Video recipe' })).toBeInTheDocument();
+  });
+
+  it('does not show a video indicator for standard recipes', () => {
+    render(
+      <MemoryRouter>
+        <RecipeCard recipe={sample} />
+      </MemoryRouter>,
+    );
+    expect(screen.queryByRole('img', { name: 'Video recipe' })).not.toBeInTheDocument();
+  });
+
+  it('does not show the recipe description', () => {
+    render(
+      <MemoryRouter>
+        <RecipeCard recipe={sample} />
+      </MemoryRouter>,
+    );
+    expect(screen.queryByText('A cozy soup')).not.toBeInTheDocument();
   });
 
   it('links to the recipe detail page', () => {

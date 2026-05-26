@@ -1049,10 +1049,11 @@
         }
       ],
       "mealLists": [
-        "healthy-ideas"
+        "healthy-ideas",
+        "to-make"
       ],
       "sourceUrl": "https://www.youtube.com/watch?v=mb3k0wApWas",
-      "notes": "From Adam Ragusea — The SHOCKING SECRET to great chili. Timestamps from auto captions."
+      "notes": "From Adam Ragusea — The SHOCKING SECRET to great chili. Curated steps with video timestamps."
     },
     {
       "id": "12",
@@ -6392,9 +6393,248 @@
       "id": "83",
       "slug": "yt-a-healthy-no-mayo-chicken-salad-recipe",
       "title": "A Healthy No-Mayo Chicken Salad Recipe",
-      "description": "Looking for a quick no-cook dinner? This no-mayo healthy chicken salad recipe will do the trick! ",
-      "imageUrl": "https://i.ytimg.com/vi/4xQsTOxTQsQ/hqdefault.jpg",
-      "prepMinutes": 15,
+      "description": "This no-mayo healthy chicken salad recipe is loaded with Mediterranean favorites like shallots, artichoke hearts, sun-dried tomatoes, fresh herbs, and a handful of walnuts. A light and zippy dressing brings it all together! While you can serve right away, 30 minutes in your fridge will make this salad even more vibrant as the ingredients will mix and mingle and the flavors get even louder.",
+      "imageUrl": "https://www.themediterraneandish.com/wp-content/uploads/2019/04/chicken-salad-recipe-7.jpg",
+      "prepMinutes": 10,
+      "cookMinutes": 0,
+      "servings": 6,
+      "tags": [
+        "youtube",
+        "mediterranean"
+      ],
+      "ingredients": [
+        {
+          "amount": "/3",
+          "unit": "cup",
+          "name": "extra virgin olive oil"
+        },
+        {
+          "amount": "",
+          "unit": "lemon",
+          "name": "s"
+        },
+        {
+          "amount": "",
+          "unit": "to",
+          "name": "2  garlic cloves, (minced)"
+        },
+        {
+          "amount": "",
+          "unit": "tsp",
+          "name": "Dijon mustard"
+        },
+        {
+          "amount": "",
+          "unit": "tsp",
+          "name": "sumac"
+        },
+        {
+          "amount": "½",
+          "unit": "tsp",
+          "name": "paprika"
+        },
+        {
+          "amount": "/4",
+          "unit": "lb",
+          "name": "(12 oz.) cooked chicken,  (shredded)"
+        },
+        {
+          "amount": "",
+          "unit": "to",
+          "name": "2  shallots, (chopped)"
+        },
+        {
+          "amount": "",
+          "unit": "celery",
+          "name": "stalks, (chopped)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "(15 oz.) can marinated artichoke hearts,  (drained and chopped)"
+        },
+        {
+          "amount": "",
+          "unit": "to",
+          "name": "2 ounces sundried tomatoes, (chopped)"
+        },
+        {
+          "amount": "",
+          "unit": "Handful",
+          "name": "(about 1 cup packed) fresh Italian parsley, (chopped)"
+        },
+        {
+          "amount": "/3",
+          "unit": "cup",
+          "name": "shelled walnuts, (chopped)"
+        },
+        {
+          "amount": "",
+          "unit": "Sal",
+          "name": "t"
+        },
+        {
+          "amount": "",
+          "unit": "Back",
+          "name": "pepper"
+        }
+      ],
+      "steps": [
+        "Make the dressing: Into a small mixing bowl, add the olive oil, zest and juice of one lemon, minced garlic, Dijon mustard, sumac and paprika. Whisk to combine and taste. Add the juice from the second lemon, if desired.",
+        "Mix the salad: In a large mixing bowl, combine the shredded chicken, shallots, celery, artichoke hearts, sun dried tomatoes, parsley, and walnuts. Season with a good pinch of kosher salt and black pepper.",
+        "Dress the salad: Pour dressing over the chicken salad, toss to combine.",
+        "Serve: Serve immediately. Or, for best flavor, cover and refrigerate for 30 minutes to 1 hour before serving."
+      ],
+      "recipeKind": "youtube",
+      "youtubeVideoId": "4xQsTOxTQsQ",
+      "timedSteps": [
+        {
+          "text": "Make the dressing: Into a small mixing bowl, add the olive oil, zest and juice of one lemon, minced garlic, Dijon mustard, sumac and paprika. Whisk to combine and taste. Add the juice from the second lemon, if desired.",
+          "startSeconds": 118
+        },
+        {
+          "text": "Mix the salad: In a large mixing bowl, combine the shredded chicken, shallots, celery, artichoke hearts, sun dried tomatoes, parsley, and walnuts. Season with a good pinch of kosher salt and black pepper.",
+          "startSeconds": 32
+        },
+        {
+          "text": "Dress the salad: Pour dressing over the chicken salad, toss to combine.",
+          "startSeconds": 203
+        },
+        {
+          "text": "Serve: Serve immediately. Or, for best flavor, cover and refrigerate for 30 minutes to 1 hour before serving.",
+          "startSeconds": 217
+        }
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=4xQsTOxTQsQ",
+      "mealLists": [
+        "to-make"
+      ],
+      "notes": "Video: youtube.com/watch?v=4xQsTOxTQsQ. Ingredient list from companion no-mayo Mediterranean chicken salad (wholesomelicious.com)."
+    },
+    {
+      "id": "84",
+      "slug": "yt-onion-chicken-recipe-easy-chicken-recipe",
+      "title": "Onion Chicken Recipe",
+      "description": "Think of this as a lighter and quick version of French onion chicken! This easy skillet chicken recipe with loads of caramelized onion will blow your mind! Make every use of the delicious onion juice by serving this chicken over plain rice or your grain of choice. It&#039;s also delicious with pita or your favorite bread to wipe the juice!",
+      "imageUrl": "https://www.themediterraneandish.com/wp-content/uploads/2022/01/onion-chicken-recipe-14.jpg",
+      "prepMinutes": 5,
+      "cookMinutes": 40,
+      "servings": 8,
+      "tags": [
+        "youtube",
+        "mediterranean"
+      ],
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "tablespoons",
+          "name": "Extra virgin olive oil"
+        },
+        {
+          "amount": "",
+          "unit": "large",
+          "name": "onions (sliced ½” thick or so)"
+        },
+        {
+          "amount": "",
+          "unit": "skinless",
+          "name": "chicken thighs (bone-in, skin removed)"
+        },
+        {
+          "amount": "/4",
+          "unit": "cup",
+          "name": "chicken broth or water"
+        },
+        {
+          "amount": "",
+          "unit": "Salt",
+          "name": "(to taste)"
+        }
+      ],
+      "steps": [
+        "Intro",
+        "What kind of onions to use",
+        "Tip for cooking with chicken thighs",
+        "Caramelizing the onions",
+        "The secret to this recipe!",
+        "Tip for cooking the onions quickly",
+        "This is what your caramelized onions should look like",
+        "Seasoning the chicken thighs",
+        "Cooking the chicken thighs",
+        "Adding broth",
+        "Cover and cook",
+        "How to serve onion chicken",
+        "Taste test"
+      ],
+      "recipeKind": "youtube",
+      "youtubeVideoId": "cFcP5zLE2Ik",
+      "timedSteps": [
+        {
+          "text": "Intro",
+          "startSeconds": 0
+        },
+        {
+          "text": "What kind of onions to use",
+          "startSeconds": 28
+        },
+        {
+          "text": "Tip for cooking with chicken thighs",
+          "startSeconds": 65
+        },
+        {
+          "text": "Caramelizing the onions",
+          "startSeconds": 88
+        },
+        {
+          "text": "The secret to this recipe!",
+          "startSeconds": 105
+        },
+        {
+          "text": "Tip for cooking the onions quickly",
+          "startSeconds": 130
+        },
+        {
+          "text": "This is what your caramelized onions should look like",
+          "startSeconds": 187
+        },
+        {
+          "text": "Seasoning the chicken thighs",
+          "startSeconds": 200
+        },
+        {
+          "text": "Cooking the chicken thighs",
+          "startSeconds": 218
+        },
+        {
+          "text": "Adding broth",
+          "startSeconds": 250
+        },
+        {
+          "text": "Cover and cook",
+          "startSeconds": 258
+        },
+        {
+          "text": "How to serve onion chicken",
+          "startSeconds": 295
+        },
+        {
+          "text": "Taste test",
+          "startSeconds": 324
+        }
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=cFcP5zLE2Ik",
+      "mealLists": [
+        "to-make"
+      ],
+      "notes": "Imported from YouTube; ingredients from https://www.themediterraneandish.com/skillet-onion-chicken/."
+    },
+    {
+      "id": "85",
+      "slug": "yt-fancier-mushroom-risotto-vegan-or-not",
+      "title": "Fancier mushroom risotto",
+      "description": "Thanks to Fetch Rewards for sponsoring this video! Download the Fetch Rewards app now → https://fetch.thld.co/ragusea_0822 and use the code RAGUSEA to get 5,000 points on your first receipt!",
+      "imageUrl": "https://i.ytimg.com/vi/R_j5k4YCDdI/hqdefault.jpg",
+      "prepMinutes": 0,
       "cookMinutes": 0,
       "servings": 4,
       "tags": [
@@ -6404,85 +6644,363 @@
       "ingredients": [
         {
           "amount": "",
-          "unit": "cups",
-          "name": "cooked chicken breast,  (shredded)"
+          "unit": "",
+          "name": "1/2 cup (100g) risotto rice per portion (arborio, vialone nano, canaroli, etc)"
         },
         {
-          "amount": "15",
-          "unit": "oz",
-          "name": "can chickpeas (drained and rinsed)"
+          "amount": "",
+          "unit": "",
+          "name": "1 handful of fragrant, cheap dried mushrooms per portion"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 big shallot for every two portions"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "a couple garlic cloves per portion"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "olive oil"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "vinegar (I used white balsamic but anything is fine)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "white wine (optional)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "cognac or any other barrel-aged spirit (optional)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "butter (optional)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "parmesan cheese (optional)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "vegan sour cream (if you're not using dairy)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "truffle oil (optional)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "fresh herbs for garnish (I used tarragon, but thyme or sage would be nice)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "bay leaves (optional, no idea if they do anything)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "mustard seeds (optional)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "salt"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "pepper"
+        }
+      ],
+      "steps": [
+        "<Untitled Chapter 1>",
+        "Mushroom Risotto",
+        "King Trumpet Mushrooms",
+        "Olive Oil To Fry the Fresh Mushrooms",
+        "Vegan Sour Cream"
+      ],
+      "recipeKind": "youtube",
+      "youtubeVideoId": "R_j5k4YCDdI",
+      "timedSteps": [
+        {
+          "text": "<Untitled Chapter 1>",
+          "startSeconds": 0
+        },
+        {
+          "text": "Mushroom Risotto",
+          "startSeconds": 10
+        },
+        {
+          "text": "King Trumpet Mushrooms",
+          "startSeconds": 81
+        },
+        {
+          "text": "Olive Oil To Fry the Fresh Mushrooms",
+          "startSeconds": 427
+        },
+        {
+          "text": "Vegan Sour Cream",
+          "startSeconds": 585
+        }
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=R_j5k4YCDdI",
+      "mealLists": [
+        "to-make"
+      ],
+      "notes": "Imported from YouTube; timestamps from video chapters."
+    },
+    {
+      "id": "86",
+      "slug": "yt-easy-20-minute-mediterranean-orzo-salad",
+      "title": "Easy 20 Minute Mediterranean Orzo Salad",
+      "description": "This easy orzo salad is loaded with chopped veggies, fresh herbs, and other Mediterranean favorites. For the best flavor, dress the Mediterranean orzo salad while the orzo is still a little warm.",
+      "imageUrl": "https://www.themediterraneandish.com/wp-content/uploads/2025/06/OrzoSalad-Edited-3.jpg",
+      "prepMinutes": 10,
+      "cookMinutes": 10,
+      "servings": 6,
+      "tags": [
+        "youtube",
+        "mediterranean"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/2",
+          "unit": "cups",
+          "name": "orzo"
+        },
+        {
+          "amount": "",
+          "unit": "pint",
+          "name": "grape or cherry tomatoes, (halved)"
+        },
+        {
+          "amount": "",
+          "unit": "green",
+          "name": "onions, (trimmed and chopped (both white and green parts))"
+        },
+        {
+          "amount": "",
+          "unit": "small",
+          "name": "green bell pepper, (chopped)"
+        },
+        {
+          "amount": "",
+          "unit": "English",
+          "name": "cucumber"
+        },
+        {
+          "amount": "",
+          "unit": "packed",
+          "name": "cup chopped parsley"
         },
         {
           "amount": "/2",
+          "unit": "packed",
+          "name": "cup chopped fresh dill"
+        },
+        {
+          "amount": "/4",
           "unit": "cup",
-          "name": "plain Greek yogurt*"
+          "name": "pitted Kalamata olives, (sliced)"
+        },
+        {
+          "amount": "",
+          "unit": "teaspoons",
+          "name": "capers"
+        },
+        {
+          "amount": "",
+          "unit": "Feta",
+          "name": "cheese ((optional), for garnish)"
+        },
+        {
+          "amount": "",
+          "unit": "lemon",
+          "name": ", (zested and juiced)"
+        },
+        {
+          "amount": "/4",
+          "unit": "cup",
+          "name": "extra virgin olive oil"
+        },
+        {
+          "amount": "",
+          "unit": "garlic",
+          "name": "clove, (minced)"
+        },
+        {
+          "amount": "",
+          "unit": "teaspoon",
+          "name": "dried oregano"
+        },
+        {
+          "amount": "",
+          "unit": "Kosher",
+          "name": "salt"
+        },
+        {
+          "amount": "",
+          "unit": "Black",
+          "name": "pepper"
+        }
+      ],
+      "steps": [
+        "<Untitled Chapter 1>",
+        "start with cherry tomatoes",
+        "add fresh garlic one garlic clove",
+        "add the garlic",
+        "pour this beautiful lemony dressing all over our orzo pasta"
+      ],
+      "recipeKind": "youtube",
+      "youtubeVideoId": "WzXbkEWcRVg",
+      "timedSteps": [
+        {
+          "text": "<Untitled Chapter 1>",
+          "startSeconds": 0
+        },
+        {
+          "text": "start with cherry tomatoes",
+          "startSeconds": 41
+        },
+        {
+          "text": "add fresh garlic one garlic clove",
+          "startSeconds": 257
+        },
+        {
+          "text": "add the garlic",
+          "startSeconds": 276
+        },
+        {
+          "text": "pour this beautiful lemony dressing all over our orzo pasta",
+          "startSeconds": 299
+        }
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=WzXbkEWcRVg",
+      "mealLists": [
+        "to-make"
+      ],
+      "notes": "Imported from YouTube; ingredients from http://bit.ly/TMD-orzo-salad."
+    },
+    {
+      "id": "87",
+      "slug": "yt-the-better-way-to-make-ratatouille",
+      "title": "The Better Way To Make Ratatouille",
+      "description": "Ratatouille is a French vegetable stew that combines eggplant, zucchini, yellow squash, tomatoes, peppers and onions and is perfect alongside grilled meat or fish and plenty of crusty bread.",
+      "imageUrl": "https://www.sipandfeast.com/wp-content/uploads/2023/08/ratatouille-recipe-snippet.jpg",
+      "prepMinutes": 20,
+      "cookMinutes": 50,
+      "servings": 6,
+      "tags": [
+        "youtube",
+        "mediterranean"
+      ],
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "large",
+          "name": "eggplant (cubed)"
+        },
+        {
+          "amount": "",
+          "unit": "cup",
+          "name": "extra virgin olive oil (divided, plus more if needed)"
+        },
+        {
+          "amount": "",
+          "unit": "medium",
+          "name": "zucchini (1/2-inch thick sliced rounds)"
+        },
+        {
+          "amount": "",
+          "unit": "medium",
+          "name": "yellow squash (1/2-inch thick sliced rounds)"
         },
         {
           "amount": "",
           "unit": "large",
-          "name": "lemon,  (juiced)"
+          "name": "red onion (chopped)"
         },
         {
           "amount": "",
-          "unit": "tsp",
-          "name": "dijon mustard"
+          "unit": "large",
+          "name": "green bell pepper (chopped)"
         },
         {
           "amount": "",
-          "unit": "clove",
-          "name": "garlic,  (minced)"
+          "unit": "large",
+          "name": "yellow or red bell pepper (chopped)"
+        },
+        {
+          "amount": "",
+          "unit": "cloves",
+          "name": "garlic (chopped)"
+        },
+        {
+          "amount": "/2",
+          "unit": "teaspoon",
+          "name": "crushed hot red pepper flakes"
+        },
+        {
+          "amount": "",
+          "unit": "ounces",
+          "name": "tomato paste"
         },
         {
           "amount": "/2",
           "unit": "cup",
-          "name": "roasted red peppers,  (patted dry and finely chopped)"
-        },
-        {
-          "amount": "/2",
-          "unit": "cup",
-          "name": "pepperoncinis or banana pepper rings, (patted dry and finely chopped)"
-        },
-        {
-          "amount": "/2",
-          "unit": "cup",
-          "name": "artichoke hearts, (drained and finely chopped)"
-        },
-        {
-          "amount": "/2",
-          "unit": "cup",
-          "name": "cucumber (seeded and finely diced)"
-        },
-        {
-          "amount": "/2",
-          "unit": "cup",
-          "name": "crumbled feta cheese"
+          "name": "dry white wine"
         },
         {
           "amount": "",
-          "unit": "tbsp",
-          "name": "red onion, (finely diced)"
+          "unit": "ounces",
+          "name": "cherry tomatoes"
         },
         {
           "amount": "",
-          "unit": "tbsp",
-          "name": "finely chopped mint"
+          "unit": "tablespoons",
+          "name": "red wine vinegar"
         },
         {
           "amount": "",
-          "unit": "tbsp",
-          "name": "finely chopped parsley"
+          "unit": "tablespoons",
+          "name": "fresh thyme leaves"
+        },
+        {
+          "amount": "/4",
+          "unit": "packed",
+          "name": "cup basil (chopped)"
+        },
+        {
+          "amount": "",
+          "unit": "cup",
+          "name": "low sodium vegetable stock (optional)"
         }
       ],
       "steps": [
         "Intro",
         "Ingredients",
-        "Salad prep",
-        "Dressing prep",
-        "Salad mixture",
-        "Taste test"
+        "Cooking the Eggplant",
+        "Preparing the Basil",
+        "Tasting"
       ],
       "recipeKind": "youtube",
-      "youtubeVideoId": "4xQsTOxTQsQ",
+      "youtubeVideoId": "CcmmofBJHxI",
       "timedSteps": [
         {
           "text": "Intro",
@@ -6490,30 +7008,2225 @@
         },
         {
           "text": "Ingredients",
-          "startSeconds": 16
+          "startSeconds": 7
         },
         {
-          "text": "Salad prep",
-          "startSeconds": 32
+          "text": "Cooking the Eggplant",
+          "startSeconds": 164
         },
         {
-          "text": "Dressing prep",
-          "startSeconds": 118
+          "text": "Preparing the Basil",
+          "startSeconds": 575
         },
         {
-          "text": "Salad mixture",
-          "startSeconds": 203
+          "text": "Tasting",
+          "startSeconds": 763
+        }
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=CcmmofBJHxI",
+      "mealLists": [
+        "to-make"
+      ],
+      "notes": "Imported from YouTube; timestamps from video chapters."
+    },
+    {
+      "id": "88",
+      "slug": "yt-greek-sheet-pan-chicken-recipe-easy-chicken-recipe",
+      "title": "Greek Sheet Pan Chicken Recipe",
+      "description": "In this sheet-pan chicken recipe, chicken thighs, veggies, and big hunks of tangy feta are coated in garlicky, lemony Greek salad dressing and baked until everything is tender, golden brown, and swimming in bold Mediterranean flavor. Serve on its own, or with crusty bread for getting the rich and flavorful pan sauce.",
+      "imageUrl": "https://www.themediterraneandish.com/wp-content/uploads/2023/07/TMD-Greek-sheet-pan-chicken-WEB-11.jpg",
+      "prepMinutes": 8,
+      "cookMinutes": 37,
+      "servings": 6,
+      "tags": [
+        "youtube",
+        "mediterranean"
+      ],
+      "ingredients": [
+        {
+          "amount": "/4",
+          "unit": "cup",
+          "name": "fresh lemon juice Juice of 2 large lemons"
+        },
+        {
+          "amount": "",
+          "unit": "to",
+          "name": "2 teaspoons dried oregano"
+        },
+        {
+          "amount": "",
+          "unit": "large",
+          "name": "garlic clove (minced)"
+        },
+        {
+          "amount": "/4",
+          "unit": "teaspoon",
+          "name": "kosher salt"
+        },
+        {
+          "amount": "/4",
+          "unit": "teaspoon",
+          "name": "black pepper"
+        },
+        {
+          "amount": "/4",
+          "unit": "cup",
+          "name": "extra virgin olive oil"
+        },
+        {
+          "amount": "",
+          "unit": "large",
+          "name": "red onion, (halved and sliced into 1/2 -inch pieces)"
+        },
+        {
+          "amount": "",
+          "unit": "medium",
+          "name": "zucchini, (halved and sliced into 1/2-inch pieces (half moons))"
+        },
+        {
+          "amount": "",
+          "unit": "large",
+          "name": "orange bell pepper, (cored and sliced into 1/2-inch thick slices)"
+        },
+        {
+          "amount": "",
+          "unit": "large",
+          "name": "tomato, (cut into 8 wedges)"
+        },
+        {
+          "amount": "",
+          "unit": "Kosher",
+          "name": "salt"
+        },
+        {
+          "amount": "",
+          "unit": "ground",
+          "name": "black pepper"
+        },
+        {
+          "amount": "",
+          "unit": "to",
+          "name": "8  boneless skinless chicken thighs"
+        },
+        {
+          "amount": "/4",
+          "unit": "cup",
+          "name": "pitted Kalamata olives"
+        },
+        {
+          "amount": "/4",
+          "unit": "cup",
+          "name": "pitted Castelvetrano olives"
+        },
+        {
+          "amount": "",
+          "unit": "ounces",
+          "name": "feta cheese, (cut into chunks)"
+        },
+        {
+          "amount": "/4",
+          "unit": "cup",
+          "name": "chopped Italian parsley, (for garnish)"
+        }
+      ],
+      "steps": [
+        "Intro",
+        "Chopping the vegetables",
+        "Making the ladolemono dressing",
+        "Adding the dressing to the veggies",
+        "Seasoning the chicken",
+        "Adding the chicken to the sheet-pan",
+        "Adding the olives and feta",
+        "Adding the rest of the ladolemono dressing",
+        "Baking the sheet-pan chicken",
+        "Taste test"
+      ],
+      "recipeKind": "youtube",
+      "youtubeVideoId": "WXzWFOj456A",
+      "timedSteps": [
+        {
+          "text": "Intro",
+          "startSeconds": 0
+        },
+        {
+          "text": "Chopping the vegetables",
+          "startSeconds": 24
+        },
+        {
+          "text": "Making the ladolemono dressing",
+          "startSeconds": 81
+        },
+        {
+          "text": "Adding the dressing to the veggies",
+          "startSeconds": 152
+        },
+        {
+          "text": "Seasoning the chicken",
+          "startSeconds": 182
+        },
+        {
+          "text": "Adding the chicken to the sheet-pan",
+          "startSeconds": 190
+        },
+        {
+          "text": "Adding the olives and feta",
+          "startSeconds": 200
+        },
+        {
+          "text": "Adding the rest of the ladolemono dressing",
+          "startSeconds": 229
+        },
+        {
+          "text": "Baking the sheet-pan chicken",
+          "startSeconds": 234
         },
         {
           "text": "Taste test",
-          "startSeconds": 217
+          "startSeconds": 248
         }
       ],
-      "sourceUrl": "https://www.youtube.com/watch?v=4xQsTOxTQsQ",
+      "sourceUrl": "https://www.youtube.com/watch?v=WXzWFOj456A",
       "mealLists": [
-        "saved"
+        "to-make"
       ],
-      "notes": "Video: youtube.com/watch?v=4xQsTOxTQsQ. Ingredient list from companion no-mayo Mediterranean chicken salad (wholesomelicious.com)."
+      "notes": "Imported from YouTube; ingredients from https://www.themediterraneandish.com/greek-sheet-pan-chicken/."
+    },
+    {
+      "id": "89",
+      "slug": "yt-mediterranean-chickpea-salad-recipe-vegan-chickpea-salad",
+      "title": "Mediterranean Chickpea Salad Recipe",
+      "description": "Packed with protein, this chickpea salad is a hearty and healthy no-cook lunch that’s ready in 10 minutes!",
+      "imageUrl": "https://www.themediterraneandish.com/wp-content/uploads/2025/10/Mediterranean-Chickpea-Salad-Edit-2.jpg",
+      "prepMinutes": 10,
+      "cookMinutes": 0,
+      "servings": 6,
+      "tags": [
+        "youtube",
+        "mediterranean"
+      ],
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "teaspoon",
+          "name": "Dijon mustard"
+        },
+        {
+          "amount": "",
+          "unit": "lemon",
+          "name": ", (juiced)"
+        },
+        {
+          "amount": "",
+          "unit": "garlic",
+          "name": "clove, (minced)"
+        },
+        {
+          "amount": "",
+          "unit": "teaspoon",
+          "name": "Aleppo pepper ((or red pepper flakes))"
+        },
+        {
+          "amount": "",
+          "unit": "teaspoon",
+          "name": "sumac ((or lemon zest))"
+        },
+        {
+          "amount": "",
+          "unit": "Kosher",
+          "name": "salt"
+        },
+        {
+          "amount": "",
+          "unit": "Black",
+          "name": "pepper"
+        },
+        {
+          "amount": "/4",
+          "unit": "cup",
+          "name": "Extra virgin olive oil"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "(15-ounce) cans chickpeas,  (drained and rinsed)"
+        },
+        {
+          "amount": "",
+          "unit": "large",
+          "name": "English cucumber, (chopped)"
+        },
+        {
+          "amount": "",
+          "unit": "cups",
+          "name": "grape tomatoes, (halved)"
+        },
+        {
+          "amount": "",
+          "unit": "roasted",
+          "name": "red peppers, (seeded and chopped (or a 16-ounce jar roasted peppers in oil))"
+        },
+        {
+          "amount": "",
+          "unit": "small",
+          "name": "red onion or 2 shallots, (finely chopped)"
+        },
+        {
+          "amount": "",
+          "unit": "cup",
+          "name": "chopped parsley leaves"
+        },
+        {
+          "amount": "/2",
+          "unit": "cup",
+          "name": "chopped mint leaves"
+        },
+        {
+          "amount": "",
+          "unit": "avocado",
+          "name": ", (pitted and roughly chopped)"
+        }
+      ],
+      "steps": [
+        "Intro",
+        "Making the dijon vinaigrette",
+        "What is Aleppo Pepper?",
+        "Adding the chickpeas",
+        "Chopping the cucumber and bell pepper",
+        "Do I need to chop the grape tomatoes?",
+        "Adding in onion",
+        "Chopping the roasted red peppers",
+        "When should I add the avocado?",
+        "Chopping the fresh herbs",
+        "Mixing the salad",
+        "Taste test"
+      ],
+      "recipeKind": "youtube",
+      "youtubeVideoId": "244HOfIQw9Y",
+      "timedSteps": [
+        {
+          "text": "Intro",
+          "startSeconds": 0
+        },
+        {
+          "text": "Making the dijon vinaigrette",
+          "startSeconds": 15
+        },
+        {
+          "text": "What is Aleppo Pepper?",
+          "startSeconds": 72
+        },
+        {
+          "text": "Adding the chickpeas",
+          "startSeconds": 148
+        },
+        {
+          "text": "Chopping the cucumber and bell pepper",
+          "startSeconds": 170
+        },
+        {
+          "text": "Do I need to chop the grape tomatoes?",
+          "startSeconds": 248
+        },
+        {
+          "text": "Adding in onion",
+          "startSeconds": 268
+        },
+        {
+          "text": "Chopping the roasted red peppers",
+          "startSeconds": 287
+        },
+        {
+          "text": "When should I add the avocado?",
+          "startSeconds": 315
+        },
+        {
+          "text": "Chopping the fresh herbs",
+          "startSeconds": 363
+        },
+        {
+          "text": "Mixing the salad",
+          "startSeconds": 441
+        },
+        {
+          "text": "Taste test",
+          "startSeconds": 475
+        }
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=244HOfIQw9Y",
+      "mealLists": [
+        "to-make"
+      ],
+      "notes": "Imported from YouTube; ingredients from https://www.themediterraneandish.com/chickpea-salad/."
+    },
+    {
+      "id": "90",
+      "slug": "yt-youve-never-had-fish-this-good-baked-halibut-and-veggies",
+      "title": "You've NEVER had fish this good! Baked Halibut and Veggies!",
+      "description": "You&#39;ll love this simple baked halibut recipe with colorful vegetables tossed in a citrus and olive oil sauce! Perfect for busy weeknights because it comes together in 20 minutes or less. If you can&#39;t find halibut, another white fish like cod, haddock, or red snapper would work well. This sheet pan dinner is a filling meal in one, but if you want to make the most of the zesty Mediterranean-style sauce, serve the halibut and veggies over a bed of barley or bulgur.",
+      "imageUrl": "https://www.themediterraneandish.com/wp-content/uploads/2016/05/One-Pan-Baked-Halibut-Recipe-8.jpg",
+      "prepMinutes": 5,
+      "cookMinutes": 15,
+      "servings": 6,
+      "tags": [
+        "youtube",
+        "mediterranean"
+      ],
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "Zest",
+          "name": "of 2 lemons"
+        },
+        {
+          "amount": "",
+          "unit": "Juice",
+          "name": "of 2 lemons"
+        },
+        {
+          "amount": "",
+          "unit": "cup",
+          "name": "extra virgin olive oil"
+        },
+        {
+          "amount": "1/2",
+          "unit": "tablespoon",
+          "name": "freshly minced garlic"
+        },
+        {
+          "amount": "",
+          "unit": "teaspoon",
+          "name": "dill weed"
+        },
+        {
+          "amount": "",
+          "unit": "teaspoon",
+          "name": "seasoned salt, (more for later)"
+        },
+        {
+          "amount": "/2",
+          "unit": "teaspoon",
+          "name": "ground black pepper"
+        },
+        {
+          "amount": "",
+          "unit": "teaspoon",
+          "name": "dried oregano"
+        },
+        {
+          "amount": "/2",
+          "unit": "to",
+          "name": "3/4 teaspoon ground coriander"
+        },
+        {
+          "amount": "",
+          "unit": "pound",
+          "name": "fresh green beans"
+        },
+        {
+          "amount": "",
+          "unit": "pound",
+          "name": "cherry tomatoes"
+        },
+        {
+          "amount": "",
+          "unit": "large",
+          "name": "yellow onion, (sliced into half moons)"
+        },
+        {
+          "amount": "1/2",
+          "unit": "pound",
+          "name": "halibut fillet, (slice into 1 1/2-inch pieces)"
+        }
+      ],
+      "steps": [
+        "Intro",
+        "Making the sauce",
+        "Coating the veggies in the sauce",
+        "Adding veggies to the sheet pan",
+        "Prepping the halibut",
+        "Chopping herbs",
+        "Adding halibut to sheet pan",
+        "Finishing touches",
+        "Taste test"
+      ],
+      "recipeKind": "youtube",
+      "youtubeVideoId": "WQP28ROhUgQ",
+      "timedSteps": [
+        {
+          "text": "Intro",
+          "startSeconds": 0
+        },
+        {
+          "text": "Making the sauce",
+          "startSeconds": 15
+        },
+        {
+          "text": "Coating the veggies in the sauce",
+          "startSeconds": 67
+        },
+        {
+          "text": "Adding veggies to the sheet pan",
+          "startSeconds": 85
+        },
+        {
+          "text": "Prepping the halibut",
+          "startSeconds": 95
+        },
+        {
+          "text": "Chopping herbs",
+          "startSeconds": 108
+        },
+        {
+          "text": "Adding halibut to sheet pan",
+          "startSeconds": 120
+        },
+        {
+          "text": "Finishing touches",
+          "startSeconds": 147
+        },
+        {
+          "text": "Taste test",
+          "startSeconds": 164
+        }
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=WQP28ROhUgQ",
+      "mealLists": [
+        "to-make"
+      ],
+      "notes": "Imported from YouTube; ingredients from https://bit.ly/baked-halibut-and-veggies."
+    },
+    {
+      "id": "91",
+      "slug": "yt-easy-lemon-chicken-piccata-in-20-minutes",
+      "title": "Easy Lemon Chicken Piccata in 20 Minutes!",
+      "description": "This flavor-packed lemon chicken piccata comes together in 20 minutes! Chicken cutlets are seared in a bit of extra virgin olive oil, then simmered in a bright lemony sauce with capers. I use a little dry white wine in the piccata sauce, but if you do not use alcohol, substitute with an equal amount of chicken broth. Toss chicken piccata with pasta, or serve it with lemon rice, boiled potatoes, crispy Brussels sprouts, or a colorful Shirazi salad.",
+      "imageUrl": "https://www.themediterraneandish.com/wp-content/uploads/2025/04/TMD-Lemon-Chicken-Picatta-Leads-01-Vertical.jpg",
+      "prepMinutes": 10,
+      "cookMinutes": 10,
+      "servings": 4,
+      "tags": [
+        "youtube",
+        "mediterranean"
+      ],
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "pound",
+          "name": "boneless skinless chicken breasts"
+        },
+        {
+          "amount": "",
+          "unit": "Kosher",
+          "name": "salt"
+        },
+        {
+          "amount": "",
+          "unit": "Ground",
+          "name": "black pepper"
+        },
+        {
+          "amount": "/2",
+          "unit": "cup",
+          "name": "flour, (for dredging)"
+        },
+        {
+          "amount": "",
+          "unit": "Extra",
+          "name": "virgin olive oil"
+        },
+        {
+          "amount": "",
+          "unit": "tablespoons",
+          "name": "ghee or butter"
+        },
+        {
+          "amount": "/3",
+          "unit": "cup",
+          "name": "lemon juice ((from about 2 lemons), plus lemon wedges for serving)"
+        },
+        {
+          "amount": "/2",
+          "unit": "cup",
+          "name": "white wine (or chicken broth)"
+        },
+        {
+          "amount": "/4",
+          "unit": "cup",
+          "name": "capers ((3-ounce jar), rinsed and drained)"
+        },
+        {
+          "amount": "",
+          "unit": "Freshly",
+          "name": "chopped parsley, (for garnish)"
+        }
+      ],
+      "steps": [
+        "Intro",
+        "Cook",
+        "Lemon Sauce",
+        "Outro"
+      ],
+      "recipeKind": "youtube",
+      "youtubeVideoId": "Ue6P8znS9Pk",
+      "timedSteps": [
+        {
+          "text": "Intro",
+          "startSeconds": 0
+        },
+        {
+          "text": "Cook",
+          "startSeconds": 79
+        },
+        {
+          "text": "Lemon Sauce",
+          "startSeconds": 134
+        },
+        {
+          "text": "Outro",
+          "startSeconds": 222
+        }
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=Ue6P8znS9Pk",
+      "mealLists": [
+        "to-make"
+      ],
+      "notes": "Imported from YouTube; ingredients from https://bit.ly/TMD-chicken-piccata."
+    },
+    {
+      "id": "92",
+      "slug": "yt-mom-style-creamy-ground-beef-stroganoff",
+      "title": "Mom Style Creamy Ground Beef Stroganoff",
+      "description": "This ground beef stroganoff recipe is basically just an extremely delicious gourmet version of hamburger helper AND it only requires a little more effort to make than the boxed version. ",
+      "imageUrl": "https://i.ytimg.com/vi/WrI_lMhc9Jw/hqdefault.jpg",
+      "prepMinutes": 0,
+      "cookMinutes": 0,
+      "servings": 4,
+      "tags": [
+        "youtube",
+        "mediterranean"
+      ],
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "",
+          "name": "2lb/1kg 85/15 ground beef"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Salt"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Pepper"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "125g (1 whole) white onion, small diced"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "20g (4-5 cloves) garlic, minced/pressed"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1lb/450g baby bella mushrooms, sliced"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Oil"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "25g (1 1/2T) tomato paste"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "50g (6T) ap flour"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "175g (3/4c)  dry white wine"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "40g (2 1/2T) worcestershire"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "500g (2c) water"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "21g (3 packets) powdered gelatine"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "50g (3T) Better than Bouillon beef"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "12oz/340g egg noodles"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "225g (1c) heavy cream"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "75g (1/3c) sour cream"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "30g (2T) dijon mustard"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "5g (2t) black pepper"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Dill"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Chives"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "*RECIPE:*"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "CHAPTERS:"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "0:00 Intro & the beef"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1:12 veg prep and finishing the beef"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "2:47 starting the stroganoff"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "5:02 the many uses for Better Than Bouillon (ad)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "6:05 Finishing the stroganoff and cooking the pasta"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "#stroganoff #beefstroganoff #hamburgerhelper"
+        }
+      ],
+      "steps": [
+        "Intro & the beef",
+        "veg prep and finishing the beef",
+        "starting the stroganoff",
+        "the many uses for Better Than Bouillon (ad)",
+        "Finishing the stroganoff and cooking the pasta"
+      ],
+      "recipeKind": "youtube",
+      "youtubeVideoId": "WrI_lMhc9Jw",
+      "timedSteps": [
+        {
+          "text": "Intro & the beef",
+          "startSeconds": 0
+        },
+        {
+          "text": "veg prep and finishing the beef",
+          "startSeconds": 72
+        },
+        {
+          "text": "starting the stroganoff",
+          "startSeconds": 167
+        },
+        {
+          "text": "the many uses for Better Than Bouillon (ad)",
+          "startSeconds": 302
+        },
+        {
+          "text": "Finishing the stroganoff and cooking the pasta",
+          "startSeconds": 365
+        }
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=WrI_lMhc9Jw",
+      "mealLists": [
+        "to-make"
+      ],
+      "notes": "Imported from YouTube; timestamps from video chapters."
+    },
+    {
+      "id": "93",
+      "slug": "yt-the-korean-stir-fried-noodles-you-didnt-know-you-needed",
+      "title": "The Korean Stir Fried Noodles You Didn't Know You Needed",
+      "description": "Japchae (aka Korean stir fried glass noodles) is one of my favorite Korean dishes and I'm stoked to share my recipe with you. For a limited time, you can get $20 off EACH of your first two orders (total of $40 OFF) when you use my code BRIANL at https://cometeer.com/Lagerstrom",
+      "imageUrl": "https://i.ytimg.com/vi/0VfrY5H6HZ0/hqdefault.jpg",
+      "prepMinutes": 0,
+      "cookMinutes": 0,
+      "servings": 4,
+      "tags": [
+        "youtube",
+        "mediterranean"
+      ],
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "",
+          "name": "75g or 1/3c soy sauce"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "45g or 3Tbsp brown sugar"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "15g or 1t sesame oil"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "30g or 2Tbsp  oyster sauce"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "10g or 2t rice vinegar"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "JAPCHAE"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "8oz/225g Steak (filet mingnon)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "125g or 1 pack/cluster of fresh hon shimeji mushrooms (sub with baby bella or any other mushroom you like)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "25g or 2Tbsp soy sauce"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "5g or 1t sesame oil"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "15g or 3 1/2t brown sugar"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "2 garlic cloves, minced or pressed"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 small-med onion, sliced"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "75-100g scallions or about 1 bunch"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "100-125g red bell pepper, about 1 large pepper"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "100-125g carrot, about 1 large carrot"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "125g shitake mushrooms or 5-6 caps (again, sub with whatever mushroom you like)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "2 egg yolks"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Olive oil"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Salt"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Water"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "250g or 8-10oz fresh spinach"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "225g or 8oz sweet potato/glass noodles"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Toasted sesame seeds"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Black pepper"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "CHAPTERS:"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "0:00 Intro, marinating the beef"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1:26 Veg prep"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "2:48 Japchae sauce"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "3:47 I love this coffee (ad)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "4:47 Cooking off the ingredients"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "9:08 Finishing the dish"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "11:30 Let’s eat this thing"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "#japchae #glassnoodles #koreanfood"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "🎧MUSIC:"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "EPIDEMIC SOUND. Free trial available at:  https://www.epidemicsound.com/referral/ccpjb3"
+        }
+      ],
+      "steps": [
+        "Intro, marinating the beef",
+        "Veg prep",
+        "Japchae sauce",
+        "I love this coffee (ad)",
+        "Cooking off the ingredients",
+        "Finishing the dish",
+        "Let’s eat this thing"
+      ],
+      "recipeKind": "youtube",
+      "youtubeVideoId": "0VfrY5H6HZ0",
+      "timedSteps": [
+        {
+          "text": "Intro, marinating the beef",
+          "startSeconds": 0
+        },
+        {
+          "text": "Veg prep",
+          "startSeconds": 86
+        },
+        {
+          "text": "Japchae sauce",
+          "startSeconds": 168
+        },
+        {
+          "text": "I love this coffee (ad)",
+          "startSeconds": 227
+        },
+        {
+          "text": "Cooking off the ingredients",
+          "startSeconds": 287
+        },
+        {
+          "text": "Finishing the dish",
+          "startSeconds": 548
+        },
+        {
+          "text": "Let’s eat this thing",
+          "startSeconds": 690
+        }
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=0VfrY5H6HZ0",
+      "mealLists": [
+        "to-make"
+      ],
+      "notes": "Imported from YouTube; timestamps from video chapters."
+    },
+    {
+      "id": "94",
+      "slug": "yt-gourmet-hamburger-helper-one-pan-beef-stroganoff-food-wishes",
+      "title": "Gourmet Hamburger Helper",
+      "description": "Here&#39;s Chef John&#39;s shortcut version of the classic comfort food: a one-pan meal featuring flavorful ground beef, mushrooms, and noodles.",
+      "imageUrl": "https://www.allrecipes.com/thmb/RmtaiY4WRreO6jaVO_TC1L0sTSU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8526807-ground-beef-stroganoff-noodles-VAT-4x3-3-54d7b944066548e1b814c404df759e36.jpg",
+      "prepMinutes": 10,
+      "cookMinutes": 30,
+      "servings": 4,
+      "tags": [
+        "youtube",
+        "mediterranean"
+      ],
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "tablespoon",
+          "name": "unsalted butter"
+        },
+        {
+          "amount": "",
+          "unit": "tablespoon",
+          "name": "vegetable oil"
+        },
+        {
+          "amount": "",
+          "unit": "cup",
+          "name": "thinly sliced mushrooms"
+        },
+        {
+          "amount": "",
+          "unit": "teaspoon",
+          "name": "salt, plus more to taste"
+        },
+        {
+          "amount": "",
+          "unit": "cup",
+          "name": "diced onion"
+        },
+        {
+          "amount": "",
+          "unit": "pound",
+          "name": "ground beef"
+        },
+        {
+          "amount": "",
+          "unit": "freshly",
+          "name": "ground black pepper"
+        },
+        {
+          "amount": "",
+          "unit": "pinch",
+          "name": "cayenne pepper"
+        },
+        {
+          "amount": "",
+          "unit": "cloves",
+          "name": "minced garlic"
+        },
+        {
+          "amount": "",
+          "unit": "tablespoons",
+          "name": "flour"
+        },
+        {
+          "amount": "",
+          "unit": "tablespoons",
+          "name": "vodka"
+        },
+        {
+          "amount": "",
+          "unit": "cups",
+          "name": "beef broth, or as needed"
+        },
+        {
+          "amount": "",
+          "unit": "cup",
+          "name": "water"
+        },
+        {
+          "amount": "",
+          "unit": "cups",
+          "name": "egg noodles"
+        },
+        {
+          "amount": "",
+          "unit": "cup",
+          "name": "sour cream, plus more for serving"
+        },
+        {
+          "amount": "",
+          "unit": "tablespoons",
+          "name": "fresh sliced chives or green onions"
+        }
+      ],
+      "steps": [
+        "<Untitled Chapter 1>",
+        "Ground Beef Stroganoff Noodles",
+        "cover and cook for 3 minutes",
+        "reduce heat to low"
+      ],
+      "recipeKind": "youtube",
+      "youtubeVideoId": "z9WUEVnG0CA",
+      "timedSteps": [
+        {
+          "text": "<Untitled Chapter 1>",
+          "startSeconds": 0
+        },
+        {
+          "text": "Ground Beef Stroganoff Noodles",
+          "startSeconds": 6
+        },
+        {
+          "text": "cover and cook for 3 minutes",
+          "startSeconds": 294
+        },
+        {
+          "text": "reduce heat to low",
+          "startSeconds": 318
+        }
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=z9WUEVnG0CA",
+      "mealLists": [
+        "to-make"
+      ],
+      "notes": "Imported from YouTube; timestamps from video chapters."
+    },
+    {
+      "id": "95",
+      "slug": "yt-25-min-chicken-tortilla-soup-so-much-better-when-you-treat-it-like-chili-weeknighting",
+      "title": "Chicken Tortilla Soup",
+      "description": "Chicken tortilla soup is one of my favorite cool weather comfort foods. This quick and easy recipe only takes about 30 minutes to make and uses a few simple, but effective hacks to create a more flavorful soup base that will taste 100% homemade.",
+      "imageUrl": "https://i.ytimg.com/vi/1pefXljkxAA/hqdefault.jpg",
+      "prepMinutes": 0,
+      "cookMinutes": 0,
+      "servings": 4,
+      "tags": [
+        "youtube",
+        "mediterranean"
+      ],
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 red onion, medium diced"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 poblano pepper, medium diced"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "4 lrg garlic cloves, chopped"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "35g or 2Tbsp olive oil"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "20g or 2 1/2Tbsp chili powder"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "5g or 1 3/4tsp paprika"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "5g or 1 3/4tsp ground cumin"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "2g or 2tsp dried oregano"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1500g or 1.5liters chicken stock"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "790g or 1 28oz can diced tomato (fire-roasted if you can find it)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "440g or 1 can kidney beans, not drained"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "440g or 1 can black beans, drained"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Salt"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Cooked whole chicken (i like to buy a rotisserie for ease, chicken drippings reserved)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "2 pieces of canned chipotle peppers in adobo"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "150g or about 1c frozen corn"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Ripe avocado, diced"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Thick cut tortilla chips, broken"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Cilantro, chopped"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Shredded white cheddar cheese (prairie breeze is always a winner)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Sour cream"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "#chickentortillasoup #weeknightrecipe #chickensoup #weeknighting"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "|| MUSIC ||"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "bensound.com"
+        }
+      ],
+      "steps": [
+        "only takes about 30 minutes to make and uses a few simple, but effective hacks to create a more f…",
+        "Preheat large dutch oven or heavy bottomed pot over medium heat. Add olive oil. Add onions and po…",
+        "Pick and chop ½ of chicken (into spoon size pieces).",
+        "Scoop out about 2 cups or about 3 ladles worth of soup into a high sided container. Add 2 chilis …",
+        "**DISCLAIMER: Some links in this description may be affiliate links. If you buy any of these prod…"
+      ],
+      "recipeKind": "youtube",
+      "youtubeVideoId": "1pefXljkxAA",
+      "timedSteps": [
+        {
+          "text": "only takes about 30 minutes to make and uses a few simple, but effective hacks to create a more f…",
+          "startSeconds": 0
+        },
+        {
+          "text": "Preheat large dutch oven or heavy bottomed pot over medium heat. Add olive oil. Add onions and po…",
+          "startSeconds": 45
+        },
+        {
+          "text": "Pick and chop ½ of chicken (into spoon size pieces).",
+          "startSeconds": 90
+        },
+        {
+          "text": "Scoop out about 2 cups or about 3 ladles worth of soup into a high sided container. Add 2 chilis …",
+          "startSeconds": 135
+        },
+        {
+          "text": "**DISCLAIMER: Some links in this description may be affiliate links. If you buy any of these prod…",
+          "startSeconds": 180
+        }
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=1pefXljkxAA",
+      "mealLists": [
+        "to-make"
+      ],
+      "notes": "Imported from YouTube; timestamps from video chapters."
+    },
+    {
+      "id": "96",
+      "slug": "yt-gigantes-plaki-greek-baked-beans-recipe",
+      "title": "Gigantes Plaki",
+      "description": "Comforting and buttery gigantes plaki, or Greek giant baked beans, with tomatoes and olive oil make a satisfying vegetarian dinner any night of the week. Or, you can serve them as a side or as an appetizer (at room temperature) over crusty bread.",
+      "imageUrl": "https://www.themediterraneandish.com/wp-content/uploads/2022/12/Gigantes-Plaki-recipe-FINAL-8.jpg",
+      "prepMinutes": 10,
+      "cookMinutes": 30,
+      "servings": 4,
+      "tags": [
+        "youtube",
+        "mediterranean"
+      ],
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "Extra",
+          "name": "-virgin olive oil"
+        },
+        {
+          "amount": "/2",
+          "unit": "large",
+          "name": "onion, (roughly chopped)"
+        },
+        {
+          "amount": "",
+          "unit": "large",
+          "name": "carrot, (peeled and roughly chopped)"
+        },
+        {
+          "amount": "",
+          "unit": "celery",
+          "name": "stalk, (roughly chopped)"
+        },
+        {
+          "amount": "",
+          "unit": "large",
+          "name": "garlic cloves, (minced)"
+        },
+        {
+          "amount": "",
+          "unit": "Kosher",
+          "name": "salt"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "(15-ounce) can diced tomatoes, (with juices)"
+        },
+        {
+          "amount": "",
+          "unit": "Tablespoons",
+          "name": "(3 fluid ounces) water"
+        },
+        {
+          "amount": "/4",
+          "unit": "cup",
+          "name": "chopped flat-leaf parsley, (plus more for garnish)"
+        },
+        {
+          "amount": "/2",
+          "unit": "Tablespoon",
+          "name": "fresh thyme leaves"
+        },
+        {
+          "amount": "/4",
+          "unit": "teaspoon",
+          "name": "dried oregano"
+        },
+        {
+          "amount": "/4",
+          "unit": "to",
+          "name": "1/2 teaspoon red pepper flakes"
+        },
+        {
+          "amount": "/4",
+          "unit": "teaspoon",
+          "name": "ground black pepper"
+        },
+        {
+          "amount": "/8",
+          "unit": "to",
+          "name": "1/4 teaspoon ground cinnamon"
+        },
+        {
+          "amount": "",
+          "unit": "dried",
+          "name": "bay leaf"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "(15-ounce) can butter beans, (drained and rinsed (or the largest beans you can find))"
+        },
+        {
+          "amount": "",
+          "unit": "Creamy",
+          "name": "feta cheese, (crumbled)"
+        },
+        {
+          "amount": "",
+          "unit": "Rustic",
+          "name": "bread, (for serving)"
+        }
+      ],
+      "steps": [
+        "Intro",
+        "What kind of beans do I use?",
+        "Sautéing the vegetables",
+        "What is Plaki?",
+        "Adding the canned tomatoes",
+        "Adding the flavor makers",
+        "Adding the beans",
+        "Baking the beans",
+        "Taste test"
+      ],
+      "recipeKind": "youtube",
+      "youtubeVideoId": "8h_YWVC3pjM",
+      "timedSteps": [
+        {
+          "text": "Intro",
+          "startSeconds": 0
+        },
+        {
+          "text": "What kind of beans do I use?",
+          "startSeconds": 27
+        },
+        {
+          "text": "Sautéing the vegetables",
+          "startSeconds": 45
+        },
+        {
+          "text": "What is Plaki?",
+          "startSeconds": 85
+        },
+        {
+          "text": "Adding the canned tomatoes",
+          "startSeconds": 120
+        },
+        {
+          "text": "Adding the flavor makers",
+          "startSeconds": 134
+        },
+        {
+          "text": "Adding the beans",
+          "startSeconds": 194
+        },
+        {
+          "text": "Baking the beans",
+          "startSeconds": 225
+        },
+        {
+          "text": "Taste test",
+          "startSeconds": 270
+        }
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=8h_YWVC3pjM",
+      "mealLists": [
+        "to-make"
+      ],
+      "notes": "Imported from YouTube; ingredients from https://www.themediterraneandish.com/gigantes-plaki-greek-giant-beans/."
+    },
+    {
+      "id": "97",
+      "slug": "yt-how-to-make-greek-chicken-gyros",
+      "title": "How to Make Greek Chicken Gyros",
+      "description": "Yogurt-marinated chicken , packed with flavor from warm spices, and loaded into a pita wrap with homemade and all the fixings you love! You can make this Greek chicken in a pan, outdoor grill, or oven (see note).",
+      "imageUrl": "https://www.themediterraneandish.com/wp-content/uploads/2025/05/TMD-Chicken-Gyro-Leads-01.jpg",
+      "prepMinutes": 10,
+      "cookMinutes": 10,
+      "servings": 4,
+      "tags": [
+        "youtube",
+        "mediterranean"
+      ],
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "cup",
+          "name": "plain Greek yogurt ((whole milk preferred))"
+        },
+        {
+          "amount": "",
+          "unit": "lemon",
+          "name": ", (juiced)"
+        },
+        {
+          "amount": "",
+          "unit": "tablespoons",
+          "name": "extra virgin olive oil"
+        },
+        {
+          "amount": "",
+          "unit": "tablespoons",
+          "name": "red wine vinegar"
+        },
+        {
+          "amount": "",
+          "unit": "garlic",
+          "name": "cloves, (minced)"
+        },
+        {
+          "amount": "",
+          "unit": "tablespoon",
+          "name": "oregano"
+        },
+        {
+          "amount": "",
+          "unit": "teaspoon",
+          "name": "sweet paprika"
+        },
+        {
+          "amount": "",
+          "unit": "teaspoon",
+          "name": "ground cumin"
+        },
+        {
+          "amount": "",
+          "unit": "teaspoon",
+          "name": "ground coriander"
+        },
+        {
+          "amount": "",
+          "unit": "pinch",
+          "name": "cayenne pepper ((optional))"
+        },
+        {
+          "amount": "",
+          "unit": "Kosher",
+          "name": "salt"
+        },
+        {
+          "amount": "",
+          "unit": "Black",
+          "name": "pepper"
+        },
+        {
+          "amount": "1/2",
+          "unit": "pounds",
+          "name": "chicken tenderloin  ((often labeled &quot;tenders&quot;))"
+        },
+        {
+          "amount": "",
+          "unit": "Pita",
+          "name": "Bread"
+        },
+        {
+          "amount": "",
+          "unit": "Tzatziki",
+          "name": "Sauce"
+        },
+        {
+          "amount": "",
+          "unit": "large",
+          "name": "tomato, (sliced)"
+        },
+        {
+          "amount": "",
+          "unit": "cucumber",
+          "name": ", (sliced)"
+        },
+        {
+          "amount": "",
+          "unit": "green",
+          "name": "bell pepper, (cored and sliced)"
+        },
+        {
+          "amount": "",
+          "unit": "small",
+          "name": "red onion, (halved and sliced)"
+        },
+        {
+          "amount": "",
+          "unit": "Pitted",
+          "name": "Kalamata olives"
+        }
+      ],
+      "steps": [
+        "Intro",
+        "Recipe",
+        "Cooking",
+        "Plating"
+      ],
+      "recipeKind": "youtube",
+      "youtubeVideoId": "5X70AzrvTKk",
+      "timedSteps": [
+        {
+          "text": "Intro",
+          "startSeconds": 0
+        },
+        {
+          "text": "Recipe",
+          "startSeconds": 38
+        },
+        {
+          "text": "Cooking",
+          "startSeconds": 232
+        },
+        {
+          "text": "Plating",
+          "startSeconds": 360
+        }
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=5X70AzrvTKk",
+      "mealLists": [
+        "to-make"
+      ],
+      "notes": "Imported from YouTube; ingredients from http://bit.ly/TMD-Chicken-Gyro."
+    },
+    {
+      "id": "98",
+      "slug": "yt-a-must-try-citrus-salmon-recipe-that-is-never-dry",
+      "title": "A must-try citrus salmon recipe that is never dry!",
+      "description": "This citrus salmon is slow-roasted in the oven over a bed of lemon and orange slices. FULL RECIPE 👉 http://bit.ly/TMD-citrus-salmon",
+      "imageUrl": "https://i.ytimg.com/vi/SBiNHz-AyWQ/hqdefault.jpg",
+      "prepMinutes": 0,
+      "cookMinutes": 0,
+      "servings": 4,
+      "tags": [
+        "youtube",
+        "mediterranean"
+      ],
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "",
+          "name": "🔹 1 large orange blood orange, car acara or other variety, sliced into rounds"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "🔹 1 large lemon thinly sliced into rounds, plus juice of half a lemon"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "🔹 1 1/2 pounds salmon fillet"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "🔹 Kosher salt and black pepper"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "🔹 1 teaspoon dried oregano"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "🔹 3/4 teaspoon dried mint"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "🔹 1/2 tsp red chili flakes or 3/4 teaspoon"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "🔹 Aleppo pepper"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "🔹 1 clove garlic minced"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "🔹 Extra virgin olive oil"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "IN THIS VIDEO (we are an Amazon affiliate):"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Cast iron baking pan: https://amzn.to/3ybghaJ"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Chef knife: https://amzn.to/3tOvD1g"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "⏱️TIMESTAMPS⏱️"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "0:00 Intro"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "0:26 What kind of salmon to buy"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "0:42 Prepping"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "0:58 What kind of oranges to use"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1:42 Add seasoning and herbs"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "3:52 Prepping the salmon for baking"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "6:25 Bake salmon in oven"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "6:53 Garnishing the salmon"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "7:15 Tips for juicy salmon"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "7:38 What to serve with"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "7:49 Taste test"
+        }
+      ],
+      "steps": [
+        "Intro",
+        "What kind of salmon to buy",
+        "Prepping",
+        "What kind of oranges to use",
+        "Add seasoning and herbs",
+        "Prepping the salmon for baking",
+        "Bake salmon in oven",
+        "Garnishing the salmon",
+        "Tips for juicy salmon",
+        "What to serve with",
+        "Taste test"
+      ],
+      "recipeKind": "youtube",
+      "youtubeVideoId": "SBiNHz-AyWQ",
+      "timedSteps": [
+        {
+          "text": "Intro",
+          "startSeconds": 0
+        },
+        {
+          "text": "What kind of salmon to buy",
+          "startSeconds": 26
+        },
+        {
+          "text": "Prepping",
+          "startSeconds": 42
+        },
+        {
+          "text": "What kind of oranges to use",
+          "startSeconds": 58
+        },
+        {
+          "text": "Add seasoning and herbs",
+          "startSeconds": 102
+        },
+        {
+          "text": "Prepping the salmon for baking",
+          "startSeconds": 232
+        },
+        {
+          "text": "Bake salmon in oven",
+          "startSeconds": 385
+        },
+        {
+          "text": "Garnishing the salmon",
+          "startSeconds": 413
+        },
+        {
+          "text": "Tips for juicy salmon",
+          "startSeconds": 435
+        },
+        {
+          "text": "What to serve with",
+          "startSeconds": 458
+        },
+        {
+          "text": "Taste test",
+          "startSeconds": 469
+        }
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=SBiNHz-AyWQ",
+      "mealLists": [
+        "to-make"
+      ],
+      "notes": "Imported from YouTube; timestamps from video chapters."
+    },
+    {
+      "id": "99",
+      "slug": "yt-greek-briam-greek-vegan-recipe-with-zucchini-and-potatoes-roasted-vegetables-recipe",
+      "title": "Greek BRIAM",
+      "description": "Briam is simple and absolutely delicious roasted vegetables, prepared Greek style. Potatoes, Zucchini, and Red onions tossed in a mixture of EVOO, garlic, parsley and spices, then roasted in saucy diced tomatoes. This is a healthy, vegan, text-book Mediterranean diet dish that can stand as a main course or served next to other entrees. See tips and suggestions in the notes.",
+      "imageUrl": "https://www.themediterraneandish.com/wp-content/uploads/2019/01/Briam-Traditional-Greek-Roasted-Vegetables-8-225x225.jpg",
+      "prepMinutes": 20,
+      "cookMinutes": 75,
+      "servings": 6,
+      "tags": [
+        "youtube",
+        "mediterranean"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/4",
+          "unit": "lb",
+          "name": "/ 570 g gold potatoes (about 3 medium-size potatoes), peeled and thinly sliced into rounds (about 1/8-inch thick)"
+        },
+        {
+          "amount": "1/4",
+          "unit": "lb",
+          "name": "/ 570 g zucchini squash (2 to 3 zucchini), thinly sliced into rounds (about 1/4-inch thick)"
+        },
+        {
+          "amount": "",
+          "unit": "Salt",
+          "name": "and pepper"
+        },
+        {
+          "amount": "",
+          "unit": "tsp",
+          "name": "/ 3.6 g dried oregano"
+        },
+        {
+          "amount": "",
+          "unit": "scant",
+          "name": "1 tsp/1.2 g dried rosemary"
+        },
+        {
+          "amount": "/2",
+          "unit": "cup",
+          "name": "/ 35 g chopped fresh parsley"
+        },
+        {
+          "amount": "",
+          "unit": "garlic",
+          "name": "cloves, minced"
+        },
+        {
+          "amount": "",
+          "unit": "Early",
+          "name": "Harvest Greek extra virgin olive oil"
+        },
+        {
+          "amount": "28-",
+          "unit": "oz",
+          "name": "/ 794 g canned diced tomatoes with juice (no-salt added organic tomatoes are recommended)"
+        },
+        {
+          "amount": "",
+          "unit": "large",
+          "name": "red onion or 2 smaller red onions, thinly sliced into rounds (if large, you&#8217;ll want to cut the onion in half first, and then slice)"
+        }
+      ],
+      "steps": [
+        "Intro",
+        "Peeling and slicing the potatoes",
+        "Slicing the zucchinis",
+        "Slicing the onions",
+        "Seasoning the veggies",
+        "Arranging the briam in a pan",
+        "Roasting the briam",
+        "Taste test"
+      ],
+      "recipeKind": "youtube",
+      "youtubeVideoId": "Zxq7cSO06mU",
+      "timedSteps": [
+        {
+          "text": "Intro",
+          "startSeconds": 0
+        },
+        {
+          "text": "Peeling and slicing the potatoes",
+          "startSeconds": 20
+        },
+        {
+          "text": "Slicing the zucchinis",
+          "startSeconds": 69
+        },
+        {
+          "text": "Slicing the onions",
+          "startSeconds": 92
+        },
+        {
+          "text": "Seasoning the veggies",
+          "startSeconds": 126
+        },
+        {
+          "text": "Arranging the briam in a pan",
+          "startSeconds": 186
+        },
+        {
+          "text": "Roasting the briam",
+          "startSeconds": 331
+        },
+        {
+          "text": "Taste test",
+          "startSeconds": 370
+        }
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=Zxq7cSO06mU",
+      "mealLists": [
+        "to-make"
+      ],
+      "notes": "Imported from YouTube; ingredients from https://www.themediterraneandish.com/briam-greek-roasted-vegetables/."
+    },
+    {
+      "id": "100",
+      "slug": "yt-artichoke-101-how-to-cook-and-eat-artichokes",
+      "title": "Artichoke 101",
+      "description": "Learn how to cook and eat artichokes!  I'll also show you how to shop for, store and prepare your artichokes.  I love to steam artichokes.  This is the easiest way to cook them and is perfect for a beginner.",
+      "imageUrl": "https://cleananddelicious.com/wp-content/uploads/2014/04/Simply-Artichokes.jpg",
+      "prepMinutes": 10,
+      "cookMinutes": 10,
+      "servings": 2,
+      "tags": [
+        "youtube",
+        "mediterranean"
+      ],
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "lb.",
+          "name": "baby artichokes"
+        },
+        {
+          "amount": "",
+          "unit": "tbsp.",
+          "name": "extra virgin olive oil"
+        },
+        {
+          "amount": "",
+          "unit": "Juice",
+          "name": "from one big fat juicy lemon (2 tbsp.)"
+        },
+        {
+          "amount": "",
+          "unit": "cloves",
+          "name": "crushed garlic"
+        },
+        {
+          "amount": "",
+          "unit": "Salt",
+          "name": "and pepper"
+        }
+      ],
+      "steps": [
+        "<Untitled Chapter 1>",
+        "Couple inches of water",
+        "Olive Oil 1 tablespoon",
+        "Lemon Juice 1/2 lemon"
+      ],
+      "recipeKind": "youtube",
+      "youtubeVideoId": "3BZR_rUHPuk",
+      "timedSteps": [
+        {
+          "text": "<Untitled Chapter 1>",
+          "startSeconds": 0
+        },
+        {
+          "text": "Couple inches of water",
+          "startSeconds": 316
+        },
+        {
+          "text": "Olive Oil 1 tablespoon",
+          "startSeconds": 319
+        },
+        {
+          "text": "Lemon Juice 1/2 lemon",
+          "startSeconds": 323
+        }
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=3BZR_rUHPuk",
+      "mealLists": [
+        "to-make"
+      ],
+      "notes": "Imported from YouTube; ingredients from https://bit.ly/BabyArtichokesCD."
+    },
+    {
+      "id": "101",
+      "slug": "yt-sheet-pan-gnocchi-easy-gnocchi-recipe-vegetarian-recipe",
+      "title": "Sheet Pan Gnocchi",
+      "description": "Weeknight dinner doesn’t have to be complicated to taste amazing. This quick and easy vegetarian sheet pan gnocchi recipe comes together in minutes, is full of color and tastes as good as it looks.",
+      "imageUrl": "https://www.themediterraneandish.com/wp-content/uploads/2023/10/sheet-pan-gnocchi-recipe-2.jpg",
+      "prepMinutes": 15,
+      "cookMinutes": 40,
+      "servings": 4,
+      "tags": [
+        "youtube",
+        "mediterranean"
+      ],
+      "ingredients": [
+        {
+          "amount": "",
+          "unit": "ounces",
+          "name": "gnocchi, (store bought or homemade)"
+        },
+        {
+          "amount": "",
+          "unit": "red",
+          "name": "bell pepper, (chopped)"
+        },
+        {
+          "amount": "",
+          "unit": "yellow",
+          "name": "bell pepper, (chopped)"
+        },
+        {
+          "amount": "",
+          "unit": "red",
+          "name": "onion, (chopped)"
+        },
+        {
+          "amount": "",
+          "unit": "pint",
+          "name": "cherry tomatoes"
+        },
+        {
+          "amount": "",
+          "unit": "garlic",
+          "name": "cloves, (minced)"
+        },
+        {
+          "amount": "/4",
+          "unit": "cup",
+          "name": "olive oil"
+        },
+        {
+          "amount": "1/2",
+          "unit": "teaspoons",
+          "name": "dried oregano"
+        },
+        {
+          "amount": "1/2",
+          "unit": "teaspoons",
+          "name": "dried basil"
+        },
+        {
+          "amount": "",
+          "unit": "teaspoon",
+          "name": "kosher salt"
+        },
+        {
+          "amount": "/2",
+          "unit": "teaspoon",
+          "name": "dried thyme"
+        },
+        {
+          "amount": "/4",
+          "unit": "teaspoon",
+          "name": "red pepper flakes"
+        },
+        {
+          "amount": "",
+          "unit": "Freshly",
+          "name": "ground black pepper"
+        },
+        {
+          "amount": "",
+          "unit": "to",
+          "name": "4  handfuls baby spinach"
+        },
+        {
+          "amount": "",
+          "unit": "Parmesan",
+          "name": "cheese, (to serve)"
+        }
+      ],
+      "steps": [
+        "Intro",
+        "What kind of gnocchi to use",
+        "Chopping the vegetables",
+        "Adding the gnocchi and vegetables to the sheet pan",
+        "Seasoning the gnocchi and veggies",
+        "Baking the sheet pan gnocchi",
+        "Adding the spinach",
+        "Taste test"
+      ],
+      "recipeKind": "youtube",
+      "youtubeVideoId": "ApgP0sp01T4",
+      "timedSteps": [
+        {
+          "text": "Intro",
+          "startSeconds": 0
+        },
+        {
+          "text": "What kind of gnocchi to use",
+          "startSeconds": 16
+        },
+        {
+          "text": "Chopping the vegetables",
+          "startSeconds": 34
+        },
+        {
+          "text": "Adding the gnocchi and vegetables to the sheet pan",
+          "startSeconds": 124
+        },
+        {
+          "text": "Seasoning the gnocchi and veggies",
+          "startSeconds": 148
+        },
+        {
+          "text": "Baking the sheet pan gnocchi",
+          "startSeconds": 216
+        },
+        {
+          "text": "Adding the spinach",
+          "startSeconds": 228
+        },
+        {
+          "text": "Taste test",
+          "startSeconds": 277
+        }
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=ApgP0sp01T4",
+      "mealLists": [
+        "to-make"
+      ],
+      "notes": "Imported from YouTube; timestamps from video chapters."
+    },
+    {
+      "id": "102",
+      "slug": "yt-the-creamiest-fettuccine-alfredo-you-ll-ever-make-restaurant-quality-epicurious-101",
+      "title": "The Creamiest Fettuccine Alfredo You’ll Ever Make",
+      "description": "In this edition of Epicurious 101, professional chef and culinary instructor Frank Proto demonstrates how to make the best fettuccine alfredo at home. \r",
+      "imageUrl": "https://i.ytimg.com/vi/qda5mMOIlqc/hqdefault.jpg",
+      "prepMinutes": 0,
+      "cookMinutes": 0,
+      "servings": 4,
+      "tags": [
+        "youtube",
+        "mediterranean"
+      ],
+      "ingredients": [],
+      "steps": [
+        "Intro",
+        "Prepping the Cheese",
+        "Cooking Pasta",
+        "Making Alfredo Sauce",
+        "Plating"
+      ],
+      "recipeKind": "youtube",
+      "youtubeVideoId": "qda5mMOIlqc",
+      "timedSteps": [
+        {
+          "text": "Intro",
+          "startSeconds": 0
+        },
+        {
+          "text": "Prepping the Cheese",
+          "startSeconds": 40
+        },
+        {
+          "text": "Cooking Pasta",
+          "startSeconds": 147
+        },
+        {
+          "text": "Making Alfredo Sauce",
+          "startSeconds": 226
+        },
+        {
+          "text": "Plating",
+          "startSeconds": 417
+        }
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=qda5mMOIlqc",
+      "mealLists": [
+        "to-make"
+      ],
+      "notes": "Imported from YouTube; timestamps from video chapters."
     }
   ]
 }

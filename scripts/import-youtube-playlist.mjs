@@ -14,9 +14,18 @@ import { execFileSync, spawnSync } from 'node:child_process';
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import {
+  dumpVideoJson,
+  extractTimedSteps,
+} from './lib/fetch-youtube-timed-steps.mjs';
 import { slugify } from './lib/parse-byonandlara.mjs';
-import { parseTimestampLines } from './lib/parse-youtube-timestamps.mjs';
 import { parseRecipeHtml } from './lib/parse-recipe-html.mjs';
+import {
+  displayTitleFromYouTube,
+  ingredientsFromYouTubeDescription,
+  primaryRecipeUrlFromDescription,
+} from './lib/youtube-recipe-fields.mjs';
+import { resolveYouTubeTimedSteps } from './lib/youtube-instruction-steps.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
@@ -35,7 +44,7 @@ const playlistUrl = readArg('playlist');
 const watchUrl = readArg('url');
 const videosFile = readArg('videos-file');
 const cookiesBrowser = readArg('cookies-from-browser');
-const mealList = readArg('meal-list') || 'saved';
+const mealList = readArg('meal-list') || 'to-make';
 const tag = readArg('tag') || 'youtube';
 
 function ytDlpArgs(extra) {
@@ -66,31 +75,6 @@ function listFromYtDlp(url) {
       if (tab === -1) return { id: line.trim(), title: '' };
       return { id: line.slice(0, tab), title: line.slice(tab + 1) };
     });
-}
-
-function dumpVideoJson(videoId) {
-  const url = `https://www.youtube.com/watch?v=${videoId}`;
-  const out = execFileSync('yt-dlp', ytDlpArgs(['--dump-single-json', url]), {
-    encoding: 'utf8',
-  });
-  return JSON.parse(out);
-}
-
-function chaptersToTimedSteps(chapters) {
-  if (!chapters?.length) return [];
-  return chapters.map((c) => ({
-    text: c.title.trim(),
-    startSeconds: Math.floor(c.start_time ?? 0),
-  }));
-}
-
-function extractBlogUrl(description) {
-  const direct = description?.match(
-    /https?:\/\/(?:www\.)?themediterraneandish\.com\/[^\s)]+/i,
-  );
-  if (direct) return direct[0].replace(/[.,]+$/, '');
-  const bitly = description?.match(/https?:\/\/bit\.ly\/[^\s)]+/i);
-  return bitly?.[0]?.replace(/[.,]+$/, '') ?? '';
 }
 
 async function resolveUrl(url) {
@@ -138,10 +122,7 @@ function uniqueSlug(base, existing) {
 
 function buildRecipeEntry({ meta, timedSteps, blog, catalog }) {
   const videoId = meta.id;
-  const title =
-    (meta.title || '')
-      .replace(/\s*\|\s*The Mediterranean Dish\s*$/i, '')
-      .trim() || 'YouTube recipe';
+  const title = displayTitleFromYouTube(meta.title);
   const baseSlug = `yt-${slugify(title)}`;
   const slug = uniqueSlug(baseSlug, new Set(catalog.recipes.map((r) => r.slug)));
   const steps = timedSteps.map((s) => s.text);
@@ -164,7 +145,10 @@ function buildRecipeEntry({ meta, timedSteps, blog, catalog }) {
     tags: [tag, 'mediterranean'].filter(
       (t, i, arr) => arr.indexOf(t) === i,
     ),
-    ingredients: blog?.ingredients?.length ? blog.ingredients : [],
+    ingredients:
+      blog?.ingredients?.length
+        ? blog.ingredients
+        : ingredientsFromYouTubeDescription(meta.description),
     steps: steps.length ? steps : ['Watch the video for full instructions.'],
     recipeKind: 'youtube',
     youtubeVideoId: videoId,
@@ -172,8 +156,10 @@ function buildRecipeEntry({ meta, timedSteps, blog, catalog }) {
     sourceUrl,
     mealLists: [mealList],
     notes: blog
-      ? `Imported from YouTube; ingredients from ${extractBlogUrl(meta.description) || 'companion article'}.`
-      : 'Imported from YouTube; timestamps from video chapters.',
+      ? `Imported from YouTube; ingredients from ${primaryRecipeUrlFromDescription(meta.description) || 'companion article'}.`
+      : ingredientsFromYouTubeDescription(meta.description).length
+        ? 'Imported from YouTube; ingredients from video description.'
+        : 'Imported from YouTube; timestamps from video chapters.',
   };
 }
 
@@ -240,23 +226,26 @@ async function main() {
 
     let meta;
     try {
-      meta = dumpVideoJson(videoId);
+      meta = dumpVideoJson(videoId, cookiesBrowser);
     } catch (err) {
       skipped.push({ videoId, reason: err.message });
       continue;
     }
 
-    let timedSteps = chaptersToTimedSteps(meta.chapters);
+    const extracted = extractTimedSteps(meta, cookiesBrowser);
+    const blogUrl = primaryRecipeUrlFromDescription(meta.description);
+    const blog = await fetchBlogFields(blogUrl);
+    const { timedSteps, source } = resolveYouTubeTimedSteps({
+      blog,
+      meta,
+      extracted,
+    });
     if (timedSteps.length === 0) {
-      timedSteps = parseTimestampLines(meta.description || '');
-    }
-    if (timedSteps.length === 0) {
-      timedSteps = [{ text: 'Watch full recipe', startSeconds: 0 }];
+      skipped.push({ videoId, reason: 'no timed steps extracted' });
+      continue;
     }
 
-    const blogUrl = extractBlogUrl(meta.description);
-    const blog = await fetchBlogFields(blogUrl);
-    const entry = buildRecipeEntry({ meta, timedSteps, blog, catalog });
+    const entry = buildRecipeEntry({ meta, timedSteps, blog, catalog, stepSource: source });
 
     if (dryRun) {
       console.log(`[dry-run] would add ${entry.slug} (${videoId})`);
@@ -284,7 +273,7 @@ async function main() {
       ) + '\n',
     );
 
-    console.log(`  ✓ ${entry.slug} — ${timedSteps.length} timed steps`);
+    console.log(`  ✓ ${entry.slug} — ${timedSteps.length} timed steps (${source})`);
     await new Promise((r) => setTimeout(r, 300));
   }
 

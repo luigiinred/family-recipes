@@ -1,16 +1,18 @@
 ---
 name: recipes-enrich-from-url
-description: Enrich recipe catalog entries from sourceUrl using fetch/JSON-LD parser or Cursor browser when sites block bots. Use when recipes.json has placeholder steps, missing ingredients/images, or the user asks to scrape, import, or fill recipe data from bookmarked URLs.
+description: Scrape non-YouTube sourceUrl into the catalog (JSON-LD/HTML parser or browser). Subskill of recipes-import-recipe — use the parent skill first to route YouTube vs web. Use for blog/recipe-site URLs with empty ingredients or placeholder steps.
 ---
 
-# Enrich recipes from source URLs
+# Enrich recipes from source URLs (non-YouTube)
 
 Replace placeholder `steps` / empty `ingredients` by reading each recipe's `sourceUrl`.
 
+> **Parent skill:** **recipes-import-recipe** — use that to add recipes and to route YouTube URLs to **recipes-youtube-recipe** instead of this skill.
+
 ## When to use
 
+- `sourceUrl` is **not** YouTube (for YouTube, use **recipes-youtube-recipe**)
 - `steps` contain "See source" or `ingredients` is `[]`
-- User adds a bookmarked URL to the catalog
 - Batch refresh after source sites change
 
 ## Site-specific importers
@@ -103,6 +105,8 @@ Retry failed slugs with the browser method.
 
 ## Related
 
+- **recipes-import-recipe** — main add/import workflow
+- **recipes-youtube-recipe** — YouTube URLs
 - **recipes-static-api** — catalog shape
 - **api-specs** — loader contracts
 - `docs/api-specs/loaders/recipes-catalog.md`

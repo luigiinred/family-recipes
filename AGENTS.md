@@ -36,7 +36,8 @@ React recipe site: **design-driven** product specs, **API-driven** static JSON +
 | Tokens & primitives | [recipes-design-system](.cursor/skills/recipes-design-system/SKILL.md) |
 | Component layers | [recipes-components](.cursor/skills/recipes-components/SKILL.md) |
 | JSON & loaders | [recipes-static-api](.cursor/skills/recipes-static-api/SKILL.md) |
-| Scrape `sourceUrl` → fill catalog | [recipes-enrich-from-url](.cursor/skills/recipes-enrich-from-url/SKILL.md) |
+| Add/import recipe from URL | [recipes-import-recipe](.cursor/skills/recipes-import-recipe/SKILL.md) |
+| Scrape non-YouTube `sourceUrl` | [recipes-enrich-from-url](.cursor/skills/recipes-enrich-from-url/SKILL.md) |
 | YouTube video + timestamps | [recipes-youtube-recipe](.cursor/skills/recipes-youtube-recipe/SKILL.md) |
 | Product doc hygiene | [product-docs-specs](.cursor/skills/product-docs-specs/SKILL.md) |
 

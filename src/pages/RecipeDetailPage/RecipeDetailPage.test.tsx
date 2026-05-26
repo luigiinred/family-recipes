@@ -83,7 +83,9 @@ describe('RecipeDetailPage video recipes', () => {
     await waitFor(() => {
       expect(screen.getByTitle('Roasted vegetables (video)')).toBeInTheDocument();
     });
-    expect(screen.getByRole('button', { name: /prep vegetables/i })).toBeInTheDocument();
+    expect(
+      screen.getByRole('button', { name: /play video at 0:45/i }),
+    ).toBeInTheDocument();
   });
 
   it('seeks the embed when a timed step is clicked', async () => {
@@ -97,7 +99,7 @@ describe('RecipeDetailPage video recipes', () => {
       expect.stringContaining('start=0'),
     );
 
-    await user.click(screen.getByRole('button', { name: /roast in oven/i }));
+    await user.click(screen.getByRole('button', { name: /play video at 5:12/i }));
     await waitFor(() => {
       const src = screen.getByTitle('Roasted vegetables (video)').getAttribute('src');
       expect(src).toContain('start=312');
